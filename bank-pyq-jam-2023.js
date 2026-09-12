@@ -13,7 +13,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Vinblastine"
   },
   "correct": [
-   "c"
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -28,10 +28,10 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "a": "Be, Na, C, Br",
    "b": "Br, C, Na, Be",
    "c": "Na, Be, C, Br",
-   "d": "Na, C, Be, Br Question Paper BT : JAM 2023"
+   "d": "Na, C, Be, Br"
   },
   "correct": [
-   "a"
+   "c"
   ],
   "explain": "",
   "topic": "",
@@ -49,7 +49,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Xylem"
   },
   "correct": [
-   "a"
+   "b"
   ],
   "explain": "",
   "topic": "",
@@ -67,7 +67,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Gibberellins"
   },
   "correct": [
-   "b"
+   "c"
   ],
   "explain": "",
   "topic": "",
@@ -103,7 +103,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "neoschizomers"
   },
   "correct": [
-   "c"
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -121,7 +121,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Wetland"
   },
   "correct": [
-   "c"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -139,7 +139,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "tRNA"
   },
   "correct": [
-   "b"
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -157,7 +157,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "{4, 6, 7, 8 10, 11, 12, 13}"
   },
   "correct": [
-   "a"
+   "b"
   ],
   "explain": "",
   "topic": "",
@@ -211,7 +211,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Only [a] is true but [r] is false"
   },
   "correct": [
-   "d"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -229,7 +229,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "1"
   },
   "correct": [
-   "b"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -283,7 +283,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "P-type ATPases get reversibly phosphorylated as a part of transport cycle"
   },
   "correct": [
-   "c"
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -301,7 +301,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "P-2, Q-1, R-4, S-3"
   },
   "correct": [
-   "d"
+   "c"
   ],
   "explain": "",
   "topic": "",
@@ -319,7 +319,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "50S subunit and blocks exit of growing polypeptide chain"
   },
   "correct": [
-   "d"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -337,7 +337,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "DNase"
   },
   "correct": [
-   "a"
+   "b"
   ],
   "explain": "",
   "topic": "",
@@ -355,7 +355,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "sex-linked recessive"
   },
   "correct": [
-   "b"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -391,7 +391,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "P-2, Q-1, R-3, S-4"
   },
   "correct": [
-   "d"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -409,7 +409,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Recombination frequency is low, F factor transfer frequency is low"
   },
   "correct": [
-   "b"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -445,7 +445,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "192"
   },
   "correct": [
-   "c"
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -463,7 +463,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "accurate physical distances among loci"
   },
   "correct": [
-   "c"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -481,7 +481,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "T-cells"
   },
   "correct": [
-   "a"
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -499,7 +499,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "RNA-dependent RNA polymerase"
   },
   "correct": [
-   "a"
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -517,7 +517,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "stabilizing"
   },
   "correct": [
-   "a"
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -535,7 +535,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "P-4, Q-3, R-1, S-2"
   },
   "correct": [
-   "b"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -554,7 +554,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   },
   "correct": [
    "b",
-   "d"
+   "c"
   ],
   "explain": "",
   "topic": "",
@@ -573,7 +573,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   },
   "correct": [
    "a",
-   "b",
+   "c",
    "d"
   ],
   "explain": "",
@@ -592,8 +592,6 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "species"
   },
   "correct": [
-   "a",
-   "c",
    "d"
   ],
   "explain": "",
@@ -606,16 +604,16 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "Which of the following compound(s) is/are aromatic?",
   "options": {
-   "a": "",
-   "b": "",
-   "c": "",
-   "d": ""
+   "a": "Protonated pyrrole (pyrrolium cation, N is sp3 — lone pair not in ring)",
+   "b": "Benzene",
+   "c": "Cyclobutadiene",
+   "d": "Pyridinium cation (N+ bonded to H on aromatic pyridine ring)"
   },
   "correct": [
-   "c",
+   "b",
    "d"
   ],
-  "explain": "",
+  "explain": "Benzene (6π, 4n+2) and pyridinium cation (loss of N lone pair into N+-H keeps the 6π aromatic sextet intact) are aromatic. Cyclobutadiene is anti-aromatic (4π); protonated pyrrole loses the N lone pair that would complete 6π conjugation, so it is not aromatic.",
   "topic": "",
   "src": "PYQ JAM 2023"
  },
@@ -631,7 +629,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "It is an achiral compound"
   },
   "correct": [
-   "b"
+   "b",
+   "c"
   ],
   "explain": "",
   "topic": "",
@@ -649,9 +648,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Optimum temperature for activity ≥72 °C"
   },
   "correct": [
-   "a",
-   "b",
-   "c"
+   "c",
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -669,8 +667,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "homologous"
   },
   "correct": [
-   "b",
-   "d"
+   "a",
+   "b"
   ],
   "explain": "",
   "topic": "",
@@ -688,8 +686,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Only Q"
   },
   "correct": [
-   "b",
-   "d"
+   "a"
   ],
   "explain": "",
   "topic": "",
@@ -707,6 +704,7 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "Increase in O2 concentration"
   },
   "correct": [
+   "a",
    "b",
    "c"
   ],
@@ -726,7 +724,9 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
    "d": "They can be utilized as radiolabeled probes"
   },
   "correct": [
-   "a"
+   "a",
+   "b",
+   "d"
   ],
   "explain": "",
   "topic": "",
@@ -738,8 +738,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "The net number of molecule(s) of NADH formed from one molecule of glucose in glycolysis under aerobic conditions is/are _______.",
   "options": null,
-  "ans": 3,
-  "tol": 0.025,
+  "ans": 2,
+  "tol": 0.01,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -750,8 +750,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "The number of possible unique combination(s) of linear tetrapeptides that can be made from four different amino acids using each amino acid only once in the chain is/are _______.",
   "options": null,
-  "ans": 0.015625,
-  "tol": 0.010078125,
+  "ans": 24,
+  "tol": 0.12,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -762,8 +762,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "Among i-BuNH2, NH3, Me2NH, EtNH2, the number of compound(s) more basic than MeNH2 is/are _______.",
   "options": null,
-  "ans": 2,
-  "tol": 0.02,
+  "ans": 3,
+  "tol": 0.015,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -774,8 +774,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "Among K+, Li+, Rb+, Cs+, the number of cation(s) having ionic radii more than Na+ is/are _______.",
   "options": null,
-  "ans": 24,
-  "tol": 0.13,
+  "ans": 3,
+  "tol": 0.015,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -798,8 +798,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "A restriction endonuclease has a recognition site of 3 bases. Assuming random arrangement of nucleotides, the probability that this endonuclease will cut a piece of DNA is _______ (rounded off to three decimal places).",
   "options": null,
-  "ans": 2,
-  "tol": 0.02,
+  "ans": 0.015625,
+  "tol": 0.0001,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -810,8 +810,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "A massless ideal spring is hanging vertically. A sphere of mass of 500 g, suspended from the spring, stretches the spring from its initial position by 50 cm when it reaches equilibrium. The force constant of the spring is _______ N m-1. (Use g=10 m s-2)",
   "options": null,
-  "ans": 3,
-  "tol": 0.025,
+  "ans": 10,
+  "tol": 0.05,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -822,8 +822,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "Whales can dive undersea to depths of 2 km. The pressure on the whale at this depth (ignoring atmospheric pressure) is _______ × 106 Pa. (Density of sea water = 1 g cm-3 and g =10 m s-2)",
   "options": null,
-  "ans": 3,
-  "tol": 0.025,
+  "ans": 20,
+  "tol": 0.1,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -834,8 +834,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "The order of differential equation 𝑑3𝑦 𝑑𝑥3 + 2 𝑑2𝑦 𝑑𝑥2 −3 𝑑𝑦 𝑑𝑥+ 6𝑥4𝑦= 0 is _______.",
   "options": null,
-  "ans": 20,
-  "tol": 0.11,
+  "ans": 3,
+  "tol": 0.015,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -846,8 +846,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 1,
   "q": "The value of lim 𝑥→−3 (2𝑥+6) (𝑥+3) is _______.",
   "options": null,
-  "ans": 10,
-  "tol": 0.060000000000000005,
+  "ans": 2,
+  "tol": 0.01,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -858,8 +858,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "The ∆G´ and K´eq values of ATP hydrolysis are -32.34 kJ mol-1 and 4.6 x105, respectively. The ∆G´ and K´eq values of enzymatic hydrolysis of glucose-6- phosphate to glucose and phosphate are -13.18 kJ mol-1 and 203.8, respectively. The ∆G´ value of reaction of glucose-6-phosphate formation from glucose and ATP by hexokinase is _______ kJ mol-1 (rounded off to 2 decimal places). [All reactions are carried out at pH 7.0 and 25 °C].",
   "options": null,
-  "ans": 16,
-  "tol": 0.09,
+  "ans": -19.16,
+  "tol": 0.0958,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -870,8 +870,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "Km and Vmax of an enzyme preparation are 5 µM and 30 µM min-1 respectively. Considering, Ki value of competitive inhibitor is 60 µM, the velocity (V0) of this enzyme-catalyzed reaction in the presence of 200 µM of substrate and 600 µM of competitive inhibitor is _______ µM min-1 (rounded off to two decimal places).",
   "options": null,
-  "ans": 0.6,
-  "tol": 0.013000000000000001,
+  "ans": 23.53,
+  "tol": 0.11765,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -882,8 +882,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "The heat required to convert 2 kg of water at 20 °C in a calorimeter to steam at 100 °C and at atmospheric pressure (1 atm) is _______ kJ. (Specific heat capacity of water is 4.2 kJ kg-1 K-1 and latent heat of steam is 2256 kJ kg-1)",
   "options": null,
-  "ans": -19.16,
-  "tol": 0.10579999999999999,
+  "ans": 5184,
+  "tol": 25.92,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -894,8 +894,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "An electron is accelerated from rest through a potential difference of 200 V. The de Broglie wavelength associated with this electron is _______ nm. (Rounded off to 2 decimal places) (Planck’s constant = 6.6 × 10-34 J s, 1eV=1.6 × 10-19 J, mass of an electron = 9.1×10-31 kg)",
   "options": null,
-  "ans": 512,
-  "tol": 2.57,
+  "ans": 0.09,
+  "tol": 0.00045,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -906,8 +906,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "Given data consists of distinct values of 𝑥𝑖 occurring with frequencies 𝑓𝑖. The mean value for the data is _______. (rounded off to one decimal place) 𝑥𝑖 5 6 8 10 𝑓𝑖 8 10 10 12",
   "options": null,
-  "ans": 5184,
-  "tol": 25.930000000000003,
+  "ans": 7.5,
+  "tol": 0.0375,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -918,8 +918,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "A random variable X and its probability distribution is given below. The value of P(X<5) is _______. (rounded off to one decimal place) X 0 1 2 3 4 5 P(X) 0 k 2k 3k 6k 8k",
   "options": null,
-  "ans": 90.5,
-  "tol": 0.4625,
+  "ans": 0.6,
+  "tol": 0.003,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -930,8 +930,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "A protein solution of 1 µM has transmission of 40 % at 280 nm, when measured in a 1 cm cuvette using a UV-Visible spectrophotometer. The transmission of the same solution, when measured using a 2 cm cuvette is _______ %. (rounded off to the nearest integer)",
   "options": null,
-  "ans": 0.09,
-  "tol": 0.010450000000000001,
+  "ans": 16,
+  "tol": 0.08,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -942,8 +942,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "If a bacterial culture with a doubling time of 30 minutes starts with two cells, then the number of cells after 4 hours are _______.",
   "options": null,
-  "ans": 7.5,
-  "tol": 0.0475,
+  "ans": 512,
+  "tol": 2.56,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
@@ -966,8 +966,8 @@ window.GATE_BANK["jam"] = (window.GATE_BANK["jam"] || []).concat([
   "marks": 2,
   "q": "Consider a first order reaction 𝐴→𝐵. The initial concentration of 𝐴 is 100 mol L-1 and the value of first order rate constant is 0.01 min-1. The concentration of 𝐴 after 10 min of reaction is __________ mol L-1 (rounded off to one decimal place).",
   "options": null,
-  "ans": 23.53,
-  "tol": 0.12765,
+  "ans": 90.5,
+  "tol": 0.4525,
   "explain": "",
   "topic": "",
   "src": "PYQ JAM 2023"
