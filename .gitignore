@@ -1,0 +1,32 @@
+# Backups
+*.bak
+*.bak.*
+
+# Node / npm
+node_modules/
+npm-debug.log*
+
+# Builds
+dist/
+build/
+android/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets — never commit
+.env
+*.env
+.env.*
+secrets/
+*token*
+*credential*
+*api_key*

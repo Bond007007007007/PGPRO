@@ -1,0 +1,260 @@
+/* ============================================================
+   CUET PG (SCQP03 / SCQP17) · Question Bank 2 of 2 (35 Qs / 140 marks)
+   Domain section D, all MCQ, +4 / -1. Load before app.js.
+   ============================================================ */
+window.GATE_BANK = window.GATE_BANK || {};
+window.GATE_BANK["cuet"] = (window.GATE_BANK["cuet"] || []).concat([
+
+  /* ---------------- CELL BIOLOGY & CELL SIGNALLING (4) ---------------- */
+  { section: "D", type: "mcq", marks: 4,
+    q: "Maturation-promoting factor (MPF), a complex of cyclin B and CDK1, is the key regulator of which transition in the cell cycle?",
+    options: { a: "G1 to S", b: "S to G2", c: "G2 to M", d: "M to G1" },
+    correct: ["c"],
+    explain: "MPF accumulates during G2 and triggers entry into mitosis by phosphorylating proteins involved in chromosome condensation, spindle assembly, and nuclear envelope breakdown.",
+    topic: "Cell Biology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "The ordered proteolytic cascade that dismantles a cell during apoptosis is executed by a family of cysteine proteases known as:",
+    options: { a: "Caspases", b: "Cathepsins", c: "Granzymes", d: "Matrix metalloproteases" },
+    correct: ["a"],
+    explain: "Initiator caspases (e.g., caspase-9) activate executioner caspases (e.g., caspase-3), which cleave cellular substrates, producing the characteristic morphology of apoptosis.",
+    topic: "Cell Biology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Which cytoskeletal element is composed of tubulin dimers and forms the mitotic spindle during cell division?",
+    options: { a: "Actin microfilaments", b: "Intermediate filaments", c: "Microtubules", d: "Septins" },
+    correct: ["c"],
+    explain: "Microtubules, built from alpha- and beta-tubulin, polymerise into the spindle apparatus that segregates sister chromatids and chromosomes in mitosis.",
+    topic: "Cell Biology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "The movement of glucose down its concentration gradient into red blood cells via the GLUT1 transporter, without energy input, is an example of:",
+    options: { a: "Primary active transport", b: "Facilitated diffusion", c: "Simple diffusion", d: "Endocytosis" },
+    correct: ["b"],
+    explain: "GLUT1 carriers move glucose passively along its gradient (no ATP). Since glucose is polar, it needs this carrier-mediated facilitated diffusion rather than crossing the membrane directly.",
+    topic: "Membrane Transport" },
+
+  /* ---------------- GENETICS & MOLECULAR BIOLOGY (4) ---------------- */
+  { section: "D", type: "mcq", marks: 4,
+    q: "A double-stranded DNA molecule of 1000 base pairs contains 20% adenine. What percentage of the bases are cytosine?",
+    options: { a: "20%", b: "30%", c: "40%", d: "60%" },
+    correct: ["b"],
+    explain: "By Chargaff's rules, A = T = 20%, so G = C = (100 - 40)/2 = 30%.",
+    topic: "Molecular Biology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "During translation, the amino acid is covalently attached to which end of the tRNA molecule?",
+    options: { a: "5' end", b: "3' end (CCA terminus)", c: "Anticodon loop", d: "D loop" },
+    correct: ["b"],
+    explain: "Aminoacyl-tRNA synthetases load each amino acid onto the 3'-terminal CCA of the acceptor arm, which is then positioned at the ribosome's A site by codon-anticodon pairing.",
+    topic: "Molecular Biology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "During eukaryotic pre-mRNA processing, which sequences are removed by the spliceosome before translation?",
+    options: { a: "Exons", b: "Introns", c: "5' UTRs", d: "Polyadenylation tails" },
+    correct: ["b"],
+    explain: "The spliceosome excises introns and joins exons to produce mature mRNA. Exons are retained and code for the protein.",
+    topic: "Molecular Biology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "A test cross, used to determine the genotype of an individual showing a dominant phenotype, is a cross with a:",
+    options: { a: "Homozygous dominant individual", b: "Homozygous recessive individual", c: "Heterozygous individual", d: "Double heterozygote" },
+    correct: ["b"],
+    explain: "Crossing with a homozygous recessive (aa) makes the offspring phenotype reveal the parental genotype directly: all dominant offspring implies AA, a 1:1 ratio implies Aa.",
+    topic: "Genetics" },
+
+  /* ---------------- BIOCHEMISTRY, ENZYMOLOGY & BIOENERGETICS (4) ---------------- */
+  { section: "D", type: "mcq", marks: 4,
+    q: "On a Lineweaver-Burk (double-reciprocal) plot of enzyme kinetics, the intercept on the x-axis ($1/[S]$) equals:",
+    options: { a: "$V_{max}$", b: "$-1/K_m$", c: "$1/V_{max}$", d: "$K_m/V_{max}$" },
+    correct: ["b"],
+    explain: "The Lineweaver-Burk equation is $1/v = (K_m/V_{max})(1/[S]) + 1/V_{max}$, so the x-intercept is $-1/K_m$ and the y-intercept is $1/V_{max}$.",
+    topic: "Enzymology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Which B-complex vitamin is the precursor for the coenzyme NAD+, an essential electron carrier in metabolism?",
+    options: { a: "Thiamine (B1)", b: "Riboflavin (B2)", c: "Niacin (B3)", d: "Pyridoxine (B6)" },
+    correct: ["c"],
+    explain: "Niacin is incorporated into NAD and NADP. Riboflavin yields FAD/FMN, thiamine yields TPP, and pyridoxine yields pyridoxal phosphate.",
+    topic: "Biochemistry" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "In aerobic respiration, the terminal electron acceptor of the electron transport chain is:",
+    options: { a: "NADH", b: "Molecular oxygen (O2)", c: "Cytochrome c", d: "FADH2" },
+    correct: ["b"],
+    explain: "Electrons passed along the chain ultimately reduce O2 to water at cytochrome c oxidase. Without O2, the chain stalls and oxidative phosphorylation halts.",
+    topic: "Bioenergetics" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "According to Mitchell's chemiosmotic theory, the energy for ATP synthesis is provided by a proton gradient that is discharged through which enzyme complex?",
+    options: { a: "Complex I", b: "Complex II", c: "ATP synthase (Complex V)", d: "Cytochrome b-c1 complex" },
+    correct: ["c"],
+    explain: "ATP synthase (F1F0-ATPase) harnesses the backflow of protons through its F0 channel to drive rotation of F1, phosphorylating ADP to ATP. Complexes I-IV only build the gradient.",
+    topic: "Bioenergetics" },
+
+  /* ---------------- MICROBIOLOGY & IMMUNOLOGY (5) ---------------- */
+  { section: "D", type: "mcq", marks: 4,
+    q: "In professional antigen-presenting cells, ingested pathogens are destroyed within which degradative organelle whose peptides are then presented on MHC molecules?",
+    options: { a: "Peroxisome", b: "Endoplasmic reticulum", c: "Lysosome", d: "Golgi apparatus" },
+    correct: ["c"],
+    explain: "The phagosome fuses with a lysosome to form a phagolysosome, whose acidic hydrolases degrade the pathogen; the resulting peptides are loaded onto MHC class II for presentation.",
+    topic: "Immunology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Peptides presented by MHC class I molecules on a cell surface are recognised by which effector cell, triggering killing of the presenting cell?",
+    options: { a: "CD8+ cytotoxic T cells", b: "CD4+ helper T cells", c: "Mast cells", d: "Regulatory T cells" },
+    correct: ["a"],
+    explain: "MHC I displays endogenous (cytosolic) peptides to CD8+ cytotoxic T cells, which then eliminate virus-infected or tumour cells. MHC II presents exogenous peptides to CD4+ T cells.",
+    topic: "Immunology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "The membrane attack complex (MAC), formed by complement proteins C5b-C9, kills target cells by:",
+    options: { a: "Cross-linking their surface antigens", b: "Forming a pore in the plasma membrane", c: "Blocking their glucose transporters", d: "Inducing antibody-dependent phagocytosis" },
+    correct: ["b"],
+    explain: "Polymerised C9 creates a transmembrane channel (the MAC) that disrupts osmotic balance, causing lysis of bacteria or cells. This is part of the lytic complement pathway.",
+    topic: "Immunology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Bacteria that require molecular oxygen for growth and cannot grow without it are called:",
+    options: { a: "Obligate aerobes", b: "Facultative anaerobes", c: "Aerotolerant anaerobes", d: "Obligate anaerobes" },
+    correct: ["a"],
+    explain: "Obligate aerobes depend on O2 as a terminal electron acceptor. Facultative anaerobes can switch to fermentation, and obligate anaerobes are actually poisoned by O2.",
+    topic: "Microbiology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "During bacterial conjugation, the transfer of a copy of the F plasmid from a donor to a recipient cell occurs through which surface structure?",
+    options: { a: "Flagellum", b: "Sex pilus", c: "Capsule", d: "Peptidoglycan layer" },
+    correct: ["b"],
+    explain: "The donor cell extends a conjugation (sex) pilus that contacts the recipient and retracts, drawing the cells together so a single strand of plasmid DNA can be transferred.",
+    topic: "Microbiology" },
+
+  /* ---------------- PLANT & ANIMAL PHYSIOLOGY (4) ---------------- */
+  { section: "D", type: "mcq", marks: 4,
+    q: "The upward movement of water in tall trees is best explained by the cohesion-tension mechanism operating in which tissue?",
+    options: { a: "Phloem", b: "Xylem", c: "Cortex", d: "Epidermis" },
+    correct: ["b"],
+    explain: "Transpiration creates a negative tension transmitted through cohesive water molecules in the xylem, pulling a continuous water column from roots to leaves.",
+    topic: "Plant Physiology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Which plant hormone promotes cell division and is routinely used in tissue culture to induce shoot formation?",
+    options: { a: "Cytokinin", b: "Ethylene", c: "Abscisic acid", d: "Gibberellin" },
+    correct: ["a"],
+    explain: "Cytokinins (e.g., kinetin) drive cell division and, in combination with auxins, regulate shoot/root differentiation in cultured explants.",
+    topic: "Plant Physiology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "The functional unit of the mammalian kidney responsible for filtration and urine formation is the:",
+    options: { a: "Alveolus", b: "Nephron", c: "Neuron", d: "Glomerular capsule alone" },
+    correct: ["b"],
+    explain: "Each nephron filters blood in the glomerulus and then reabsorbs and secretes solutes along the tubules to form urine. The glomerulus alone does not constitute the whole unit.",
+    topic: "Animal Physiology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Which hormone, secreted by the pancreatic beta cells, lowers blood glucose concentration?",
+    options: { a: "Glucagon", b: "Insulin", c: "Cortisol", d: "Thyroxine" },
+    correct: ["b"],
+    explain: "Insulin promotes glucose uptake and storage, reducing blood glucose. Glucagon, from alpha cells, opposes it by raising blood glucose.",
+    topic: "Animal Physiology" },
+
+  /* ---------------- ECOLOGY, EVOLUTION & BIOTECHNOLOGY (6) ---------------- */
+  { section: "D", type: "mcq", marks: 4,
+    q: "The gradual replacement of species over time that begins on bare rock or sand where no soil previously existed is called:",
+    options: { a: "Secondary succession", b: "Primary succession", c: "Climax community", d: "Eutrophication" },
+    correct: ["b"],
+    explain: "Primary succession starts on lifeless substrates like new lava or bare rock, with pioneers such as lichens and mosses first developing soil. Secondary succession follows disturbance on existing soil.",
+    topic: "Ecology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "An organism's functional role in its community, including the resources it uses, its habitat, and its interactions with other species, is its:",
+    options: { a: "Habitat", b: "Ecological niche", c: "Territory", d: "Biome" },
+    correct: ["b"],
+    explain: "A niche summarises how an organism obtains resources and affects its environment, whereas a habitat is simply the physical place where it lives.",
+    topic: "Ecology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Natural selection acts directly on individuals but causes change in populations by altering the frequency of:",
+    options: { a: "Phenotypes and the alleles underlying them", b: "Only abiotic environmental factors", c: "Random mutations regardless of fitness", d: "Non-heritable acquired traits" },
+    correct: ["a"],
+    explain: "Selection favours heritable, fitness-enhancing phenotypes, so the alleles that produce them increase in frequency over generations; acquired non-heritable traits are not transmitted.",
+    topic: "Evolution" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Which class of enzymes recognises palindromic recognition sequences and cuts double-stranded DNA at specific sites, a hallmark tool of recombinant DNA technology?",
+    options: { a: "Restriction endonucleases", b: "Exonucleases", c: "Isomerases", d: "Transposases" },
+    correct: ["a"],
+    explain: "Restriction endonucleases, such as EcoRI and HindIII, cleave DNA at defined palindromic sites, generating sticky or blunt ends that enable cloning of inserts.",
+    topic: "Biotechnology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Golden rice is a genetically modified crop engineered to produce:",
+    options: { a: "Lysine", b: "Beta-carotene (pro-vitamin A)", c: "Human insulin", d: "Bt toxin" },
+    correct: ["b"],
+    explain: "Golden rice synthesises beta-carotene in the endosperm so that consumers converting it to vitamin A are protected against deficiency; Bt varieties instead make an insecticidal protein.",
+    topic: "Biotechnology" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Which vector is most commonly used to stably introduce foreign genes into plants via Agrobacterium tumefaciens-mediated transformation?",
+    options: { a: "Lambda phage", b: "Ti plasmid", c: "pUC18", d: "Cosmid" },
+    correct: ["b"],
+    explain: "A. tumefaciens transfers a segment of its Ti (tumour-inducing) plasmid, the T-DNA, into the plant genome. Disarmed Ti plasmids are engineered as plant transformation vectors.",
+    topic: "Biotechnology" },
+
+  /* ---------------- BIOCHEMISTRY TECHNIQUES (4) ---------------- */
+  { section: "D", type: "mcq", marks: 4,
+    q: "Western blotting is used to detect and quantify a specific:",
+    options: { a: "DNA sequence", b: "RNA sequence", c: "Protein", d: "Lipid" },
+    correct: ["c"],
+    explain: "In Western blotting, proteins are separated by SDS-PAGE, transferred to a membrane, and probed with a specific antibody (primary) detected by a labelled secondary antibody.",
+    topic: "Techniques" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Northern blotting is the technique used to detect a specific sequence of:",
+    options: { a: "DNA", b: "RNA", c: "Protein", d: "Carbohydrate" },
+    correct: ["b"],
+    explain: "Northern blotting analyses RNA size and expression: RNA is size-fractionated on a gel, transferred to a membrane, and hybridised to a labelled nucleic-acid probe.",
+    topic: "Techniques" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Which chromatographic method separates proteins chiefly by their net charge, binding them to an oppositely charged matrix and eluting with an increasing salt gradient?",
+    options: { a: "Gel filtration chromatography", b: "Ion-exchange chromatography", c: "Affinity chromatography", d: "Thin-layer chromatography" },
+    correct: ["b"],
+    explain: "In ion-exchange chromatography, proteins of opposite charge bind the column, and a rising salt gradient progressively displaces them in order of their charge strength.",
+    topic: "Techniques" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "Which technique uses a porous gel as a molecular sieve and an electric field, and is the routine method for checking the size and purity of PCR-amplified DNA fragments?",
+    options: { a: "Isoelectric focusing", b: "Agarose gel electrophoresis", c: "2D gel electrophoresis", d: "Pulsed-field electrophoresis" },
+    correct: ["b"],
+    explain: "DNA, being negatively charged, migrates through an agarose gel toward the anode, with smaller fragments moving faster, allowing size estimation against DNA markers.",
+    topic: "Techniques" },
+
+  /* ---------------- MATHEMATICAL BIOLOGY & STATISTICS (4) ---------------- */
+  { section: "D", type: "mcq", marks: 4,
+    q: "In a self-cross of a trihybrid (AaBbCc x AaBbCc) with independent assortment, the proportion of offspring homozygous recessive for all three loci (aabbcc) is:",
+    options: { a: "1/8", b: "1/16", c: "1/64", d: "1/32" },
+    correct: ["c"],
+    explain: "The probability of being homozygous recessive at one locus is 1/4, so for three independent loci it is $(1/4)^3 = 1/64$.",
+    topic: "Statistical Basis of Genetics" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "A chi-square goodness-of-fit test is applied to observed counts spread over 4 phenotypic classes. The degrees of freedom for this test are:",
+    options: { a: "1", b: "2", c: "3", d: "4" },
+    correct: ["c"],
+    explain: "For a goodness-of-fit test, degrees of freedom = (number of classes - 1); here 4 - 1 = 3.",
+    topic: "Statistical Basis of Genetics" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "A fair six-sided die is rolled twice. The probability of obtaining at least one 6 is:",
+    options: { a: "1/36", b: "11/36", c: "1/6", d: "1/3" },
+    correct: ["b"],
+    explain: "P(no 6 in two rolls) = $(5/6)^2 = 25/36$, so P(at least one 6) = $1 - 25/36 = 11/36$.",
+    topic: "Probability" },
+
+  { section: "D", type: "mcq", marks: 4,
+    q: "A cross produces a phenotype with probability 25%. If 16 offspring are examined, the expected mean number of offspring showing that phenotype is:",
+    options: { a: "3", b: "4", c: "8", d: "12" },
+    correct: ["b"],
+    explain: "The expected count is the probability times the sample size: $0.25 \\times 16 = 4$ offspring.",
+    topic: "Statistical Basis of Genetics" }
+]);

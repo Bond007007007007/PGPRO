@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GATE-CBT · Full-length Mock Exam Simulator</title>
+<link rel="stylesheet" href="style.css">
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]], displayMath: [["$$", "$$"], ["\\[", "\\]"]] },
+    options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"] },
+    startup: { typeset: false }
+  };
+</script>
+<script defer src="vendor/mathjax/tex-svg.js"></script>
+</head>
+<body>
+
+<!-- ===================== HOME SCREEN ===================== -->
+<section id="screen-home" class="screen active">
+  <header class="topbar">
+    <div class="brand">🧬 GATE-CBT <span>· Mock Exam Simulator</span></div>
+    <button class="btn ghost" id="btn-history">📜 Attempt History</button>
+  </header>
+
+  <div class="home-hero">
+    <h1>Full-length CBT Mock Exams</h1>
+    <p>GATE XL · IIT JAM (BT) · GAT-B · CUET PG — real exam pattern, timer, calculator, official marking. 100% offline.</p>
+  </div>
+
+  <div class="exam-cards" id="exam-cards"></div>
+
+  <div class="home-note">
+    <h4>How it works</h4>
+    <ul>
+      <li>Pick an exam → configure your paper → start. A fresh random paper is drawn from the question pool every run.</li>
+      <li>Same interface as the real CBT: question palette, mark-for-review, virtual calculator.</li>
+      <li>Auto-submit at time zero. Full solutions + per-section analysis after you finish.</li>
+      <li>Attempts are saved locally on this device — nothing is uploaded.</li>
+    </ul>
+  </div>
+
+  <div id="history-panel" class="history-panel hidden"></div>
+</section>
+
+<!-- ===================== CONFIG SCREEN ===================== -->
+<section id="screen-config" class="screen">
+  <div class="config-wrap">
+    <button class="btn ghost back" data-go="home">← All exams</button>
+    <h2 id="config-title">Configure Paper</h2>
+    <div id="config-body"></div>
+  </div>
+</section>
+
+<!-- ===================== EXAM SCREEN ===================== -->
+<section id="screen-exam" class="screen">
+  <div class="exam-header">
+    <div class="eh-left">
+      <span class="eh-exam" id="exam-name"></span>
+      <span class="eh-msg hidden" id="practice-badge">🟡 Practice mode · no timer</span>
+    </div>
+    <div class="eh-right">
+      <div class="timer" id="timer">03:00:00</div>
+      <button class="btn danger" id="btn-submit">End Test &amp; Submit</button>
+    </div>
+  </div>
+
+  <div class="exam-body">
+    <main class="question-area" id="question-area"></main>
+
+    <aside class="sidebar">
+      <div class="side-block">
+        <div class="side-title">Question Palette</div>
+        <div class="legend">
+          <span><i class="dot answered"></i>Answered</span>
+          <span><i class="dot revisited"></i>Marked</span>
+          <span><i class="dot visited"></i>Visited</span>
+          <span><i class="dot untouched"></i>Not visited</span>
+        </div>
+        <div class="section-tabs" id="section-tabs"></div>
+        <div class="palette" id="palette"></div>
+      </div>
+      <div class="side-block">
+        <button class="btn" id="btn-calc">🧮 Calculator</button>
+        <div id="calc-host"></div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="nav-rail">
+    <button class="btn" id="btn-prev">← Prev</button>
+    <button class="btn" id="btn-mark">⭑ Mark for Review</button>
+    <button class="btn" id="btn-clear">✖ Clear Response</button>
+    <button class="btn" id="btn-next">Next →</button>
+  </div>
+</section>
+
+<!-- ===================== RESULT SCREEN ===================== -->
+<section id="screen-result" class="screen">
+  <div class="result-wrap">
+    <button class="btn ghost back" data-go="home">← All exams</button>
+    <h2 id="result-title">Result</h2>
+    <div id="result-summary"></div>
+    <div id="result-sections"></div>
+    <div class="result-actions">
+      <button class="btn" id="btn-review">📖 Review Solutions</button>
+      <button class="btn" id="btn-retry">🔁 Retry Paper</button>
+      <button class="btn" id="btn-home">🏠 Home</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REVIEW SCREEN ===================== -->
+<section id="screen-review" class="screen">
+  <div class="review-wrap">
+    <button class="btn ghost back" data-go="result">← Back to result</button>
+    <h2>Solutions Review</h2>
+    <div id="review-list"></div>
+  </div>
+</section>
+
+<!-- Load order matters: banks register into window.GATE_BANK before app.js -->
+<script src="calc.js"></script>
+<script src="exams.js"></script>
+<script src="bank-xl-1.js"></script>
+<script src="bank-xl-2.js"></script>
+<script src="bank-jam-1.js"></script>
+<script src="bank-jam-2.js"></script>
+<script src="bank-gatb-seca.js"></script>
+<script src="bank-gatb-secb-1.js"></script>
+<script src="bank-gatb-secb-2.js"></script>
+<script src="bank-cuet-1.js"></script>
+<script src="bank-cuet-2.js"></script>
+<script src="bank-pyq-jam-2024.js"></script>
+<script src="bank-pyq-jam-2023.js"></script>
+<script src="bank-pyq-jam-2025.js"></script>
+<script src="bank-pyq-gatb-2021.js"></script>
+<script src="bank-pyq-gatb-2022.js"></script>
+<script src="bank-pyq-gatb-2023.js"></script>
+<script src="bank-pyq-gatb-2024.js"></script>
+<script src="bank-pyq-cuet-2022.js"></script>
+<script src="bank-pyq-cuet-2024.js"></script>
+<script src="bank-pyq-cuet-2023.js"></script>
+<script src="bank-pyq-xl-2024.js"></script>
+<script src="bank-pyq-xl-2025.js"></script>
+<script src="bank-pyq-xl-2023.js"></script>
+<script src="bank-pyq-xl-2022.js"></script>
+<script src="bank-pyq-xl-2018.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

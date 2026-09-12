@@ -1,0 +1,3423 @@
+
+--- page 1 ---
+1)  
+2)  
+3)  
+4)  
+5)  
+Graduate Aptitude Test Biotechnology GATB 2022
+Topic:‐ GAT SECTION S1 A
+The magnetic susceptibility is negative for:[Question ID = 411][Question Description = 101_GATBS1_SECTION‐
+A_APR22_Q01]
+1. paramagnetic materials. [Option ID = 1641]
+2. ferromagnetic materials. [Option ID = 1642]
+3. superconducting materials. [Option ID = 1643]
+4. diamagnetic materials. [Option ID = 1644]
+What is the focal length (f) of a combination of lenses (convex and concave) as given below? 
+[Question ID = 412][Question Description = 102_GATBS1_SECTION‐A_APR22_Q02]
+1. 30 cm [Option ID = 1645]
+2. 20 cm [Option ID = 1646]
+3. 10 cm [Option ID = 1647]
+4. 60 cm [Option ID = 1648]
+What is the net capacitance of the circuit given below? 
+[Question ID = 413][Question Description = 103_GATBS1_SECTION‐A_APR22_Q03]
+1. 8.6 μF [Option ID = 1649]
+2. 4.6 μF [Option ID = 1650]
+3. 6.6 μF [Option ID = 1651]
+4. 3.0 μF [Option ID = 1652]
+Which one of the following properties is primarily responsible for spreading of oil uniformly on water?[Question ID = 414]
+[Question Description = 104_GATBS1_SECTION‐A_APR22_Q04]
+1. Viscosity [Option ID = 1653]
+2. Partition coefficient [Option ID = 1654]
+3. Dipole moment [Option ID = 1655]
+4. Surface tension [Option ID = 1656]
+What will happen when the pressure is doubled in an isothermal process for a closed system containing a fixed amount of
+an ideal gas?[Question ID = 415][Question Description = 105_GATBS1_SECTION‐A_APR22_Q05]
+1. Volume will double [Option ID = 1657]
+2. Volume will halve [Option ID = 1658]
+3. Temperature will increase slightly [Option ID = 1659]
+4. Temperature will decrease slightly [Option ID = 1660]
+--- page 2 ---
+6)  
+7)  
+8)  
+9)  
+10)  
+11)  
+Which one of the following describes the relation between the acceleration of a body in space and the distance (r) of
+the body from the center of the earth?[Question ID = 416][Question Description = 106_GATBS1_SECTION‐A_APR22_Q06]
+1. 1/r [Option ID = 1661]
+2. 1/r [Option ID = 1662]
+3. 1/r [Option ID = 1663]
+4. √r [Option ID = 1664]
+Which one of the following force does not act on a cyclist when he/ she bends on a horizontal turn?[Question ID = 417]
+[Question Description = 107_GATBS1_SECTION‐A_APR22_Q07]
+1. Weight (Mg) [Option ID = 1665]
+2. Centrifugal force (Mv /r) [Option ID = 1666]
+3. Friction (f) [Option ID = 1667]
+4. 
+[Option ID = 1668]
+Energy of a photon of wavelength 410 nm is equal to the band gap between valence and conduction band of a semi‐
+conductor. What is the minimum energy required to create an electron‐hole pair? (Planck’s constant (h) = 4.1x10
+ eV.s)
+(velocity of light = 3x10  m/s)
+[Question ID = 418][Question Description = 108_GATBS1_SECTION‐A_APR22_Q08]
+1. 0.03 eV
+[Option ID = 1669]
+2. 0.3 eV
+[Option ID = 1670]
+3. 3.0 eV
+[Option ID = 1671]
+4. 30.0 eV
+[Option ID = 1672]
+Which one of the following is NOT due to total internal reflection?
+[Question ID = 419][Question Description = 109_GATBS1_SECTION‐A_APR22_Q09]
+1. Brilliance of a diamond.
+[Option ID = 1673]
+2. Working of an optical fibre.
+[Option ID = 1674]
+3. Mirage on a hot summer day.
+[Option ID = 1675]
+4. Difference between apparent and real depth of a water body.
+[Option ID = 1676]
+The limit of resolution of a light microscope is determined by:[Question ID = 420][Question Description =
+110_GATBS1_SECTION‐A_APR22_Q10]
+1. wavelength of light [Option ID = 1677]
+2. material of the lens [Option ID = 1678]
+3. polarization of light [Option ID = 1679]
+4. intensity of light [Option ID = 1680]
+Which one of the following is NOT a property of a LASER?
+[Question ID = 421][Question Description = 111_GATBS1_SECTION‐A_APR22_Q11]
+1. It is monochromatic.
+[Option ID = 1681]
+2. It is coherent.
+[Option ID = 1682]
+3. It is directional.
+[Option ID = 1683]
+4. It exhibits spontaneous emission.
+[Option ID = 1684]
+3 
+2 
+2
+‐15
+8
+--- page 3 ---
+12)  
+13)  
+14)  
+15)  
+16)  
+17)  
+18)  
+Point charges, +q each is placed at the corners of a triangle, square and regular pentagon. If the sides of the triangle,
+square and pentagon are a each, the electric field at the center will be:
+[Question ID = 422][Question Description = 112_GATBS1_SECTION‐A_APR22_Q12]
+1. zero in all three cases
+[Option ID = 1685]
+2. maximum at the center of the pentagon
+[Option ID = 1686]
+3. minimum at the center of the triangle
+[Option ID = 1687]
+4. zero for square and positive for triangle and pentagon
+[Option ID = 1688]
+Which one of the following attributes of an electromagnetic wave remains constant when it enters from air to water?
+[Question ID = 423][Question Description = 113_GATBS1_SECTION‐A_APR22_Q13]
+1. Wavelength [Option ID = 1689]
+2. Velocity [Option ID = 1690]
+3. Frequency [Option ID = 1691]
+4. Colour [Option ID = 1692]
+In uniform circular motion, which one of the following properties changes with time?[Question ID = 424][Question
+Description = 114_GATBS1_SECTION‐A_APR22_Q14]
+1. Momentum [Option ID = 1693]
+2. Speed [Option ID = 1694]
+3. Mass [Option ID = 1695]
+4. Kinetic Energy [Option ID = 1696]
+Moving electron (velocity v) produces a magnetic field B such that:[Question ID = 425][Question Description =
+115_GATBS1_SECTION‐A_APR22_Q15]
+1. B is perpendicular to v. [Option ID = 1697]
+2. B is parallel to v. [Option ID = 1698]
+3. Angle between B and v is 45 degrees. [Option ID = 1699]
+4. B is opposite in direction to v. [Option ID = 1700]
+The correct order of increasing acidic behavior of the following compounds is 
+[Question ID = 426][Question Description = 116_GATBS1_SECTION‐A_APR22_Q16]
+1. A>B>C [Option ID = 1701]
+2. C>B>A [Option ID = 1702]
+3. A>C>B [Option ID = 1703]
+4. B>C>A [Option ID = 1704]
+Starting with three different amino acids, how many different tripeptides can be made, assuming that each amino acid
+can be used more than once?[Question ID = 427][Question Description = 117_GATBS1_SECTION‐A_APR22_Q17]
+1. 3 [Option ID = 1705]
+2. 6 [Option ID = 1706]
+3. 9 [Option ID = 1707]
+4. 27 [Option ID = 1708]
+The rate of a reaction, 2 A + B → Products, is given by the rate equation
+            Rate = k [A]  [B]
+The value of the rate constant can be increased by:
+[Question ID = 428][Question Description = 118_GATBS1_SECTION‐A_APR22_Q18]
+1. increasing the concentration of A alone.
+[Option ID = 1709]
+2. increasing the concentration of B alone.
+[Option ID = 1710]
+2
+--- page 4 ---
+19)  
+20)  
+21)  
+22)  
+23)  
+24)  
+3. increasing the concentrations of A and B simultaneously.
+[Option ID = 1711]
+4. increasing the temperature.
+[Option ID = 1712]
+What is the molarity of pure acetic acid? Assume density of acetic acid = 1 g/ml.[Question ID = 429][Question
+Description = 119_GATBS1_SECTION‐A_APR22_Q19]
+1. 12.7 [Option ID = 1713]
+2. 16.7 [Option ID = 1714]
+3. 20.7 [Option ID = 1715]
+4. 55.5 [Option ID = 1716]
+Which one of the following represents the correct electronic orbital configuration of Phosphorus (+3) ion (P
+)?
+[Question ID = 430][Question Description = 120_GATBS1_SECTION‐A_APR22_Q20]
+1. 1s2 2s2 2p6 3s2 [Option ID = 1717]
+2. 1s2 2s2 2p6 3s1 [Option ID = 1718]
+3. 1s2 2s2 2p4 3s2 [Option ID = 1719]
+4. 1s2 2s2 2p5 3s1 [Option ID = 1720]
+The boiling points of four liquids are shown below:
+Which liquid has the highest vapor pressure at 25 C?
+[Question ID = 431][Question Description = 121_GATBS1_SECTION‐A_APR22_Q21]
+1. Acetone
+[Option ID = 1721]
+2. Ethanol
+[Option ID = 1722]
+3. Diethyl ether
+[Option ID = 1723]
+4. Water
+[Option ID = 1724]
+What is the approximate vapor pressure of an isopropanol solution containing 9.2 g of a non volatile solute, glycerol
+(C H O ) and 60 g of isopropanol (C H O) at 82°C? Given vapor pressure of isopropanol at 82°C is 100 kPa.[Question ID =
+432][Question Description = 122_GATBS1_SECTION‐A_APR22_Q22]
+1. 81 kPa [Option ID = 1725]
+2. 91 kPa [Option ID = 1726]
+3. 101 kPa [Option ID = 1727]
+4. 111 kPa [Option ID = 1728]
+An organic compound contains 69.77% C, 11.63% H and 18.6% O. Its molecular formula is same as its empirical formula.
+The number of carbon atoms present per molecule would be:[Question ID = 433][Question Description =
+123_GATBS1_SECTION‐A_APR22_Q23]
+1. 4 [Option ID = 1729]
+2. 5 [Option ID = 1730]
+3. 6 [Option ID = 1731]
+4. 7 [Option ID = 1732]
+The ratio of the velocity of the hydrogen molecule to that of the oxygen molecule under identical conditions is:
+[Question ID = 434][Question Description = 124_GATBS1_SECTION‐A_APR22_Q24]
+1. 1:1 [Option ID = 1733]
+2. 1:2 [Option ID = 1734]
+3. 1:4 [Option ID = 1735]
+4. 1:16 [Option ID = 1736]
+3+
+°
+3
+8
+3
+3
+8
+--- page 5 ---
+25)  
+26)  
+27)  
+28)  
+29)  
+30)  
+In the following reaction
+P (g) + 6 Cl  (g) = 4 PCl  (g)
+equilibrium is established by adding equal moles of P (g) and Cl (g); therefore, at equilibrium:
+[Question ID = 435][Question Description = 125_GATBS1_SECTION‐A_APR22_Q25]
+1. [Cl ] > [PCl ]
+[Option ID = 1737]
+2. [Cl ] < [P ]
+[Option ID = 1738]
+3. [PCl ] > [P ]
+[Option ID = 1739]
+4. [P ] = [PCl ]
+[Option ID = 1740]
+Choose the correct order of increasing acidity for the following compounds:
+A. Benzoic acid
+B. 4‐Methoxybenzoic acid
+C. 4‐Nitrobenzoic acid
+[Question ID = 436][Question Description = 126_GATBS1_SECTION‐A_APR22_Q26]
+1. A>B>C
+[Option ID = 1741]
+2. B>C>A
+[Option ID = 1742]
+3. C>B>A
+[Option ID = 1743]
+4. A>C>B
+[Option ID = 1744]
+The alkaline nature of amines is due to the:[Question ID = 437][Question Description = 127_GATBS1_SECTION‐
+A_APR22_Q27]
+1. small size of nitrogen. [Option ID = 1745]
+2. higher stability of nitrogen molecule at room temperature. [Option ID = 1746]
+3. presence of unshared pair of electrons on nitrogen. [Option ID = 1747]
+4. pyramidal geometry of nitrogen in amines. [Option ID = 1748]
+The following structure represents 
+[Question ID = 438][Question Description = 128_GATBS1_SECTION‐A_APR22_Q28]
+1. An oxime [Option ID = 1749]
+2. A hydrazone [Option ID = 1750]
+3. An imine [Option ID = 1751]
+4. A Schiff’s base [Option ID = 1752]
+What is the half‐life of a zero order reaction that takes 25 minutes for 80% completion?[Question ID = 439][Question
+Description = 129_GATBS1_SECTION‐A_APR22_Q29]
+1. 150.25 seconds [Option ID = 1753]
+2. 937.50 seconds [Option ID = 1754]
+3. 950.50 seconds [Option ID = 1755]
+4. 156.25 seconds [Option ID = 1756]
+Given below are two statements:
+Statement I: The boiling point of p‐nitrophenol is higher than the o‐nitrophenol.
+Statement II: Alcohols are less acidic than the Phenols.
+In the light of the above statements, choose the most appropriate answer from the options given below.
+4
+2
+3
+4
+2
+2
+3
+2
+4
+3
+4
+4
+3
+--- page 6 ---
+31)  
+32)  
+33)  
+34)  
+35)  
+36)  
+37)  
+[Question ID = 440][Question Description = 130_GATBS1_SECTION‐A_APR22_Q30]
+1. Both Statement I and Statement II are correct.
+[Option ID = 1757]
+2. Both Statement I and Statement II are incorrect.
+[Option ID = 1758]
+3. Statement I is correct but Statement II is incorrect.
+[Option ID = 1759]
+4. Statement I is incorrect but Statement II is correct.
+[Option ID = 1760]
+In a class of 35 students, 24 like to play cricket and 16 like to play football. Also, each student likes to play at least one
+of the two games. How many students like to play both cricket and football?[Question ID = 441][Question Description =
+131_GATBS1_SECTION‐A_APR22_Q31]
+1. 11 [Option ID = 1761]
+2. 5 [Option ID = 1762]
+3. 8 [Option ID = 1763]
+4. 13 [Option ID = 1764]
+If the price of the sugar is raised by 25%, find by how much percent a homemaker should reduce the consumption of
+sugar so as not to increase his/her expenditure?[Question ID = 442][Question Description = 132_GATBS1_SECTION‐
+A_APR22_Q32]
+1. 10% [Option ID = 1765]
+2. 12% [Option ID = 1766]
+3. 20% [Option ID = 1767]
+4. 15% [Option ID = 1768]
+How many numbers between 100 and 999 can be formed with the digits 1, 4, 7, 8, and 9 if the digits are not
+repeated? [Question ID = 443][Question Description = 133_GATBS1_SECTION‐A_APR22_Q33]
+1. 20 [Option ID = 1769]
+2. 60 [Option ID = 1770]
+3. 12 [Option ID = 1771]
+4. 120 [Option ID = 1772]
+What is the chance that a leap year, selected at random, will NOT have 53 Sundays as well as 53 Mondays?
+[Question ID = 444][Question Description = 134_GATBS1_SECTION‐A_APR22_Q34]
+1. 1/7
+[Option ID = 1773]
+2. 2/7
+[Option ID = 1774]
+3. 5/7
+[Option ID = 1775]
+4. 0
+[Option ID = 1776]
+Three taps A, B, and C together can fill an empty cistern in 10 minutes, the tap A alone can fill it in 20 minutes and
+the tap B alone in 40 minutes. How long will the tap C alone take to fill it?[Question ID = 445][Question Description =
+135_GATBS1_SECTION‐A_APR22_Q35]
+1. 40 minutes [Option ID = 1777]
+2. 24 minutes [Option ID = 1778]
+3. 32 minutes [Option ID = 1779]
+4. 16 minutes [Option ID = 1780]
+What is the sum of the first 10 terms of the sequence 1,2,4,8,16, ……..?[Question ID = 446][Question Description =
+136_GATBS1_SECTION‐A_APR22_Q36]
+1. 1024 [Option ID = 1781]
+2. 1023 [Option ID = 1782]
+3. 1017 [Option ID = 1783]
+4. 1026 [Option ID = 1784]
+The average of the first five multiples of 9 is:[Question ID = 447][Question Description = 137_GATBS1_SECTION‐
+--- page 7 ---
+38)  
+39)  
+40)  
+41)  
+42)  
+43)  
+44)  
+45)  
+A_APR22_Q37]
+1. 20 [Option ID = 1785]
+2. 27 [Option ID = 1786]
+3. 28 [Option ID = 1787]
+4. 30 [Option ID = 1788]
+The straight line 2x+3y+4=0 touches the x–axis at:[Question ID = 448][Question Description = 138_GATBS1_SECTION‐
+A_APR22_Q38]
+1. ‐2.0 [Option ID = 1789]
+2. +2.0 [Option ID = 1790]
+3. ‐1.0 [Option ID = 1791]
+4. +1.0 [Option ID = 1792]
+If A is the set of even natural numbers less than 8 and B is the set of prime numbers less than 7, then the number of
+relations from A to B is[Question ID = 449][Question Description = 139_GATBS1_SECTION‐A_APR22_Q39]
+1. 9 [Option ID = 1793]
+2. 9  [Option ID = 1794]
+3. 2  [Option ID = 1795]
+4. 2  [Option ID = 1796]
+A box contains 5 pink, 3 green, and 2 yellow balls. Three balls are picked up randomly. What is the probability that
+none of the balls drawn is green?[Question ID = 450][Question Description = 140_GATBS1_SECTION‐A_APR22_Q40]
+1. 3/16 [Option ID = 1797]
+2. 7/24 [Option ID = 1798]
+3. 5/13 [Option ID = 1799]
+4. 4/23 [Option ID = 1800]
+In a class of 60 students comprising girls and boys, 30% are boys. On a given day 10% of the class is absent and all the
+absentees are boys. What is the percentage of girls in this class on that given day?[Question ID = 451][Question Description
+= 141_GATBS1_SECTION‐A_APR22_Q41]
+1. 66.66 [Option ID = 1801]
+2. 77.77 [Option ID = 1802]
+3. 88.88 [Option ID = 1803]
+4. 100 [Option ID = 1804]
+Find the area of the triangle with vertices A(5,4), B(‐2,4) and C(2,14).[Question ID = 452][Question Description =
+142_GATBS1_SECTION‐A_APR22_Q42]
+1. 34 sq. units [Option ID = 1805]
+2. 35 sq. units [Option ID = 1806]
+3. 36 sq. units [Option ID = 1807]
+4. 32 sq. units [Option ID = 1808]
+Two trains running in opposite directions pass by a man standing on the platform in 20 seconds and 10 seconds
+respectively and they completely cross each other in 15 seconds. The ratio of their speeds is:[Question ID = 453][Question
+Description = 143_GATBS1_SECTION‐A_APR22_Q43]
+1. 1 : 3 [Option ID = 1809]
+2. 1 : 2 [Option ID = 1810]
+3. 1 : 1.5 [Option ID = 1811]
+4. 1 : 1 [Option ID = 1812]
+When 4 fair coins are tossed together what is the probability of getting at least 3 heads?[Question ID = 454][Question
+Description = 144_GATBS1_SECTION‐A_APR22_Q44]
+1. 1/4 [Option ID = 1813]
+2. 3/4 [Option ID = 1814]
+3. 5/16 [Option ID = 1815]
+4. 3/8 [Option ID = 1816]
+Find the modal age from the given data:
+[Question ID = 455][Question Description = 145_GATBS1_SECTION‐A_APR22_Q45]
+2
+9
+3
+--- page 8 ---
+46)  
+47)  
+48)  
+49)  
+50)  
+51)  
+52)  
+1. 10
+[Option ID = 1817]
+2. 12
+[Option ID = 1818]
+3. 15
+[Option ID = 1819]
+4. 20
+[Option ID = 1820]
+Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.
+Assertion A: Hematopoietic stem cells are considered multipotent precursors.
+Reason R: They have the ability to differentiate into different types of blood cells.
+In light of the above statements, choose the most appropriate answer from the options given below.
+[Question ID = 456][Question Description = 146_GATBS1_SECTION‐A_APR22_Q46]
+1. Both A and R are correct and R is the correct explanation of A
+[Option ID = 1821]
+2. Both A and R are correct but R is not the correct explanation of A
+[Option ID = 1822]
+3. A is correct but R is not correct
+[Option ID = 1823]
+4. A is not correct but R is correct
+[Option ID = 1824]
+Glycosidic linkages are the bonds between:[Question ID = 457][Question Description = 147_GATBS1_SECTION‐
+A_APR22_Q47]
+1. sugars [Option ID = 1825]
+2. nucleotides [Option ID = 1826]
+3. amino acids [Option ID = 1827]
+4. lipids [Option ID = 1828]
+What is the bond that can form between two cysteines in a protein?[Question ID = 458][Question Description =
+148_GATBS1_SECTION‐A_APR22_Q48]
+1. Ionic bond [Option ID = 1829]
+2. Hydrogen bond [Option ID = 1830]
+3. Disulfide bond [Option ID = 1831]
+4. Amide bond [Option ID = 1832]
+Cystic fibrosis is caused due to:[Question ID = 459][Question Description = 149_GATBS1_SECTION‐A_APR22_Q49]
+1. mutation in a gene encoding G protein [Option ID = 1833]
+2. deficiency of adenyl cyclase [Option ID = 1834]
+3. mutation in a gene encoding an ABC transporter [Option ID = 1835]
+4. over activation of the Ca++ ATPase pump [Option ID = 1836]
+The primary enzyme responsible for the rapid and accurate replication of the genome in E. coli is:[Question ID = 460]
+[Question Description = 150_GATBS1_SECTION‐A_APR22_Q50]
+1. DNA Pol V [Option ID = 1837]
+2. DNA Pol II [Option ID = 1838]
+3. DNA Pol III [Option ID = 1839]
+4. DNA Pol IV [Option ID = 1840]
+Histones are tightly bound to DNA because:[Question ID = 461][Question Description = 151_GATBS1_SECTION‐
+A_APR22_Q51]
+1. histones are positively charged proteins. [Option ID = 1841]
+2. histones are negatively charged proteins. [Option ID = 1842]
+3. histones get acetylated by the action of acyltransferases. [Option ID = 1843]
+4. histones are highly hydrophobic in nature. [Option ID = 1844]
+Given below are two statements:
+--- page 9 ---
+53)  
+54)  
+55)  
+56)  
+57)  
+Statement I: A single gene can affect multiple phenotypic expressions.
+Statement II: In a polygenic trait, multiple genes contribute to a phenotypic expression.
+In the light of the above statements, choose the most appropriate answer from the options given below.
+[Question ID = 462][Question Description = 152_GATBS1_SECTION‐A_APR22_Q52]
+1. Both I and II are correct
+[Option ID = 1845]
+2. Both I and II are incorrect
+[Option ID = 1846]
+3. I is correct but II is incorrect
+[Option ID = 1847]
+4. I is incorrect but II is correct
+[Option ID = 1848]
+Interferons secreted by virus‐infected cells induce:[Question ID = 463][Question Description = 153_GATBS1_SECTION‐
+A_APR22_Q53]
+1. antiviral response [Option ID = 1849]
+2. pro‐viral response [Option ID = 1850]
+3. apoptosis [Option ID = 1851]
+4. cell proliferation [Option ID = 1852]
+Lung cancer can be detected at an early stage by:[Question ID = 464][Question Description = 154_GATBS1_SECTION‐
+A_APR22_Q54]
+1. bone marrow test [Option ID = 1853]
+2. blood test [Option ID = 1854]
+3. MRI scans [Option ID = 1855]
+4. Gene sequencing [Option ID = 1856]
+Which one of the following is an autosomal dominant disorder?[Question ID = 465][Question Description =
+155_GATBS1_SECTION‐A_APR22_Q55]
+1. Sickle cell anaemia [Option ID = 1857]
+2. Cystic fibrosis [Option ID = 1858]
+3. Tay‐Sachs disease [Option ID = 1859]
+4. Huntington’s disease [Option ID = 1860]
+Which one of the following statements correctly describes type IIP restriction enzymes?
+A. They cut nucleotides only from the ends of the DNA.
+B. They act on only palindromic nucleotide sequences in the DNA.
+C. They recognize only GC rich sequences.
+D. They recognize only AT rich sequences.
+Choose the correct answer from the options given below.
+[Question ID = 466][Question Description = 156_GATBS1_SECTION‐A_APR22_Q56]
+1. A and B Only
+[Option ID = 1861]
+2. B Only
+[Option ID = 1862]
+3. A, B and C Only
+[Option ID = 1863]
+4. A, B and D Only
+[Option ID = 1864]
+Match items in List I with items in List II
+--- page 10 ---
+58)  
+59)  
+60)  
+Choose the correct answer from the options given below:
+[Question ID = 467][Question Description = 157_GATBS1_SECTION‐A_APR22_Q57]
+1. A – II, B – IV, C – III, D – I
+[Option ID = 1865]
+2. A – I, B – IV, C – III, D – II
+[Option ID = 1866]
+3. A – I, B – III, C – IV, D – II
+[Option ID = 1867]
+4. A – II, B – III, C – IV, D – I
+[Option ID = 1868]
+Given below are two statements:
+Statement I: Activation energy is the difference between the energy level of substrate and its transition state during the
+reaction.
+Statement II: Enzymes increase the activation energy enhancing the rate of reaction.
+In the light of the above statements, choose the correct answer from the options given below.
+[Question ID = 468][Question Description = 158_GATBS1_SECTION‐A_APR22_Q58]
+1. Both Statement I and Statement II are true
+[Option ID = 1869]
+2. Both Statement I and Statement II are false
+[Option ID = 1870]
+3. Statement I is true but Statement II is false
+[Option ID = 1871]
+4. Statement I is false but Statement II is true
+[Option ID = 1872]
+Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.
+Assertion A: Inhibition of succinate dehydrogenase by malonate represents competitive inhibition.
+Reason R: Malonate and succinate bind at different sites of the enzyme.
+In light of the above statements, choose the most appropriate answer from the options given below.
+[Question ID = 469][Question Description = 159_GATBS1_SECTION‐A_APR22_Q59]
+1. Both A and R are correct and R is the correct explanation of A
+[Option ID = 1873]
+2. Both A and R are correct but R is NOT the correct explanation of A
+[Option ID = 1874]
+3. A is correct but R is not correct
+[Option ID = 1875]
+4. A is not correct but R is correct
+[Option ID = 1876]
+Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.
+Assertion A: Bt toxin does not kill Bacillus thuringiensis.
+Reason R: The Bt toxin gets activated due to the alkaline pH of the insect gut.
+In the light of the above statements, choose the most appropriate answer from the options given below.
+--- page 11 ---
+1)  
+2)  
+3)  
+4)  
+5)  
+[Question ID = 470][Question Description = 160_GATBS1_SECTION‐A_APR22_Q60]
+1. Both A and R are correct and R is the correct explanation of A
+[Option ID = 1877]
+2. Both A and R are correct but R is not the correct explanation of A
+[Option ID = 1878]
+3. A is correct but R is not correct
+[Option ID = 1879]
+4. A is not correct but R is correct
+[Option ID = 1880]
+Topic:‐ GAT SECTION S1 B
+Which one of the following techniques can be used to determine the copy number of a gene?[Question ID = 471]
+[Question Description = 161_GATBS1_SECTION‐B_APR22_Q61]
+1. Chromatin Immunoprecipitation [Option ID = 1881]
+2. Northern Blotting [Option ID = 1882]
+3. ELISA [Option ID = 1883]
+4. Real time PCR [Option ID = 1884]
+Given below are two statements:
+Statement I: In plants, the genes for smaller subunit of ribulose‐1, 5‐bisphosphate carboxylase/ oxygenase (Rubisco) enzyme
+is present in the plastid genome.
+Statement II: The genes for larger subunit of Rubisco enzyme is present in the nuclear genome.
+Choose the most appropriate answer from the options given below:
+[Question ID = 472][Question Description = 162_GATBS1_SECTION‐B_APR22_Q62]
+1. Both Statement I and Statement II are correct.
+[Option ID = 1885]
+2. Both Statement I and Statement II are incorrect.
+[Option ID = 1886]
+3. Statement I is correct but Statement II is incorrect.
+[Option ID = 1887]
+4. Statement I is incorrect but Statement II is correct.
+[Option ID = 1888]
+Which enzyme catalyzes strand separation at the replication fork?[Question ID = 473][Question Description =
+163_GATBS1_SECTION‐B_APR22_Q63]
+1. Replication protein A [Option ID = 1889]
+2. DNA helicase [Option ID = 1890]
+3. DNA topoisomerase [Option ID = 1891]
+4. DNA polymerase [Option ID = 1892]
+Which one of the following small RNAs in plants DO NOT regulate gene expression by cleavage of mRNAs?
+[Question ID = 474][Question Description = 164_GATBS1_SECTION‐B_APR22_Q64]
+1. MicroRNAs (miRNAs)
+[Option ID = 1893]
+2. Short interfering RNA (siRNA)
+[Option ID = 1894]
+3. Heterochromatin siRNAs (hcsiRNAs)
+[Option ID = 1895]
+4. Trans‐acting siRNAs (tasiRNAs)
+[Option ID = 1896]
+Which is a type of multigenic interaction?[Question ID = 475][Question Description = 165_GATBS1_SECTION‐
+B_APR22_Q65]
+1. Lethal allele [Option ID = 1897]
+2. Co‐dominance [Option ID = 1898]
+--- page 12 ---
+6)  
+7)  
+8)  
+9)  
+10)  
+11)  
+3. Epistasis [Option ID = 1899]
+4. ABO genotype [Option ID = 1900]
+Given below are two statements:
+Statement I: Bisexual flowers promote self‐pollination.
+Statement II: Self‐incompatibility and male‐sterility prevent self‐pollination.
+Choose the most appropriate answer:
+[Question ID = 476][Question Description = 166_GATBS1_SECTION‐B_APR22_Q66]
+1. Both Statement I and Statement II are correct
+[Option ID = 1901]
+2. Both Statement I and Statement II are incorrect
+[Option ID = 1902]
+3. Statement I is correct but Statement II is incorrect
+[Option ID = 1903]
+4. Statement I is incorrect but Statement II is correct
+[Option ID = 1904]
+Which is the class of Nitrogen containing plant secondary metabolites? [Question ID = 477][Question Description =
+167_GATBS1_SECTION‐B_APR22_Q67]
+1. Terpenoids [Option ID = 1905]
+2. Flavonoids [Option ID = 1906]
+3. Alkaloids [Option ID = 1907]
+4. Brassinosteroids [Option ID = 1908]
+In a random mating population, the frequency of allele A1 and A2 in the gene pool is 0.8 and 0.2, respectively. In a
+population of 200 plants, how many will have the genotype A1A2?[Question ID = 478][Question Description =
+168_GATBS1_SECTION‐B_APR22_Q68]
+1. 8 [Option ID = 1909]
+2. 128 [Option ID = 1910]
+3. 64 [Option ID = 1911]
+4. 32 [Option ID = 1912]
+During protoplast fusion, the product has the nucleus of one of the parents in which the chromosome elimination took
+place in subsequent cell division and the cytoplasm was contributed by both the parents. Such a product will be called:
+[Question ID = 479][Question Description = 169_GATBS1_SECTION‐B_APR22_Q69]
+1. Symmetric hybrid [Option ID = 1913]
+2. Asymmetric hybrid [Option ID = 1914]
+3. Cybrid [Option ID = 1915]
+4. Homokaryons [Option ID = 1916]
+How many clones must you get to make a representative genomic library of a plant with a genome of a billion base pairs
+(bp), provided your vector carrying capacity is 10 kbp. Remember to allow a redundancy of at least one order of
+magnitude.[Question ID = 480][Question Description = 170_GATBS1_SECTION‐B_APR22_Q70]
+1. Thousand [Option ID = 1917]
+2. Million [Option ID = 1918]
+3. Lakh [Option ID = 1919]
+4. Hundred [Option ID = 1920]
+Given below are two statements:
+Statement I: Virulence trait of Agrobacterium tumefaciens is borne on genomic DNA.
+Statement II: The technique used to introduce genes in dicot is Ti‐plasmid infection.
+Choose the correct answer:
+[Question ID = 481][Question Description = 171_GATBS1_SECTION‐B_APR22_Q71]
+1. Both Statement I and Statement II are true.
+[Option ID = 1921]
+2. Both Statement I and Statement II are false.
+[Option ID = 1922]
+--- page 13 ---
+12)  
+13)  
+14)  
+15)  
+16)  
+3. Statement I is true but Statement II is false.
+[Option ID = 1923]
+4. Statement I is false but Statement II is true.
+[Option ID = 1924]
+Why is golden rice pale yellow in color? [Question ID = 482][Question Description = 172_GATBS1_SECTION‐
+B_APR22_Q72]
+1. It is rich in chlorophyll a. [Option ID = 1925]
+2. It is rich in beta–carotene. [Option ID = 1926]
+3. It is rich in chlorophyll b. [Option ID = 1927]
+4. It is rich in phycobilins. [Option ID = 1928]
+Simple sequence repeats (SSRs) are best utilized for:[Question ID = 483][Question Description = 173_GATBS1_SECTION‐
+B_APR22_Q73]
+1. Phenotyping [Option ID = 1929]
+2. Genotyping [Option ID = 1930]
+3. Karyotyping [Option ID = 1931]
+4. Gene Silencing [Option ID = 1932]
+Given below are two statements:
+Statement I: The fragments of DNA generated after cleavage with a restriction enzyme have a phosphate group on their 3’
+ends and a –OH group on their 5’ ends.
+Statement II: Cohesive ends generated by restriction digestion reanneal with complementary DNA fragment.
+Choose the correct answer:
+[Question ID = 484][Question Description = 174_GATBS1_SECTION‐B_APR22_Q74]
+1. Both Statement I and Statement II are true.
+[Option ID = 1933]
+2. Both Statement I and Statement II are false.
+[Option ID = 1934]
+3. Statement I is true but Statement II is false.
+[Option ID = 1935]
+4. Statement I is false but Statement II is true.
+[Option ID = 1936]
+Given below are two statements:
+Statement I: After immobilization, plant cells are subjected to stress to induce secondary metabolite production.
+Statement II: Cells derived from different explants in culture always produce the same set of secondary metabolites.
+Choose the correct answer:
+[Question ID = 485][Question Description = 175_GATBS1_SECTION‐B_APR22_Q75]
+1. Both Statement I and Statement II are true.
+[Option ID = 1937]
+2. Both Statement I and Statement II are false.
+[Option ID = 1938]
+3. Statement I is true but Statement II is false.
+[Option ID = 1939]
+4. Statement I is false but Statement II is true.
+[Option ID = 1940]
+Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.
+Assertion A: A linear DNA molecule containing three recognition sites for a restriction enzyme will generate multiple DNA
+fragments on partial digestion.
+Reason R: Partial digestion by restriction enzymes leads to a heterogeneous population of DNA fragments.
+Choose the most appropriate answer:
+--- page 14 ---
+17)  
+18)  
+19)  
+[Question ID = 486][Question Description = 176_GATBS1_SECTION‐B_APR22_Q76]
+1. Both A and R are correct and R is the correct explanation of A.
+[Option ID = 1941]
+2. Both A and R are correct but R is not the correct explanation of A.
+[Option ID = 1942]
+3. A is correct but R is not correct.
+[Option ID = 1943]
+4. A is not correct but R is correct.
+[Option ID = 1944]
+Given below are few statements related to plant tissue culture:
+A. Regeneration frequencies of different types of explants derived from the same plant would always be identical.
+B. A higher auxin: cytokinin ratio would induce production of roots under culture conditions.
+C. Embryos can be obtained from somatic tissues of plants under in vitro culture conditions.
+D. Since plants can photosynthesize, addition of a carbon source in tissue culture media is not advisable.
+Choose the correct statements:
+[Question ID = 487][Question Description = 177_GATBS1_SECTION‐B_APR22_Q77]
+1. A and C Only
+[Option ID = 1945]
+2. B and D Only
+[Option ID = 1946]
+3. B and C Only
+[Option ID = 1947]
+4. A and D Only
+[Option ID = 1948]
+Match items List I with items in List II
+Choose the correct answer from the options given below:
+[Question ID = 488][Question Description = 178_GATBS1_SECTION‐B_APR22_Q78]
+1. A‐II, B‐III, C‐IV, D‐III
+[Option ID = 1949]
+2. A‐IV, B‐I, C‐II, D‐III
+[Option ID = 1950]
+3. A‐III, B‐I, C‐IV, D‐II
+[Option ID = 1951]
+4. A‐IV, B‐III, C‐I, D‐II
+[Option ID = 1952]
+Match items in List I with items in List II
+Choose the correct answer from the options given below:
+--- page 15 ---
+20)  
+21)  
+22)  
+23)  
+24)  
+25)  
+[Question ID = 489][Question Description = 179_GATBS1_SECTION‐B_APR22_Q79]
+1. A‐III, B‐I, C‐IV, D‐II
+[Option ID = 1953]
+2. A‐IV, B‐III, C‐II, D‐I
+[Option ID = 1954]
+3. A‐III, B‐IV, C‐I, D‐II
+[Option ID = 1955]
+4. A‐II, B‐I, C‐IV, D‐III
+[Option ID = 1956]
+Given below are two statements about hnRNA processing:
+Statement I: Capping occurs by addition of methyl adenosine triphosphate to the 5′ end.
+Statement II: During tailing, about 200‐300 adenylate residues are added to its 3′ end.
+Choose the correct answer:
+[Question ID = 490][Question Description = 180_GATBS1_SECTION‐B_APR22_Q80]
+1. Both Statement I and Statement II are true.
+[Option ID = 1957]
+2. Both Statement I and Statement II are false.
+[Option ID = 1958]
+3. Statement I is true but Statement II is false.
+[Option ID = 1959]
+4. Statement I is false but Statement II is true.
+[Option ID = 1960]
+The vector which is most commonly used in crop improvement is:[Question ID = 491][Question Description =
+181_GATBS1_SECTION‐B_APR22_Q81]
+1. Bacterial Artificial Chromosome (BAC) [Option ID = 1961]
+2. Agrobacterium [Option ID = 1962]
+3. T4 phage [Option ID = 1963]
+4. Cosmid [Option ID = 1964]
+Lac repressor of E. coli contains _________ DNA binding motifs.[Question ID = 492][Question Description =
+182_GATBS1_SECTION‐B_APR22_Q82]
+1. Helix turn helix [Option ID = 1965]
+2. Helix loop helix [Option ID = 1966]
+3. Leucine zipper [Option ID = 1967]
+4. Zinc finger [Option ID = 1968]
+Knockout mice are usually created by:[Question ID = 493][Question Description = 183_GATBS1_SECTION‐
+B_APR22_Q83]
+1. chemically mutagenizing a mouse and selecting for mutant offspring. [Option ID = 1969]
+2. creating a chimera by fusing cells from two different cell lines. [Option ID = 1970]
+3. infecting the mouse with a retrovirus. [Option ID = 1971]
+4. transfecting embryonic stem cells with an inactivated gene. [Option ID = 1972]
+RNAi or post‐transcriptional gene silencing is a conserved biological response to the presence of:[Question ID = 494]
+[Question Description = 184_GATBS1_SECTION‐B_APR22_Q84]
+1. ssDNA [Option ID = 1973]
+2. dsDNA [Option ID = 1974]
+3. ssRNA [Option ID = 1975]
+4. dsRNA [Option ID = 1976]
+Which protein is required to seal a nick during Okazaki fragment maturation?[Question ID = 495][Question Description =
+185_GATBS1_SECTION‐B_APR22_Q85]
+1. DNA Ligase [Option ID = 1977]
+2. DNA helicase [Option ID = 1978]
+3. DNA topoisomerase [Option ID = 1979]
+4. DNA polymerase [Option ID = 1980]
+--- page 16 ---
+26)  
+27)  
+28)  
+29)  
+30)  
+31)  
+Self splicing introns are an example of:[Question ID = 496][Question Description = 186_GATBS1_SECTION‐
+B_APR22_Q86]
+1. Spliceosomes [Option ID = 1981]
+2. Ribozymes [Option ID = 1982]
+3. Mitrons [Option ID = 1983]
+4. Inteins [Option ID = 1984]
+Which of the following can be a restriction site for type II restriction enzyme?[Question ID = 497][Question Description
+= 187_GATBS1_SECTION‐B_APR22_Q87]
+1. 5’ AAGG 3’ 
+3’ TTCC 5’ [Option ID = 1985]
+2. 3’ AGTC 5’ 
+5’ TCAG 3’ [Option ID = 1986]
+3. 5’ GGCC 3’ 
+3’ CCGG 5’ [Option ID = 1987]
+4. 5’ ACCA 3’ 
+3’ TGGT 5’ [Option ID = 1988]
+A mutant bacterial cell has a defective aminoacyl synthetase that attaches a lysine to tRNAs with the anticodon AAA
+instead of the normal phenylalanine. During protein synthesis:[Question ID = 498][Question Description =
+188_GATBS1_SECTION‐B_APR22_Q88]
+1. none of the proteins in the cell will contain phenylalanine. [Option ID = 1989]
+2. lysine will partially replace phenylalanine at certain positions. [Option ID = 1990]
+3. the cell will compensate for the defect by attaching phenylalanine to tRNAs with lysine‐specifying anticodons. [Option ID = 1991]
+4. lysine will replace phenylalanine at all amino acids positions. [Option ID = 1992]
+A double‐stranded genomic DNA has 40% (A+T) content. What is the average size (base pairs) of the fragments
+generated by digestion with the restriction enzyme HaeIII (GGCC)?
+[Question ID = 499][Question Description = 189_GATBS1_SECTION‐B_APR22_Q89]
+1. 81
+[Option ID = 1993]
+2. 123
+[Option ID = 1994]
+3. 256
+[Option ID = 1995]
+4. 4096
+[Option ID = 1996]
+Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.
+Assertion A: Attenuation of the trp operon is possible in bacteria
+Reason R: Transcription and translation are coupled.
+In the light of the above statements, choose the correct answer from the options given below.
+[Question ID = 500][Question Description = 190_GATBS1_SECTION‐B_APR22_Q90]
+1. Both A and R are true and R is the correct explanation of A
+[Option ID = 1997]
+2. Both A and R are true but R is not the correct explanation of A
+[Option ID = 1998]
+3. A is true but R is false
+[Option ID = 1999]
+4. A is false but R is true
+[Option ID = 2000]
+Which is the correct order of progressively higher levels of chromatin organization?
+A. Nucleosome
+B. 30 nm chromatin fibre
+C. Looped domain
+--- page 17 ---
+32)  
+33)  
+Choose the correct answer:
+[Question ID = 501][Question Description = 191_GATBS1_SECTION‐B_APR22_Q91]
+1. A→ B→C
+[Option ID = 2001]
+2. C→ B→A
+[Option ID = 2002]
+3. C→ A→B
+[Option ID = 2003]
+4. A→ C→B
+[Option ID = 2004]
+The following diagram represents a restriction enzyme site:
+Statement I: After digestion cohesive ends will be formed.
+Statement II: These cohesive ends will have phosphate groups at 3` and 5` ends.
+Choose the most appropriate answer from the options given below.
+[Question ID = 502][Question Description = 192_GATBS1_SECTION‐B_APR22_Q92]
+1. Both Statement I and Statement II are correct
+[Option ID = 2005]
+2. Both Statement I and Statement II are incorrect
+[Option ID = 2006]
+3. Statement I is correct but Statement II is incorrect
+[Option ID = 2007]
+4. Statement I is incorrect but Statement II is correct
+[Option ID = 2008]
+The following figure shows agarose gel electrophoresis of linear DNA, after digestion with BamHI in lane C and EcoRI in
+lane D. The uncut DNA is shown in lane B.
+Statement I: This DNA has two restriction sites for BamHI and one restriction site for EcoRI.
+Statement II: Double digestion with BamHI and EcoRI will yield 5 fragments.
+In the light of the above statements, choose the correct answer from the options given below.
+[Question ID = 503][Question Description = 193_GATBS1_SECTION‐B_APR22_Q93]
+1. Both Statement I and Statement II are true
+[Option ID = 2009]
+2. Both Statement I and Statement II are false
+--- page 18 ---
+34)  
+35)  
+36)  
+37)  
+38)  
+39)  
+40)  
+41)  
+[Option ID = 2010]
+3. Statement I is true but Statement II is false
+[Option ID = 2011]
+4. Statement I is false but Statement II is true
+[Option ID = 2012]
+During replication, DNA polymerases distinguish between ribonucleoside and deoxyribonucleoside triphosphates (rNTPs
+and dNTPs) while synthesizing new DNA strand. Although rNTPs are present at approximately 10‐fold higher concentration
+in the cell, they are incorporated at a rate that is more than 1000‐fold lower than dNTPs. This is because:[Question ID =
+504][Question Description = 194_GATBS1_SECTION‐B_APR22_Q94]
+1. DNA polymerases selectively cleave rNTPs. [Option ID = 2013]
+2. rNTPs are cyclized by DNA polymerase. [Option ID = 2014]
+3. Steric exclusion of rNTPs from the DNA polymerase active site. [Option ID = 2015]
+4. dNTPs are more stable than rNTPs. [Option ID = 2016]
+Regulation of lac operon is negative as:[Question ID = 505][Question Description = 195_GATBS1_SECTION‐
+B_APR22_Q95]
+1. operon is expressed at low level to allow lactose entry. [Option ID = 2017]
+2. lactose binds with the inducer to activate the operon. [Option ID = 2018]
+3. expression of operon is blocked by an active repressor. [Option ID = 2019]
+4. lactose needs a transporter to enter the cell. [Option ID = 2020]
+Recombinants with insertional inactivation of β‐galactosidase are identified by their inability to:[Question ID = 506]
+[Question Description = 196_GATBS1_SECTION‐B_APR22_Q96]
+1. grow on the galactose‐rich medium [Option ID = 2021]
+2. grow on lactose rich medium [Option ID = 2022]
+3. develop resistance to antibiotics [Option ID = 2023]
+4. produce color in the presence of a chromogenic substrate [Option ID = 2024]
+The level of expression of recombinant protein can be gauged by[Question ID = 507][Question Description =
+197_GATBS1_SECTION‐B_APR22_Q97]
+1. number of transformants obtained. [Option ID = 2025]
+2. nutrient utilization rate. [Option ID = 2026]
+3. the level of resistance to antibiotic. [Option ID = 2027]
+4. Western blotting. [Option ID = 2028]
+The percentage of sequence identity for the following aligned sequence is: 
+VKSFLWTQAL 
+VPSFRWTQSL 
+[Question ID = 508][Question Description = 198_GATBS1_SECTION‐B_APR22_Q98]
+1. 10% [Option ID = 2029]
+2. 80% [Option ID = 2030]
+3. 30% [Option ID = 2031]
+4. 70% [Option ID = 2032]
+At the time of completion of protein synthesis, the sequence in which they leave the ribosome is:[Question ID = 509]
+[Question Description = 199_GATBS1_SECTION‐B_APR22_Q99]
+1. Polypeptide chain, m‐RNA, t‐RNA [Option ID = 2033]
+2. t‐RNA, m‐RNA, Polypeptide chain [Option ID = 2034]
+3. Polypeptide chain, t‐RNA, m‐RNA [Option ID = 2035]
+4. m‐RNA, Polypeptide chain, t‐RNA [Option ID = 2036]
+Subtractive hybridization is useful to: [Question ID = 510][Question Description = 200_GATBS1_SECTION‐
+B_APR22_Q100]
+1. eliminates incomplete cDNA from a gene library. [Option ID = 2037]
+2. create expression libraries based on genes that are currently being expressed. [Option ID = 2038]
+3. identify and construct new probes for southern hybridization. [Option ID = 2039]
+4. identify sets of genes that are only expressed under certain conditions. [Option ID = 2040]
+NK cells are immunologically significant as they recognize and kill:[Question ID = 511][Question Description =
+201_GATBS1_SECTION‐B_APR22_Q101]
+1. intracellular bacteria reservoirs. [Option ID = 2041]
+2. cells with upregulated MHC‐I molecules. [Option ID = 2042]
+3. cells with downregulated MHC‐I molecules. [Option ID = 2043]
+--- page 19 ---
+42)  
+43)  
+44)  
+45)  
+46)  
+47)  
+4. cells with self‐marker on their surface. [Option ID = 2044]
+The primary function of the class I and class II MHC molecules is:[Question ID = 512][Question Description =
+202_GATBS1_SECTION‐B_APR22_Q102]
+1. binding peptide antigens for recognition by antigen‐specific receptors on T‐cells. [Option ID = 2045]
+2. mediation of T‐independent B‐cell responses. [Option ID = 2046]
+3. helping in endocytosis of antigens by phagocytic cells. [Option ID = 2047]
+4. aid opsonization of foreign particle. [Option ID = 2048]
+What is the advantage of using the neo gene to disrupt the function of a gene in knockout mice?
+[Question ID = 513][Question Description = 203_GATBS1_SECTION‐B_APR22_Q103]
+1. The neo gene produces an antibiotic that kills unwanted cells.
+[Option ID = 2049]
+2. The neo gene is the right size for disabling other genes.
+[Option ID = 2050]
+3. The neo gene provides a selectable marker.
+[Option ID = 2051]
+4. The neo gene produces a repressor that inhibits transcription of the target gene.
+[Option ID = 2052]
+The selection of cells whose T‐cell receptors respond to self‐MHC is known as: [Question ID = 514][Question Description
+= 204_GATBS1_SECTION‐B_APR22_Q104]
+1. Negative selection [Option ID = 2053]
+2. MHC restriction [Option ID = 2054]
+3. Affinity maturation [Option ID = 2055]
+4. Lineage commitment [Option ID = 2056]
+Match items in List I with items in List II
+Choose the correct answer from the options given below.
+[Question ID = 515][Question Description = 205_GATBS1_SECTION‐B_APR22_Q105]
+1. A‐II, B‐I, C‐III, D‐IV
+[Option ID = 2057]
+2. A‐II, B‐III, C‐I, D‐IV
+[Option ID = 2058]
+3. A‐III, B‐I, C‐IV, D‐II
+[Option ID = 2059]
+4. A‐II, B‐III, C‐IV, D‐I
+[Option ID = 2060]
+Which one of the following are Professional Antigen Presenting Cells?[Question ID = 516][Question Description =
+206_GATBS1_SECTION‐B_APR22_Q106]
+1. Fibroblasts [Option ID = 2061]
+2. Neutrophils [Option ID = 2062]
+3. Dendritic cells [Option ID = 2063]
+4. Epithelial cells [Option ID = 2064]
+Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.
+Assertion A: Polyclonal antibodies bind to the same antigen but recognize different epitopes.
+Reason R: Polyclonal antibodies are produced by different B cell clones in the body.
+In the light of the above statements, choose the most appropriate answer from the options given below.
+--- page 20 ---
+48)  
+49)  
+50)  
+[Question ID = 517][Question Description = 207_GATBS1_SECTION‐B_APR22_Q107]
+1. Both A and R are correct and R is the correct explanation of A
+[Option ID = 2065]
+2. Both A and R are correct but R is not the correct explanation of A
+[Option ID = 2066]
+3. A is correct but R is not correct
+[Option ID = 2067]
+4. A is not correct but R is correct
+[Option ID = 2068]
+Identify the statement that is NOT applicable to enzyme catalyzed reaction.
+[Question ID = 518][Question Description = 208_GATBS1_SECTION‐B_APR22_Q108]
+1. The reaction proceeds with the conversion of the substrate to a higher energy transition state.
+[Option ID = 2069]
+2. Enzymes alter the equilibrium constant of the reaction.
+[Option ID = 2070]
+3. Enzymes decrease the energy of activation required for the reaction.
+[Option ID = 2071]
+4. Some enzymes involve multiple steps of electron transfer.
+[Option ID = 2072]
+Match items in List I with items in List II
+Choose the correct answer from the options given below.
+[Question ID = 519][Question Description = 209_GATBS1_SECTION‐B_APR22_Q109]
+1. A‐IV, B‐III, C‐II, D‐I
+[Option ID = 2073]
+2. A‐IV, B‐III, C‐I, D‐II
+[Option ID = 2074]
+3. A‐III, B‐I, C‐IV, D‐II
+[Option ID = 2075]
+4. A‐II, B‐III, C‐IV, D‐I
+[Option ID = 2076]
+Which of the following amino acids are both glucogenic and ketogenic?
+A. Isoleucine
+B. Serine
+C. Tryptophan
+D. Proline
+E. Phenylalanine
+Choose the correct answer from the options given below.
+[Question ID = 520][Question Description = 210_GATBS1_SECTION‐B_APR22_Q110]
+1. A, B and C only
+[Option ID = 2077]
+2. A, C and E only
+[Option ID = 2078]
+3. C and E only
+--- page 21 ---
+51)  
+52)  
+53)  
+54)  
+55)  
+[Option ID = 2079]
+4. B and D only
+[Option ID = 2080]
+A peptide containing only aromatic amino acids (tryptophan, phenylalanine, and tyrosine) has a molecular weight of
+11,000. The likely number of amino acid residues in the peptide is:[Question ID = 521][Question Description =
+211_GATBS1_SECTION‐B_APR22_Q111]
+1. 60 [Option ID = 2081]
+2. 100 [Option ID = 2082]
+3. 125 [Option ID = 2083]
+4. 150 [Option ID = 2084]
+Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.
+Assertion A: The major source of energy for the basic functioning of the cell is derived from oxidative metabolism.
+Reason R: Mitochondria oxidize substrates to CO , transferring the high energy electron from molecular oxygen to glucose.
+In light of the above statements, choose the correct answer from the options given below.
+[Question ID = 522][Question Description = 212_GATBS1_SECTION‐B_APR22_Q112]
+1. Both A and R are true and R is the correct explanation of A
+[Option ID = 2085]
+2. Both A and R are true but R is not the correct explanation of A
+[Option ID = 2086]
+3. A is true but R is false
+[Option ID = 2087]
+4. A is false but R is true
+[Option ID = 2088]
+The melting point of fatty acids in plant derived oils is influenced by: [Question ID = 523][Question Description =
+213_GATBS1_SECTION‐B_APR22_Q113]
+1. length and degree of unsaturation of hydrocarbon chain [Option ID = 2089]
+2. degree of unsaturation only [Option ID = 2090]
+3. length of hydrocarbon chain only [Option ID = 2091]
+4. Number of side and branch chains present [Option ID = 2092]
+Which of the following is NOT a mucopolysaccharide?
+[Question ID = 524][Question Description = 214_GATBS1_SECTION‐B_APR22_Q114]
+1. Chondroitin
+[Option ID = 2093]
+2. Inulin
+[Option ID = 2094]
+3. Hyaluronic acid
+[Option ID = 2095]
+4. Heparin
+[Option ID = 2096]
+Given below are two statements:
+Statement I: Fatty acid synthase is an example of a tetramer of a multienzyme polypeptide.
+Statement II: Each polypeptide harbors seven independent enzymatic functions.
+In light of the above statements, choose the correct answer from the options given below.
+[Question ID = 525][Question Description = 215_GATBS1_SECTION‐B_APR22_Q115]
+1. Both Statement I and Statement II are true
+[Option ID = 2097]
+2. Both Statement I and Statement II are false
+[Option ID = 2098]
+3. Statement I is true but Statement II is false
+2
+--- page 22 ---
+56)  
+57)  
+58)  
+59)  
+60)  
+[Option ID = 2099]
+4. Statement I is false but Statement II is true
+[Option ID = 2100]
+In Michaelis‐Menten kinetics what value of [S], as a fraction of K , is required to obtain a velocity equal to 80% V
+?
+[Question ID = 526][Question Description = 216_GATBS1_SECTION‐B_APR22_Q116]
+1. 2 K
+[Option ID = 2101]
+2. 4 K
+[Option ID = 2102]
+3. 0.8 K
+[Option ID = 2103]
+4. K
+[Option ID = 2104]
+Major limitation of using NMR to determine protein structure is:
+[Question ID = 527][Question Description = 217_GATBS1_SECTION‐B_APR22_Q117]
+1. resolution is poor.
+[Option ID = 2105]
+2. resolved structure is not reliable.
+[Option ID = 2106]
+3. difficult to interpret the data for larger proteins (>50 KDa).
+[Option ID = 2107]
+4. difficult to interpret the data for smaller proteins (<15 KDa).
+[Option ID = 2108]
+Immobilization of enzymes:
+A. increases the specificity of the enzyme in batch reaction
+B. leads to an increase in the apparent K .
+C. makes it unsuitable for its use in a continuous reactor system
+D. decrease the operational cost of the industrial process
+Choose the correct answer from the options given below:
+[Question ID = 528][Question Description = 218_GATBS1_SECTION‐B_APR22_Q118]
+1. B and D Only
+[Option ID = 2109]
+2. A and D Only
+[Option ID = 2110]
+3. A and C Only
+[Option ID = 2111]
+4. C and D Only
+[Option ID = 2112]
+The hormone that activates the enzyme adenylate cyclase is:[Question ID = 529][Question Description =
+219_GATBS1_SECTION‐B_APR22_Q119]
+1. Epinephrine [Option ID = 2113]
+2. Insulin [Option ID = 2114]
+3. Estrogen [Option ID = 2115]
+4. Progesterone [Option ID = 2116]
+The rate of sedimentation of a particle is dependent on the: [Question ID = 530][Question Description =
+220_GATBS1_SECTION‐B_APR22_Q120]
+1. density of the particle only. [Option ID = 2117]
+2. size of the particle only. [Option ID = 2118]
+3. viscosity of the medium only. [Option ID = 2119]
+4. size and density of the particle along with the viscosity of the medium. [Option ID = 2120]
+m
+max
+m
+m
+m
+m
+m
+--- page 23 ---
+61)  
+62)  
+63)  
+64)  
+Resolution power of transmission electron microscope is of the sub nanometer level. This is because:[Question ID = 531]
+[Question Description = 221_GATBS1_SECTION‐B_APR22_Q121]
+1. the focal length of the electron microscope is significantly larger. [Option ID = 2121]
+2. the contrast is enhanced by staining with atoms of heavy metal. [Option ID = 2122]
+3. electron beams have much shorter wavelengths than visible light. [Option ID = 2123]
+4. the electron microscope has a much greater ratio of image size to real size. [Option ID = 2124]
+Which of the following represents the correct sequence of MAP kinase signal transduction pathway?
+A. Ras
+B. Raf
+C. ERK
+D. Mek
+Choose the correct answer from the options given below.
+[Question ID = 532][Question Description = 222_GATBS1_SECTION‐B_APR22_Q122]
+1. A→ B→C→D
+[Option ID = 2125]
+2. A→ B→D→C
+[Option ID = 2126]
+3. A→ C→B→D
+[Option ID = 2127]
+4. B→ A→C→D
+[Option ID = 2128]
+Arrange the following in correct sequence of steps in erythrocytic cycle of malarial parasite.
+A. Parasite feeds on the hemoglobin in the RBCs
+B. Parasite forms a schizont by multiple fissions
+C. The nucleus of the parasite moves on one side
+D. The food vacuole of the parasite increases in size
+E. The haemozoin granules are formed
+Choose the correct answer from the options given below.
+[Question ID = 533][Question Description = 223_GATBS1_SECTION‐B_APR22_Q123]
+1. B→C→E→D→A
+[Option ID = 2129]
+2. A→D→C→E→B
+[Option ID = 2130]
+3. C→A→E→B→D
+[Option ID = 2131]
+4. D→E→B→C→A
+[Option ID = 2132]
+Which of the following describes cyclin‐dependent kinase (Cdk)?
+A. Cdk is inactive, or "turned off", in the presence of cyclin
+B. Cdk is present throughout the cell cycle
+C. Cdk is an enzyme that attaches phosphate groups to other proteins
+Choose the correct answer from the options given below.
+[Question ID = 534][Question Description = 224_GATBS1_SECTION‐B_APR22_Q124]
+1. A and B Only
+[Option ID = 2133]
+2. B Only
+[Option ID = 2134]
+3. B and C Only
+[Option ID = 2135]
+--- page 24 ---
+65)  
+66)  
+67)  
+68)  
+69)  
+70)  
+4. C Only
+[Option ID = 2136]
+Once the cell passes the G1 checkpoint and enters S phase: [Question ID = 535][Question Description =
+225_GATBS1_SECTION‐B_APR22_Q125]
+1. the cell cycle is completed bypassing the M phase. [Option ID = 2137]
+2. the cell cycle is completed bypassing the G2 checkpoint. [Option ID = 2138]
+3. completion of cell cycle will depend on G2 checkpoint. [Option ID = 2139]
+4. the cell will next enter M phase bypassing the G2 checkpoint. [Option ID = 2140]
+The probability of mutation in a base‐pair per round of replication is 5 x 10
+ and the genome length of bacteria is 5
+Mb. The number of bacterial cells required so that there is one mutation on an average per replication cycle is:[Question ID
+= 536][Question Description = 226_GATBS1_SECTION‐B_APR22_Q126]
+1. 1000 [Option ID = 2141]
+2. 10000 [Option ID = 2142]
+3. 100000 [Option ID = 2143]
+4. 1000000 [Option ID = 2144]
+The fractional conversion from an immobilized enzyme continuous stirred tank reactor under steady state operation
+increases with an increase in agitation speed. This behavior can be attributed to:[Question ID = 537][Question Description =
+227_GATBS1_SECTION‐B_APR22_Q127]
+1. reduced internal pore diffusion. [Option ID = 2145]
+2. Reduced external film diffusion. [Option ID = 2146]
+3. decrease in energy of activation for the enzyme. [Option ID = 2147]
+4. enhanced enzyme activity due to mechanical shear. [Option ID = 2148]
+In power law model for fluid rheology, if the value of the flow behavior index (n) is <1, then with increase in shear
+stress, the apparent viscosity: 
+[Question ID = 538][Question Description = 228_GATBS1_SECTION‐B_APR22_Q128]
+1. remains unchanged.
+[Option ID = 2149]
+2. increases.
+[Option ID = 2150]
+3. decreases.
+[Option ID = 2151]
+4. increases initially followed by a decrease.
+[Option ID = 2152]
+The growth pattern that you will obtain for a media containing two different carbon sources one of which is
+preferentially utilized will be a:[Question ID = 539][Question Description = 229_GATBS1_SECTION‐B_APR22_Q129]
+1. diauxic growth. [Option ID = 2153]
+2. exponential growth. [Option ID = 2154]
+3. linear growth. [Option ID = 2155]
+4. lag phase followed by log phase growth. [Option ID = 2156]
+Match the coefficients in List I with their corresponding downstream processing steps given in List II.
+Choose the correct answer from the options given below.
+[Question ID = 540][Question Description = 230_GATBS1_SECTION‐B_APR22_Q130]
+1. A‐III, B‐I, C‐IV, D‐II
+[Option ID = 2157]
+2. A‐II, B‐I, C‐IV, D‐III
+[Option ID = 2158]
+3. A‐IV, B‐III, C‐I, D‐II
+[Option ID = 2159]
+‐10
+--- page 25 ---
+71)  
+72)  
+73)  
+74)  
+75)  
+76)  
+4. A‐IV, B‐I, C‐II, D‐III
+[Option ID = 2160]
+Match List I with List II‐ Match the industrial application of the following enzymes:
+Choose the correct answer from the options given below.
+[Question ID = 541][Question Description = 231_GATBS1_SECTION‐B_APR22_Q131]
+1. A‐IV, B‐III, C‐I, D‐II
+[Option ID = 2161]
+2. A‐I, B‐III, C‐II, D‐IV
+[Option ID = 2162]
+3. A‐I, B‐II, C‐III, D‐IV
+[Option ID = 2163]
+4. A‐IV, B‐II, C‐III, D‐I
+[Option ID = 2164]
+In animal cell culture, a CO  enriched atmosphere in the incubation chamber is used:[Question ID = 542][Question
+Description = 232_GATBS1_SECTION‐B_APR22_Q132]
+1. for supplying CO  for the metabolic reaction. [Option ID = 2165]
+2. to control pH by generating carbonic acid. [Option ID = 2166]
+3. to control pH by generating bicarbonate. [Option ID = 2167]
+4. to aid photosynthetic reaction. [Option ID = 2168]
+For a batch microbial process the specific rate of substrate utilization is 0.25 h  and specific product formation rate is
+0.20 h . The yield of product based on substrate consumed will be:[Question ID = 543][Question Description =
+233_GATBS1_SECTION‐B_APR22_Q133]
+1. 0.80 [Option ID = 2169]
+2. 1.25 [Option ID = 2170]
+3. 0.05 [Option ID = 2171]
+4. 0.45 [Option ID = 2172]
+Increasing the agitation rate in a reactor breaks larger bubbles into smaller bubbles. If gas hold‐up does not change and
+the average bubble diameter reduces to half; then the gas‐liquid interfacial area:[Question ID = 544][Question Description
+= 234_GATBS1_SECTION‐B_APR22_Q134]
+1. reduces by 50% [Option ID = 2173]
+2. remains unchanged [Option ID = 2174]
+3. increases by 100% [Option ID = 2175]
+4. increases by 300% [Option ID = 2176]
+In Michaelis‐Menten kinetics to increase the reaction velocity by 9 fold from 10% of V
+ to 90% of V
+ the substrate
+concentration has to increased by:[Question ID = 545][Question Description = 235_GATBS1_SECTION‐B_APR22_Q135]
+1. 3 fold [Option ID = 2177]
+2. 9 fold [Option ID = 2178]
+3. 27 fold [Option ID = 2179]
+4. 81 fold [Option ID = 2180]
+Acid Fast bacteria:[Question ID = 546][Question Description = 236_GATBS1_SECTION‐B_APR22_Q136]
+1. have cell wall with mycolic acid [Option ID = 2181]
+2. thrive well in acidic environment [Option ID = 2182]
+3. are fastidious bacteria [Option ID = 2183]
+4
+id d
+l ti
+i
+il [O ti
+ID
+2184]
+2
+2
+‐1
+‐1
+max
+max
+77)  
+4. cause acid depletion in soil [Option ID = 2184]
+Corona virus is a: [Question ID = 547][Question Description = 237_GATBS1_SECTION‐B_APR22_Q137]
+1. positive sense single stranded RNA virus [Option ID = 2185]
+2. negative sense single stranded RNA virus [Option ID = 2186]
+3. double stranded RNA virus without segmented genome [Option ID = 2187]
+--- page 26 ---
+78)  
+79)  
+80)  
+81)  
+4. double stranded RNA virus with segmented genome [Option ID = 2188]
+Penicillin consists of a thiazolidine ring fused to a β‐lactam ring to which a variable R group is attached. This antibiotic
+inhibits cell wall synthesis by inhibiting:[Question ID = 548][Question Description = 238_GATBS1_SECTION‐B_APR22_Q138]
+1. β ‐lactamase [Option ID = 2189]
+2. Phosphodiesterase [Option ID = 2190]
+3. Transesterase [Option ID = 2191]
+4. Glycopeptide transpeptidase [Option ID = 2192]
+Match items in List I with items in List II
+ 
+Choose the correct answer from the options given below.
+[Question ID = 549][Question Description = 239_GATBS1_SECTION‐B_APR22_Q139]
+1. A‐I, B‐II, C‐III, D‐IV
+[Option ID = 2193]
+2. A‐IV, B‐I, C‐II, D‐III
+[Option ID = 2194]
+3. A‐III, B‐IV, C‐I, D‐II
+[Option ID = 2195]
+4. A‐II, B‐III, C‐IV, D‐I
+[Option ID = 2196]
+Which of the following mechanisms of antibiotic action is/are NOT correct ?
+A. Tetracycline: Inihibits aminoacyl‐tRNA binding to A‐site.
+B. Rifampicin: Blocks correct positioning of A‐site aminoacyl‐tRNA for peptidyl transfer reaction
+C. Chloramphenicol: Inhibits EF‐Tu function
+D. Ciproflaxicin: Inhibits Topoisomerases
+E. Puromycin: Causes premature chain termination during translation; mimics 3’ end of aminoacyl‐tRNA in A‐site and acts as
+acceptor.
+[Question ID = 550][Question Description = 240_GATBS1_SECTION‐B_APR22_Q140]
+1. B only
+[Option ID = 2197]
+2. A, C and D only
+[Option ID = 2198]
+3. B and C only
+[Option ID = 2199]
+4. D and E only
+[Option ID = 2200]
+Given below are two statements:
+Statement I: The recombination frequency of genes vary from 50% to 80%.
+Statement II: Recombination can occur anywhere along the length of chromosome.
+Choose the correct answer from the options given below:‐
+[Question ID = 551][Question Description = 241_GATBS1_SECTION‐B_APR22_Q141]
+1. Both statement I and statement II are correct
+[Option ID = 2201]
+2. Both statement I and statement II are incorrect
+--- page 27 ---
+82)  
+83)  
+84)  
+[Option ID = 2202]
+3. Statement I is correct but statement II is not correct
+[Option ID = 2203]
+4. Statement I is not correct but statement II is correct
+[Option ID = 2204]
+Match items in List I with items in List II
+Choose the correct answer from the options given below:
+[Question ID = 552][Question Description = 242_GATBS1_SECTION‐B_APR22_Q142]
+1. A – I, B – II, C – III, D – IV
+[Option ID = 2205]
+2. A – IV, B – I, C – III, D – II
+[Option ID = 2206]
+3. A – IV, B – III, C – I, D – II
+[Option ID = 2207]
+4. A – III, B – I, C – II, D – IV
+[Option ID = 2208]
+Given below are two statements:
+Statement I: Sickle cell trait protects humans from malaria.
+Statement II: Sickle cell trait can be transmitted even if both the parents are heterozygous for the β‐globin gene.
+In the light of the above statements, choose the most appropriate answer from the options given below.
+[Question ID = 553][Question Description = 243_GATBS1_SECTION‐B_APR22_Q143]
+1. Both Statement I and Statement II are correct
+[Option ID = 2209]
+2. Both Statement I and Statement II are incorrect.
+[Option ID = 2210]
+3. Statement I is correct but Statement II is incorrect.
+[Option ID = 2211]
+4. Statement I is incorrect but Statement II is correct.
+[Option ID = 2212]
+In which of the following genotypes of lac operon the enzyme synthesis would be constitutive?
+A.  I O Z Y / I O Z Y
+B.  I O Z Y / I O Z Y
+C.  I O Z Y / I O Z Y
+D.  I O Z Y / I O Z Y
+Choose the correct answer from the options given below.
+[Question ID = 554][Question Description = 244_GATBS1_SECTION‐B_APR22_Q144]
+1. A and B Only
+[Option ID = 2213]
+2. B and C Only
+[Option ID = 2214]
+3. B and D Only
+[Option ID = 2215]
+4. C and D Only
+[Option ID = 2216]
++
++ +
++
++
++ +
++
++
+c +
++
++
+c +
++
+‐
++ +
++
++
++ +
++
+‐
++ +
++
+‐
++ +
++
+--- page 28 ---
+85)  
+86)  
+87)  
+88)  
+89)  
+90)  
+91)  
+Assume that height in a plant is controlled by three genes (A, B and C) and each additive allele contributes equally.
+The base height of plant is 20 cm and the maximum possible height is 38 cm. The height of a plant with genotype AAbbCc
+will be:[Question ID = 555][Question Description = 245_GATBS1_SECTION‐B_APR22_Q145]
+1. 32 cm [Option ID = 2217]
+2. 29 cm [Option ID = 2218]
+3. 19 cm [Option ID = 2219]
+4. 25.4 cm [Option ID = 2220]
+Based on this phylogenetic tree, which statement is NOT correct?
+ 
+ 
+[Question ID = 556][Question Description = 246_GATBS1_SECTION‐B_APR22_Q146]
+1. The salamander lineage is a basal taxon.
+[Option ID = 2221]
+2. Salamanders are a sister group to the group containing lizards, goats, and humans.
+[Option ID = 2222]
+3. Salamanders are as closely related to goats as to humans.
+[Option ID = 2223]
+4. Lizards are more closely related to salamanders than to humans.
+[Option ID = 2224]
+In the human ABO blood group system, the alleles A and B are dominant to O, what will be the number of different
+possible genotypes?[Question ID = 557][Question Description = 247_GATBS1_SECTION‐B_APR22_Q147]
+1. 4 [Option ID = 2225]
+2. 8 [Option ID = 2226]
+3. 6 [Option ID = 2227]
+4. 12 [Option ID = 2228]
+The stop codons lead to termination of translation because:[Question ID = 558][Question Description =
+248_GATBS1_SECTION‐B_APR22_Q148]
+1. there are no tRNAs corresponding to stop codons. [Option ID = 2229]
+2. the corresponding tRNA do not have an amino acid. [Option ID = 2230]
+3. the corresponding tRNA cannot bind to ribosome binding site. [Option ID = 2231]
+4. stop codon codes for pseudo amino acid. [Option ID = 2232]
+In a family, if the father is affected by X‐ linked dominant trait and mother is normal, then[Question ID = 559]
+[Question Description = 249_GATBS1_SECTION‐B_APR22_Q149]
+1. some of the daughters can be normal. [Option ID = 2233]
+2. all the daughters will be affected. [Option ID = 2234]
+3. all the daughters and none of the sons will be affected. [Option ID = 2235]
+4. all the sons and some of the daughters will be affected. [Option ID = 2236]
+Which one the following is a protein prediction server based on artificial intelligence?[Question ID = 560][Question
+Description = 250_GATBS1_SECTION‐B_APR22_Q150]
+1. M‐fold [Option ID = 2237]
+2. Alpha‐fold [Option ID = 2238]
+3. PDB [Option ID = 2239]
+4. Swiss‐Model [Option ID = 2240]
+Given below are two statements:
+--- page 29 ---
+92)  
+93)  
+94)  
+95)  
+96)  
+97)  
+Statement I: BLAST compares protein as well as nucleotide sequences in order to identify areas of similarity.
+Statement II: Genbank is a repository of data on the phenotypic results of gene knockouts in humans.
+In light of the above statements, choose the most appropriate answer from the options given below:
+[Question ID = 561][Question Description = 251_GATBS1_SECTION‐B_APR22_Q151]
+1. Both Statement I and Statement II are correct
+[Option ID = 2241]
+2. Both Statement I and Statement II are incorrect
+[Option ID = 2242]
+3. Statement I is correct but Statement II is incorrect
+[Option ID = 2243]
+4. Statement I is incorrect but Statement II is correct
+[Option ID = 2244]
+RNA Viruses are entirely dependent on the host for:[Question ID = 562][Question Description = 252_GATBS1_SECTION‐
+B_APR22_Q152]
+1. replication machinery [Option ID = 2245]
+2. transcriptional machinery [Option ID = 2246]
+3. RNA capping machinery [Option ID = 2247]
+4. protein translation machinery [Option ID = 2248]
+RNA virus generally replicates in:[Question ID = 563][Question Description = 253_GATBS1_SECTION‐B_APR22_Q153]
+1. Cytoplasm [Option ID = 2249]
+2. Nucleus [Option ID = 2250]
+3. Mitochondria [Option ID = 2251]
+4. Late endosomes [Option ID = 2252]
+The following statement is NOT true for the receptor binding site of a virus.
+[Question ID = 564][Question Description = 254_GATBS1_SECTION‐B_APR22_Q154]
+1. Binds specifically to a cellular receptor.
+[Option ID = 2253]
+2. Cannot bind to neutralizing antibodies.
+[Option ID = 2254]
+3. Interacts with the cellular receptor leading to activation of endocytosis.
+[Option ID = 2255]
+4. Is composed of unique structural domains.
+[Option ID = 2256]
+Which of the following hypersensitivity reactions involves the complement activation?[Question ID = 565][Question
+Description = 255_GATBS1_SECTION‐B_APR22_Q155]
+1. Both Type I and Type III hypersensitivity [Option ID = 2257]
+2. Only Type I hypersensitivity [Option ID = 2258]
+3. Both Type I and Type II hypersensitivity [Option ID = 2259]
+4. Both Type II and Type III hypersensitivity [Option ID = 2260]
+Which of the following phagocytic cells is NOT a tissue‐specific macrophage cell?
+[Question ID = 566][Question Description = 256_GATBS1_SECTION‐B_APR22_Q156]
+1. Histiocyte
+[Option ID = 2261]
+2. Kupffer cell
+[Option ID = 2262]
+3. Langerhans cell
+[Option ID = 2263]
+4. Dendritic cell
+[Option ID = 2264]
+Which of the following statements is NOT TRUE about myeloma cells used in the hybridoma technique for the
+production of monoclonal antibodies?
+--- page 30 ---
+98)  
+99)  
+100)  
+[Question ID = 567][Question Description = 257_GATBS1_SECTION‐B_APR22_Q157]
+1. These are cancerous B cells
+[Option ID = 2265]
+2. They can divide indefinitely in a culture
+[Option ID = 2266]
+3. Their HGPRT gene is non‐functional
+[Option ID = 2267]
+4. They can produce antibodies
+[Option ID = 2268]
+Which of the following is an inactivated vaccine?[Question ID = 568][Question Description = 258_GATBS1_SECTION‐
+B_APR22_Q158]
+1. Covishield [Option ID = 2269]
+2. Sputnik V [Option ID = 2270]
+3. Covaxin [Option ID = 2271]
+4. Moderna mRNA‐1273 [Option ID = 2272]
+A plant species nearing its extinction due to virus infection has been given for tissue culture and micropropagation.
+What should scientists choose from the following four explants for culturing?[Question ID = 569][Question Description =
+259_GATBS1_SECTION‐B_APR22_Q159]
+1. Shoot apical meristem [Option ID = 2273]
+2. Internode [Option ID = 2274]
+3. Leaf disc [Option ID = 2275]
+4. Root tip [Option ID = 2276]
+The 'Flavr Savr' tomato was the first genetically engineered crop product commercialized for human consumption.
+This transgenic tomato is known for:
+[Question ID = 570][Question Description = 260_GATBS1_SECTION‐B_APR22_Q160]
+1. increased bioactive compounds.
+[Option ID = 2277]
+2. fortified Fe and Zn contents.
+[Option ID = 2278]
+3. enhanced shelf‐life.
+[Option ID = 2279]
+4. bigger and pulpier fruits.
+[Option ID = 2280]
+--- page 31 ---
+5/3/22, 11:37 AM
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+1/8
+View Your Responses
+Challenge of Questions
+View Challenged Questions
+Kamakshi Srivastava loggedin. [ Logout ] 
+ 
+Challenge of Questions
+ 
+#
+Post
+Name
+Question
+Id
+Correct
+Option
+Option Id For Challenge
+Remarks
+1
+GAT-
+B
+411
+1644
+1641
+1642
+1643
+1644
+None
+of These
+2
+GAT-
+B
+412
+1648
+1645
+1646
+1647
+1648
+None
+of These
+3
+GAT-
+B
+413
+1649
+1649
+1650
+1651
+1652
+None
+of These
+4
+GAT-
+B
+414
+1656
+1653
+1654
+1655
+1656
+None
+of These
+5
+GAT-
+B
+415
+1658
+1657
+1658
+1659
+1660
+None
+of These
+6
+GAT-
+B
+416
+1663
+1661
+1662
+1663
+1664
+None
+of These
+7
+GAT-
+B
+417
+1668
+1665
+1666
+1667
+1668
+None
+of These
+8
+GAT-
+B
+418
+1671
+1669
+1670
+1671
+1672
+None
+of These
+9
+GAT-
+B
+419
+1676
+1673
+1674
+1675
+1676
+None
+of These
+10
+GAT-
+B
+420
+1677
+1677
+1678
+1679
+1680
+None
+of These
+11
+GAT-
+B
+421
+1684
+1681
+1682
+1683
+1684
+None
+of These
+12
+GAT-
+B
+422
+1685
+1685
+1686
+1687
+1688
+None
+of These
+13
+GAT-
+B
+423
+1691
+1689
+1690
+1691
+1692
+None
+of These
+14
+GAT-
+B
+424
+1693
+1693
+1694
+1695
+1696
+None
+of These
+15
+GAT-
+B
+425
+1697
+1697
+1698
+1699
+1700
+None
+of These
+16
+GAT-
+B
+426
+1702
+1701
+1702
+1703
+1704
+None
+of These
+17
+GAT-
+B
+427
+1708
+1705
+1706
+1707
+1708
+None
+of These
+18
+GAT-
+B
+428
+1712
+1709
+1710
+1711
+1712
+None
+of These
+--- page 32 ---
+5/3/22, 11:37 AM
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+2/8
+19
+GAT-
+B
+429
+1714
+1713
+1714
+1715
+1716
+None
+of These
+20
+GAT-
+B
+430
+1717
+1717
+1718
+1719
+1720
+None
+of These
+21
+GAT-
+B
+431
+1723
+1721
+1722
+1723
+1724
+None
+of These
+22
+GAT-
+B
+432
+1726
+1725
+1726
+1727
+1728
+None
+of These
+23
+GAT-
+B
+433
+1730
+1729
+1730
+1731
+1732
+None
+of These
+24
+GAT-
+B
+434
+1735
+1733
+1734
+1735
+1736
+None
+of These
+25
+GAT-
+B
+435
+1738
+1737
+1738
+1739
+1740
+None
+of These
+26
+GAT-
+B
+436
+1743
+1741
+1742
+1743
+1744
+None
+of These
+27
+GAT-
+B
+437
+1747
+1745
+1746
+1747
+1748
+None
+of These
+28
+GAT-
+B
+438
+1749
+1749
+1750
+1751
+1752
+None
+of These
+29
+GAT-
+B
+439
+1754
+1753
+1754
+1755
+1756
+None
+of These
+30
+GAT-
+B
+440
+1757
+1757
+1758
+1759
+1760
+None
+of These
+31
+GAT-
+B
+441
+1762
+1761
+1762
+1763
+1764
+None
+of These
+32
+GAT-
+B
+442
+1767
+1765
+1766
+1767
+1768
+None
+of These
+33
+GAT-
+B
+443
+1770
+1769
+1770
+1771
+1772
+None
+of These
+34
+GAT-
+B
+444
+1773
+1773
+1774
+1775
+1776
+None
+of These
+35
+GAT-
+B
+445
+1777
+1777
+1778
+1779
+1780
+None
+of These
+36
+GAT-
+B
+446
+1782
+1781
+1782
+1783
+1784
+None
+of These
+37
+GAT-
+B
+447
+1786
+1785
+1786
+1787
+1788
+None
+of These
+38
+GAT-
+B
+448
+1789
+1789
+1790
+1791
+1792
+None
+of These
+39
+GAT-
+B
+449
+1795
+1793
+1794
+1795
+1796
+None
+of These
+40
+GAT-
+B
+450
+1798
+1797
+1798
+1799
+1800
+None
+of These
+--- page 33 ---
+5/3/22, 11:37 AM
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+3/8
+41
+GAT-
+B
+451
+1802
+1801
+1802
+1803
+1804
+None
+of These
+42
+GAT-
+B
+452
+1806
+1805
+1806
+1807
+1808
+None
+of These
+43
+GAT-
+B
+453
+1812
+1809
+1810
+1811
+1812
+None
+of These
+44
+GAT-
+B
+454
+1815
+1813
+1814
+1815
+1816
+None
+of These
+45
+GAT-
+B
+455
+1817
+1817
+1818
+1819
+1820
+None
+of These
+46
+GAT-
+B
+456
+1821
+1821
+1822
+1823
+1824
+None
+of These
+47
+GAT-
+B
+457
+1825
+1825
+1826
+1827
+1828
+None
+of These
+48
+GAT-
+B
+458
+1831
+1829
+1830
+1831
+1832
+None
+of These
+49
+GAT-
+B
+459
+1835
+1833
+1834
+1835
+1836
+None
+of These
+50
+GAT-
+B
+460
+1839
+1837
+1838
+1839
+1840
+None
+of These
+51
+GAT-
+B
+461
+1841
+1841
+1842
+1843
+1844
+None
+of These
+52
+GAT-
+B
+462
+1845
+1845
+1846
+1847
+1848
+None
+of These
+53
+GAT-
+B
+463
+1849
+1849
+1850
+1851
+1852
+None
+of These
+54
+GAT-
+B
+464
+1855
+1853
+1854
+1855
+1856
+None
+of These
+55
+GAT-
+B
+465
+1860
+1857
+1858
+1859
+1860
+None
+of These
+56
+GAT-
+B
+466
+1862
+1861
+1862
+1863
+1864
+None
+of These
+57
+GAT-
+B
+467
+1868
+1865
+1866
+1867
+1868
+None
+of These
+58
+GAT-
+B
+468
+1871
+1869
+1870
+1871
+1872
+None
+of These
+59
+GAT-
+B
+469
+1875
+1873
+1874
+1875
+1876
+None
+of These
+60
+GAT-
+B
+470
+1878
+1877
+1878
+1879
+1880
+None
+of These
+61
+GAT-
+B
+471
+1884
+1881
+1882
+1883
+1884
+None
+of These
+--- page 34 ---
+5/3/22, 11:37 AM
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+4/8
+62
+GAT-
+B
+472
+1886
+1885
+1886
+1887
+1888
+None
+of These
+63
+GAT-
+B
+473
+1890
+1889
+1890
+1891
+1892
+None
+of These
+64
+GAT-
+B
+474
+1895
+1893
+1894
+1895
+1896
+None
+of These
+65
+GAT-
+B
+475
+1899
+1897
+1898
+1899
+1900
+None
+of These
+66
+GAT-
+B
+476
+1901
+1901
+1902
+1903
+1904
+None
+of These
+67
+GAT-
+B
+477
+1907
+1905
+1906
+1907
+1908
+None
+of These
+68
+GAT-
+B
+478
+1911
+1909
+1910
+1911
+1912
+None
+of These
+69
+GAT-
+B
+479
+1914
+1913
+1914
+1915
+1916
+None
+of These
+70
+GAT-
+B
+480
+1918
+1917
+1918
+1919
+1920
+None
+of These
+71
+GAT-
+B
+481
+1924
+1921
+1922
+1923
+1924
+None
+of These
+72
+GAT-
+B
+482
+1926
+1925
+1926
+1927
+1928
+None
+of These
+73
+GAT-
+B
+483
+1930
+1929
+1930
+1931
+1932
+None
+of These
+74
+GAT-
+B
+484
+1936
+1933
+1934
+1935
+1936
+None
+of These
+75
+GAT-
+B
+485
+1939
+1937
+1938
+1939
+1940
+None
+of These
+76
+GAT-
+B
+486
+1941
+1941
+1942
+1943
+1944
+None
+of These
+77
+GAT-
+B
+487
+1947
+1945
+1946
+1947
+1948
+None
+of These
+78
+GAT-
+B
+488
+1951
+1949
+1950
+1951
+1952
+None
+of These
+79
+GAT-
+B
+489
+1956
+1953
+1954
+1955
+1956
+None
+of These
+80
+GAT-
+B
+490
+1960
+1957
+1958
+1959
+1960
+None
+of These
+81
+GAT-
+B
+491
+1962
+1961
+1962
+1963
+1964
+None
+of These
+82
+GAT-
+B
+492
+1965
+1965
+1966
+1967
+1968
+None
+of These
+--- page 35 ---
+5/3/22, 11:37 AM
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+5/8
+83
+GAT-
+B
+493
+1972
+1969
+1970
+1971
+1972
+None
+of These
+84
+GAT-
+B
+494
+1976
+1973
+1974
+1975
+1976
+None
+of These
+85
+GAT-
+B
+495
+1977
+1977
+1978
+1979
+1980
+None
+of These
+86
+GAT-
+B
+496
+1982
+1981
+1982
+1983
+1984
+None
+of These
+87
+GAT-
+B
+497
+1987
+1985
+1986
+1987
+1988
+None
+of These
+88
+GAT-
+B
+498
+1990
+1989
+1990
+1991
+1992
+None
+of These
+89
+GAT-
+B
+499
+1994
+1993
+1994
+1995
+1996
+None
+of These
+90
+GAT-
+B
+500
+1997
+1997
+1998
+1999
+2000
+None
+of These
+91
+GAT-
+B
+501
+2001
+2001
+2002
+2003
+2004
+None
+of These
+92
+GAT-
+B
+502
+2007
+2005
+2006
+2007
+2008
+None
+of These
+93
+GAT-
+B
+503
+2011
+2009
+2010
+2011
+2012
+None
+of These
+94
+GAT-
+B
+504
+2015
+2013
+2014
+2015
+2016
+None
+of These
+95
+GAT-
+B
+505
+2019
+2017
+2018
+2019
+2020
+None
+of These
+96
+GAT-
+B
+506
+2024
+2021
+2022
+2023
+2024
+None
+of These
+97
+GAT-
+B
+507
+2028
+2025
+2026
+2027
+2028
+None
+of These
+98
+GAT-
+B
+508
+2032
+2029
+2030
+2031
+2032
+None
+of These
+99
+GAT-
+B
+509
+2035
+2033
+2034
+2035
+2036
+None
+of These
+100 GAT-
+B
+510
+2040
+2037
+2038
+2039
+2040
+None
+of These
+101 GAT-
+B
+511
+2043
+2041
+2042
+2043
+2044
+None
+of These
+102 GAT-
+B
+512
+2045
+2045
+2046
+2047
+2048
+None
+of These
+103 GAT-
+B
+513
+2051
+2049
+2050
+2051
+2052
+None
+of These
+--- page 36 ---
+5/3/22, 11:37 AM
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+6/8
+104 GAT-
+B
+514
+2054
+2053
+2054
+2055
+2056
+None
+of These
+105 GAT-
+B
+515
+2060
+2057
+2058
+2059
+2060
+None
+of These
+106 GAT-
+B
+516
+2063
+2061
+2062
+2063
+2064
+None
+of These
+107 GAT-
+B
+517
+2065
+2065
+2066
+2067
+2068
+None
+of These
+108 GAT-
+B
+518
+2070
+2069
+2070
+2071
+2072
+None
+of These
+109 GAT-
+B
+519
+2074
+2073
+2074
+2075
+2076
+None
+of These
+110 GAT-
+B
+520
+2078
+2077
+2078
+2079
+2080
+None
+of These
+111 GAT-
+B
+521
+2081
+2081
+2082
+2083
+2084
+None
+of These
+112 GAT-
+B
+522
+2087
+2085
+2086
+2087
+2088
+None
+of These
+113 GAT-
+B
+523
+2089
+2089
+2090
+2091
+2092
+None
+of These
+114 GAT-
+B
+524
+2094
+2093
+2094
+2095
+2096
+None
+of These
+115 GAT-
+B
+525
+2100
+2097
+2098
+2099
+2100
+None
+of These
+116 GAT-
+B
+526
+2102
+2101
+2102
+2103
+2104
+None
+of These
+117 GAT-
+B
+527
+2107
+2105
+2106
+2107
+2108
+None
+of These
+118 GAT-
+B
+528
+2109
+2109
+2110
+2111
+2112
+None
+of These
+119 GAT-
+B
+529
+2113
+2113
+2114
+2115
+2116
+None
+of These
+120 GAT-
+B
+530
+2120
+2117
+2118
+2119
+2120
+None
+of These
+121 GAT-
+B
+531
+2123
+2121
+2122
+2123
+2124
+None
+of These
+122 GAT-
+B
+532
+2126
+2125
+2126
+2127
+2128
+None
+of These
+123 GAT-
+B
+533
+2130
+2129
+2130
+2131
+2132
+None
+of These
+124 GAT-
+B
+534
+2135
+2133
+2134
+2135
+2136
+None
+of These
+--- page 37 ---
+5/3/22, 11:37 AM
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+7/8
+125 GAT-
+B
+535
+2139
+2137
+2138
+2139
+2140
+None
+of These
+126 GAT-
+B
+536
+2142
+2141
+2142
+2143
+2144
+None
+of These
+127 GAT-
+B
+537
+2146
+2145
+2146
+2147
+2148
+None
+of These
+128 GAT-
+B
+538
+2151
+2149
+2150
+2151
+2152
+None
+of These
+129 GAT-
+B
+539
+2153
+2153
+2154
+2155
+2156
+None
+of These
+130 GAT-
+B
+540
+2160
+2157
+2158
+2159
+2160
+None
+of These
+131 GAT-
+B
+541
+2162
+2161
+2162
+2163
+2164
+None
+of These
+132 GAT-
+B
+542
+2166
+2165
+2166
+2167
+2168
+None
+of These
+133 GAT-
+B
+543
+2169
+2169
+2170
+2171
+2172
+None
+of These
+134 GAT-
+B
+544
+2175
+2173
+2174
+2175
+2176
+None
+of These
+135 GAT-
+B
+545
+2180
+2177
+2178
+2179
+2180
+None
+of These
+136 GAT-
+B
+546
+2181
+2181
+2182
+2183
+2184
+None
+of These
+137 GAT-
+B
+547
+2185
+2185
+2186
+2187
+2188
+None
+of These
+138 GAT-
+B
+548
+2192
+2189
+2190
+2191
+2192
+None
+of These
+139 GAT-
+B
+549
+2196
+2193
+2194
+2195
+2196
+None
+of These
+140 GAT-
+B
+550
+2199
+2197
+2198
+2199
+2200
+None
+of These
+141 GAT-
+B
+551
+2204
+2201
+2202
+2203
+2204
+None
+of These
+142 GAT-
+B
+552
+2207
+2205
+2206
+2207
+2208
+None
+of These
+143 GAT-
+B
+553
+2210
+2209
+2210
+2211
+2212
+None
+of These
+144 GAT-
+B
+554
+2215
+2213
+2214
+2215
+2216
+None
+of These
+145 GAT-
+B
+555
+2218
+2217
+2218
+2219
+2220
+None
+of These
+--- page 38 ---
+5/3/22, 11:37 AM
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+https://dbt.nta.ac.in/GAT_BBET_KeyChallenge/Challenge_item.aspx
+8/8
+146 GAT-
+B
+556
+2224
+2221
+2222
+2223
+2224
+None
+of These
+147 GAT-
+B
+557
+2227
+2225
+2226
+2227
+2228
+None
+of These
+148 GAT-
+B
+558
+2229
+2229
+2230
+2231
+2232
+None
+of These
+149 GAT-
+B
+559
+2234
+2233
+2234
+2235
+2236
+None
+of These
+150 GAT-
+B
+560
+2238
+2237
+2238
+2239
+2240
+None
+of These
+151 GAT-
+B
+561
+2243
+2241
+2242
+2243
+2244
+None
+of These
+152 GAT-
+B
+562
+2248
+2245
+2246
+2247
+2248
+None
+of These
+153 GAT-
+B
+563
+2249
+2249
+2250
+2251
+2252
+None
+of These
+154 GAT-
+B
+564
+2254
+2253
+2254
+2255
+2256
+None
+of These
+155 GAT-
+B
+565
+2260
+2257
+2258
+2259
+2260
+None
+of These
+156 GAT-
+B
+566
+2264
+2261
+2262
+2263
+2264
+None
+of These
+157 GAT-
+B
+567
+2268
+2265
+2266
+2267
+2268
+None
+of These
+158 GAT-
+B
+568
+2271
+2269
+2270
+2271
+2272
+None
+of These
+159 GAT-
+B
+569
+2273
+2273
+2274
+2275
+2276
+None
+of These
+160 GAT-
+B
+570
+2279
+2277
+2278
+2279
+2280
+None
+of These
+Upload Scanned Image(PDF or JPG)
+No file chosen
+Choose File
+Challenge Question
+© NTA. All rights reserved

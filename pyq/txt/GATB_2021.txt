@@ -1,0 +1,1793 @@
+
+--- page 1 ---
+1)  
+2)  
+3)  
+4)  
+5)  
+Graduate Aptitude Test Biotechnology 2021
+Topic:‐ GAT B SET‐1 Section A
+Which colligative property is used to determine the molar mass of proteins?
+[Question ID = 508]
+1. Osmotic pressure [Option ID = 2029]
+2. Elevation in boiling point [Option ID = 2030]
+3. Relative lowering of vapour pressure [Option ID = 2031]
+4. Depression in freezing point [Option ID = 2032]
+Correct Answer :‐
+Relative lowering of vapour pressure [Option ID = 2031]
+The half‐life (in seconds) of a first order reaction which takes 4 seconds for 30% completion is: (may use log
+7=0.845)
+[Question ID = 509]
+1. 6.65 [Option ID = 2033]
+2. 5.45 [Option ID = 2034]
+3. 8.95 [Option ID = 2035]
+4. 7.77 [Option ID = 2036]
+Correct Answer :‐
+5.45 [Option ID = 2034]
+The total number of structural isomers of C H F is:
+[Question ID = 510]
+1.       6 [Option ID = 2037]
+2.       8 [Option ID = 2038]
+3.       10 [Option ID = 2039]
+4.       9 [Option ID = 2040]
+Correct Answer :‐
+      8 [Option ID = 2038]
+Which of the following represents the Heisenberg Uncertainty principle?
+[Question ID = 511]
+1. Δx Δpx ≥ h/4
+[Option ID = 2041]
+2. Δx Δpx ≤ h/4
+[Option ID = 2042]
+3. Δx Δpx = h/4
+[Option ID = 2043]
+4. Δx Δpx < h/4
+[Option ID = 2044]
+Correct Answer :‐
+Δx Δpx = h/4
+[Option ID = 2043]
+What is the formal charge in Sulphur of SO ?
+[Question ID = 512]
+1.       ‐1
+[Option ID = 2045]
+2. ‐1/2
+[Option ID = 2046]
+3. +1
+[Option ID = 2047]
+4. 0
+[Option ID = 2048]
+Correct Answer :‐
+      ‐1
+[Option ID = 2045]
+10
+5
+11
+3
+--- page 2 ---
+6)  
+7)  
+8)  
+9)  
+“The solubility of a gas in a liquid (at constant temperature) is directly proportional to the partial pressure of that gas in
+equilibrium with the liquid” is best described by:
+[Question ID = 513]
+1. Raoult’s law
+[Option ID = 2049]
+2. Dalton’s law
+[Option ID = 2050]
+3. Boyle’s law
+[Option ID = 2051]
+4. Henry’s law
+[Option ID = 2052]
+Correct Answer :‐
+Boyle’s law
+[Option ID = 2051]
+The solubility of gases in liquids
+[Question ID = 514]
+1. Increases with the rise in temperature
+[Option ID = 2053]
+2. Decreases with the rise in temperature
+[Option ID = 2054]
+3. Increases with lowering the temperature
+[Option ID = 2055]
+4. Decreases with lowering the temperature
+[Option ID = 2056]
+Correct Answer :‐
+Increases with lowering the temperature
+[Option ID = 2055]
+In a first order reaction, a straight line is obtained when plotting
+[Question ID = 515]
+1. [R] vs t
+[Option ID = 2057]
+2. ln[R] vs t
+[Option ID = 2058]
+3. 1/[R] vs t
+[Option ID = 2059]
+4. 1/ln[R] vs t
+[Option ID = 2060]
+Correct Answer :‐
+ln[R] vs t
+[Option ID = 2058]
+Which of the following conditions allow a reaction to be spontaneous?
+     ∆H
+ ∆S
+[Question ID = 516]
+1. –                                              +
+[Option ID = 2061]
+2. +                                              –
+[Option ID = 2062]
+3. –                                              –
+[Option ID = 2063]
+4. +                                              +
+[Option ID = 2064]
+Correct Answer :‐
+ο                                            
+ο
+--- page 3 ---
+10)  
+11)  
+12)  
+13)  
+14)  
++                                              –
+[Option ID = 2062]
+Which of the following organohalogens contains the largest number of molecules?
+[Question ID = 517]
+1. 1g of CH Br
+[Option ID = 2065]
+2. 1g of CH Br
+[Option ID = 2066]
+3. 1g of CHBr
+[Option ID = 2067]
+4. 1g of CBr
+[Option ID = 2068]
+Correct Answer :‐
+1g of CHBr
+[Option ID = 2067]
+Which of following reactions has a positive entropy change (∆S )?
+[Question ID = 518]
+1. H O(l) → H O(s) [Option ID = 2069]
+2. 2SO (g) + O (g) → 2SO (g) [Option ID = 2070]
+3. N (g) + 3H (g) → 2NH (g) [Option ID = 2071]
+4. CaCO (s) → CaO(s) + CO (g) [Option ID = 2072]
+Correct Answer :‐
+H O(l) → H O(s) [Option ID = 2069]
+The equation for the complete combustion of butane is
+2C H  + 13O  
+ 8CO  + 10H O
+What is the amount (in mole) of carbon dioxide formed by the complete combustion of three moles of n‐butane?
+[Question ID = 519]
+1. 24
+[Option ID = 2073]
+2. 12
+[Option ID = 2074]
+3. 8
+[Option ID = 2075]
+4. 4
+[Option ID = 2076]
+Correct Answer :‐
+8
+[Option ID = 2075]
+In ethanol, C H OH, there are covalent bonds, hydrogen bonds and van der Waals’ forces. Which bonds or forces are
+broken when ethanol is vaporized?
+[Question ID = 520]
+1. Only hydrogen bonds [Option ID = 2077]
+2. Hydrogen bonds and van der Waals’ forces [Option ID = 2078]
+3. Covalent bonds and van der Waals’ forces [Option ID = 2079]
+4. Covalent bonds and hydrogen bonds [Option ID = 2080]
+Correct Answer :‐
+Covalent bonds and van der Waals’ forces [Option ID = 2079]
+Different structural information about glucose can be derived by reacting it with different reagents. Which of the
+following is correct? 
+[Question ID = 521]
+1. Reaction with HI confirms the presence of carbonyl groups. [Option ID = 2081]
+2. Acetylation with acetic anhydride to confirm the presence of OH groups. [Option ID = 2082]
+3. Reaction with bromine water to confirm a straight chain. [Option ID = 2083]
+4. Oxidation with nitric acid to confirm the presence of secondary OH groups [Option ID = 2084]
+Correct Answer :‐
+Acetylation with acetic anhydride to confirm the presence of OH groups. [Option ID = 2082]
+3
+2
+2
+3
+4
+3
+ο
+2
+2
+2
+2
+3
+2
+2
+3
+3
+2
+2
+2
+4
+10
+2
+2
+2
+2
+5
+--- page 4 ---
+15)  
+16)  
+17)  
+18)  
+19)  
+20)  
+The half life of a chemical reaction is 1386 seconds. The specific rate constant for the reaction is 
+[Question ID = 522]
+1. 0.5 x 10  s  [Option ID = 2085]
+2. 0.5 x 10  s  [Option ID = 2086]
+3. 0.5 x 10  s  [Option ID = 2087]
+4. 0.5 x 10  s  [Option ID = 2088]
+Correct Answer :‐
+0.5 x 10  s  [Option ID = 2086]
+A positive charge +q is located at the center of mass of a cube, sphere and cylinder. The side of the cube is r units,
+radius of the sphere is r units, and the radius and length of the cylinder are r and 4r units, respectively. The total electric
+flux through the surface
+[Question ID = 523]
+1. of the cylinder is maximum [Option ID = 2089]
+2. of the cube is maximum [Option ID = 2090]
+3. of the sphere is maximum [Option ID = 2091]
+4. of all three objects are equal [Option ID = 2092]
+Correct Answer :‐
+of the sphere is maximum [Option ID = 2091]
+Electrical energy is transmitted over large distances at high alternating voltages because:
+[Question ID = 524]
+1. For a given power, there is a lower current, thus less power loss. [Option ID = 2093]
+2. For a given power, there is a higher current, thus more efficient transmission. [Option ID = 2094]
+3. Transmission lines are better suited to carry high voltage. [Option ID = 2095]
+4. The power stations generate power at high voltage and it is convenient to reduce the voltage at the receiving end using step‐down transformer
+[Option ID = 2096]
+Correct Answer :‐
+For a given power, there is a lower current, thus less power loss. [Option ID = 2093]
+A far away object approaches a convergent lens from the left of the lens with a uniform speed of 5 m/s and stops at
+the focus. During this time the image on the right moves:
+[Question ID = 525]
+1. away from the lens with an uniform speed of 5 m/s. [Option ID = 2097]
+2. away from the lens with an uniform acceleration. [Option ID = 2098]
+3. away from the lens with a non‐uniform acceleration. [Option ID = 2099]
+4. towards the lens with a non‐uniform acceleration. [Option ID = 2100]
+Correct Answer :‐
+away from the lens with a non‐uniform acceleration. [Option ID = 2099]
+A vehicle travels half of the total distance (L) with speed V1 and the other half with speed V2, then its average speed
+over this whole distance is:
+[Question ID = 526]
+1. (V1+V2)/2 [Option ID = 2101]
+2. (2V1+V2)/(V1+V2) [Option ID = 2102]
+3. 2V1V2/(V1+V2) [Option ID = 2103]
+4. L(V1+V2)/V1V2 [Option ID = 2104]
+Correct Answer :‐
+2V1V2/(V1+V2) [Option ID = 2103]
+A mass of 5 kg is moving along a circular path of radius 1 m. If the mass moves with 300 revolutions per minute, its
+kinetic energy would be:
+[Question ID = 527]
+1. 
+[Option ID = 2105]
+2. 
+[Option ID = 2106]
+3. 
+[Option ID = 2107]
+4. 0
+[Option ID = 2108]
+Correct Answer :‐
+‐2
+‐1
+‐3
+‐1
+‐4
+‐1
+‐5
+‐1
+‐3
+‐1
+--- page 5 ---
+21)  
+22)  
+23)  
+24)  
+25)  
+26)  
+[Option ID = 2106]
+[Question ID = 528]
+1. Both the stones reach the bottom at the same time and the same speed. [Option ID = 2109]
+2. Both the stones reach the bottom with the same speed and stone I reaches the bottom earlier than stone II. [Option ID = 2110]
+3. Both the stones reach the bottom with the same speed and stone II reaches the bottom earlier than stone I. [Option ID = 2111]
+4. Both the stones reach the bottom at different times and with different speeds [Option ID = 2112]
+Correct Answer :‐
+Both the stones reach the bottom with the same speed and stone I reaches the bottom earlier than stone II. [Option ID = 2110]
+Assume that the earth is a perfect sphere. If the interior of the earth contained matter which is not of the same
+density everywhere, then the acceleration due to gravity on the surface of the earth will:
+[Question ID = 529]
+1. be directed towards the centre but not the same everywhere. [Option ID = 2113]
+2. have the same value everywhere but not directed towards the centre. [Option ID = 2114]
+3. be same everywhere in magnitude directed towards the centre. [Option ID = 2115]
+4. have different values everywhere and not directed towards the centre. [Option ID = 2116]
+Correct Answer :‐
+be same everywhere in magnitude directed towards the centre. [Option ID = 2115]
+A copper and a steel wire of the same diameter are connected end to end. A deforming force F is applied to this
+composite wire which causes a total elongation of 3 cm. The two wires will have 
+[Question ID = 530]
+1. the same stress and different strain. [Option ID = 2117]
+2. the same strain and different stress. [Option ID = 2118]
+3. the same stress and same strain. [Option ID = 2119]
+4. different stress and different strain. [Option ID = 2120]
+Correct Answer :‐
+the same stress and different strain. [Option ID = 2117]
+The equation describing acceleration (a) as a function of displacement (x) for four different particles is given below.
+Which one of these is executing simple harmonic motion? 
+[Question ID = 531]
+1. a = + 2x [Option ID = 2121]
+2. a = + 2x  [Option ID = 2122]
+3. a = – 2x  [Option ID = 2123]
+4. a = – 2x [Option ID = 2124]
+Correct Answer :‐
+a = – 2x  [Option ID = 2123]
+Light waves entering a medium with higher refractive index undergo
+[Question ID = 532]
+1.          Change in velocity and frequency but not wavelength [Option ID = 2125]
+2.          Change in wavelength and frequency but not velocity [Option ID = 2126]
+3.          Change in velocity and wavelength but not frequency [Option ID = 2127]
+4.          Change in velocity, frequency and wavelength [Option ID = 2128]
+Correct Answer :‐
+         Change in velocity and wavelength but not frequency [Option ID = 2127]
+A battery of emf 1.50 V and internal resistance 0.50 ohm supplies a current of 100 mA. The potential difference across
+the terminal of the battery will be ______V.
+[Question ID = 533]
+1. 1.5 [Option ID = 2129]
+2. 1.45 [Option ID = 2130]
+3. 1.55 [Option ID = 2131]
+2
+2
+2
+--- page 6 ---
+27)  
+28)  
+29)  
+30)  
+31)  
+32)  
+33)  
+4. 1 [Option ID = 2132]
+Correct Answer :‐
+1.45 [Option ID = 2130]
+The position of a particle moving along the X‐axis as a function of time t (in seconds) is given by X (in meters) = t  ‐ 9t
++ 2. The magnitude of the acceleration of the particle at t = 3 seconds is _____ m/s .
+[Question ID = 534]
+1. 56 [Option ID = 2133]
+2. 36 [Option ID = 2134]
+3. 18 [Option ID = 2135]
+4. 20 [Option ID = 2136]
+Correct Answer :‐
+36 [Option ID = 2134]
+A solid cylinder and a hollow cylinder of the equal radius and mass start rolling down (without slipping) on a fixed
+inclined plane from rest at the same time at the same height from the ground. Which of the following statements is correct
+about the above?
+[Question ID = 535]
+1. Solid cylinder reaches the ground earlier and with higher velocity than hollow cylinder [Option ID = 2137]
+2. Both solid and hollow cylinders reach at the same time with same velocity [Option ID = 2138]
+3. Solid cylinder reaches ground at same time but with higher velocity than hollow cylinder [Option ID = 2139]
+4. Hollow cylinder reaches ground earlier with higher velocity than solid cylinder [Option ID = 2140]
+Correct Answer :‐
+Solid cylinder reaches ground at same time but with higher velocity than hollow cylinder [Option ID = 2139]
+A metal ball weighs 50 g in air and 25 g when dipped in a liquid of density 1.25 g/cm . The metal ball weighs _____ g
+when dipped in a liquid of density 1.2 g/cm .
+[Question ID = 536]
+1. 24 [Option ID = 2141]
+2. 25 [Option ID = 2142]
+3. 26 [Option ID = 2143]
+4. 28 [Option ID = 2144]
+Correct Answer :‐
+24 [Option ID = 2141]
+A radioactive material has a half life of 10 years. What fraction of radioactive nuclei will remain undecayed with
+respect to the initial sample after 20 years?
+[Question ID = 537]
+1. 1/2 [Option ID = 2145]
+2. 1/4 [Option ID = 2146]
+3. 1/8 [Option ID = 2147]
+4. 1/16 [Option ID = 2148]
+Correct Answer :‐
+1/8 [Option ID = 2147]
+Which among the following organs is NOT capable of secreting hormones?
+[Question ID = 538]
+1. Ovary [Option ID = 2149]
+2. Salivary Gland [Option ID = 2150]
+3. Thymus [Option ID = 2151]
+4. Kidney [Option ID = 2152]
+Correct Answer :‐
+Thymus [Option ID = 2151]
+Choose the incorrect statement from the following.
+[Question ID = 539]
+1. AUG is the initiator codon and also codes for methionine. [Option ID = 2153]
+2. UGA is a terminator codon. [Option ID = 2154]
+3. A codon is not always a triplet. [Option ID = 2155]
+4. Genetic code is universal from protozoa to human. [Option ID = 2156]
+Correct Answer :‐
+UGA is a terminator codon. [Option ID = 2154]
+3
+2
+3
+3
+--- page 7 ---
+34)  
+35)  
+36)  
+37)  
+[Question ID = 540]
+1. A ‐I, B‐II, C‐III, D‐IV
+[Option ID = 2157]
+2. A‐IV, B‐III, C‐I, D‐II
+[Option ID = 2158]
+3. A‐IV, B‐I, C‐II, D‐I
+[Option ID = 2159]
+4. A‐I, B‐III, C‐II, D‐IV
+[Option ID = 2160]
+Correct Answer :‐
+A‐IV, B‐III, C‐I, D‐II
+[Option ID = 2158]
+Which one of the following is a membrane‐less structure?
+[Question ID = 541]
+1. Centrosome
+[Option ID = 2161]
+2. Cytochrome
+[Option ID = 2162]
+3. Endosome
+[Option ID = 2163]
+4. Peroxisome
+[Option ID = 2164]
+Correct Answer :‐
+Endosome
+[Option ID = 2163]
+        Which of the following statements about lipids is NOT true?
+[Question ID = 542]
+1. Glycerol and fatty acids make up lipids [Option ID = 2165]
+2. Lipids are water insoluble and some even contain phosphorus [Option ID = 2166]
+3. Glycerol is a highly complex lipid [Option ID = 2167]
+4. Fats are different from oils in their melting point [Option ID = 2168]
+Correct Answer :‐
+Lipids are water insoluble and some even contain phosphorus [Option ID = 2166]
+Mendel’s discovery in pea plants may be considered incidental since the chosen traits were
+[Question ID = 543]
+1. mostly tightly linked [Option ID = 2169]
+2. only completely dominant [Option ID = 2170]
+3. highly epistatic [Option ID = 2171]
+4. independently assorted [Option ID = 2172]
+Correct Answer :‐
+only completely dominant [Option ID = 2170]
+Height of a human being is a typical example of which mode of inheritance?
+[Question ID = 544]
+1. Pleiotropic Inheritance
+[Option ID = 2173]
+2. Cytoplasmic Inheritance
+[Option ID = 2174]
+3. Multi‐allelic Inheritance
+[Option ID = 2175]
+4. Polygenic Inheritance
+[Option ID = 2176]
+Correct Answer :‐
+--- page 8 ---
+38)  
+39)  
+40)  
+41)  
+42)  
+43)  
+Multi‐allelic Inheritance
+[Option ID = 2175]
+Which of the following hormones attains the peak of expression in the middle of the menstrual cycle?
+[Question ID = 545]
+1. Estrogen [Option ID = 2177]
+2. Progesterone [Option ID = 2178]
+3. LH [Option ID = 2179]
+4. FSH [Option ID = 2180]
+Correct Answer :‐
+Estrogen [Option ID = 2177]
+Milk is secreted by the alveoli present in the mammary lobes and it reaches up to nipple through the following regions: 
+a. Lactiferous duct b. Mammary duct c. Ampulla d. Mammary tubule
+The correct order of the flow of milk is: 
+[Question ID = 546]
+1. b → c → d → a [Option ID = 2181]
+2. d → b → c → a [Option ID = 2182]
+3. b → d → c → a [Option ID = 2183]
+4. a → b → d → c [Option ID = 2184]
+Correct Answer :‐
+b → d → c → a [Option ID = 2183]
+Given below are two statements: one is labelled as Assertion A and another as Reason R.
+Assertion A: Most humans pass accurate genetic instructions from one generation to the next.
+Reason R: In spite of high mutation rate, the sequence of the human genome changes by only a few nucleotides during
+division.
+In the light of the above statements, choose the correct answer from the options below.
+[Question ID = 547]
+1. Both A and R are true and R is the correct explanation of A
+[Option ID = 2185]
+2. Both A and R are true and R is NOT the correct explanation of A
+[Option ID = 2186]
+3. A is true but R is false
+[Option ID = 2187]
+4. A is false but R is true
+[Option ID = 2188]
+Correct Answer :‐
+A is true but R is false
+[Option ID = 2187]
+The respiratory pathway common to erythrocyte and leucocyte is
+[Question ID = 548]
+1. oxidation of pyruvate to acetyl‐CoA [Option ID = 2189]
+2. oxidation of acetyl‐CoA [Option ID = 2190]
+3. release of ATP by electron transport‐linked phosphorylation [Option ID = 2191]
+4. substrate level phosphorylation [Option ID = 2192]
+Correct Answer :‐
+oxidation of acetyl‐CoA [Option ID = 2190]
+Pick the most basic dipeptide from the following:
+[Question ID = 549]
+1.         Gly‐Glu [Option ID = 2193]
+2.         Gly‐Lys [Option ID = 2194]
+3.         Gly‐Arg [Option ID = 2195]
+4.         Gly‐His [Option ID = 2196]
+Correct Answer :‐
+        Gly‐Lys [Option ID = 2194]
+Which of the following features distinguishes myoglobin from hemoglobin?
+[Question ID = 550]
+--- page 9 ---
+44)  
+45)  
+46)  
+47)  
+1. Presence of heme prosthetic group
+[Option ID = 2197]
+2. Ability to bind to oxygen
+[Option ID = 2198]
+3. Molecular size and allostery
+[Option ID = 2199]
+4. Hemoglobin is found only in humans
+[Option ID = 2200]
+Correct Answer :‐
+Molecular size and allostery
+[Option ID = 2199]
+Match the components of List I with those in the List II.
+Choose the correct answer from the options given below:
+[Question ID = 551]
+1. A‐I, B‐II, C‐III, D‐IV [Option ID = 2201]
+2. A‐II, B‐IV, C‐I, D‐III [Option ID = 2202]
+3. A‐II, B‐III, C‐I, D‐IV [Option ID = 2203]
+4. A‐I, B‐III, C‐II, D‐IV [Option ID = 2204]
+Correct Answer :‐
+A‐I, B‐II, C‐III, D‐IV [Option ID = 2201]
+Which of the following is NOT a plant hormone?
+[Question ID = 552]
+1. Brassinosteroids
+[Option ID = 2205]
+2. Cytokinin
+[Option ID = 2206]
+3. Cytokine
+[Option ID = 2207]
+4. Nitric oxide
+[Option ID = 2208]
+Correct Answer :‐
+Cytokine
+[Option ID = 2207]
+What is the chance that a leap year, selected at random, will have 53 Sundays?
+[Question ID = 553]
+1. 7/53 [Option ID = 2209]
+2. 7/52 [Option ID = 2210]
+3. 2/7 [Option ID = 2211]
+4. 1/7 [Option ID = 2212]
+Correct Answer :‐
+2/7 [Option ID = 2211]
+A bag contains 3 red, 6 white and 7 blue balls. What is the probability that 2 balls drawn are white and blue? 
+[Question ID = 554]
+1. 1/120 [Option ID = 2213]
+2. 1/16 [Option ID = 2214]
+3. 13/16 [Option ID = 2215]
+4. 7/20 [Option ID = 2216]
+Correct Answer :‐
+1/16 [Option ID = 2214]
+--- page 10 ---
+48)  
+49)  
+50)  
+51)  
+52)  
+53)  
+54)  
+Which of the following equation describes a line passing through the point (‐2, ‐3) and parallel to the x‐axis?
+[Question ID = 555]
+1. y = ‐3 [Option ID = 2217]
+2. x = ‐2 [Option ID = 2218]
+3. y‐x = 6 [Option ID = 2219]
+4. x‐y = 6 [Option ID = 2220]
+Correct Answer :‐
+x = ‐2 [Option ID = 2218]
+In a school there are a total of 20 teachers who can teach mathematics or physics. Of these, 12 can teach mathematics
+and 4 can teach both physics and mathematics. How many can teach physics?
+[Question ID = 556]
+1. 16 [Option ID = 2221]
+2. 8 [Option ID = 2222]
+3. 12 [Option ID = 2223]
+4. 6 [Option ID = 2224]
+Correct Answer :‐
+12 [Option ID = 2223]
+The cost of 5 oranges and 3 apples is Rs. 35 and the cost of 2 oranges and 4 apples is Rs. 28. What would be the cost of
+one each of orange and apple?
+[Question ID = 557]
+1. Orange Rs. 4, Apple Rs. 5 [Option ID = 2225]
+2. Orange Re. 1, Apple Rs. 10 [Option ID = 2226]
+3. Orange Rs. 2, Apple Rs. 4 [Option ID = 2227]
+4. Orange Rs. 4, Apple Rs. 6 [Option ID = 2228]
+Correct Answer :‐
+Orange Rs. 4, Apple Rs. 5 [Option ID = 2225]
+A 6.5 m ladder is placed against a wall such that its foot is at a distance of 2.5 m from the wall. The height it would
+reach on the wall is
+[Question ID = 558]
+1. 3.0 m [Option ID = 2229]
+2. 4.0 m [Option ID = 2230]
+3. 5.0 m [Option ID = 2231]
+4. 6.0 m [Option ID = 2232]
+Correct Answer :‐
+5.0 m [Option ID = 2231]
+A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 h less for the
+journey. What is the speed (in km/h) of the train?
+[Question ID = 559]
+1. 40 [Option ID = 2233]
+2. 30 [Option ID = 2234]
+3. 20 [Option ID = 2235]
+4. 10 [Option ID = 2236]
+Correct Answer :‐
+20 [Option ID = 2235]
+The highest score of a cricket player in an innings was 3/11  of the total score and the next highest was 3/10  of the
+remaining. If the difference between the two scores was 24 runs, what was the total score?
+[Question ID = 560]
+1. 390 [Option ID = 2237]
+2. 410 [Option ID = 2238]
+3. 420 [Option ID = 2239]
+4. 440 [Option ID = 2240]
+Correct Answer :‐
+410 [Option ID = 2238]
+The ratio of the number of girls to the number of boys in a school of 720 students is 3:5. If 18 new boys are admitted
+in the school, find how many new girls may be admitted so that the ratio of number of girls to the number of boys may
+change to 2:3?
+[Question ID = 561]
+1. 21 [Option ID = 2241]
+2. 42 [Option ID = 2242]
+3. 84 [Option ID = 2243]
+4. 168 [Option ID = 2244]
+th
+th
+--- page 11 ---
+55)  
+56)  
+57)  
+58)  
+59)  
+60)  
+Correct Answer :‐
+42 [Option ID = 2242]
+A and B together can do a piece of work in 20 days; B and C together can do it in 15 days, C and A together can do it
+in 12 days. How long will they take to finish the work, working together?
+[Question ID = 562]
+1. 6 days [Option ID = 2245]
+2. 8 days [Option ID = 2246]
+3. 10 days [Option ID = 2247]
+4. 12 days [Option ID = 2248]
+Correct Answer :‐
+10 days [Option ID = 2247]
+If a student cycles at 10 km/h, he reaches the school late by 4 minutes. If he cycles at 12 km/h, he reaches the school
+early by 2 minutes. What is the distance of the school from his home?
+[Question ID = 563]
+1. 4 km [Option ID = 2249]
+2. 6 km [Option ID = 2250]
+3. 7 km [Option ID = 2251]
+4. 8 km [Option ID = 2252]
+Correct Answer :‐
+4 km [Option ID = 2249]
+A boat covers a certain distance downstream in 3 hours and it covers the same distance upstream in 5 hours. What
+would be the speed of the stream if the speed of the boat in still water is 8 km/h?
+[Question ID = 564]
+1. 3 km/h [Option ID = 2253]
+2. 2.5 km/h [Option ID = 2254]
+3. 2 km/h [Option ID = 2255]
+4. 1.5 km/h [Option ID = 2256]
+Correct Answer :‐
+2 km/h [Option ID = 2255]
+What is the median of the data given below?
+2, 2, 0, 4, 12, 10, 6, 8 
+[Question ID = 565]
+1. 5 [Option ID = 2257]
+2. 4.5 [Option ID = 2258]
+3. 6 [Option ID = 2259]
+4. 5.5 [Option ID = 2260]
+Correct Answer :‐
+6 [Option ID = 2259]
+The ratio of the area of a circle and a square having the same perimeter is
+[Question ID = 566]
+1. 
+[Option ID = 2261]
+2. 
+[Option ID = 2262]
+3. 
+[Option ID = 2263]
+4. 
+[Option ID = 2264]
+Correct Answer :‐
+[Option ID = 2262]
+In an experiment, with increasing number of tosses of a coin the
+[Question ID = 567]
+1.         Ratio of heads to tails approaches 1 and also the differential count between heads and tails declines. [Option ID = 2265]
+2.         Ratio of heads to tails approaches 1 while the differential count between heads and tails increases. [Option ID = 2266]
+3.          The ratio of heads to tails remains at 1. [Option ID = 2267]
+4.          The ratio of heads and tails oscillates around 1 while the differential count between them declines. [Option ID = 2268]
+--- page 12 ---
+1)  
+2)  
+3)  
+4)  
+5)  
+6)  
+7)  
+Correct Answer :‐
+        Ratio of heads to tails approaches 1 while the differential count between heads and tails increases. [Option ID = 2266]
+Topic:‐ GAT B SET‐1 Section B
+        Eclipse period in a virus infection is defined as the time 
+[Question ID = 1378]
+1. before virus binding to receptor [Option ID = 5509]
+2. between virus binding and infection [Option ID = 5510]
+3. between infection and appearance of mature virus [Option ID = 5511]
+4. after appearance of mature virus [Option ID = 5512]
+Correct Answer :‐
+between infection and appearance of mature virus [Option ID = 5511]
+The first virus to be discovered was
+[Question ID = 1379]
+1. Polio virus [Option ID = 5513]
+2. Yellow fever virus [Option ID = 5514]
+3. Rabies virus [Option ID = 5515]
+4. Tobacco mosaic virus [Option ID = 5516]
+Correct Answer :‐
+Polio virus [Option ID = 5513]
+       Which among the following enzymes enables integration of the retroviral genome into the host genome? 
+[Question ID = 1380]
+1. DNA polymerase [Option ID = 5517]
+2. RNA polymerase [Option ID = 5518]
+3. Reverse transcriptase [Option ID = 5519]
+4. Cysteine protease [Option ID = 5520]
+Correct Answer :‐
+Reverse transcriptase [Option ID = 5519]
+Several DNA viruses can cause latent infection by their ability to
+[Question ID = 1381]
+1. remain outside the host as non‐living particles [Option ID = 5521]
+2. bind to a specific receptor [Option ID = 5522]
+3. integrate into the host genome, but not replicate [Option ID = 5523]
+4. actively replicate and produce more virus [Option ID = 5524]
+Correct Answer :‐
+integrate into the host genome, but not replicate [Option ID = 5523]
+A virus‐ X requires endocytosis for infection and replicates in the cytosol. De‐proteinized genome of the virus is non‐
+infectious. X is a
+[Question ID = 1382]
+1.         Retrovirus [Option ID = 5525]
+2. Enveloped plus‐strand RNA virus [Option ID = 5526]
+3. Bacteriophage [Option ID = 5527]
+4. Enveloped minus‐strand RNA virus [Option ID = 5528]
+Correct Answer :‐
+Enveloped plus‐strand RNA virus [Option ID = 5526]
+Which one of the following vaccine was developed by Louis Pasteur?
+[Question ID = 1383]
+1. Measles [Option ID = 5529]
+2. Smallpox [Option ID = 5530]
+3. Influenza [Option ID = 5531]
+4. Rabies [Option ID = 5532]
+Correct Answer :‐
+Smallpox [Option ID = 5530]
+Here are four statements about Major Histocompatibility Complex (MHC).
+A. MHC‐I is expressed by nearly all nucleated cells
+B. MHC‐II is expressed by antigen presenting cells and they present antigen to cytotoxic T cells
+C. Only Helper T cells and not the cytotoxic T cells can recognize antigen in complex with MHC‐II
+D. Natural Killer cells express a variety of receptors that engage with MHC‐II
+Which of the above statement(s) is true? 
+[Question ID = 1384]
+--- page 13 ---
+8)  
+9)  
+10)  
+11)  
+12)  
+13)  
+14)  
+1. only B [Option ID = 5533]
+2. A and C [Option ID = 5534]
+3. A, B and C [Option ID = 5535]
+4. A, C and D [Option ID = 5536]
+Correct Answer :‐
+A, B and C [Option ID = 5535]
+Papain digestion of an IgG predominantly results in the formation of
+[Question ID = 1385]
+1. two Fab fragments and one Fc fragment [Option ID = 5537]
+2. one F(ab’)2 fragment and several small Fc fragments [Option ID = 5538]
+3. one F(ab’)2 fragment and one Fc fragment [Option ID = 5539]
+4. two Fab fragments and several small Fc fragments [Option ID = 5540]
+Correct Answer :‐
+one F(ab’)2 fragment and several small Fc fragments [Option ID = 5538]
+Which one of the following statements about central memory T cells is true?
+[Question ID = 1386]
+1. They reside in the secondary lymphoid organs [Option ID = 5541]
+2. They exit the lymph node and circulate in the body [Option ID = 5542]
+3. They settle in the peripheral tissue [Option ID = 5543]
+4. They reside in the bone marrow [Option ID = 5544]
+Correct Answer :‐
+They exit the lymph node and circulate in the body [Option ID = 5542]
+Which organ is used for isolation of activated B lymphocytes (plasma cells) for monoclonal antibody production?
+[Question ID = 1387]
+1. Bone marrow [Option ID = 5545]
+2. Spleen [Option ID = 5546]
+3. Lymph node [Option ID = 5547]
+4. Liver [Option ID = 5548]
+Correct Answer :‐
+Lymph node [Option ID = 5547]
+PSSM stands for
+[Question ID = 1388]
+1. Position Specific Scanning Matrix [Option ID = 5549]
+2. Point Specific Scoring Matrix [Option ID = 5550]
+3. Position Specific Scoring Matrix [Option ID = 5551]
+4. Point Specific Scanning Matrix [Option ID = 5552]
+Correct Answer :‐
+Position Specific Scanning Matrix [Option ID = 5549]
+Which one of the following attribute of a macromolecule is modulated by Molecular dynamics simulations?
+[Question ID = 1389]
+1. Structure [Option ID = 5553]
+2. Temperature [Option ID = 5554]
+3. Pressure [Option ID = 5555]
+4. Antigenicity [Option ID = 5556]
+Correct Answer :‐
+Pressure [Option ID = 5555]
+The only genetically encoded amino acid without a stereoisomer is
+[Question ID = 1390]
+1. Alanine [Option ID = 5557]
+2. Tryptophan [Option ID = 5558]
+3. Glycine [Option ID = 5559]
+4. Proline [Option ID = 5560]
+Correct Answer :‐
+Glycine [Option ID = 5559]
+Disulfide bonds are identified using the distance between the side‐chains of which one of the following sulphur‐
+containing residue pairs?
+[Question ID = 1391]
+1. Cys and Met [Option ID = 5561]
+2. Cys and Cys [Option ID = 5562]
+3. Met and Met [Option ID = 5563]
+4. Met and His [Option ID = 5564]
+--- page 14 ---
+15)  
+16)  
+17)  
+18)  
+19)  
+20)  
+Correct Answer :‐
+Cys and Cys [Option ID = 5562]
+The two strands in double‐helical DNA are held together by hydrogen bonds between
+[Question ID = 1392]
+1. Phosphate and sugar group [Option ID = 5565]
+2. Nitrogenous bases and sugar [Option ID = 5566]
+3. Nitrogenous bases and phosphate [Option ID = 5567]
+4. Nitrogenous bases [Option ID = 5568]
+Correct Answer :‐
+Nitrogenous bases and sugar [Option ID = 5566]
+Which one of the following is a receptor for HIV‐1?
+[Question ID = 1393]
+1. Sialic acid [Option ID = 5569]
+2. CD4 [Option ID = 5570]
+3. CD81 [Option ID = 5571]
+4. Claudin‐1 [Option ID = 5572]
+Correct Answer :‐
+CD81 [Option ID = 5571]
+A student carried out expression analysis of a gene (PTEN) in a cancer cell line using both Northern blotting and
+Western blotting. He observed a decrease in the Western blotting signal but no change in the Northern blotting signal
+compared to a normal cell. In this context, which one of the following statements is correct? 
+[Question ID = 1394]
+1. There is a decrease in PTEN protein level but there is no mutation on the PTEN DNA sequence in the cancer cell [Option ID = 5573]
+2. There is a decrease in PTEN protein level but no change in the PTEN mRNA expression in the cancer cell [Option ID = 5574]
+3. There is a decrease in PTEN mRNA expression but no change in the PTEN protein level in the cancer cell [Option ID = 5575]
+4. There is a decrease in PTEN mRNA expression but no mutation on the PTEN DNA sequence in the cancer cell [Option ID = 5576]
+Correct Answer :‐
+There is a decrease in PTEN protein level but there is no mutation on the PTEN DNA sequence in the cancer cell [Option ID = 5573]
+Which one of the following DNA sequences can act as genetic markers?
+[Question ID = 1395]
+1. Variable number tandem repeat (VNTR)
+[Option ID = 5577]
+2. Long interspersed nuclear elements (LINEs)
+[Option ID = 5578]
+3. Short interspersed nuclear elements (SINEs)
+[Option ID = 5579]
+4. Long terminal repeats (LTRs)
+[Option ID = 5580]
+Correct Answer :‐
+Short interspersed nuclear elements (SINEs)
+[Option ID = 5579]
+Which of the following is NOT a genetic disorder?
+[Question ID = 1396]
+1. Cystic Fibrosis [Option ID = 5581]
+2. Sickle Cell Anaemia [Option ID = 5582]
+3. Downs Syndrome [Option ID = 5583]
+4. Marasmus [Option ID = 5584]
+Correct Answer :‐
+Downs Syndrome [Option ID = 5583]
+Zoonotic viruses are those that can be transmitted
+[Question ID = 1397]
+1. only in wild animals. [Option ID = 5585]
+2. from plants to humans. [Option ID = 5586]
+3. from animals to humans. [Option ID = 5587]
+4. only in zoo animals [Option ID = 5588]
+Correct Answer :‐
+from plants to humans. [Option ID = 5586]
+--- page 15 ---
+21)  
+22)  
+23)  
+24)  
+25)  
+26)  
+Given the molecular weight of Glycine is 75, what would be the molecular weight of Gly‐Gly dipeptide?
+[Question ID = 1398]
+1. 150 [Option ID = 5589]
+2. 250 [Option ID = 5590]
+3. 132 [Option ID = 5591]
+4. 321 [Option ID = 5592]
+Correct Answer :‐
+250 [Option ID = 5590]
+Identify the form of chromatography [Reverse Phase (RP) or Gel filtration (GF)] as shown in the chromatograms A and B
+below:
+[Question ID = 1399]
+1. RP(A) and GF(B) [Option ID = 5593]
+2. RP(B) and GF(A) [Option ID = 5594]
+3. RP(A) and RP(B) [Option ID = 5595]
+4. GF(A) and GF(B) [Option ID = 5596]
+Correct Answer :‐
+RP(A) and RP(B) [Option ID = 5595]
+How much will 1 mole of glucose weigh (in grams) on the Earth (E) and on the Moon (M)?
+[Question ID = 1400]
+1. 180(E) and 180(M) [Option ID = 5597]
+2. 180(E) and 90(M) [Option ID = 5598]
+3. 170(E) and 100(M) [Option ID = 5599]
+4. 180(E) and 30(M) [Option ID = 5600]
+Correct Answer :‐
+180(E) and 180(M) [Option ID = 5597]
+Given three samples (a) L‐Tyrosine (b) D‐Tyrosine, (c) Equimolar mixture of L‐ and D‐Tyrosine, which one of the
+following methods can help in the identification of the samples?
+[Question ID = 1401]
+1. UV absorbance [Option ID = 5601]
+2. IR spectroscopy [Option ID = 5602]
+3. NMR Spectroscopy [Option ID = 5603]
+4. Optical rotation [Option ID = 5604]
+Correct Answer :‐
+NMR Spectroscopy [Option ID = 5603]
+What are the number of moles in 100 ml water (density=1 g/ml) and in 100 ml heavy water (density=1.11 g/ml),
+respectively?
+[Question ID = 1402]
+1. 5.55 and 5.55 [Option ID = 5605]
+2. 5.55 and 4.44 [Option ID = 5606]
+3. 4.44 and 5.55 [Option ID = 5607]
+4. 4.44 and 4.44 [Option ID = 5608]
+Correct Answer :‐
+4.44 and 5.55 [Option ID = 5607]
+86. From the table given below, what is the overall protein yield?
+--- page 16 ---
+27)  
+28)  
+29)  
+30)  
+[Question ID = 1403]
+1. 100% [Option ID = 5609]
+2. 20.70% [Option ID = 5610]
+3. 80% [Option ID = 5611]
+4. 70% [Option ID = 5612]
+Correct Answer :‐
+20.70% [Option ID = 5610]
+Calculate the approximate concentration of a solution with molar extinction coefficient = 650 M
+cm , Path length = 1
+cm and Absorbance =1.0.
+[Question ID = 1404]
+1. 1.5 mM
+[Option ID = 5613]
+2. 1.5 µM
+[Option ID = 5614]
+3. 1.5 M
+[Option ID = 5615]
+4. 1.5 nM
+[Option ID = 5616]
+Correct Answer :‐
+1.5 µM
+[Option ID = 5614]
+A 5200‐bp long cloning vector contains two BamHI sites that are 450‐bp apart. In a cloning experiment, a 1200‐bp long
+gene “X” having two BamHI sites at 3’‐ and 5’‐ends was PCR amplified and cloned after complete digestion of the vector
+with BamHI. What will be the size of the resultant plasmid containing the cloned gene X?
+[Question ID = 1405]
+1. 5200‐bp [Option ID = 5617]
+2. 6400‐bp [Option ID = 5618]
+3. 5950‐bp [Option ID = 5619]
+4. 6850‐bp [Option ID = 5620]
+Correct Answer :‐
+5950‐bp [Option ID = 5619]
+Match various nucleases in the List I to their respective functions in List II.
+Choose the correct answer from the options below:
+[Question ID = 1406]
+1. A‐I, B‐III, C‐II, D‐IV [Option ID = 5621]
+2. A‐II, B‐I, C‐III, D‐IV [Option ID = 5622]
+3. A‐III, B‐I, C‐IV, D‐III [Option ID = 5623]
+4. A‐III, B‐II, C‐IV, D‐I [Option ID = 5624]
+Correct Answer :‐
+A‐I, B‐III, C‐II, D‐IV [Option ID = 5621]
+The difference between a cosmid and a plasmid is the presence of which one of the following additional features in a
+cosmid?
+[Question ID = 1407]
+1. a λ phage DNA sequence that includes a cos site [Option ID = 5625]
+2. an M13 phage DNA sequence that includes a cos site [Option ID = 5626]
+‐1 
+‐1
+--- page 17 ---
+31)  
+32)  
+33)  
+34)  
+35)  
+36)  
+3. a T4 phage DNA sequence that includes a cos site [Option ID = 5627]
+4. a T7 phage DNA sequence that includes a cos site [Option ID = 5628]
+Correct Answer :‐
+a T4 phage DNA sequence that includes a cos site [Option ID = 5627]
+Nick translation is carried out by 
+[Question ID = 1408]
+1. DNA polymerase I [Option ID = 5629]
+2. RNA Polymerase II [Option ID = 5630]
+3. Ribosomes [Option ID = 5631]
+4. Polynucleotide kinase [Option ID = 5632]
+Correct Answer :‐
+Ribosomes [Option ID = 5631]
+A single cell that can divide and give rise to a completely differentiated organism is referred to as 
+[Question ID = 1409]
+1. Unipotent [Option ID = 5633]
+2. Pluripotent [Option ID = 5634]
+3. Multipotent [Option ID = 5635]
+4. Totipotent [Option ID = 5636]
+Correct Answer :‐
+Pluripotent [Option ID = 5634]
+Which of the following statements are correct?
+A. Mitochondria and chloroplast contain DNA, and are associated with ribosomes along with the enzymatic machinery for
+protein synthesis. 
+B. Mitochondria and chloroplast contain DNA but do not make protein.
+C. Mitochondrial and chloroplast DNA sequence or ribosomes present are more related to bacteria and cyanobacteria than
+that of eukaryotes. 
+D. Mitochondria and chloroplast are distinct entities and can survive outside the host cell.
+E. Neither mitochondria nor chloroplast contain all of the genes necessary to specify all the proteins present in these
+organelles.
+Choose the most appropriate answer from the options given below. 
+[Question ID = 1410]
+1. A, C and E [Option ID = 5637]
+2. A, C and D [Option ID = 5638]
+3. B [Option ID = 5639]
+4. A and D [Option ID = 5640]
+Correct Answer :‐
+A, C and D [Option ID = 5638]
+An organelle found in the cytoplasm of all eukaryotic cells containing oxidative enzymes capable of energy generation
+is
+[Question ID = 1411]
+1. Endoplasmic reticulum [Option ID = 5641]
+2. Lysosome [Option ID = 5642]
+3. Peroxisome [Option ID = 5643]
+4. Golgi body [Option ID = 5644]
+Correct Answer :‐
+Peroxisome [Option ID = 5643]
+Which one of the following statements is NOT true about the role of primase enzyme in DNA replication?
+[Question ID = 1412]
+1. It does not need a primer to function. [Option ID = 5645]
+2. It is a specialized polymerase that requires dNTPs. [Option ID = 5646]
+3. It is an RNA polymerase using ribonucleoside triphosphates. [Option ID = 5647]
+4. It synthesizes primer for both leading and lagging strands. [Option ID = 5648]
+Correct Answer :‐
+It does not need a primer to function. [Option ID = 5645]
+During evolution, Mitochondria may have been acquired from
+[Question ID = 1413]
+1. Commensal Bacteria [Option ID = 5649]
+2. Archaebacteria [Option ID = 5650]
+3. Endosymbiotic Bacteria [Option ID = 5651]
+4. Parasymbiotic Bacteria [Option ID = 5652]
+Correct Answer :‐
+--- page 18 ---
+37)  
+38)  
+39)  
+40)  
+41)  
+Endosymbiotic Bacteria [Option ID = 5651]
+Which of the following statements is NOT true about Adjuvants?
+[Question ID = 1414]
+1. It increases the immunogenicity of an antigen.
+[Option ID = 5653]
+2. Extends the bio availability of an antigen.
+[Option ID = 5654]
+3. Creates covalent modifications over the epitope.
+[Option ID = 5655]
+4. Helps in antigen presentation and chemokine response.
+[Option ID = 5656]
+Correct Answer :‐
+Creates covalent modifications over the epitope.
+[Option ID = 5655]
+The molecular formula for glycine is C H O N. What would be the molecular formula for a linear oligomer made by
+linking ten glycine molecules together by condensation synthesis?
+[Question ID = 1415]
+1. C H
+O N
+[Option ID = 5657]
+2. C H
+O N
+[Option ID = 5658]
+3. C H
+O N
+[Option ID = 5659]
+4. C H
+O N
+[Option ID = 5660]
+Correct Answer :‐
+C H
+O N
+[Option ID = 5658]
+Based on the phosphoryl transfer potential, identify which one of the following cannot help in the generation of ATP
+from ADP?
+[Question ID = 1416]
+1. Glucose‐1‐phosphate
+[Option ID = 5661]
+2. Creatine phosphate
+[Option ID = 5662]
+3. 1,3‐bis‐phosphoglycerate
+[Option ID = 5663]
+4. Phosphoenol pyruvate
+[Option ID = 5664]
+Correct Answer :‐
+Creatine phosphate
+[Option ID = 5662]
+Which amino acid(s) can be quantified from the acid hydrolysates of proteins?
+[Question ID = 1417]
+1. Gln [Option ID = 5665]
+2. Gln, Asn [Option ID = 5666]
+3. His [Option ID = 5667]
+4. Gln, Asn, Trp [Option ID = 5668]
+Correct Answer :‐
+His [Option ID = 5667]
+The Messelson and Stahl experiment showed that DNA replication is
+[Question ID = 1418]
+1. dispersive [Option ID = 5669]
+2. conservative [Option ID = 5670]
+2
+5
+2
+20
+50
+20
+10
+20
+32
+11
+10
+20
+40
+10
+10
+20
+68
+29
+10
+20
+32
+11
+10
+--- page 19 ---
+42)  
+43)  
+44)  
+45)  
+46)  
+47)  
+48)  
+3. semi‐conservative [Option ID = 5671]
+4. distributive [Option ID = 5672]
+Correct Answer :‐
+conservative [Option ID = 5670]
+The primary enzyme responsible for direct reversal of UV‐induced TT dimers are
+[Question ID = 1419]
+1. glycosylases [Option ID = 5673]
+2. photolyases [Option ID = 5674]
+3. exonucleases [Option ID = 5675]
+4. endonucleases [Option ID = 5676]
+Correct Answer :‐
+photolyases [Option ID = 5674]
+Post‐translational phosphorylation of proteins usually modify: 
+[Question ID = 1420]
+1. Ser and Phe [Option ID = 5677]
+2. Thr and Val [Option ID = 5678]
+3. Ser, Thr, and Tyr [Option ID = 5679]
+4. Thr, Ala [Option ID = 5680]
+Correct Answer :‐
+Ser, Thr, and Tyr [Option ID = 5679]
+Aqueous‐organic solvents will have:
+[Question ID = 1421]
+1. lower ionizing capacity than pure water [Option ID = 5681]
+2. higher dielectric constant than pure water [Option ID = 5682]
+3. more ionizing capacity than pure water [Option ID = 5683]
+4. same dielectric constant as pure water [Option ID = 5684]
+Correct Answer :‐
+lower ionizing capacity than pure water [Option ID = 5681]
+If the two disulfide bonds in a protein containing only four Cys residues are broken, and then allowed to reform, how
+many possible combinations of disulfide bonds are possible? 
+[Question ID = 1422]
+1. 3 [Option ID = 5685]
+2. 2 [Option ID = 5686]
+3. 4 [Option ID = 5687]
+4. 6 [Option ID = 5688]
+Correct Answer :‐
+4 [Option ID = 5687]
+Phenyl isothiocyanate efficiently reacts with amino groups of proteins
+[Question ID = 1423]
+1. under highly acidic conditions [Option ID = 5689]
+2. between pH 2 and pH 4 [Option ID = 5690]
+3. in the presence of anhydrous HCl gas [Option ID = 5691]
+4. under alkaline conditions [Option ID = 5692]
+Correct Answer :‐
+in the presence of anhydrous HCl gas [Option ID = 5691]
+Which class of neurotransmitters would be most affected by a toxin that disrupts microtubules within neurons?
+[Question ID = 1424]
+1. Amino acid transmitters [Option ID = 5693]
+2. Catecholamine transmitters [Option ID = 5694]
+3. Membrane‐soluble transmitters [Option ID = 5695]
+4. Peptide transmitters [Option ID = 5696]
+Correct Answer :‐
+Catecholamine transmitters [Option ID = 5694]
+Which of these is a disease of the myelin sheath?
+[Question ID = 1425]
+1. Polio [Option ID = 5697]
+2. Leprosy [Option ID = 5698]
+3. Multiple sclerosis [Option ID = 5699]
+4. Alzheimer [Option ID = 5700]
+Correct Answer :‐
+--- page 20 ---
+49)  
+50)  
+51)  
+52)  
+53)  
+54)  
+55)  
+56)  
+Leprosy [Option ID = 5698]
+Which of these techniques cannot differentiate between identical twins? 
+[Question ID = 1426]
+1. Whole genome sequencing [Option ID = 5701]
+2. High resolution melt curve analysis [Option ID = 5702]
+3. Fingerprint comparison [Option ID = 5703]
+4. DNA fingerprinting [Option ID = 5704]
+Correct Answer :‐
+Fingerprint comparison [Option ID = 5703]
+Which of the following is NOT a component of plasma membrane?
+[Question ID = 1427]
+1. Phospholipids [Option ID = 5705]
+2. Histones [Option ID = 5706]
+3. Integral proteins [Option ID = 5707]
+4. Cholesterol [Option ID = 5708]
+Correct Answer :‐
+Phospholipids [Option ID = 5705]
+A solid which is not transparent to visible light and whose conductivity increases with temperature is formed by:
+[Question ID = 1428]
+1. covalent bonding [Option ID = 5709]
+2. van der Waal’s bonding [Option ID = 5710]
+3. co‐ordinate bonding [Option ID = 5711]
+4. ionic bonding [Option ID = 5712]
+Correct Answer :‐
+co‐ordinate bonding [Option ID = 5711]
+In Transmission Electron Microscope (TEM), a beam of electrons interact with the specimen to form the image as 
+[Question ID = 1429]
+1. Reflection [Option ID = 5713]
+2. Shadow [Option ID = 5714]
+3. Diffraction [Option ID = 5715]
+4. Scattering [Option ID = 5716]
+Correct Answer :‐
+Diffraction [Option ID = 5715]
+The concentration of ligand is equal to K , when the fraction of the ligand bound to the protein is
+[Question ID = 1430]
+1. 1 [Option ID = 5717]
+2. 1/4 [Option ID = 5718]
+3. 1/2 [Option ID = 5719]
+4. 1/8 [Option ID = 5720]
+Correct Answer :‐
+1/4 [Option ID = 5718]
+The specific cleavage at Phe, Tyr and Trp amino acids is catalyzed by
+[Question ID = 1431]
+1. chymotrypsin [Option ID = 5721]
+2. trypsin [Option ID = 5722]
+3. cyanogen bromide [Option ID = 5723]
+4. acetylcholinesterase [Option ID = 5724]
+Correct Answer :‐
+trypsin [Option ID = 5722]
+D‐Alanine and L‐Alanine are technically known as
+[Question ID = 1432]
+1. anomers [Option ID = 5725]
+2. enantiomers [Option ID = 5726]
+3. epimers [Option ID = 5727]
+4. polymer [Option ID = 5728]
+Correct Answer :‐
+epimers [Option ID = 5727]
+In the lac operon, promoter and operator refer to
+[Question ID = 1433]
+d
+--- page 21 ---
+57)  
+58)  
+59)  
+60)  
+61)  
+62)  
+63)  
+1. binding sites for repressor and RNA polymerase [Option ID = 5729]
+2. binding sites for RNA polymerase and repressor [Option ID = 5730]
+3. binding sites for repressor and corepressor [Option ID = 5731]
+4. two binding sites for RNA polymerase [Option ID = 5732]
+Correct Answer :‐
+binding sites for repressor and RNA polymerase [Option ID = 5729]
+The bacterial mRNA binds to ribosomes through the 
+[Question ID = 1434]
+1. Shine‐Dalgarno sequence [Option ID = 5733]
+2. Kozak sequence [Option ID = 5734]
+3. TATA box [Option ID = 5735]
+4. non‐specific sequence [Option ID = 5736]
+Correct Answer :‐
+TATA box [Option ID = 5735]
+EcoR1 enzyme recognizes the sequence GAATTC. A stretch of linear DNA with six sites will give rise to 
+[Question ID = 1435]
+1. 8 fragments [Option ID = 5737]
+2. 7 fragments [Option ID = 5738]
+3. 6 fragments [Option ID = 5739]
+4. 5 fragments [Option ID = 5740]
+Correct Answer :‐
+6 fragments [Option ID = 5739]
+Which one of the following activities is associated with Reverse transcriptase enzyme? 
+[Question ID = 1436]
+1. DNA dependent DNA polymerase [Option ID = 5741]
+2. DNA dependent RNA polymerase [Option ID = 5742]
+3. RNA dependent DNA polymerase [Option ID = 5743]
+4. RNA dependent RNA polymerase [Option ID = 5744]
+Correct Answer :‐
+DNA dependent RNA polymerase [Option ID = 5742]
+What is the minimum number of beta‐strands that can be twisted and packed to form a beta‐barrel structure?
+[Question ID = 1437]
+1. 4 [Option ID = 5745]
+2. 6 [Option ID = 5746]
+3. 8 [Option ID = 5747]
+4. 10 [Option ID = 5748]
+Correct Answer :‐
+6 [Option ID = 5746]
+In sickle‐cell anemia, the negatively charged glutamic acid residue is replaced by which one of the following neutral
+amino acids?
+[Question ID = 1438]
+1. glycine [Option ID = 5749]
+2. valine [Option ID = 5750]
+3. alanine [Option ID = 5751]
+4. leucine [Option ID = 5752]
+Correct Answer :‐
+alanine [Option ID = 5751]
+At what level of structure do Myoglobin and Hemoglobin differ the most with respect to their function?
+[Question ID = 1439]
+1. Primary structure [Option ID = 5753]
+2. Tertiary Structure [Option ID = 5754]
+3. Quaternary Structure [Option ID = 5755]
+4. Secondary Structure [Option ID = 5756]
+Correct Answer :‐
+Primary structure [Option ID = 5753]
+Hemoglobin's p50 value is about ______ as great as myoglobin's p50 value.
+[Question ID = 1440]
+1. twice [Option ID = 5757]
+2. half [Option ID = 5758]
+3. ten times [Option ID = 5759]
+4. twenty times [Option ID = 5760]
+--- page 22 ---
+64)  
+65)  
+66)  
+67)  
+68)  
+69)  
+70)  
+71)  
+Correct Answer :‐
+ten times [Option ID = 5759]
+α‐D‐glucose and β‐D‐glucose are
+[Question ID = 1441]
+1. stereoisomers [Option ID = 5761]
+2. enantiomers [Option ID = 5762]
+3. epimers [Option ID = 5763]
+4. anomers [Option ID = 5764]
+Correct Answer :‐
+epimers [Option ID = 5763]
+The major storage form of lipids is:
+[Question ID = 1442]
+1. sphingolipid [Option ID = 5765]
+2. glycolipid [Option ID = 5766]
+3. cholesterol [Option ID = 5767]
+4. triacylglycerol [Option ID = 5768]
+Correct Answer :‐
+glycolipid [Option ID = 5766]
+The dihedral angles φ, ψ are referred to as 
+[Question ID = 1443]
+1. Edman angles [Option ID = 5769]
+2. Ramachandran angles [Option ID = 5770]
+3. Pauling angles [Option ID = 5771]
+4. Watson angles [Option ID = 5772]
+Correct Answer :‐
+Ramachandran angles [Option ID = 5770]
+The molarity of pure water is
+[Question ID = 1444]
+1. 1 [Option ID = 5773]
+2. 18 [Option ID = 5774]
+3. 55.55 [Option ID = 5775]
+4. 54 [Option ID = 5776]
+Correct Answer :‐
+55.55 [Option ID = 5775]
+An oxidizing agent is defined as a
+[Question ID = 1445]
+1. electron donor [Option ID = 5777]
+2. electron acceptor [Option ID = 5778]
+3. oxygen acceptor [Option ID = 5779]
+4. oxygen donor [Option ID = 5780]
+Correct Answer :‐
+electron donor [Option ID = 5777]
+Emulsifier is an agent which
+[Question ID = 1446]
+1. accelerates the dispersion [Option ID = 5781]
+2. homogenizes the emulsion [Option ID = 5782]
+3. stabilizes the emulsion [Option ID = 5783]
+4. aids the flocculation of emulsion [Option ID = 5784]
+Correct Answer :‐
+stabilizes the emulsion [Option ID = 5783]
+The metal atom present in Vitamin B12 is
+[Question ID = 1447]
+1. Cobalt [Option ID = 5785]
+2. Mercury [Option ID = 5786]
+3. Iron [Option ID = 5787]
+4. Nickel [Option ID = 5788]
+Correct Answer :‐
+Iron [Option ID = 5787]
+Fleming’s “left hand rule” is associated with the effect of
+--- page 23 ---
+72)  
+[Question ID = 1448]
+1. electric field on current [Option ID = 5789]
+2. magnetic field on magnet [Option ID = 5790]
+3. electric field on magnet [Option ID = 5791]
+4. magnetic field on current [Option ID = 5792]
+Correct Answer :‐
+magnetic field on magnet [Option ID = 5790]
+Match the components of List I with those of List II: 
+73)  
+74)  
+75)  
+76)  
+Choose the correct answer from the options given below: 
+[Question ID = 1449]
+1.     A‐IV, B‐ II, C‐III, D‐I [Option ID = 5793]
+2.     A‐I, B‐II, C‐III, D‐IV [Option ID = 5794]
+3.    A‐II, B‐III, C‐IV, D‐I [Option ID = 5795]
+4.    A‐IV, B‐I, C‐II, D‐III [Option ID = 5796]
+Correct Answer :‐
+    A‐I, B‐II, C‐III, D‐IV [Option ID = 5794]
+Which of the following groups consists of analogous organs? 
+[Question ID = 1450]
+1. Nephridia, Malpighian tubules, Keber’s organ [Option ID = 5797]
+2. Ctenidia, Taenidia, Comb plates [Option ID = 5798]
+3. Flame cells, Oxyntic cells, Peptic cells [Option ID = 5799]
+4. Amphids, Statocyst, Halteres [Option ID = 5800]
+Correct Answer :‐
+Flame cells, Oxyntic cells, Peptic cells [Option ID = 5799]
+The restriction endonuclease which cleaves the given sequence at the indicated site is
+                                          (5’)G GATCC(3’)
+                                               CCTAG G
+[Question ID = 1451]
+1. EcoRI
+[Option ID = 5801]
+2. BamHI
+[Option ID = 5802]
+3. PvuII
+[Option ID = 5803]
+4. PstI
+[Option ID = 5804]
+Correct Answer :‐
+BamHI
+[Option ID = 5802]
+Choose the correct statement about kelps. 
+[Question ID = 1452]
+1. It is fresh water algae containing starch as stored food. [Option ID = 5805]
+2. It attains red colour due to the presence of phycoerythrin. [Option ID = 5806]
+3. It is a marine weed possessing fucoxanthin and carotenoids. [Option ID = 5807]
+4. The cell wall of kelp contains algin and pectin [Option ID = 5808]
+Correct Answer :‐
+It attains red colour due to the presence of phycoerythrin. [Option ID = 5806]
+The term used to describe genes arranged in same order on chromosomes of different species is
+[Question ID = 1453]
+1. Homology [Option ID = 5809]
+↓
+↑
+--- page 24 ---
+77)  
+78)  
+79)  
+80)  
+81)  
+82)  
+2. Similarity [Option ID = 5810]
+3. Phylogeny [Option ID = 5811]
+4. Synteny [Option ID = 5812]
+Correct Answer :‐
+Phylogeny [Option ID = 5811]
+Aroma in rice is due to which of the following compounds?
+[Question ID = 1454]
+1. Acetylcholine [Option ID = 5813]
+2. 2‐acetyl‐1‐pyrroline [Option ID = 5814]
+3. 2‐ethyl pyrroline [Option ID = 5815]
+4. 4‐benzyl pyrroline [Option ID = 5816]
+Correct Answer :‐
+Acetylcholine [Option ID = 5813]
+Which one of the following techniques can be used to overcome pre‐fertilization barrier between two plant species?
+[Question ID = 1455]
+1. Embryo rescue [Option ID = 5817]
+2. Protoplast fusion [Option ID = 5818]
+3. Ovary culture [Option ID = 5819]
+4. Embryo implantation [Option ID = 5820]
+Correct Answer :‐
+Ovary culture [Option ID = 5819]
+A man with AB‐blood group marries a woman with a blood group O. What is the probability of having O blood group
+among the offspring?
+[Question ID = 1456]
+1.   1 out of 4 [Option ID = 5821]
+2.   2 out of 4 [Option ID = 5822]
+3.   3 out of 4 [Option ID = 5823]
+4.   No offspring will have O blood group [Option ID = 5824]
+Correct Answer :‐
+  3 out of 4 [Option ID = 5823]
+Which of the following subcellular structures are NOT present inside the nucleus?
+A. Nucleolus
+B. Golgi Body
+C. Paraspeckles
+D. Mitochondria
+E. Endoplasmic reticulum
+Choose the most appropriate answer from the options given below: 
+[Question ID = 1457]
+1.         A, C and E [Option ID = 5825]
+2.          B, D and E [Option ID = 5826]
+3.          A and C [Option ID = 5827]
+4.          B and D [Option ID = 5828]
+Correct Answer :‐
+         B, D and E [Option ID = 5826]
+An unknown solution shows distinct peaks at 260 and 280 nm in a UV spectrophotometric analysis. The solution may
+contain
+[Question ID = 1458]
+1.    Only proteins. [Option ID = 5829]
+2.    Proteins, DNA and RNA. [Option ID = 5830]
+3.    DNA and RNA. [Option ID = 5831]
+4.    DNA only. [Option ID = 5832]
+Correct Answer :‐
+   Proteins, DNA and RNA. [Option ID = 5830]
+A promoter is a
+[Question ID = 1459]
+1.     Sequence on the DNA recognised by RNA Polymerase to initiate transcription. [Option ID = 5833]
+2.     Sequence on the RNA where ribosomes bind to initiate translation. [Option ID = 5834]
+3.     Sequence at the 3’‐end for the DNA transcription termination. [Option ID = 5835]
+4.     Sequence on an RNA for protein binding. [Option ID = 5836]
+Correct Answer :‐
+    Sequence at the 3’‐end for the DNA transcription termination. [Option ID = 5835]
+--- page 25 ---
+83)  
+84)  
+85)  
+86)  
+87)  
+88)  
+Match the enzymes in the List I to their respective functions in the List II.
+List I
+List II
+ 
+A. DNA primase
+B. RNA Polymerase
+C. Reverse Transcriptase
+D. Poly(A) polymerase
+ 
+I. 3’‐end addition of adenosine nucleotide   
+II. Complementary DNA synthesis from RNA
+III. Synthesis of RNA primers during replication
+IV. mRNA synthesis during transcription                                         
+ 
+Choose the correct answer from the options below.
+[Question ID = 1460]
+1. A‐III, B‐IV, C‐II, D‐I
+[Option ID = 5837]
+2. A‐II, B‐I, C‐III, D‐IV
+[Option ID = 5838]
+3. A‐III, B‐I, C‐IV, D‐III
+[Option ID = 5839]
+4. A‐IV, B‐I, C‐III, D‐II
+[Option ID = 5840]
+Correct Answer :‐
+A‐III, B‐IV, C‐II, D‐I
+[Option ID = 5837]
+   A riboswitch is 
+[Question ID = 1461]
+1. a RNA molecule acting as an enzyme. [Option ID = 5841]
+2. a structured regulatory mRNA segment that binds a small molecule. [Option ID = 5842]
+3. a non‐coding RNA that regulates gene expression. [Option ID = 5843]
+4. a RNA molecule that can change its function under new environment [Option ID = 5844]
+Correct Answer :‐
+a non‐coding RNA that regulates gene expression. [Option ID = 5843]
+One of the limitations of Y‐chromosome DNA profiling is that 
+[Question ID = 1462]
+1. genetic variability on Y‐chromosome is much more than that on autosomes. [Option ID = 5845]
+2. it cannot differentiate between DNA from father, son and male siblings. [Option ID = 5846]
+3. Y‐chromosome has high recombination frequency. [Option ID = 5847]
+4. it is difficult to PCR amplify Y‐chromosome STRs. [Option ID = 5848]
+Correct Answer :‐
+Y‐chromosome has high recombination frequency. [Option ID = 5847]
+Determine the sequence of genes on a chromosome based on the recombination frequencies given below.
+M‐N = 10 map units; M – O = 26 map units; M – P = 20 map units; N – O = 16 map units ; N – P = 38 map units 
+[Question ID = 1463]
+1. M‐N‐O‐P [Option ID = 5849]
+2. P‐M‐N‐O [Option ID = 5850]
+3. O‐M‐P‐N [Option ID = 5851]
+4. N‐P‐O‐M [Option ID = 5852]
+Correct Answer :‐
+P‐M‐N‐O [Option ID = 5850]
+Evolution of life forms had occurred due to use and disuse of organs. This theory was postulated by:
+[Question ID = 1464]
+1.       Jean‐Baptiste Lamarck [Option ID = 5853]
+2.       Hugo de Vries [Option ID = 5854]
+3.      Charles Darwin [Option ID = 5855]
+4.       Alfred Wallace [Option ID = 5856]
+Correct Answer :‐
+      Hugo de Vries [Option ID = 5854]
+    Which of the following feature is true about ALL twenty genetically coded amino acids?
+--- page 26 ---
+89)  
+90)  
+91)  
+92)  
+93)  
+94)  
+[Question ID = 1465]
+1. They are optically active [Option ID = 5857]
+2. They contain a methylene group in their side chain [Option ID = 5858]
+3. They contain Carbon, Hydrogen, Oxygen, and Nitrogen [Option ID = 5859]
+4. They are basic in nature [Option ID = 5860]
+Correct Answer :‐
+They contain Carbon, Hydrogen, Oxygen, and Nitrogen [Option ID = 5859]
+A DNA sequence has two ends, 5’ and 3’. Which of the following statements is correct regarding the nature of the
+ends?
+[Question ID = 1466]
+1. The 5’ end has a hydroxyl group.
+[Option ID = 5861]
+2. The 5’ end has a phosphate group.
+[Option ID = 5862]
+3. The 3’ end has a phosphate group.
+[Option ID = 5863]
+4. Any group can be present at any end.
+[Option ID = 5864]
+Correct Answer :‐
+The 5’ end has a hydroxyl group.
+[Option ID = 5861]
+   Telomerase enzyme is a 
+[Question ID = 1467]
+1. DNA dependent DNA polymerase [Option ID = 5865]
+2. DNA dependent RNA polymerase [Option ID = 5866]
+3. RNA dependent RNA polymerase [Option ID = 5867]
+4. Reverse transcriptase [Option ID = 5868]
+Correct Answer :‐
+RNA dependent RNA polymerase [Option ID = 5867]
+A log‐log graph is plotted of total surface area of organisms versus their body weight. The best fit line will have a slope
+of
+[Question ID = 1468]
+1. 1/2 [Option ID = 5869]
+2. 2/3 [Option ID = 5870]
+3. 3/4 [Option ID = 5871]
+4. 1 [Option ID = 5872]
+Correct Answer :‐
+3/4 [Option ID = 5871]
+In an ideal Continuous Stirred Tank Reactor (CSTR) at steady state 
+[Question ID = 1469]
+1. All particles have equal residence time. [Option ID = 5873]
+2. Maximum number of particles have residence time equal to average residence time. [Option ID = 5874]
+3. Maximum number of particles have residence time close to zero. [Option ID = 5875]
+4. Maximum number of particles have residence time close to infinity. [Option ID = 5876]
+Correct Answer :‐
+Maximum number of particles have residence time equal to average residence time. [Option ID = 5874]
+Cooling water enters the cooling coil of a fermenter at 7 °C and leaves at 27 °C because it picks up the heat generated
+due to microbial growth. The culture temperature is 37°C. The average temperature difference which is used to calculate
+the rate of heat transfer is:
+[Question ID = 1470]
+1. Arithmetic mean of 10 and 30 [Option ID = 5877]
+2. Geometric mean of 10 and 30 [Option ID = 5878]
+3. Logarithmic mean of 10 and 30 [Option ID = 5879]
+4. Harmonic mean of 10 and 30 [Option ID = 5880]
+Correct Answer :‐
+Geometric mean of 10 and 30 [Option ID = 5878]
+Given a constant Power number, the power consumption of an agitator having geometric similarity but twice the
+diameter of a smaller agitator will consume ___________ power at the same RPM as the smaller agitator.
+--- page 27 ---
+95)  
+96)  
+97)  
+98)  
+99)  
+100)  
+[Question ID = 1471]
+1. 4 times. [Option ID = 5881]
+2. 8 times. [Option ID = 5882]
+3. 16 times. [Option ID = 5883]
+4. 32 times. [Option ID = 5884]
+Correct Answer :‐
+16 times. [Option ID = 5883]
+In a batch experiment with cells following Monod growth kinetics, the initial substrate concentration is doubled from S
+to 2S  and it is observed that the initial doubling time in the log phase hardly changes. This tells us that
+[Question ID = 1472]
+1. S >>Ks
+[Option ID = 5885]
+2. S =K  (approximately)
+[Option ID = 5886]
+3. S <<Ks
+[Option ID = 5887]
+4. The growth in substrate is inhibited.
+[Option ID = 5888]
+Correct Answer :‐
+S >>Ks
+[Option ID = 5885]
+Which one of the following products is obtained by a trans‐esterification step starting from sugarcane bagasse?
+[Question ID = 1473]
+1. Glycerol [Option ID = 5889]
+2. Trans‐fat [Option ID = 5890]
+3. Alcohols [Option ID = 5891]
+4. Biodiesel [Option ID = 5892]
+Correct Answer :‐
+Alcohols [Option ID = 5891]
+Which of the following is true for single cell protein?
+[Question ID = 1474]
+1. Algae cannot be used in single cell protein [Option ID = 5893]
+2. It is produced through fermentation [Option ID = 5894]
+3. It does not contain carbohydrates and vitamins [Option ID = 5895]
+4. Its utilization increases environmental pollution [Option ID = 5896]
+Correct Answer :‐
+It does not contain carbohydrates and vitamins [Option ID = 5895]
+    Select the INCORRECT statement from the following options.
+[Question ID = 1475]
+1. Biodegradable polymers are not suitable candidates in the recycling of commingled plastics. [Option ID = 5897]
+2. Biodegradable polymers are more expensive than ordinary plastics. [Option ID = 5898]
+3. Biodegradable polymers are an attractive option for addressing the solid waste and marine pollution. [Option ID = 5899]
+4. Polylactic acid cannot be used to make biodegradable plastic products. [Option ID = 5900]
+Correct Answer :‐
+Biodegradable polymers are more expensive than ordinary plastics. [Option ID = 5898]
+The Cartagena Protocol regulates trade in
+[Question ID = 1476]
+1. Endangered species of plants and animals [Option ID = 5901]
+2. Genetically modified organisms [Option ID = 5902]
+3. Elite varieties of crops [Option ID = 5903]
+4. Vaccines [Option ID = 5904]
+Correct Answer :‐
+Genetically modified organisms [Option ID = 5902]
+Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).
+Assertion (A): Biodiversity of the prokaryotes cannot be quantified precisely.
+Reason (R): Conventional taxonomic methods are not suitable for the identification and characterisation of all microbes.
+In the light of the above statements, choose the most appropriate answer from the options given below. 
+[Question ID = 1477]
+O
+O
+O
+O
+s
+O
+O
+--- page 28 ---
+1. Both A and R are correct and R is the correct explanation of A. [Option ID = 5905]
+2. Both A and R are correct, but R is not the correct explanation of A. [Option ID = 5906]
+3. A is correct, but R is not correct. [Option ID = 5907]
+4. A is not correct, but R is correct. [Option ID = 5908]
+Correct Answer :‐
+A is correct, but R is not correct. [Option ID = 5907]

@@ -1,0 +1,907 @@
+
+--- page 1 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+1/44
+Paper Specific Instructions 
+ 
+1. The examination is of 3 hours duration. There are a total of 60 questions carrying 100 marks. The 
+entire paper is divided into three sections, A, B and C. All sections are compulsory. Questions in 
+each section are of different types. 
+ 
+2. Section A contains a total of 30 Multiple Choice Questions (MCQ). Each MCQ type question has 
+four choices out of which only one choice is the correct answer. Questions Q.1 – Q.30 belong to 
+this section and carry a total of 50 marks. Q.1 – Q.10 carry 1 mark each and Questions Q.11 – Q.30 
+carry 2 marks each. 
+ 
+3. Section B contains a total of 10 Multiple Select Questions (MSQ). Each MSQ type question is 
+similar to MCQ but with a difference that there will be more than one choices that are correct out 
+of the four given choices. The candidate gets full credit if he/she selects all the correct answers only 
+and no wrong answers. Questions Q.31 – Q.40 belong to this section and carry 2 marks each with a 
+total of 20 marks. 
+ 
+4. Section C contains a total of 20 Numerical Answer Type (NAT) questions. For these NAT type 
+questions, the answer is a real number which needs to be entered using the virtual keyboard on the 
+monitor. No choices will be shown for these type of questions. Questions Q.41 – Q.60 belong to 
+this section and carry a total of 30 marks. Q.41 – Q.50 carry 1 mark each and Questions Q.51 – 
+Q.60 carry 2 marks each. 
+ 
+5. In all sections, questions not attempted will result in zero mark. In Section A (MCQ), wrong answer 
+will result in NEGATIVE marks. For all 1-mark questions, 1/3 marks will be deducted for each 
+wrong answer. For all 2-mark questions, 2/3 marks will be deducted for each wrong answer. In 
+Section B (MSQ), there is NO NEGATIVE and NO PARTIAL marking provisions. There is NO 
+NEGATIVE marking in Section C (NAT) as well. 
+ 
+6. Only Virtual Scientific Calculator is allowed. Charts, graph sheets, tables, cellular phone or other 
+electronic gadgets are NOT allowed in the examination hall. 
+ 
+ 
+7. A Scribble Pad will be provided for rough work.
+--- page 2 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+2/44
+Special Instructions / Useful Data
+--- page 3 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+3/44
+Section A: Q.1 – Q.10 Carry ONE mark each. 
+ 
+ 
+Q.1 
+The porphyrin ring (tetrapyrrole structure) is NOT found in functional  
+ 
+ 
+(A) chlorophyll 
+(B) hemoglobin 
+(C) hemocyanin 
+(D) leghemoglobin
+--- page 4 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+4/44
+Q.2 
+If  𝑃= ( 𝑐𝑜𝑠𝛼
+𝑠𝑖𝑛𝛼
+−𝑠𝑖𝑛𝛼
+𝑐𝑜𝑠𝛼) and 𝑃+ 𝑃𝑇= I, the value of α (0 ≤𝛼≤𝜋2)
+⁄
+ is 
+ 
+ 
+(A) 𝜋
+2 
+(B) 𝜋
+3 
+(C) 3𝜋
+2  
+(D) 0
+--- page 5 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+5/44
+Q.3 
+After how many cycles of polymerase chain reaction (PCR), the amplified product of 
+required length is generated for the first time from a chromosomal DNA template? 
+ 
+ 
+(A) 2 
+(B) 3 
+(C) 4 
+(D) 5 
+  
+  
+Q.4 
+In humans, Down syndrome is caused by 
+ 
+ 
+(A) Trisomy 16 
+(B) Trisomy 18 
+(C) Trisomy 21 
+(D) Trisomy 22
+--- page 6 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+6/44
+Q.5 
+Which one of the following hormones is produced by the adrenal gland? 
+ 
+ 
+(A) Thyroxine 
+(B) Cortisol 
+(C) Insulin 
+(D) Melatonin 
+  
+  
+Q.6 
+What is the ploidy level of a sporophyte in angiosperms? 
+ 
+ 
+(A) n 
+(B) 2n 
+(C) 3n 
+(D) 4n
+--- page 7 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+7/44
+Q.7 
+The standard free energy change (ΔG°) of the binding reaction between different sweet 
+molecules and a common sweet taste receptor are given. Which amongst these molecules 
+is the sweetest at the same molar concentration? 
+ 
+ 
+(A) Sucrose (- 6.7 kcal mol-1) 
+(B) Saccharin (- 9.7 kcal mol-1) 
+(C) Alitame (- 11.1 kcal mol-1) 
+(D) Neotame (- 12.1 kcal mol-1) 
+  
+  
+Q.8 
+The correct order of electronegativity of the given elements is 
+ 
+ 
+(A) B > C > N > O > F 
+(B) F > O > N > C > B 
+(C) F > N > O > C > B 
+(D) O > F > N > C > B
+--- page 8 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+8/44
+Q.9 
+Which of the following terrestrial biomes has the highest animal diversity?                  
+ 
+ 
+(A) Tropical forest 
+(B) Savana 
+(C) Chaparral 
+(D) Tundra 
+  
+  
+Q.10 
+An electric circuit with a resistor of constant resistance ‘R’ is maintained at a constant 
+voltage ‘V’. Based on Ohm’s law, if the current ‘I’ through the circuit is doubled, the 
+power ‘P’ dissipated across the resistor is 
+ 
+ 
+(A) P/2 
+(B) P 
+(C) 2P 
+(D) 4P
+--- page 9 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+9/44
+Section A: Q.11 – Q.30 Carry TWO marks each. 
+ 
+Q.11 
+Sequence comparison of which of the following genes is used as a measure of 
+evolutionary divergence across bacterial species? 
+ 
+ 
+(A) pbpG 
+(B) slyD 
+(C) 16S rRNA  
+(D) 18S rRNA
+--- page 10 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+10/44
+Q.12 
+Which of the following activities is NOT possessed by the human immunodeficiency 
+virus-1 reverse transcriptase?              
+ 
+ 
+(A) Synthesis of DNA from RNA 
+(B) Synthesis of DNA from DNA  
+(C) Degradation of RNA strand of RNA: DNA hybrid 
+(D) Synthesis of mRNA from DNA 
+  
+  
+Q.13 
+Bacterial cloning vectors and bacterial expression vectors are differentiated by the 
+presence of  
+ 
+ 
+(A) antibiotic resistance gene cassette 
+(B) origin of replication 
+(C) promoter and ribosome-binding site 
+(D) unique restriction sites
+--- page 11 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+11/44
+Q.14 
+The final stage of peptidoglycan (PG) biosynthesis is marked by PG cross-link formation 
+and remodeling. Which of the following enzymes does NOT take part in these processes? 
+ 
+ 
+(A) Transglycosidases 
+(B) Transpeptidases 
+(C) Transaminases 
+(D) DD-carboxypeptidases 
+  
+  
+Q.15 
+The first evidence of ‘gene transfer’ was demonstrated in 1928 by   
+ 
+ 
+(A) Joshua Lederberg in Escherichia coli  
+(B) Frederick Griffith in Streptococcus pneumoniae 
+(C) Joshua Lederberg in bacteriophages 
+(D) Alexander Fleming in Penicillium notetum
+--- page 12 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+12/44
+Q.16 
+Which of the following statements about eukaryotic asymmetric cell division is NOT 
+correct? 
+ 
+ 
+(A) Chromosomes are unequally distributed in the daughter cells 
+(B) Chromosomes are equally distributed in the daughter cells 
+(C) RNA and proteins are unequally distributed in the daughter cells 
+(D) Cytoplasmic contents are unequally distributed in the daughter cells 
+  
+  
+Q.17 
+Which of the following represents the CORRECT order of events in the eukaryotic cell 
+cycle?     
+ 
+ 
+(A) G1  S  G2  M 
+(B) S  G1  M  G2 
+(C) G1  S  M  G2 
+(D) S  G1  G2  M
+--- page 13 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+13/44
+Q.18 
+The receptors for gamma amino butyric acid (GABA) in humans are 
+ 
+ 
+(A) ligand gated chloride ion channels 
+(B) ligand gated sodium ion channels 
+(C) ligand gated potassium ion channels 
+(D) ligand gated calcium ion channels 
+  
+  
+Q.19 
+Which of the following cell types is infected by the human immunodeficiency virus-1? 
+ 
+ 
+(A) T-helper lymphocytes 
+(B) T-cytotoxic lymphocytes 
+(C) Plasma cells 
+(D) B-lymphocytes
+--- page 14 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+14/44
+Q.20 
+ 
+ 
+The IR stretching frequency of the carbonyl (C=O) group of a typical saturated ketone 
+is 1715 cm-1. The IR stretching frequencies for the carbonyl groups present in three 
+different acetophenone (methyl phenyl ketone) derivatives are given. Match the 
+molecules in Group I with their corresponding frequencies in Group II 
+ 
+Group I 
+Group II 
+(Frequency of C=O group (cm-1) 
+P 
+p-amino acetophenone 
+1 
+1677 
+Q 
+p-nitro acetophenone 
+2 
+1700 
+R 
+p-methoxy acetophenone 
+3 
+1684 
+(A) P-1, Q-2, R-3 
+(B) P-2, Q-3, R-1 
+(C) P-3, Q-1, R-2 
+(D) P-3, Q-2, R-1
+--- page 15 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+15/44
+Q.21 
+Two charges 10 × 10-8 C and - 6 ×10-8 C are located 16 cm apart. The point(s) on the line 
+joining the two charges, where the net electric potential is zero, will be  
+[Take the potential at infinity to be zero] 
+ 
+ 
+(A) 10 cm and 40 cm away from the positive charge on the side of the negative charge 
+(B) 10 cm and 40 cm away from the negative charge on the side of the positive charge 
+(C) 10 cm away from the negative charge on the side of the positive charge 
+(D) 40 cm away from the negative charge on the side of the positive charge
+--- page 16 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+16/44
+Q.22 
+Match the pair of orgamisms in Group I with their community interaction pattern in 
+Group II. 
+ 
+ 
+ 
+Group I 
+Group II 
+P 
+Cattle egrets – African buffalo 
+1 
+Competition 
+Q Lynx – Fox 
+2 
+Predation 
+R 
+Acacia tree – Pugnacious ants 
+3 
+Commensalism 
+S 
+Leopard – Antelope 
+4 
+Mutualism 
+(A) P-3, Q-1, R-4, S-2 
+(B) P-3, Q-4, R-1, S-2 
+(C) P-4, Q-1, R-3, S-2  
+(D) P-2, Q-3, R-1, S-4
+--- page 17 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+17/44
+Q.23 
+Match the animals in Group I with the major form of excreted nitrogen metabolite in 
+Group II 
+Group I 
+Group II 
+P 
+Bony fishes 
+1 
+Urea 
+Q 
+Lions 
+2 
+Uric acid 
+R 
+Birds 
+3 
+Ammonia 
+ 
+ 
+ 
+(A) P - 3, Q - 1, R - 2 
+(B) P - 1, Q - 2, R - 3 
+(C) P - 2, Q - 3, R - 1 
+(D) P - 3, Q - 2, R - 1
+--- page 18 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+18/44
+Q.24 
+Identify the taxa that constitute a paraphyletic group in the given phylogenetic tree ? 
+ 
+ 
+ 
+ 
+(A) A, B, C 
+(B) D, E, F 
+(C) B, C, D 
+(D) C, D, E
+--- page 19 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+19/44
+Q.25 
+Which of the following is the CORRECT combination of a synthetic auxin and a 
+synthetic cytokinin?  
+ 
+ 
+(A) 2,4-Dichlorophenoxy acetic acid (2,4-D) and Indole-3-acetic acid (IAA) 
+(B) 2,4-Dichlorophenoxy acetic acid (2,4-D) and 6-Benzylamino purine (BAP) 
+(C) 6-Benzylamino purine (BAP) and Zeatin 
+(D) Indole-3-acetic acid (IAA) and Zeatin 
+  
+  
+Q.26 
+Mechanism of antibacterial action of polymyxins relies on the 
+ 
+ 
+(A) inhibition of 30S ribosomal subunit 
+(B) disruption of peptidoglycan synthesis 
+(C) inhibition of DNA replication of bacteria 
+(D) disruption of membrane architecture of bacteria
+--- page 20 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+20/44
+Q.27 
+The 5′ cap of eukaryotic mRNAs contains               
+ 
+ 
+(A) a modified guanine nucleotide 
+(B) a modified adenine nucleotide 
+(C) a modified cytosine nucleotide 
+(D) a modified uracil nucleotide
+--- page 21 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+21/44
+Q.28 
+Which one of the following statements is CORRECT about Agrobacterium tumefaciens-
+mediated plant transformation? 
+ 
+ 
+(A) The marker gene for the selection of plant transformant is located outside the T-DNA 
+segment of the transformation plasmid 
+(B) The marker gene for the selection of bacterial transformant is located within the T-DNA 
+segment of the transformation plasmid 
+(C) Two T-DNA border sequences (left and right) are essential to design a binary vector 
+system 
+(D) In binary vector system, the vir genes and two T-DNA border sequences (left and right) 
+are present in the same transformation plasmid
+--- page 22 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+22/44
+Q.29 
+Which of the following conditions is CORRECT for free expansion of an ideal gas under 
+adiabatic condition? (q = heat, ΔT = temperature difference, w = work) 
+ 
+ 
+(A) q = 0, ΔT < 0, w ≠ 0 
+(B) q = 0, ΔT ≠ 0, w = 0 
+(C) q ≠ 0, ΔT = 0, w = 0 
+(D) q = 0, ΔT = 0, w = 0
+--- page 23 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+23/44
+Q.30 
+Four alkyl halides, MeBr, EtBr, i-PrBr and t-BuBr, undergo SN2 reactions in the presence 
+of hydroxide ion to yield the corresponding alcohols and the halide ion. The CORRECT 
+order of the alkyl halides based on the rates of reactions is 
+ 
+ 
+(A) MeBr > EtBr > i-PrBr > t-BuBr 
+(B) t-BuBr > i-PrBr > EtBr > MeBr 
+(C) i-PrBr > t-BuBr > EtBr > MeBr 
+(D) EtBr > i-PrBr > t-BuBr > MeBr
+--- page 24 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+24/44
+Section B: Q.31 – Q.40 Carry TWO marks each. 
+ 
+ 
+Q.31 
+Which of the following statement(s) is/are CORRECT about Deinococcus radiodurans? 
+ 
+ 
+(A) It has a cell wall consisting of several layers, including an outer membrane that lacks 
+lipid A 
+(B) Peptidoglycan in its cell wall has ornithine, in place of diaminopimelic acid, in the N-
+acetyl muramic acid cross-bridges 
+(C) It is a Gram-negative organism 
+(D) It can survive an exposure up to 15000 Gy of ionizing radiation
+--- page 25 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+25/44
+Q.32 
+Which of the following statement(s) is/are CORRECT about ‘stringent response’ in 
+bacteria?          
+ 
+ 
+(A) It is linked to reduced growth rate 
+(B) Guanosine tetraphosphate (ppGpp) alone is sufficient to trigger the process 
+(C) Both guanosine tetraphosphate (ppGpp) and guanosine pentaphosphate (pppGpp) are 
+required to trigger the process 
+(D) RelA and/or SpoT are/is involved in triggering the process
+--- page 26 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+26/44
+Q.33 
+The method(s) used to detect a DNA fragment of 150 base pairs is/are 
+ 
+ 
+(A) agarose gel electrophoresis  
+(B) northern blotting 
+(C) polyacrylamide gel electrophoresis 
+(D) western blotting 
+  
+  
+Q.34 
+The component(s) of the apoptosome is/are 
+ 
+ 
+(A) cytochrome c 
+(B) procaspase 9 
+(C) caspase 3 
+(D) caspase 8
+--- page 27 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+27/44
+Q.35 
+Which of the following statement(s) is/are CORRECT for lac repressor expressed from 
+the lacI gene? 
+ 
+ 
+(A) The lac repressor is allosterically controlled and it binds to lac operator 
+(B) The gene lacI is in the ‘cis’ configuration with respect to lac operon 
+(C) The presence of glucose weakens the binding of lac repressor to lac operator 
+(D) The lac repressor regulates ‘in trans’ the expression of a gene cloned under the control 
+of lac promoter
+--- page 28 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+28/44
+Q.36 
+Which of the following condition(s) lead(s) to reduced affinity of O2 for human 
+hemoglobin?              
+ 
+ 
+(A) Reduction of pH of blood plasma from pH 7.4 to 7.2 
+(B) Decrease of partial pressure of CO2 in the lungs from 6 to 2 kPa 
+(C) Enhancement of intracellular 2, 3-bis phosphoglycerate (BPG) level from 5 to 8 mM 
+(D) Increase in ambient CO level from 1 to 600 ppm 
+  
+  
+Q.37 
+Which of the following metabolite(s) accumulate(s) in the blood of a human adult 
+consuming a ketogenic diet? 
+ 
+ 
+(A) D--hydroxybutyrate 
+(B) Acetoacetate 
+(C) Pyruvate 
+(D) Oxaloacetate
+--- page 29 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+29/44
+Q.38 
+In ‘Futile Cycle’ chemical energy is dissipated as heat due to two opposite biochemical 
+reactions. Which of the following biochemical reaction(s) is/are a part of ‘Futile Cycle’? 
+ 
+ 
+(A) Glucose  Glucose-6-phosphate 
+(B) Fructose-6-phosphate  Fructose-1,6-bisphosphate 
+(C) Glucose-6-phosphate  Fructose-6-phosphate  
+(D) 1,3-bisphosphoglycerate  3-phosphoglycerate 
+  
+  
+Q.39 
+Which of the following statement(s) is/are CORRECT in the classical ‘ABC model’ for 
+genetic control of flower development? 
+ 
+ 
+(A)  ‘Class A’ genes solely determine sepal identity 
+(B) ‘Class B’ genes solely determine petal identity 
+(C) ‘Class C’ genes solely determine stamen identity 
+(D) ‘Class C’ genes solely determine carpel identity
+--- page 30 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+30/44
+Q.40 
+Which of the following is/are CORRECT for the two molecules shown? 
+ 
+ 
+ 
+ 
+(A) They are stereoisomers 
+(B) Each of them has two stereogenic centers 
+(C) They are mirror images of each other 
+(D) They are diastereoisomers
+--- page 31 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+31/44
+ 
+ 
+Section C: Q.41 – Q.50 Carry ONE mark each. 
+Q.41 
+Free energy change for transport of an uncharged solute across a membrane against a 
+1x103 fold concentration gradient at 25 °C is _____________kJ mol-1. (rounded off to 2 
+decimals) 
+[R = 8.315 J mol-1 K-1] 
+  
+  
+Q.42 A forest has four different tree species (A, B, C and D) and their numbers are:  
+A = 60; B = 20; C = 10 and D = 10.  
+The Shannon biodiversity index of the trees in this forest is________________.  (rounded 
+off to 2 decimals)           
+ 
+ 
+ 
+ 
+Q.43 
+In a plant species, the genotype DDEE is crossed with the genotype ddee; and the F1 is 
+test crossed. Considering that the two genes are linked and 20 map unit (cM) apart in the 
+chromosome, the percentage (%) of the test cross progeny with the genotype ddee is 
+_______________. (answer in integer)
+--- page 32 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+32/44
+Q.44 
+In a farm animal breeding programme, the animal with the dominant A phenotype, the 
+recessive b phenotype, the dominant D phenotype, and the recessive e phenotype are 
+commercially important. The inheritance of these traits follows Mendelian laws. From 
+the tetra-hybrid cross of two genotypes AaBbDdEe and AaBbDdEe, the expected 
+frequency of offspring that will show all the above-mentioned desired phenotypes is 
+__________________. (rounded off to 3 decimals) 
+ 
+ 
+ 
+ 
+Q.45 
+The wavelength of a photon emitted during a transition from n = 3 to n = 2 state in the H 
+atom is _____________ nm. (answer in integer).  
+[Rydberg energy constant RH  = 2.18 × 10-18 J; Planck constant h = 6.626 × 10-34 J s, 
+ c = 3 × 108 m s-1] 
+ 
+ 
+ 
+ 
+Q.46 
+The limit of the function lim
+𝑥→2 (
+2𝑥2+2𝑥−12
+𝑥2−4
+) is _____________. (rounded off to 1 
+decimal)
+--- page 33 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+33/44
+Q.47 
+A candle is placed 18 cm in front of a concave mirror to generate a real, inverted and 
+doubly magnified image. The radius of curvature of the concave mirror is 
+____________cm. (answer in integer) 
+ 
+ 
+ 
+ 
+Q.48 
+E0 value of a Daniell cell Zn|Zn2+ (aq)||Cu2+ (aq)|Cu is ___________V. (rounded off to 2 
+decimals) 
+[E0Zn2+|Zn = - 0.76 V; E0Cu2+|Cu = + 0.34 V] 
+ 
+ 
+ 
+ 
+Q.49 
+A population of bacterial cells grows from 10,000 to 100,000,000 cells in 6 hours. The 
+generation time of the bacterial population is __________min. (rounded off to 2 
+decimals)
+--- page 34 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+34/44
+Q.50 
+In a sampling expedition near a peninsula, 180 dolphins from a large population of 
+dolphins were captured and marked by tagging their dorsal fins. The tagged dolphins 
+were then allowed to join back into the population. In a subsequent expedition, 42 
+dolphins were photographed from same large population. Among these, 7 dolphins 
+contained the tags. Assuming that the population size remains the same and that tags were 
+not lost, the estimated population size of dolphins in the peninsula is _____________. 
+(answer in integer)
+--- page 35 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+35/44
+ 
+ 
+ 
+Section C: Q.51 – Q.60 Carry TWO marks each 
+Q.51 
+The area bounded by the curve 𝑦= 𝑠𝑖𝑛𝑥 and the 𝑥 axis between 𝑥= 0 and 𝑥= 3𝜋2
+⁄  is 
+___________ sq. units. (answer in integer) 
+ 
+ 
+ 
+ 
+Q.52 
+The number of 7 letter words (with or without meaning) starting with the letter B that 
+can be formed using the letters of the word BIOLOGY is________________. (answer 
+in integer) 
+ 
+ 
+ 
+ 
+Q.53 
+Three particles A, B, C with masses of 100 g, 200 g, and 300 g, respectively, are placed 
+at the vertices of an equilateral triangular structure with a side length of 2 m. A is placed 
+at the (0, 0) position and B is placed at (2, 0) position in a Cartesian coordinate system. 
+Assume that ΔABC lies parallel to the base. The distance between the center of mass and 
+position of the particle A is ______________ m. (rounded off to 2 decimals)
+--- page 36 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+36/44
+Q.54 
+An insect weighing 5 g takes off vertically for a distance of 100 cm with a speed of  
+4 m s-1 by using its hind legs. Ignoring the resistance due to air, the magnitude of the 
+average net force exerted by the hind legs during the take-off is _____________N. 
+(rounded off to 3 decimals) 
+[g = 9.8 m s-2] 
+ 
+ 
+ 
+ 
+Q.55 
+A buffer solution is composed of 0.1 M acetic acid and 0.15 M sodium acetate. The 
+change in pH of 1 L buffer solution upon addition of 50 mL of 1.0 M NaOH is 
+______________.  (rounded off to 2 decimals) 
+[Ka of acetic acid = 1.75 × 10-5]
+--- page 37 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+37/44
+Q.56 
+In a reaction A + B → C, the initial rate of formation of C at 25 °C was measured for 
+different initial concentrations of A and B as given. The overall order of the reaction with 
+respect to both A and B is ________. (answer in integer) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Experiment 
+Initial [A] 
+( mol L-1) 
+Initial [B] 
+(mol L-1) 
+Initial rate of 
+formation of C 
+(mol L-1 s-1) 
+1 
+0.4 
+0.3 
+0.078 
+2 
+0.8 
+0.3 
+0.312 
+3 
+0.4 
+0.6 
+0.156 
+4 
+0.8 
+0.6 
+0.624 
+ 
+ 
+ 
+ 
+Q.57 
+A cDNA was synthesized from the mRNA of a eukaryotic gene. After cloning and 
+sequence analysis, the double-stranded cDNA of 614 bp revealed 125 bp 5′-UTR and 120 
+bp 3′-UTR. The number of amino acids present in the polypeptide encoded by this gene 
+is _____________. (answer in integer)
+--- page 38 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+38/44
+Q.58 
+A rare genetic disorder resulting from homozygosity for a recessive allele (r) occurs in 2 
+out of every 10,000 individuals in a population. Assuming that (i) the disorder is not 
+lethal, (ii) the disorder does not impact reproductive success, (iii) no new mutations are 
+introduced in the population, and (iv) the population follows Hardy-Weinberg 
+equilibrium, the percentage (%) of the carriers in the population that pass the r allele to 
+offspring is_________. (rounded off to 1 decimal) 
+ 
+ 
+ 
+ 
+ 
+Q.59 
+The vector, shown in the figure, has promoter and RBS sequences in the 300 bp region 
+between the restriction sites for enzymes X and Y. There are no other sites for X and Y 
+in the vector. The promoter is directed towards the Y site. The insert containing only an 
+ORF provides 3 fragments after digestion with both enzymes X and Y. The ORF is cloned 
+in the correct orientation in the vector using the single restriction enzyme Y. The size of 
+the largest fragment of the recombinant plasmid expressing the ORF upon digestion with 
+enzyme X is ___________ bp.  (answer in integer)
+--- page 39 ---
+JAM 2025 
+Confidential 
+Biotechnology (BT) 
+BT 
+39/44
+Q.60 
+The length of the edge of a variable cube is increasing at the rate of 25 cm s-1. If the initial 
+length of the edge of the cube is 10 cm, the rate of increase of the surface area of the cube 
+is _________ cm2 s-1. (answer in integer)

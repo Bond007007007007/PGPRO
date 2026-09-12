@@ -1,0 +1,2116 @@
+
+--- page 1 ---
+2024
+aglasem.com
+Graduate Aptitude Test in Engineering
+(GATE) is a prestigious national-level exam
+that assesses candidates for
+comprehensive understanding in various
+undergraduate-level subjects in
+Engineering, Technology, Science,
+Architecture, and Humanities.
+Question Paper | Answer Key
+GATE
+--- page 2 ---
+Life Sciences (XL) 
+Page 1 of 71 
+Organizing Institute: IISc Bengaluru 
+General Aptitude (GA) 
+Q.1 – Q.5 Carry ONE mark Each 
+Q.1 
+If ‘→’ denotes increasing order of intensity, then the meaning of the words  
+[walk → jog → sprint] is analogous to [bothered → ________ → daunted]. 
+Which one of the given options is appropriate to fill the blank? 
+ 
+ 
+(A) 
+phased 
+(B) 
+phrased 
+(C) 
+fazed 
+(D) 
+fused 
+ 
+ 
+Q.2 
+Two wizards try to create a spell using all the four elements, water, air, fire, and 
+earth. For this, they decide to mix all these elements in all possible orders. They 
+also decide to work independently. After trying all possible combination of 
+elements, they conclude that the spell does not work.  
+How many attempts does each wizard make before coming to this conclusion, 
+independently? 
+ 
+ 
+(A) 
+24 
+(B) 
+48 
+(C) 
+16 
+(D) 
+12
+--- page 3 ---
+Life Sciences (XL) 
+Page 2 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.3 
+In an engineering college of 10,000 students, 1,500 like neither their core branches 
+nor other branches. The number of students who like their core branches is 1/4th of 
+the number of students who like other branches. The number of students who like 
+both their core and other branches is 500. 
+The number of students who like their core branches is 
+ 
+ 
+(A) 
+1,800 
+(B) 
+3,500 
+(C) 
+1,600 
+(D) 
+1,500 
+ 
+ 
+Q.4 
+For positive non-zero real variables 𝑥 and 𝑦, if  
+ln (𝑥+ 𝑦
+2
+) = 1
+2 [ln⁡(𝑥) + ln⁡(𝑦)] 
+ then, the value of  
+𝑥
+𝑦+
+𝑦
+𝑥  is 
+ 
+ 
+(A) 
+1 
+(B) 
+1/2 
+(C) 
+2 
+(D) 
+4
+--- page 4 ---
+Life Sciences (XL) 
+Page 3 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.5 
+In the sequence 6, 9, 14, x, 30, 41, a possible value of 𝑥 is 
+ 
+ 
+(A) 
+25 
+(B) 
+21 
+(C) 
+18 
+(D) 
+20
+--- page 5 ---
+Life Sciences (XL) 
+Page 4 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.6 – Q.10 Carry TWO marks Each 
+Q.6 
+Sequence the following sentences in a coherent passage. 
+P: 
+This fortuitous geological event generated a colossal amount of energy and 
+heat that resulted in the rocks rising to an average height of 4 km across the 
+contact zone.  
+Q: Thus, the geophysicists tend to think of the Himalayas as an active geological 
+event rather than as a static geological feature. 
+R: The natural process of the cooling of this massive edifice absorbed large 
+quantities of atmospheric carbon dioxide, altering the earth’s atmosphere and 
+making it better suited for life. 
+S: 
+Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate 
+collided with the massive Eurasian Plate. 
+ 
+ 
+(A) 
+QPSR 
+(B) 
+QSPR 
+(C) 
+SPRQ 
+(D) 
+SRPQ
+--- page 6 ---
+Life Sciences (XL) 
+Page 5 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.7 
+A person sold two different items at the same price. He made 10% profit in one 
+item, and 10% loss in the other item. In selling these two items, the person made a 
+total of 
+(A) 
+1% profit 
+(B) 
+2% profit 
+(C) 
+1% loss 
+(D) 
+2% loss
+--- page 7 ---
+Life Sciences (XL) 
+Page 6 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.8 
+The pie charts depict the shares of various power generation technologies in the 
+total electricity generation of a country for the years 2007 and 2023.  
+ 
+The renewable sources of electricity generation consist of Hydro, Solar and Wind. 
+Assuming that the total electricity generated remains the same from 2007 to 2023, 
+what is the percentage increase in the share of the renewable sources of electricity 
+generation over this period? 
+ 
+ 
+(A) 
+25% 
+(B) 
+50% 
+(C) 
+77.5% 
+(D) 
+62.5% 
+ 
+ 
+ 
+ 
+ 
+Coal
+35%
+Gas
+25%
+Wind
+5%
+Hydro
+30%
+Solar
+5%
+Year 
+2007
+Coal
+20%
+Gas
+15%
+Wind
+10%
+Hydro
+35%
+Solar
+20%
+Year 
+2023
+--- page 8 ---
+Life Sciences (XL) 
+Page 7 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.9 
+A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be 
+straight and it should not stop till it reaches the other end of the cube.  
+The minimum number of such cuts required is 
+ 
+ 
+(A) 
+3 
+(B) 
+4 
+(C) 
+7 
+(D) 
+8
+--- page 9 ---
+Life Sciences (XL) 
+Page 8 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.10 
+In the 4 × 4 array shown below, each cell of the first three rows has either a  
+cross (X) or a number.  
+ 
+The number in a cell represents the count of the immediate neighboring cells  
+(left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row 
+has no crosses (X), the sum of the four numbers to be filled in the last row is  
+ 
+ 
+(A) 
+11 
+(B) 
+10 
+(C) 
+12 
+(D) 
+9
+--- page 10 ---
+Life Sciences (XL) 
+Page 9 of 71 
+Organizing Institute: IISc Bengaluru 
+Chemistry (XL - P) - (Compulsory) 
+Q.11 – Q.19 Carry ONE mark Each 
+ 
+Q.11 
+The CORRECT order of electronegativity is  
+ 
+ 
+(A) 
+Al > Si > P > S 
+(B) 
+Al > S > Si > P 
+(C) 
+S > Si > Al > P 
+(D) 
+S > P > Si > Al
+--- page 11 ---
+Life Sciences (XL) 
+Page 10 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.12 
+Which one of the following is the CORRECT representation of the variation of the 
+Gibbs free energy (G) of a substance with temperature (T) at constant pressure?  
+ 
+ 
+(A) 
+ 
+(B) 
+ 
+(C) 
+ 
+(D)
+--- page 12 ---
+Life Sciences (XL) 
+Page 11 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.13 
+Among the following, the structure representing histidine is  
+ 
+ 
+(A) 
+ 
+(B) 
+ 
+(C) 
+ 
+(D)
+--- page 13 ---
+Life Sciences (XL) 
+Page 12 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.14 
+The CORRECT order of acidity of the following compounds is  
+ 
+ 
+(A) 
+I > II > III 
+(B) 
+II > III > I 
+(C) 
+I > III > II 
+(D) 
+III > II > I  
+ 
+ 
+Q.15 
+The molecules A and B are a pair of ____________. 
+ 
+ 
+(A) 
+enantiomers 
+(B) 
+diastereomers 
+(C) 
+conformational isomers 
+(D) 
+constitutional isomers
+--- page 14 ---
+Life Sciences (XL) 
+Page 13 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.16 
+The CORRECT option(s) of Y for the following reaction is/are  
+ 
+ 
+(A) 
+ 
+(B) 
+ 
+(C) 
+ 
+(D)
+--- page 15 ---
+Life Sciences (XL) 
+Page 14 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.17 
+The maximum number of electrons that can be accommodated in the shell with 
+ n = 2 is ________ (in integer). 
+(Given: n = principal quantum number) 
+ 
+ 
+ 
+ 
+Q.18 
+One mole of an ideal gas expands isothermally and reversibly to double its volume. 
+If the expansion work done by the system is 1728.85 J, the temperature of the system 
+is _____ K (rounded off to 2 decimal places). 
+(Given: Gas constant, R = 8.314 J K–1 mol–1) 
+ 
+ 
+ 
+ 
+Q.19 
+The initial rate of a reaction triples when the concentration of a reactant, A, is 
+doubled. The order of the reaction with respect to A is _______ (rounded off to 2 
+decimal places).
+--- page 16 ---
+Life Sciences (XL) 
+Page 15 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.20 – Q.27 Carry TWO marks Each 
+Q.20 
+Each of the following alkenes undergoes addition reaction with bromine. Under the 
+same reaction conditions, the CORRECT trend in the reaction rates  
+is 
+ 
+ 
+(A) 
+I > II > III 
+(B) 
+II > III > I 
+(C) 
+I > III > II 
+(D) 
+III > II > I 
+ 
+ 
+Q.21 
+An enzyme-catalyzed conversion of a substrate at 298 K proceeds by a Michaelis-
+Menten mechanism. The Lineweaver-Burk plot for the analysis of the experimental 
+data has an intercept along the y-axis of 0.357 mmol–1 dm3 s and a slope of 2.10 s. 
+The CORRECT Michaelis constant for the reaction is ________ (rounded off to 2 
+decimal places). 
+ 
+ 
+(A) 
+5.88 mmol dm–3 
+(B) 
+5.88 mmol dm–3 s–1 
+(C) 
+2.80 mmol dm–3 
+(D) 
+2.80 mmol dm–3 s–1
+--- page 17 ---
+Life Sciences (XL) 
+Page 16 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.22 
+Which one among the following structures is the most stable conformer of  
+(Z)-pent-2-ene? 
+ 
+ 
+(A) 
+ 
+(B) 
+ 
+(C) 
+ 
+(D)
+--- page 18 ---
+Life Sciences (XL) 
+Page 17 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.23 
+Upon addition of compound X to an aqueous AgNO3 solution, a white precipitate 
+appears instantly. Also, X does not exhibit geometrical isomerism. 
+The CORRECT option(s) for X is/are 
+ 
+ 
+(A) 
+[Cr(OH2)4Cl2]Cl 
+(B) 
+[Cr(OH2)5Cl]Cl2  
+(C) 
+[Cr(OH2)6]Cl3 
+(D) 
+[Cr(OH2)3Cl3] 
+ 
+ 
+Q.24 
+The paramagnetic species among the following is/are 
+(Given: Atomic numbers of Cr = 24; Fe = 26; Ni = 28) 
+ 
+ 
+(A) 
+[Fe(CN)6]3– 
+(B) 
+[Ni(OH2)6]2+ 
+(C) 
+[Ni(CN)4]2– 
+(D) 
+[Cr(CN)6]3–
+--- page 19 ---
+Life Sciences (XL) 
+Page 18 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.25 
+The molecule(s) with non-zero dipole moment is/are 
+ 
+ 
+(A) 
+N2 
+(B) 
+CO2 
+(C) 
+NO 
+(D) 
+SO2 
+ 
+ 
+Q.26 
+The ionic product of water at 40 ℃ is 2.92 × 10–14 M2. The pH of water at  
+40 ℃ is ___________ (rounded off to 2 decimal places). 
+ 
+ 
+Q.27 
+Given the standard reduction potentials (𝐸⊖)⁡for the half-cell reactions below, the 
+standard Gibbs free energy of the dissolution of silver chloride in water, at 298 K, 
+is   _____________ J mol–1 (rounded off to nearest integer). 
+(Given: Faraday constant, F = 96500 C mol–1;       J = C × V) 
+ 
+AgCl(s) + 𝑒−→Ag(s) + Cl−(aq) ;   𝐸⊖= 0.22 V at 298 K 
+Ag+(aq) + 𝑒−→Ag(s) ;   𝐸⊖= 0.80 V at 298 K
+--- page 20 ---
+Life Sciences (XL) 
+Page 19 of 71 
+Organizing Institute: IISc Bengaluru 
+Biochemistry (XL-Q) 
+Q.28 – Q.35 Carry ONE mark Each 
+Q.28 
+Which one of the following pairs of amino acids is NOT incorporated in a 
+polypeptide chain? 
+ 
+ 
+(A) 
+4-Hydroxyproline and γ-carboxyglutamate 
+(B) 
+γ-Carboxyglutamate and desmosine 
+(C) 
+Ornithine and citrulline   
+(D) 
+4-Hydroxyproline and 5-hydroxylysine 
+ 
+ 
+Q.29 
+Mammalian cells cultured at low temperature (25 to 30 C) leads to an increased 
+sterol content in the membrane. Elevated sterols in the membrane results in  
+ 
+ 
+(A) 
+an enhancement in membrane fluidity. 
+(B) 
+stabilization of membrane proteins. 
+(C) 
+an increase in membrane permeability to water. 
+(D) 
+a decrease in membrane fluidity.
+--- page 21 ---
+Life Sciences (XL) 
+Page 20 of 71 
+Organizing Institute: IISc Bengaluru 
+ 
+Q.30 
+Which one of the following metabolic intermediates is common to glycolysis, 
+nucleotide synthesis and glycogen synthesis? 
+ 
+  
+(A) 
+Citrate  
+(B) 
+Oxaloacetate 
+(C) 
+Glucose 6-phosphate 
+(D) 
+Glycerol 3-phosphate 
+ 
+ 
+Q.31 
+In mammals, hematopoietic stem cells that give rise to different types of blood 
+cells are known as  
+ 
+  
+(A) 
+totipotent stem cells. 
+(B) 
+pluripotent stem cells. 
+(C) 
+myeloid progenitor cells. 
+(D) 
+lymphoid progenitor cells.
+--- page 22 ---
+Life Sciences (XL) 
+Page 21 of 71 
+Organizing Institute: IISc Bengaluru 
+ 
+Q.32 
+Which one or more of the following statements correctly describe(s) the addition 
+of N-nucleotides during the rearrangement of the immunoglobulin heavy chain-
+encoding gene?       
+ 
+  
+(A) 
+Addition of N-nucleotides is template encoded.  
+(B) 
+N-nucleotides are added by terminal deoxynucleotidyl transferase.   
+(C) 
+The added N-nucleotides are common in V-D and D-J junction. 
+(D) 
+N-nucleotides are added by the DNA polymerase II. 
+ 
+ 
+Q.33 
+A newly identified viral protein contains one long α-helix spanning 60 amino acid 
+residues. The number of main chain H-bonds formed in this helix is __________. 
+(Answer in integer) 
+ 
+  
+Q.34 
+In a lactic acid solution at pH 4.8, the concentrations of lactic acid and lactate are 
+0.01 M and 0.087 M, respectively. The calculated pKa of lactic acid is ________.  
+(Round off to one decimal place) 
+ 
+ 
+  
+Q.35 
+If a 10 mM solution of a biomolecule in a cuvette of path length 10 mm absorbs 
+90% of the incident light at 280 nm, the molar extinction coefficient of the 
+biomolecule at this wavelength is _____________ M-1cm-1.  
+(Round off to two decimal places)
+--- page 23 ---
+Life Sciences (XL) 
+Page 22 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.36 – Q.46 Carry TWO marks Each 
+Q.36 
+Metabolic intermediates provide the backbone for the synthesis of amino acids. 
+Match the metabolic intermediates listed in Column I with their corresponding    
+amino acids given in Column II. 
+Column I                              Column II 
+P. α-Ketoglutarate                 i. Histidine 
+Q. Ribose 5-phosphate          ii. Glutamate 
+R. 3-Phosphoglycerate          iii. Aspartate 
+S. Phosphoenolpyruvate        iv. Phenylalanine 
+ 
+v. Serine 
+ 
+ 
+ 
+ 
+(A) 
+P-ii; Q-i; R-v; S-iv 
+(B) 
+P-iii; Q-ii; R-i; S-v 
+(C) 
+P-iv; Q-iii; R-ii; S-v 
+(D) 
+P-ii; Q-i; R-iv; S-v
+--- page 24 ---
+Life Sciences (XL) 
+Page 23 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.37 
+Which one of the following is the correct match between the molecular properties 
+listed in Column I and the corresponding biochemical separation methods in 
+Column II? 
+Column I 
+Column II 
+P. Solubility                                     i. Reverse phase chromatography 
+Q. Ionic charge                                ii. Ultracentrifugation 
+R. Polarity                                       iii. Salting out 
+S. Molecular size                             iv. Isoelectric focusing 
+                                                         v. Gel electrophoresis 
+ 
+ 
+ 
+ 
+(A) 
+P-i; Q-ii; R-v; S-iii 
+(B) 
+P-iii; Q-iv; R-ii; S-i 
+(C) 
+P-iii; Q-iv; R-i; S-ii 
+(D) 
+P-v; Q-iv; R-iii; S-ii
+--- page 25 ---
+Life Sciences (XL) 
+Page 24 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.38 Which one or more of the following statements is/are correct regarding the 
+electromotive force generated by electron transfer chain?  
+ 
+  
+(A) 
+It is used for the synthesis of ATP. 
+(B) 
+It is not used for active transport process. 
+(C) 
+It includes a pH gradient component. 
+(D) 
+It does not include an electrical potential gradient component.
+--- page 26 ---
+Life Sciences (XL) 
+Page 25 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.39 Which one or more of the following statements is/are correct regarding the transport 
+and retention of proteins in different cell organelles? 
+ 
+ 
+(A) 
+Mannose 6-phosphate residues are involved in targeting proteins to lysosomes. 
+(B) 
+Transport of proteins into the mitochondrial compartment is aided by positively 
+charged amino acid residues at the N-terminus and internal hydrophobic segments.    
+(C) 
+The retention of protein in the ER lumen requires the KDEL sequence motif at the  
+C-terminus. 
+(D) 
+Nuclear proteins are transported in an unfolded conformation and the nuclear 
+localization signal sequence is subsequently cleaved by peptidases in the 
+nucleoplasm. 
+ 
+ 
+Q.40 Which one or more of the following statements correctly describe(s)  
+fluorescence spectroscopy? 
+ 
+  
+(A) 
+ The emission maxima (λmax) is independent of the excitation wavelength. 
+(B) 
+ The emission maxima (λmax) depends on the concentration of a quencher. 
+(C) 
+ The emission maxima (λmax) varies with solvent polarity. 
+(D) 
+ The emission maxima (λmax) varies with temperature.
+--- page 27 ---
+Life Sciences (XL) 
+Page 26 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.41 Which one or more of the following statements is/are correct in the processing of 
+pre-mRNA in eukaryotes? 
+ 
+ 
+(A) 
+3 → 5 exonuclease activity is involved in the conversion of pre-mRNA to mRNA. 
+(B) 
+5– capping and addition of 3– poly A tail precedes splicing.     
+(C) 
+Splicing of pre-mRNA occurs via transesterification reaction. 
+(D) 
+Alternative splicing can yield different mRNA products from the same pre-mRNA. 
+ 
+ 
+Q.42 Which one or more of the following statements correctly describe(s) the changes 
+upon the addition of puromycin during eukaryotic translation? 
+  
+  
+(A) 
+Puromycin resembles aminoacyl end of the charged tRNA.   
+(B) 
+Puromycin occupies the A site of the translating ribosomes. 
+(C) 
+Puromycin occupies the P site of the translating ribosomes. 
+(D) 
+Puromycin occupies the E site of the translating ribosomes.
+--- page 28 ---
+Life Sciences (XL) 
+Page 27 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.43 Factor H, a complement regulatory protein in plasma, binds C3b and 
+ 
+  
+(A) 
+competes with factor B to displace Bb from convertase. 
+(B) 
+initiates the catabolism of C3b into inactivate products. 
+(C) 
+then binds to C3bBb convertase. 
+(D) 
+acts as a cofactor for factor I. 
+ 
+ 
+ 
+Q.44 
+In Michaelis-Menten’s equation, if [S] = 15 Km , then the ratio  
+𝑣0
+𝑉max
+  is __________.  
+(Round off to three decimal places) 
+ 
+  
+Q.45 
+A 5250 base-pair long plasmid with 10 negative supercoils would have a linking 
+number of ____________, considering 10.5 base pairs per turn for B DNA. 
+(Answer in integer)
+--- page 29 ---
+Life Sciences (XL) 
+Page 28 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.46 
+The spectrum of a protein obtained using electrospray ionization mass 
+spectrometry (ESI-MS) is shown below. Two peaks, one at m/z = 2960.6 and the  
+other at m/z = 3552.5, are marked. The mass of the protein associated with the  
+m/z = 2960.6 peak is __________ Da. (Round off to two decimal places)
+--- page 30 ---
+Life Sciences (XL) 
+Page 29 of 71 
+Organizing Institute: IISc Bengaluru 
+Botany (XL-R) 
+Q.47 – Q.54 Carry ONE mark Each 
+Q.47 
+Which one of the following plant families does apple (Malus domestica) belong to? 
+ 
+ 
+(A) 
+Rosaceae 
+(B) 
+Rutaceae 
+(C) 
+Rubiaceae 
+(D) 
+Ranunculaceae 
+ 
+ 
+Q.48 
+The collateral and open type of vascular bundle with endarch xylem strand is 
+usually found in 
+ 
+ 
+(A) 
+monocot stem 
+(B) 
+dicot stem 
+(C) 
+monocot root 
+(D) 
+dicot root
+--- page 31 ---
+Life Sciences (XL) 
+Page 30 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.49 
+Which of the following tissue types is/are established during embryogenesis in 
+wild-type Arabidopsis thaliana? 
+ 
+ 
+(A) 
+Shoot apical meristem 
+(B) 
+Rosette leaf primordium 
+(C) 
+Procambium 
+(D) 
+Lateral root primordium 
+ 
+ 
+Q.50 
+Which of the following plant natural products is/are cyanogenic glycoside(s)? 
+ 
+ 
+(A) 
+Linustatin 
+(B) 
+Limonene 
+(C) 
+Luteolin 
+(D) 
+Linamarin
+--- page 32 ---
+Life Sciences (XL) 
+Page 31 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.51 
+Which of the following plant diseases is/are caused by nematode?  
+ 
+ 
+(A) 
+Cereal cyst of barley 
+(B) 
+Ergot of rye 
+(C) 
+Wart of potato 
+(D) 
+Ear-cockle of wheat 
+ 
+ 
+Q.52 
+Which of the following selectable marker genes is/are used for herbicide tolerance 
+during genetic transformation of plants? 
+ 
+ 
+(A) 
+hpt 
+(B) 
+bar 
+(C) 
+nptII 
+(D) 
+pmi
+--- page 33 ---
+Life Sciences (XL) 
+Page 32 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.53 
+Which of the following statements is/are CORRECT with reference to rubber 
+production from plants? 
+ 
+ 
+(A) 
+Para rubber is produced from Hevea brasiliensis                                         
+(B) 
+India rubber is produced from Ficus elastica                                            
+(C) 
+Panama rubber is produced from Manihot glaziovii 
+(D) 
+Ceara rubber is produced from Castilla elastica                                       
+ 
+ 
+Q.54 
+In Calvin-Benson cycle, to produce 1 molecule of glyceraldehyde 3-phosphate by 
+fixing 3 molecules of carbon dioxide, 9 molecules of ATP and ________ molecules 
+(in integer) of NADPH are typically utilized.
+--- page 34 ---
+Life Sciences (XL) 
+Page 33 of 71 
+Organizing Institute: IISc Bengaluru 
+ 
+Q.55– Q.65 Carry TWO marks Each 
+Q.55 
+In wild-type Arabidopsis thaliana, the four types of floral organs (sepal, petal, 
+stamen, carpel) are arranged in concentric whorls from outside to inside. With 
+reference to the ABC model of floral organ patterning, match the homeotic mutants 
+in Group 1 with their respective arrangements of organs in the four whorls given 
+in Group 2. 
+ 
+Group 1 
+Group 2 
+(P) 
+A class mutants                           (i) 
+sepal, sepal, carpel, carpel 
+(Q) 
+B class mutants                           (ii) 
+sepal, petal, petal, sepal 
+(R) 
+C class mutants                           (iii) 
+carpel, stamen, stamen, carpel 
+ 
+ 
+(iv) 
+sepal, sepal, petal, petal 
+ 
+ 
+(A) 
+ 
+P−iv, Q−ii, R−i 
+(B) 
+P−iii, Q−i, R−ii 
+(C) 
+P−ii, Q−i, R−iii 
+(D) 
+P−iii, Q−i, R−iv
+--- page 35 ---
+Life Sciences (XL) 
+Page 34 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.56 
+Match the inhibitors in Group 1 with their respective targets in Group 2.  
+ 
+ 
+Group 1 
+ 
+Group 2 
+(P) 
+ Oligomycin 
+(i) 
+Cytochrome bc1 complex 
+(Q)  Antimycin A 
+(ii) 
+Photosystem II 
+(R) 3-(3,4-dichlorophenyl)-1,1-
+dimethylurea (DCMU) 
+(iii) 
+K+ ionophore  
+(S) 
+Valinomycin 
+(iv) 
+FO ATP synthase 
+ 
+ 
+(A) 
+P−i, Q−ii, R−iii, S−iv 
+(B) 
+P−iv, Q−i, R−ii, S−iii 
+(C) 
+P−iii, Q−i, R−iv, S−ii 
+(D) 
+P−iv, Q−ii, R−i, S−iii
+--- page 36 ---
+Life Sciences (XL) 
+Page 35 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.57 
+With reference to Agrobacterium tumefaciens mediated plant transformation, match 
+the virulence factors in Group 1 with their protein types in Group 2. 
+ 
+Group 1 
+Group 2 
+(P) 
+VirG 
+(i) 
+Kinase 
+(Q) 
+VirA 
+(ii) 
+Helicase 
+(R) 
+VirE 
+(iii) 
+Transcriptional activator 
+(S) 
+VirC 
+(iv) 
+Single strand binding protein 
+ 
+ 
+(A) 
+P−i, Q−ii, R−iv, S−iii 
+(B) 
+P−iii, Q−i, R−ii, S−iv 
+(C) 
+P−ii, Q−iv, R−i, S−iii 
+(D) 
+P−iii, Q−i, R−iv, S−ii
+--- page 37 ---
+Life Sciences (XL) 
+Page 36 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.58 
+Match the plant products in Group 1 with the plant species in Group 2 that produce 
+them and the respective plant parts in Group 3 where they accumulate the most.  
+ 
+Group 1 
+Group 2 
+Group 3 
+(P) 
+Liquorice 
+(i) 
+Cinchona calisaya 
+(a) 
+Leaf 
+(Q) 
+Quinine 
+(ii) 
+Lawsonia inermis 
+(b) 
+Root 
+(R) 
+Henna 
+(iii) 
+Glycyrriza glabra 
+(c) 
+Flower 
+(S) 
+Saffron 
+(iv) 
+Papaver somniferum 
+(d) 
+Bark 
+ 
+ 
+(v) 
+Crocus sativus 
+(e) 
+Seed 
+ 
+ 
+(A) 
+P−iii−b, Q−i−d, R−ii−a, S−v−c 
+(B) 
+P−i−b, Q−iii−d, R−ii−a, S−iv−c 
+(C) 
+P−iii−b, Q−i−d, R−ii−e, S−v−c 
+(D) 
+P−iv−b, Q−i−d, R−iii−c, S−ii−a
+--- page 38 ---
+Life Sciences (XL) 
+Page 37 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.59 
+Match the types of ecological interactions in Group 1 with their respective 
+definitions in Group 2. 
+ 
+Group 1 
+Group 2 
+(P) 
+Protocooperation (i) 
+One species is harmed but the other is neither 
+harmed nor benefitted 
+(Q) Commensalism 
+(ii) 
+A type of mutualism where one species is 
+benefitted more than the other 
+(R) Amensalism 
+(iii) Both the species are benefitted but the interaction 
+between them is not obligatory 
+(S) 
+Helotism 
+(iv) One species is benefitted without harming the 
+other 
+(A) 
+P−iii, Q−iv, R−i, S−ii 
+(B) 
+P−ii, Q−i, R−iii, S−iv 
+(C) 
+P−i, Q−iv, R−iii, S−ii 
+(D) 
+P−iii, Q−i, R−iv, S−ii
+--- page 39 ---
+Life Sciences (XL) 
+Page 38 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.60 
+Match the types of ecological energy productivity in Group 1 with their respective 
+definitions in Group 2. 
+ 
+Group 1 
+Group 2 
+(P) 
+Net primary productivity  
+(i) 
+Total 
+amount 
+of 
+energy 
+produced by autotrophs 
+(Q) 
+Gross primary productivity  (ii) 
+Amount of energy stored by 
+autotrophs after respiration 
+(R) 
+Net productivity  
+(iii) Net gain of energy by the 
+consumers after energy loss 
+(S) 
+Secondary productivity  
+(iv) Unused amount of energy after 
+consumption by heterotrophs 
+ 
+ 
+(A) 
+P−iii, Q−ii, R−iv, S−i 
+(B) 
+P−ii, Q−i, R−iii, S−iv 
+(C) 
+P−ii, Q−i, R−iv, S−iii 
+(D) 
+P−iv, Q−i, R−ii, S−iii
+--- page 40 ---
+Life Sciences (XL) 
+Page 39 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.61 
+Which of the following combinations of plant diseases and the types of their causal 
+organisms is/are CORRECT? 
+ 
+ 
+(A) 
+Late blight of potato − Bacteria 
+(B) 
+Black rot of crucifer − Bacteria 
+(C) 
+Tungro disease of rice − Mycoplasma 
+(D) 
+Root knot of tomato − Nematode 
+ 
+ 
+Q.62 
+Identify the CORRECT combination(s) of plant natural products and the categories 
+they belong to. 
+ 
+ 
+(A) 
+Dhurrin − Phenolic compounds 
+(B) 
+Farnesene − Terpenoids 
+(C) 
+Naringenin − Cyanogenic glycosides 
+(D) 
+Vincristine − Alkaloids
+--- page 41 ---
+Life Sciences (XL) 
+Page 40 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.63 
+Identify the CORRECT combination(s) between the enzymes in Group 1 and the 
+reactions in Group 2 they catalyze. 
+ 
+ 
+Group 1 
+Group 2 
+(P) 
+Cinnamate-4-hydroxylase 
+(i) 
+L-phenylalanine →  
+Cinnamic acid 
+(Q) 
+Glycerate kinase  
+(ii) 
+Glyceraldehyde 3-phosphate → 
+dihydroxyacetone phosphate  
+(R) 
+PEP carboxylase  
+(iii) Glycolate + O2 →   
+Glyoxylate + H2O2 
+(S) 
+Nitrate reductase 
+(iv) NO3− + NAD(P)H + H+  →  
+NO2−  + NAD(P)+ + H2O 
+ 
+ 
+(A) 
+S−iv 
+(B) 
+Q−ii 
+(C) 
+P−i 
+(D) 
+R−iii
+--- page 42 ---
+Life Sciences (XL) 
+Page 41 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.64 
+In a genetic cross between two pure-line parents differing in the two independently 
+segregating traits, plant height (tall vs dwarf) and flower color (purple vs white), all 
+the F1 plants were tall with purple flowers. In a testcross population involving these 
+F1 individuals, the expected percentage (%) of dwarf plants with purple flower 
+would be _______ (in integer). 
+ 
+ 
+Q.65 
+The mRNA of a hypothetical plant gene HSDU is 800-nucleotide long and encodes 
+a protein of 160 amino acid residues. The calculated length of HSDU CDS would 
+be ________ nucleotides (in integer).
+--- page 43 ---
+Life Sciences (XL) 
+Page 42 of 71 
+Organizing Institute: IISc Bengaluru 
+Microbiology (XL-S) 
+Q.66 – Q.73 Carry ONE mark Each 
+Q.66 
+Which one of the following bacterial species can cause atypical pneumonia? 
+ 
+ 
+(A) 
+Chlamydia pneumoniae 
+(B) 
+Streptococcus pneumoniae 
+(C) 
+Klebsiella pneumoniae 
+(D) 
+Haemophilus influenzae  
+ 
+ 
+Q.67 
+Which one of the following organisms has axial filaments? 
+ 
+ 
+(A) 
+Mycobacterium tuberculosis 
+(B) 
+Pasteurella multocida 
+(C) 
+Treponema pallidum 
+(D) 
+Shigella dysenteriae
+--- page 44 ---
+Life Sciences (XL) 
+Page 43 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.68 
+Who among the following scientists was the pioneer in development of 
+chemotherapy? 
+ 
+ 
+(A) 
+Elie Metchnikoff 
+(B) 
+Robert Koch 
+(C) 
+Paul Ehrlich 
+(D) 
+Ronald Ross 
+ 
+ 
+Q.69 
+In which of following processes, glutaraldehyde is used as a sterilizing agent? 
+ 
+ 
+(A) 
+Pasteurization 
+(B) 
+Incineration 
+(C) 
+Cold sterilization 
+(D) 
+Autoclaving
+--- page 45 ---
+Life Sciences (XL) 
+Page 44 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.70 
+The most abundant class of immunoglobulins in serum is  __________. 
+ 
+ 
+ 
+(A) 
+IgM  
+(B) 
+IgA 
+(C) 
+IgD 
+(D) 
+IgG 
+ 
+ 
+Q.71 
+Which one of the following double-stranded sequences will NOT be recognized by 
+a Type IIP restriction endonuclease? 
+ 
+ 
+(A) 
+5′--GGTACC--3′ 
+3′--CCTAGG--5′ 
+(B) 
+5′--GGATCC--3′ 
+3′--CCTAGG--5′ 
+(C) 
+5′--CATATG--3′ 
+3′--GTATAC--5′ 
+(D) 
+5′--GATTTC--3′ 
+3′--CTAAAG--5′
+--- page 46 ---
+Life Sciences (XL) 
+Page 45 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.72 
+Which one of the following use inorganic compounds as an energy source?  
+ 
+ 
+(A) 
+Heterotrophs 
+(B) 
+Chemolithotrophs 
+(C) 
+Chemoorganotrophs 
+(D) 
+Photoheterotrophs 
+ 
+ 
+Q.73 
+Which one of the following represents the abundance of the organisms found in 
+soil? 
+ 
+ 
+(A) 
+Fungi > Aerobic bacteria > Anaerobic bacteria  
+(B) 
+Aerobic bacteria > Fungi > Anaerobic bacteria 
+(C) 
+Aerobic bacteria > Anaerobic bacteria > Fungi 
+(D) 
+Anaerobic bacteria > Aerobic bacteria > Fungi
+--- page 47 ---
+Life Sciences (XL) 
+Page 46 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.74 – Q.84 Carry TWO marks Each 
+Q.74 
+Match the antibiotics in Group I with the microorganisms that produce them in 
+Group II. 
+ 
+      Group I                                                          Group II    
+(P) Streptomycin                                           (i) Streptomyces griseus  
+(Q) Bacitracin                                               (ii) Bacillus licheniformis 
+(R) Amphotericin B                                     (iii) Streptomyces venezuelae 
+(S) Chloramphenicol                                    (iv) Streptomyces nodosus 
+(A) 
+(P)-(ii), (Q)-(iii), (R)-(i), (S)-(iv) 
+(B) 
+(P)-(i), (Q)-(ii), (R)-(iv), (S)-(iii) 
+(C) 
+(P)-(i), (Q)-(ii), (R)-(iii), (S)-(iv) 
+(D) 
+(P)-(ii), (Q)-(iv), (R)-(i), (S)-(iii) 
+ 
+ 
+Q.75 
+Which one of the following redox couples has the highest tendency to donate 
+electrons? 
+ 
+ 
+(A) 
+Fumarate / succinate 
+(B) 
+NAD+ / NADH 
+(C) 
+FAD / FADH 
+(D) 
+Pyruvate / lactate
+--- page 48 ---
+Life Sciences (XL) 
+Page 47 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.76 
+Which of the following is/are active transport mechanism(s) in prokaryotes where 
+the substance is chemically altered during transport across the membrane? 
+ 
+ 
+(A) 
+Group translocation 
+(B) 
+Simple diffusion 
+(C) 
+Facilitated diffusion 
+(D) 
+Osmosis 
+ 
+ 
+Q.77 
+Which of the following cocci is/are examples of division in one plane? 
+ 
+ 
+(A) 
+Staphylococci 
+(B) 
+Streptococci 
+(C) 
+Micrococci 
+(D) 
+Diplococci
+--- page 49 ---
+Life Sciences (XL) 
+Page 48 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.78 
+Which of the following event(s) occur(s) during translation in prokaryotes? 
+ 
+ 
+(A) 
+tRNA binding to the start codon of mRNA on the 30s subunit of ribosome 
+(B) 
+Anticodon of tRNA binding to the start codon of mRNA on the 50s subunit of 
+ribosome 
+(C) 
+The ribosome continues to move along the mRNA to add new amino acids to the 
+polypeptide 
+(D) 
+The polypeptide is released when the ribosome reaches the stop codon 
+ 
+ 
+Q.79 
+Which of the following is/are consequence(s) of nitrous acid (HNO2) mediated 
+deamination?  
+ 
+ 
+(A) 
+Deamination of cytosine, adenine and guanine 
+(B) 
+GC-to-AT transitions 
+(C) 
+AT- to- GC transitions 
+(D) 
+Addition of alkyl group to the bases
+--- page 50 ---
+Life Sciences (XL) 
+Page 49 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.80 
+At root nodules, which of the following C4 organic acid(s) is/are transported across 
+the symbiosome membrane and into bacteroids? 
+ 
+ 
+(A) 
+Succinate 
+(B) 
+Pyruvate 
+(C) 
+Malate 
+(D) 
+Fumarate 
+ 
+ 
+Q.81 
+Which of the following is/are TRUE about the Escherichia coli chromosome? 
+ 
+ 
+(A) 
+It is typically bound by histones 
+(B) 
+It is circular in nature 
+(C) 
+It is found in the nucleoid 
+(D) 
+It contains multiple origins of replication 
+ 
+ 
+Q.82 
+At t = 0, the bacterial cell number is 10,000 cells/mL. At t = 480 minutes, the cell 
+number increased to 320,000 cells/mL. The mean generation time during this 
+exponential growth period, rounded off to the nearest integer is ________ minutes.
+--- page 51 ---
+Life Sciences (XL) 
+Page 50 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.83 
+A landfill sample was analyzed by dilution and plating techniques for viable 
+bacterial count. When one gram of the landfill sample was diluted 1 x 10-4 (w/v) it 
+yielded 400 CFU.  The viable bacterial count (in million, rounded off to the nearest 
+integer) in one gram landfill sample is _______. 
+ 
+ 
+ 
+Q.84 
+A fluorescence microscope with an objective lens of numerical aperture (NA) 1.5 
+is used with light of wavelength (λ) 600 nanometers. The lateral resolution limit of 
+this microscope rounded off to the nearest integer, is _________ nanometers.
+--- page 52 ---
+Life Sciences (XL) 
+Page 51 of 71 
+Organizing Institute: IISc Bengaluru 
+Zoology (XL-T) 
+Q.85 – Q.92 Carry ONE mark Each 
+Q.85 
+Which one of the following statements about gene expression is INCORRECT? 
+ 
+ 
+(A) 
+DNA is transcribed to mRNA. 
+(B) 
+mRNA can be reverse-transcribed to DNA. 
+(C) 
+mRNA can be translated to protein. 
+(D) 
+Protein can be reverse-translated to mRNA. 
+ 
+ 
+Q.86 
+Which one of the following tissues/organs is least likely to experience  
+graft rejection when transplanted from a person to an unrelated person? 
+ 
+ 
+(A) 
+bone marrow 
+(B) 
+cornea 
+(C) 
+heart 
+(D) 
+kidney
+--- page 53 ---
+Life Sciences (XL) 
+Page 52 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.87 
+Codon bias is correlated with the relative frequencies of which one of the following 
+types of RNA? 
+ 
+ 
+(A) 
+mRNA 
+(B) 
+rRNA 
+(C) 
+siRNA 
+(D) 
+tRNA 
+ 
+ 
+Q.88 
+CREB1 is a eukaryotic transcription factor. In which one of the following 
+compartments of the cell is CREB1 predominantly localized? 
+ 
+ 
+(A) 
+lysosomes 
+(B) 
+mitochondria 
+(C) 
+nucleus 
+(D) 
+peroxisomes
+--- page 54 ---
+Life Sciences (XL) 
+Page 53 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.89 
+In certain species of salamanders, male-female pairs have multiple mating partners 
+in a breeding season. Which one of the following terminologies accurately describes 
+this mating system? 
+ 
+ 
+(A) 
+monogamy 
+(B) 
+polyandry 
+(C) 
+polygyny 
+(D) 
+polygynandry 
+ 
+ 
+Q.90 
+Which one of the following statements describes the key function of human sweat 
+glands? 
+ 
+ 
+(A) 
+They serve as touch sensors. 
+(B) 
+They are responsible for skin color. 
+(C) 
+They regulate body temperature. 
+(D) 
+They store fat.
+--- page 55 ---
+Life Sciences (XL) 
+Page 54 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.91 
+Urease enzyme catalyzes the conversion of urea into ammonia and carbon dioxide. 
+Which one of the following organisms expresses urease enzyme?   
+ 
+ 
+(A) 
+Caenorhabditis elegans 
+(B) 
+Drosophila melanogaster 
+(C) 
+Helicobacter pylori 
+(D) 
+Homo sapiens 
+ 
+ 
+Q.92 
+The human genetic code is triplet in nature with 64 codons made using four 
+nucleotides. If the human genetic code was doublet in nature, the number of codons 
+theoretically possible from four nucleotides is ______. (Answer in integer)
+--- page 56 ---
+Life Sciences (XL) 
+Page 55 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.93 – Q.103 Carry TWO marks Each 
+Q.93 
+Which one of the following statements is NOT TRUE of glycosaminoglycans? 
+ 
+ 
+(A) 
+Glycosaminoglycans are composed of repeating disaccharide units. 
+(B) 
+Glycosaminoglycans consist of amino sugars that are frequently sulfated. 
+(C) 
+Hyaluronic acid is an example of a glycosaminoglycan. 
+(D) 
+Methionine is the predominant amino acid to which glycosaminoglycan chains are 
+conjugated to form proteoglycans.
+--- page 57 ---
+Life Sciences (XL) 
+Page 56 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.94 
+Which one of the options correctly matches the human tissues/organs with their 
+embryonic germ layers of origin? 
+Tissues/organs 
+Embryonic germ layers 
+(P) liver 
+(I) ectoderm 
+(Q) cerebellum 
+(II) endoderm 
+(R) femur 
+(III) mesoderm 
+  
+ 
+ 
+(A) 
+P-II, Q-I, R-III 
+(B) 
+P-III, Q-I, R-II 
+(C) 
+P-I, Q-II, R-III 
+(D) 
+P-II, Q-III, R-I
+--- page 58 ---
+Life Sciences (XL) 
+Page 57 of 71 
+Organizing Institute: IISc Bengaluru 
+ 
+Q.95 
+Consider a large population of a finch species, where both small and big beak sizes 
+are advantageous, and an intermediate beak size is maladaptive. Over a period of 
+10 years, which one of the following evolutionary processes is most likely to operate 
+on the beak size of this finch population? 
+ 
+ 
+(A) 
+directional selection 
+(B) 
+disruptive selection 
+(C) 
+genetic drift 
+(D) 
+stabilizing selection
+--- page 59 ---
+Life Sciences (XL) 
+Page 58 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.96 
+When the blood glucose level of a healthy person is 100 mg/dL, which one of the 
+following options is most likely to represent the level of glucose in the urine of that 
+person? 
+ 
+ 
+(A) 
+< 1 mg/dL 
+(B) 
+10 mg/dL 
+(C) 
+50 mg/dL 
+(D) 
+100 mg/dL
+--- page 60 ---
+Life Sciences (XL) 
+Page 59 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.97 
+Which one of the following rooted tree topologies best describes the primate 
+phylogeny? 
+ 
+ 
+(A) 
+I 
+(B) 
+II 
+(C) 
+III 
+(D) 
+IV
+--- page 61 ---
+Life Sciences (XL) 
+Page 60 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.98 
+Consider a species of brightly colored beetle. Which one or more of the following 
+observations suggest(s) that this species is aposematic?  
+ 
+ 
+(A) 
+Both male and female beetles are brightly colored. 
+(B) 
+Only male beetles are brightly colored. 
+(C) 
+Only female beetles are brightly colored. 
+(D) 
+The beetle species is toxic and distasteful. 
+ 
+ 
+Q.99 
+The embryos of which one or more of the following animals show meroblastic 
+cleavage? 
+ 
+ 
+(A) 
+Danio rerio (zebrafish) 
+(B) 
+Gallus gallus (chicken) 
+(C) 
+Synapta digita (sea cucumber) 
+(D) 
+Xenopus laevis (frog)
+--- page 62 ---
+Life Sciences (XL) 
+Page 61 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.100 
+Which one or more of the following parasites is/are typically transmitted by 
+mosquitoes as vector?  
+ 
+ 
+(A) 
+Leishmania donovani 
+(B) 
+Plasmodium vivax 
+(C) 
+Wuchereria bancrofti 
+(D) 
+Trichuris trichiura 
+ 
+ 
+Q.101 
+Consider the following nucleotide sequence:  
+5′-GCCGCCAUGGCGUCUGCUAGCUGGCUCGAUCGCGAGCGAUCGUAC 
+GUAUAGUAUGAA-3′ 
+Assume canonical initiation, canonical termination, no post-translational 
+modification, and the average molecular mass of an amino acid to be 110 daltons. 
+The theoretical molecular mass of the polypeptide translated from the above 
+nucleotide sequence is _____ daltons. (Answer in integer) 
+ 
+ 
+ 
+Q.102 
+The pKa of a buffer solution with pH of 5, consisting of 0.4 M sodium acetate and 
+0.04 M acetic acid, is ______. (Answer in integer)
+--- page 63 ---
+Life Sciences (XL) 
+Page 62 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.103 
+Consider a healthy person with the following lung volumes: 
+Residual volume = 900 mL 
+Expiratory reserve volume = 800 mL 
+Tidal volume = 200 mL 
+If the Total lung capacity is 5500 mL, then the Inspiratory reserve volume of the 
+person is _____ mL. (Answer in integer)
+--- page 64 ---
+Life Sciences (XL) 
+Page 63 of 71 
+Organizing Institute: IISc Bengaluru 
+Food Technology (XL-U) 
+Q.104 – Q.111 Carry ONE mark Each 
+Q.104 
+Which one of the following fungi produces aflatoxins? 
+ 
+ 
+(A) 
+Aspergillus niger  
+(B) 
+Fusarium verticillioides 
+(C) 
+Aspergillus flavus 
+(D) 
+Rhizopus oligosporus  
+ 
+ 
+Q.105 
+Under standard conditions in animal feeding studies, the weight gained (in grams) 
+per gram of protein consumed by an animal is termed as  
+ 
+ 
+(A) 
+Net Protein Ratio  
+(B) 
+Net Protein Utilization  
+(C) 
+Coefficient of Protein Digestibility 
+(D) 
+Protein Efficiency Ratio
+--- page 65 ---
+Life Sciences (XL) 
+Page 64 of 71 
+Organizing Institute: IISc Bengaluru 
+ 
+ 
+Q.106 
+Xeropthalmia is caused due to the deficiency of  
+ 
+ 
+(A) 
+Thiamin 
+(B) 
+Pantothenic acid 
+(C) 
+Vitamin A 
+(D) 
+Vitamin C 
+ 
+ 
+Q.107 
+Which one of the following steps is used to remove phosphatides from crude oil in 
+the refining process? 
+ 
+ 
+(A) 
+Neutralization 
+(B) 
+Bleaching  
+(C) 
+Degumming 
+(D) 
+Deodorization
+--- page 66 ---
+Life Sciences (XL) 
+Page 65 of 71 
+Organizing Institute: IISc Bengaluru 
+ 
+Q.108 
+The unique flavor of chocolate and cocoa is due to the formation of  
+ 
+ 
+(A) 
+5-methyl-2-phenyl-2-hexenal 
+(B) 
+ Cyclotene 
+(C) 
+Furaneol  
+(D) 
+Maltol 
+ 
+ 
+Q.109 
+Which one of the following statements regarding Hazard Analysis Critical Control 
+Point (HACCP) plan is NOT correct? 
+ 
+ 
+(A) 
+HACCP is a management tool for ensuring food safety.   
+(B) 
+HACCP involves five preliminary steps and seven principles.   
+(C) 
+HACCP is not effective without prior implementation of prerequisite programs. 
+(D) 
+HACCP plan involves establishment of corrective actions as second principle.
+--- page 67 ---
+Life Sciences (XL) 
+Page 66 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.110 
+The product of cabbage fermentation by Leuconostoc mesenteroides is  
+ 
+ 
+(A) 
+Tempeh 
+(B) 
+Natto 
+(C) 
+Sauerkraut 
+(D) 
+Miso 
+ 
+ 
+Q.111 
+Which one of the following absorbents is NOT used as an ethylene absorber in 
+active packaging of fruits and vegetables?  
+ 
+ 
+(A) 
+Potassium permanganate  
+(B) 
+Activated carbon 
+(C) 
+Calcium hydroxide 
+(D) 
+Silica gel
+--- page 68 ---
+Life Sciences (XL) 
+Page 67 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.112 – Q.122 Carry TWO marks Each 
+Q.112 
+Which one of the following statements regarding moisture sorption isotherms of a 
+dried food is NOT correct? 
+ 
+ 
+(A) 
+At a given temperature, the difference between adsorption and desorption moisture 
+isotherms is known as hysteresis.   
+(B) 
+At a given temperature and water activity, an adsorption isotherm exhibits higher 
+equilibrium moisture content than a desorption isotherm in hysteresis. 
+(C) 
+At a given moisture content, effect of temperature on a moisture sorption isotherm 
+follows the Clausius- Clapeyron equation. 
+(D) 
+The Guggenheim-Anderson-de Boer (GAB) equation is a multilayer moisture 
+sorption model. 
+ 
+ 
+Q.113 
+Processing of fluid milk at 72 ℃ for 15 seconds is termed as  
+ 
+ 
+(A) 
+ High-temperature, short-time  (HTST) pasteurization  
+(B) 
+Low-temperature, long-time  (LTLT) pasteurization 
+(C) 
+Ultra high-temperature (UHT) pasteurization   
+(D) 
+Homogenization process
+--- page 69 ---
+Life Sciences (XL) 
+Page 68 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.114 
+Match the anti-nutritional factor in Column I with their corresponding activity 
+given in Column II. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Column I 
+Column II 
+P. Lectin                                1. Flatulence   
+Q. Stachyose  
+2. Chelates with divalent cations and reduces their 
+bio-availability 
+R. Phytate 
+3. Inhibits trypsin and chymotrypsin 
+S. Knuitz type inhibitor 
+4. Hemagglutination 
+(A) 
+P-4,Q-1, R-2,S-3 
+(B) 
+P-3,Q-1, R-2,S-4 
+(C) 
+P-2,Q-1, R-4,S-3 
+(D) 
+P-1,Q-2, R-3,S-4 
+ 
+ 
+Q.115 
+Which of the following fatty acids is/are known to increase the low density 
+lipoprotein (LDL)-cholesterol? 
+ 
+ 
+(A) 
+Omega-3 Fatty acids 
+(B) 
+Trans Fatty acids 
+(C) 
+Conjugated Linoleic acids 
+(D) 
+Saturated Fatty acids
+--- page 70 ---
+Life Sciences (XL) 
+Page 69 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.116 
+The addition of which of the following to high-methoxyl pectin will result in gel 
+formation? 
+ 
+ 
+(A) 
+Calcium ions 
+(B) 
+Hydrogen ions 
+(C) 
+Sodium ions 
+(D) 
+ Sugar 
+ 
+ 
+Q.117 
+Which of the following steps in food processing is/are used to reduce the acrylamide 
+formation in food products? 
+ 
+ 
+(A) 
+Pretreatment using asparaginase 
+(B) 
+Lowering the pH 
+(C) 
+Increasing the temperature. 
+(D) 
+Adding glucose.
+--- page 71 ---
+Life Sciences (XL) 
+Page 70 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.118 
+Which of the following enzymes is/are used for the production of high fructose 
+syrup (HFS) from corn starch?   
+ 
+ 
+(A) 
+ α-Amylase  
+(B) 
+β-Amylase 
+(C) 
+Xylose isomerase  
+(D) 
+Glucoamylase 
+ 
+ 
+Q.119 
+Which of the following is/are typical characteristic(s) of a fungal cell? 
+ 
+ 
+(A) 
+Presence of histone proteins 
+(B) 
+Presence of peptidoglycans in the cell wall 
+(C) 
+Presence of chitin in the cell wall 
+(D) 
+Presence of pseudomurein in the cell wall
+--- page 72 ---
+Life Sciences (XL) 
+Page 71 of 71 
+Organizing Institute: IISc Bengaluru 
+Q.120 
+Which of the following statements is/ are correct regarding food and water borne 
+disease and the class of causative microorganisms? 
+ 
+ 
+(A) 
+Legionellosis is a bacterial disease.  
+(B) 
+Giardiasis is caused by the protists. 
+(C) 
+Typhoid fever is caused by the virus.   
+(D) 
+Listeriosis is a fungal disease. 
+ 
+ 
+Q.121 
+Which of the following statements is/ are true? 
+ 
+ 
+(A) 
+Hagen-Poiseuille’s law is used for calculation of molecular diffusion. 
+(B) 
+Fick’s law is used for calculation of energy requirement in size reduction. 
+(C) 
+Rittinger’s law is used for calculation of energy requirement in size reduction. 
+(D) 
+Stokes law is used for derivation of terminal velocity. 
+ 
+ 
+Q.122 
+A 10 kg tomato pulp is concentrated from an initial moisture content of 90% (wet 
+weight basis) to 35% (wet weight basis). The weight of the concentrate in kg is 
+__________ (round off to 2 decimal places).
+--- page 73 ---
+Entrance Exams
+Agricultural Entrance Exams
+Architecture Entrance Exam
+Arts and Humanities Entrance Exams
+Commerce Entrance Examinations
+Common Entrance Examinations
+Computer Application Entrance Exams
+Design Entrance Exams
+Education Entrance Exams
+Engineering Entrance Exams
+Hotel Management Entrance Exams
+Law Entrance Exams
+MBA Entrance Exams
+Media & Journalism Entrance Exams
+Medical Entrance Exams
+Nursing Entrance Exams
+Pharmacy Entrance Exams
+Science Entrance Exams
+Diploma & Polytechnic
+Lateral Entry

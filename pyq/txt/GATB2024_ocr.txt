@@ -1,0 +1,3232 @@
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+PREVIEW QUESTION BANK
+
+Module Name : GAT- B 2024-ENG
+Exam Date : 20-Apr-2024 Batch : 09:00-12:00
+
+Sr. | Client Question
+No. ID
+
+Negative
+
+Question Body and Alternatives Marks Marks
+
+Objective Question
+
+1 11001 1.0 0.50
+
+Assume that a narrow tunnel is dug between two diametrically opposite points on the earth’s
+surface. If a particle is released in this tunnel, it will execute a simple harmonic motion. What
+will be the time period of SHM of this particle ?
+
+(1)_1 [R®
+2m) GM
+(2)_1 [ow
+2m \ R°
+®on,/ 7
+anR/ aa
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+2 11002 1.0 0.50
+
+If a body is performing uniform circular motion with velocity v and radius R, then identify the
+true statements from the following :
+
+A. Its velocity v is constant.
+
+B. Acceleration is always directed towards the centre and its magnitude is a = VIR.
+
+C. Angular momentum is constant in magnitude but its direction keeps changing.
+p. Angular velocity of the body @ = v/R.
+
+Choose the most appropriate answer from the options given below.
+
+(1)A and C only
+(2) B and D only
+(3) A, B and D only
+(4) A and D only
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+3 11003 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 1/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+A proton and a deuteron moving with equal kinetic energy enter perpendicularly into a
+magnetic field. What will be the ratio of radii of the circular path of the proton to that of the
+deuteron ?
+(1)1
+(2)2
+(3) 1
+2
+
+(4) 1
+v2
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+4 11004 1.0 0.50
+
+A big oil droplet of radius 10 cm is broken into a thousand equal droplets. What will be the gain
+in surface energy ? (Surface tension of the oil is 0.1 Nm’)
+
+(1)5J
+(2)10J
+(3)0.11 J
+(4) 0.25 J
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+5 11005 -4 10 0.50
+Two parallel rail tracks run east-west. Train P moves in east direction with a speed of 36 kmh
+
+and train Q moves with a speed of 72 kmh” in west direction. What is the velocity of Q with
+respect to P ?
+
+(1) 30 m/s from east to west
+(2) 30 m/s from west to east
+(3) 36 m/s from west to east
+(4) 10 m/s from east to west
+
+Al:l
+A2:2
+A323
+
+A4:4
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 2/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Objective Question
+
+6 11006 Identify the statement which in NOT true for a ‘conservative force’ 10 p50
+(1) The work done by the conservative force depends only on the end points.
+(2) The work done by a conservative force in a closed path is zero.
+(3) Spring force and frictional force are conservative.
+(4) The total mechanical energy of a system is conserved if forces doing work on it are
+conservative.
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+7 11007 a —_ ' , ' 10. |0.50
+A boy sitting on a surface inside a satellite moving around the earth feels weightless because
+(1) the earth does not attract the object in a satellite
+(2) the reaction on the person balances the gravitational force
+(3) a person sitting in the satellite is not accelerated
+(4) the normal force (reaction) is zero
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+8 11008 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 3/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Two cylindrical vessels of equal cross-sectional area A contain water up to height hi and ho.
+The vessels are interconnected so that the levels in them become equal. What is the work
+done during this process if p is the density of water ?
+
+(1) p.A.(hi — he)
+
+(3) p.A.(hi— he) .g
+
+(4) pA [(hi— h2)/2] .g
+Al:l
+
+A2:2
+
+A3:3
+
+A4:4
+
+Objective Question
+
+9 11009 1.0 0.50
+
+A bullet of mass 20 g, moving at 50 m/s penetrates 20 cm into a wooden block. What is the
+magnitude of the force exerted on the wooden block ?
+
+(1) 625 N
+(2) 225 N
+(3) 125 N
+(4) 725 N
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+10 11010 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 4/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Identify which of the following statements regarding significant figures are correct
+A. 6.405 has four significant figures
+B. 12300 has five significant figures
+C. 0.00421 has five significant figures
+D. 4.500 has four significant figures
+Choose the most appropriate answer from the options given below.
+
+(1) A, B and C only
+(2) AandD only
+(3) C and D only
+(4) Band D only
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+HW i101 r r 4 1.0 0.50
+The cross product of vector A and vector B has a magnitude of 50 unit, where vector A has a
+
+magnitude of 10. The angle between vector A and B is 60 degrees. What is the magnitude of
+vector B ?
+(1)_5_
+J2
+(2) 10.
+J2
+(3) 10.
+V3
+(4)_5_
+V3
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+12 11012 1.0 0.50
+
+A resistor R dissipates power P when connected to a generator. If another resistor Q is put in
+series with R, the power dissipated by R will
+
+(1) Increase
+
+(2) Decrease
+
+(3) Remain the same
+
+(4) Increase or decrease depending on the values of R andQ
+
+Al:l
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 5/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A2:2
+
+A323
+
+A4:4
+
+Objective Question
+
+13 pois The electric charge on a body is always an integral multiple of ‘e’ where ‘e’ is the charge that 10 p50
+an electron or proton carries. This concept is known as
+(1) Additivity of charges
+(2) Quantization of charges
+(3) Conservation of charges
+(4) Principle of superposition
+Al:1
+A2:2
+A3:3
+A4:4
+Objective Question
+‘4 ola Match items in List | with items in List II ro jper
+List | (Type of thermodynamic process) List Il (Work done)
+A. |Ilsotermal |. [Zero
+B. [Adiabatic Il. |yR (T2-Ts)
+C. |lsochoric I. |uRT In Vo/Vi
+D. |Isobaric IV. juR (E275) / (y-1)
+Choose the correct answer from the options given below :
+(1) A-lll, B-IV, C-I, D-II
+(2) A-IV, B-lll, C-I, D-II
+(3) A-lll, B-IV, C-Il, D-I
+(4) A-lll, B-I, C-IV, D-II
+Al:1
+A2:2
+A3:3
+A4:4
+Objective Question
+15 (11015 10 |0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 6/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Two parrallel plate capacitors each of 15 uF capacity are connected in series. The space
+between the plates of one capacitor is filled with a dielectric material of dielectric constant K =
+2. The equivalent capacitance of the system will be
+
+(1) 45 pF
+(2) 30 pF
+(3) 10 pF
+(4) 15 pF
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+16 tote Many enzymes catalyze both forward and reverse reactions. Which one of the following 10 p50
+statement is NOT correct ?
+(1) An equilibrium is established after some time.
+(2) It is possible to control the directions of the reaction by suitably removing the formed
+product.
+(3) These reactions are both temperature and concentration dependent.
+(4) The forward and reverse reactions proceed via different activation complexes.
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+1711017 1.0 0.50
+
+Sanger reaction (Sequencing) is an example of
+
+(1) electrophilic substitution
+(2) hydrolysis
+(3) esterification
+
+(4) nucleophilic substitution
+Al:1
+A2:2
+A333
+A434
+Objective Question
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 7/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+1g pois Which one of the following is an aromatic compound ? 10 p50
+OOOO
+6 &
+A B Cc D
+(1)A
+(2)B
+(3)C
+(4)D
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+19 jitole Given below are two statements ro ype
+Statement|: Precision refers to the closeness of various measurements for
+the same quantity.
+Statement Il : Accuracy is the agreement of the obtained value with the known
+or true value of the quantity.
+In light of the above statements, choose the correct answer from the options given below :
+(1) Both Statement | and Statement II are correct
+(2) Both Statement | and Statement II are NOT correct
+(3) Statement | is correct, but Statement II is not correct
+(4) Statement | is not correct, but Statement II is correct
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+po yte20 Which one of the following transition metals is present in Vitamin B12 ? 10 p50
+(1)Mn
+(2) Co
+(3) Zn
+(4) Cu
+Al: 1
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 8/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+A333
+
+A4:4
+
+Objective Question
+
+21 11021 1.0 0.50
+
+Which one of the following drugs contains B-lactam structure ?
+(1) Penicillin
+
+(2) Sulphanilamide
+
+(3) Erythromycin
+
+(4) Chloramphenicol
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+22 11022 1.0 0.50
+
+Which law of thermodynamics states that “energy of an isolated system is constant” ?
+(1) First
+
+(2) Second
+
+(3) Third
+
+(4) Zeroth
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+23 11023 1.0 0.50
+
+According to the molecular orbital theory, which of the following molecules should exhibit
+paramagnetism ?
+
+(1) Oz
+(2) No
+(3) Fo
+(4) Co
+
+Al:l
+A2:2
+A323
+
+A4:4
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 9/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Objective Question
+
+24 11024 1.0 0.50
+
+It is possible to separate o-nitrophenol and p-nitrophenol using steam distillation because
+o-nitrophenol has
+
+(1) Van der Waals force
+
+(2) Steric hindrance
+
+(3) Intermolecular H-bonding
+
+(4) Intramolecular H-bonding
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+25 11025 1.0 0.50
+
+Natural rubber is a polymer of while synthetic rubber neoprene is formed by
+polymerization of
+
+(1) 1,3-butadiene; acrylonitrile
+
+(2) 2-chloro-1,3-butadiene;1 ,3-butadiene
+
+(3) 2-methyl-1 ,3-butadiene;2-chloro-1,3-butadiene
+
+(4) Acrylonitrile;2-methyl-1,3-butadiene
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+26 11026 1.0 0.50
+
+Arrange the following in decreasing order of their acidic strength
+A. CHsCOOH
+
+B. —CICH,COOH
+
+Cc.  ClCHCOOH
+
+D. = ClsCHCOOH
+
+E. F3CCOOH
+
+Choose the correct answer from the options given below :
+()A>B>C>D>E
+
+(2)E>D>C>B>A
+
+B)A>E>D>C>B
+
+(4),B>C>D>A>E
+
+Al:l
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 10/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+A2:2
+
+A333
+A4:4
+
+Objective Question
+
+27 11027 1.0 0.50
+
+Which one of the following modifications is NOT a natural N-terminal modification of proteins ?
+(1) Acetylation
+
+(2) Benzylation
+
+(3) Myristoylation
+
+(4) Sumoylation
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+28 11028 1.0 0.50
+
+Match the items in List | with items in List II
+List | List Il
+A. |Enzymes |. [Amino acid
+
+B. |Glucose ll. |Biocatalysts
+C. |Lactose Ill. |Aldohexose
+D. |Methionine IV. |Disaccharide
+Choose the correct answer from the options given below :
+
+(1) Ad, Bell, C-Ill, D-IV
+(2) Acll, B-lll, C-IV, D-1
+(3) Acll, B-lV, C-lll, D-I
+(4) Ad, Bll, C-IV, D-II
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+29 11029 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 11/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+A nucleic acid chain comprises of
+A. Phosphate group
+B. Nitrogen base
+Cc. Pentose sugar
+D. Thiol group
+E. B (1-4) linkage
+Choose the correct answer from the options given below :
+(1) B and C only
+(2) B, D andE only
+(3) A, D andE only
+(4) A, B and C only
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+30 11030 1.0 0.50
+
+Which of the following elements readily react with oxygen to form their oxides ?
+
+(1) Au and Pt
+(2) Ne and Ar
+(3) Al and Cu
+(4) Cu and Pt
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+31 11031 1.0 0.50
+
+Which one of the following is caused by point mutation ?
+
+(1) Turner's syndrome
+(2) Down’s syndrome
+(3) Sickle cell anemia
+
+(4) Kleinefelter’s syndrome
+Al: 1
+A2:2
+
+A323
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 12/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+A4:4
+
+Objective Question
+
+32 11032 1.0 0.50
+
+Which is NOT the function of placenta ?
+
+(1) Supply of oxygen and nutrients to the embryo
+
+(2) Removal of excretory waste products produced by embryo
+(3) Production of hCG and HPL
+
+(4) Supply all types of antibodies to the embryo
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+33 11033 1.0 0.50
+
+Which statement is true with respect to colostrum ?
+
+(1) It is a yellowish fluid secreted by the mother during later days of lactation.
+(2) Colostrum provides passive immunity to the infant.
+(3) Colostrum is rich in carbohydrates and has no antibodies.
+
+(4) Colostrum provides active immunity to the infant.
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+
+34 11034 1.0 0.50
+
+Bacillus thurinigiensis CryA controls certain caterpillar pests by
+
+(1) turning toxic in the acidic pH of their gut medium
+(2) turning toxic in the alkaline medium of their gut
+(3) repelling them from the crops
+
+(4) inducing satiation in them
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+
+35 11035 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 13/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Which of the following options correctly match the name of gene and its function in cloning
+vector pBR322 ?
+
+(1) Cla l- Acts as selectable marker to identify non-transformants
+(2) amp’ - Codes for plasmid amplifying enzymes
+(3) rop - Codes proteins required for plasmid replication
+
+(4) ori- Controls plasmid size
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+
+36 11036 1.0 0.50
+
+Which one of the following statements about AIDS caused by HIV is correct ?
+
+(1) The time lag between the HIV infection and AIDS manifestation varies from 2-3 weeks.
+(2) After entering the body, HIV enter B-lymphocytes.
+
+(3) The AIDS-affected individuals are more susceptible to Tuberculosis.
+
+(4) HIV infection depletes only the CD8 lymphocytes in the body.
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+37 11037 1.0 0.50
+
+The two heavy chains of a human antibody are linked to each other by
+(1) hydrogen bond
+
+(2) glycosidic bond
+
+(3) phosphodiester bond
+
+(4) disulfide bond
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+38 11038 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 14/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Aldosterone regulates the water and electrolyte balance in human body by
+
+(1) Stimulating the H2O and Na’ reabsorption, while K" and PO,” excretion
+(2) Stimulating the Na’ and K* reabsorption, while HO and PO,” excretion
+(3) Stimulating the HO reabsorption and Na’ excretion
+
+(4) Stimulating the Na’ and PO,” reabsorption, while K’ excretion
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+
+Be jpt03e At G2/M checkpoint the cell cycle will arrest if 10 ps0
+(1) The cell has not achieved an adequate size
+(2) The spindle fibre formation has not occurred
+(3) The DNA replication or repair of DNA damage has not been completed
+(4) The attachment of the spindle fibres to the kinetochore of centromeres is not adequate
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+40/1040 . a. pec raie 1.0 0.50
+Choose the option that correctly matches for an immunosuppressant and its origin
+(1) Cholesterol - Palm Oil
+(2) Cyclosporin A - Trichoderma polysporum
+(3) Streptokinase - Streptococcus
+(4) Botulinum toxin - Clostridium botulinum
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+41 11041 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 15/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Which statement is true with respect to meiosis ?
+
+(1) Meiosis involves two sequential cycles of nuclear and cell division but only a single cycle of
+DNA replication.
+
+(2) Meiosis involves one cycle of nuclear and cell division but two cycles of DNA replication.
+(3) Four diploid cells are formed at the end of meiosis.
+(4) Two haploid cells are formed at the end of meiosis.
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+42 11042 1.0 0.50
+
+The principle driving force behind movement of water in plants is known as
+
+(1) lonic potential
+(2) Membrane potential
+(3) Soil temperature
+
+(4) Water potential
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+43 11043 1.0 0.50
+
+Which one of the following categories of methods CANNOT be used for animal virus detection
+2
+
+(1) Serology
+
+(2) Nucleic acid hybridization
+(3) Hematology
+
+(4) Hemagglutination
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+44 11044 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 16/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Respiratory pathway is considered as a pathway
+
+(1) Catabolic
+(2) Anabolic
+
+(3) Amphibolic
+(4) Fermentative
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+Ae iptoas Match the items of List | with the items in List II so pee
+List | List II
+A. |Diabetes insipidus | |. |Dysregulation of glucagon
+B. |Exophthalmic goiter | Il. |Water loss and dehydration
+C. |Acromegaly Ill. Grave's disease
+D. {Hyperglycemia IV.|Disfigurement of face
+Choose the correct answer form the options given below :
+(1) A-l, B-Ill, C-IV, D-II
+(2) A-lV, B-Ill, C-Il, D-I
+(3) A-ll, B-l, C-Ill, D-IV
+(4) A-ll, B-lll, C-IV, D-I
+Al:1
+A2:2
+A3:3
+A4:4
+Objective Question
+46 (11046 10 |0.50
+
+An equilateral triangle of side 6 cm has its corners cut-off to form a regular hexagon. The area
+of regular hexagon is
+
+(1) 2/3 em’
+(2) ay2 em
+(3) 6/3 em"
+(4) 3/6 om
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 17/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+A333
+
+A4:4
+
+Objective Question
+
+47 11047 1.0 0.50
+
+A train passes a standing man in 6 seconds and 210 m long platform in 16 seconds. The
+length and speed of the train, respectively, is
+
+(1) 126 m, 21 m/s
+(2) 120 m, 20 m/s
+(3) 110 m, 20 m/s
+(4) 63 m, 21 m/s
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+48 11048 1.0 0.50
+
+In an election contested by two candidates, one candidate got 30% of total votes and lost by
+500 votes. The total number of votes polled is
+
+(1) 1350
+
+(2) 1450
+
+(3) 1150
+
+(4) 1250
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+49 11049 1.0 0.50
+
+96 x 3-6 = 7-24 108 of 1/18-1/10=?
+(1) 15-56
+
+(2) 10-56
+
+(3) 5:3
+
+(4) 15:36
+
+Al:l
+A2:2
+
+A323
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 18/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+A4:4
+
+Objective Question
+
+50 11050 1.0 0.50
+
+The traffic lights at three different road crossings change after every 48 s, 72 s and 108 s,
+respectively. If they all change simultaneously at 8:20:00 h, when will they change again
+simultaneously ?
+
+(1) 8:27:12 h
+(2) 8:25:10 h
+(3) 8:26:12 h
+(4) 8:24:10 h
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+51 11051 1.0 0.50
+
+The sum of four consecutive even numbers is 107 more than the sum of three consecutive odd
+numbers. If the sum of smallest odd number and the smallest even number is 55, then what is
+the smallest even number ?
+
+(1) 36
+(2) 40
+(3) 32
+(4) 38
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+52 11052 1.0 0.50
+
+Maximum distance between any two points inside or on cube of side 1 cm is equal to
+(1) 1.cm
+(2) /2 cm
+
+(3) V3 em
+(4) 6cm
+
+Al:l
+A2:2
+
+A323
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 19/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+A4:4
+
+Objective Question
+
+53 11053 1.0 0.50
+
+Number of natural numbers that can be formed using digits 1, 2, 3, 4, 5, 6, 7 each exactly once
+so that digits 3, 4 and 5 are always in the middle is equal to
+
+(1) 24
+(2) 144
+(3) 5040
+(4) 720
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+54 11054 1.0 0.50
+
+The acute angle between hour and minute hands of a wall clock when the time shown by it is
+02:15 is equal to
+
+(1) 30°
+
+(2) 26:25°
+
+(3) 22:5°
+
+(4) 37:5°
+
+Al:1
+
+A2:2
+
+A3:3
+
+A4:4
+
+Objective Question
+
+55 11055 1.0 0.50
+
+Number of squares in a chess-board is equal to
+(1) 64
+
+(2)81
+
+(3) 204
+
+(4) 284
+
+Al:l
+A2:2
+A323
+
+A4:4
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 20/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Objective Question
+5611056 5 1.0 |0.50
+x + ax +1 =0has no real root. Which one of the following is correct ?
+
+(ja s2
+(2)az2
+(3)-2 sa<2
+(4)-2 <a<2
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+57 11057 1.0 0.50
+
+There are 30 boys and 60 girls in a class. If the average age of boys is 12 years and average
+age of girls is 10 years, what is the average age of the whole class ?
+
+(1) 10-11 years
+
+(2) 10-66 years
+
+(3) 11-66 years
+
+(4) 11-11 years
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+58 11058 1.0 0.50
+
+The diagonals of a rhombus are 16 cm and 12 cm. The side of the rhombus would be
+(1) 10cm
+
+(2)11.¢em
+
+(3) 8 cm
+
+(4)9. cm
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+59 11059 1.0 0.50
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 21/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Forx >0, if variable takes discrete values x + 4, x — 3-5, x -2°5,x - 3, x-2,x + 0-5, x -0°5, x
++ 5, then the value of median is
+
+(1)x=1-25
+(2)x=0:5
+(3)x +0-5
+(4) x + 1-25
+Al:l1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+60 11060 1.0 0.50
+
+The salary of a worker is first increased by 5% and then it is decreased by 5%. What is the
+change in his salary ?
+
+(1) Decrease in salary 0:25%
+(2) Increase in salary 0:50%
+(3) No change in salary
+
+(4) Decrease in salary 0:50%
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+61 11061 3.0 1.00
+
+Which one of the following antibody types protects against inhaled and ingested pathogens ?
+(1) IgG
+(2) IgD
+(3) IgM
+(4) IgA
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+62 11062 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 22/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Which one of the following hormones transmit their signal via nuclear receptors ?
+
+(1) Thyroid hormone
+(2) Follicle Stimulating hormone
+(3) Insulin
+
+(4) Luteinizing hormone
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+63 11063 3.0 1.00
+
+Which one of the following amino acids is coded by a single codon ?
+(1) Valine
+
+(2) Threonine
+
+(3) Tryptophan
+
+(4) Isoleucine
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+
+64 11064 3.0 1.00
+
+Which one of the following statements is NOT correct ?
+
+(1) Glucose is stored in animals as glycogen.
+(2) Glucose is stored in plants as starch.
+(3) Cellulose is a polymer of only glucose.
+
+(4) Hemicellulose is a polymer of only glucose.
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+65 11065 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 23/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Match the items in List | with the items in List I!
+
+List | (Organelle) List Il (Function)
+A. |Mitochondria |. |Protein processing and
+transport
+B. |Nucleolus ll. |Protein synthesis
+C. |Golgi complex lll. |Energy production
+
+D. |Endoplasmic reticulum IV. |Ribosomal RNA synthesis
+
+(1) A-l, B-Ill, C-lI, D-IV
+(2) A-ll, B-Ill, C-l, D-IV
+(3) A-lll, B-Il, C-1, D-IV
+(4) A-lll, B-IV, C-I, D-II
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+66 11066 3.0 1.00
+
+In which one of the following compartments of the cell, carbohydrates are added to a protein
+during glycoprotein synthesis ?
+
+(1) Mitochondria
+
+(2) Lysosome
+
+(3) Nucleus
+
+(4) Golgi complex
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+67 11067 3.0 1.00
+
+If a single base in the middle of a protein coding open reading frame is replaced with another
+base, which statement from the following is NOT a likely possibility ?
+
+(1) It may not make any difference to the protein sequence.
+(2) It may cause a single amino acid mutation.
+
+(3) It may create a premature stop codon.
+
+(4) The mRNA will not be recruited for translation.
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 24/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+A333
+
+A4:4
+
+Objective Question
+
+68 ties The indigenous vaccine, Covaxin against SARS Coronavirus-2 contains 3.0 100
+(1) the mRNA expressing viral spike protein
+(2) inactivated whole virions
+(3) the purified viral envelope protein
+(4) the DNA coding for viral spike protein
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+69 11069 3.0 1.00
+
+Antibody diversity is an example of
+
+(1) Gene rearrangement
+(2) Domain swapping
+(3) Post-translational modification
+
+(4) Proteolytic processing
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+70 11070 3.0 1.00
+
+Which of the following immunoglobulins primarily pass through the placenta to provide passive
+immunity to the fetus ?
+
+(1) IgM only
+(2) IgM and IgG
+(3) IgA and IgG
+(4) IgG only
+
+Al:l
+A2:2
+A323
+
+A4:4
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 25/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Objective Question
+
+yt tom Which of the following pair of monosaccharides contains epimers of each other ? 3.0 1.00
+(1) D-Mannose and D-Glucose
+(2) D-Gulose and D-Glucose
+(3) D-Arabinose and L-Arabinose
+(4) D-Glucose and D-Fructose
+Al: 1
+A2:2
+A323
+A4:4
+Objective Question
+yp pov Match the items in List | with items in List II po yee
+List | List II
+A. |Prophase |. |Reformation of the nuclear envelope
+around daughter chromosomes
+B. |Metaphase ll. [Separation of the two daughter)
+chromosomes
+C. |Anaphase Ill. {Condensation of DNA into chromatids
+D. |Telophase IV. |Chromatids line up along an axis
+(1) A-til, B-Il, C-IV, D-I
+(2) A-lll, B-IV, C-ll, D-I
+(3) A-IV, B-Ill, C-Il, D-I
+(4) A-ll, B-IV, C-I, D-Ill
+Al: 1
+A2:2
+A323
+A4:4
+Objective Question
+7311073 3.0 | 1.00
+
+The specificity in an antibody molecule is provided by the
+
+(1) Light chain variable region
+
+(2) Light chain constant region
+(3) Heavy chain constant region-I
+(4) Hinge region
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 26/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A323
+
+A4:4
+
+Objective Question
+
+74 11074 3.0 1.00
+
+Calcium alginate based synthetic seeds tend to lose water rapidly and become hard pellet.
+This problem can be overcome by
+
+(1) Coating the capsule with polyethylene glycol
+
+(2) Preserving the seeds in the airtight packaging till sowing
+
+(3) Treating the somatic embryos with sterile water for 3 hours before encapsulation
+
+(4) Coating the capsules with Elvax 4260
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+75 11075 3.0 1.00
+
+Which one of the following statements most appropriately describes the concept of ‘Codon
+Bias' ?
+
+(1) Some codons for a particular amino acid are used more frequently.
+
+(2) There has been an element of human bias for assigning specific codons to an amino acid.
+(3) There is no codon bias in plants.
+
+(4) The usage of codons varies for different proteins in an organism.
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+716 11076 3.0 1.00
+
+Which one the following is NOT true for Quantum dots as fluorescent probes in fluorescence
+microscopy ?
+
+(1) They are highly resistant to photobleaching.
+
+(2) They can generate fluorescence of different emission wavelengths.
+
+(3) They are nanocrystals of different sizes.
+
+(4) Their flurorescence properties do not depend on the size of the Quantum dots.
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 27/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+A333
+
+A4:4
+
+Objective Question
+
+77 11077 3.0 1.00
+
+Francis & Crick proposed the scheme called Central Dogma in 1958. Which of the following
+processes was NOT covered in this scheme ?
+
+(1) Replication
+
+(2) Transcription
+
+(3) Reverse transcription
+
+(4) Translation
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+78 11078 3.0 1.00
+
+Beggiatoa, a bacterium depends on organic carbon, inorganic chemicals and inorganic
+electron donor for its nutrition. On the basis of its nutritional type, it is classified as
+
+(1) Photoorganoheterograph
+
+(2) Chemolithoautotroph
+
+(3) Chemolithoheterotroph
+
+(4) Chemoorganoheterotroph
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+79 11079 3.0 1.00
+
+Which one the following statements is correct about various microbial culture media ?
+
+(1) Mannitol salt agar is an enriched and differential media.
+
+(2) Selective components in MacConkey (MAC) agar are eosin Y and methylene blue which
+inhibits the growth of gram positive bacteria.
+
+(3) Blood agar is a differential media which is differentiated on the basis of bacterial ability to
+produce hemolysins.
+
+(4) Bile salts and crystal violet present in the EMB agar media inhibits the gram positive
+bacteria growth and hence helps to differentiate between gram positive and gram negative.
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 28/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A323
+
+A4:4
+
+Objective Question
+
+80 11080 3.0 1.00
+
+The microscope which uses lasers to scan the specimen at a specific depth, illuminates one
+area at a time and blocks stray light to give an image with excellent contrast and resolution is
+(1) Differential Interference Contrast (DIC) Microscope
+
+(2) Confocal Microscope
+
+(3) Scanning Electron Microscope
+
+(4) Phase Contrast Microscope
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+81 11081 3.0 1.00
+
+A biochemist is pelleting down the microsomal fraction from a sample using ultracentrifuge at a
+speed of 20000 rpm. What would be RCF if the diameter of the rotor is 7 cm ?
+
+(1) 15680
+(2) 31360
+(3) 7840
+(4) 3920
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+B22 In which of the given centrifuge rotors the value of fmin (radius minimum), fmax and rav have the 30 100
+
+minimum deviation ?
+
+(1) Fixed-angle rotor only
+
+(2) Vertical rotor only
+
+(3) Swing rotor only
+
+(4) Fixed-angle and Vertical rotors
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 29/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+A333
+
+A4:4
+
+Objective Question
+
+83 11083 3.0 1.00
+
+Match the items in List | with items in List II
+List | List II
+A. |mRNA |. inhibits gene expression
+
+B. |tRNA ll. Jcarries amino acids for
+translation
+
+C. |snRNA Ill. |provides template for translation
+D. |siRNA IV. involved in RNA splicing
+
+(1) Aclll, Bell, C-IV, D-I
+(2) Acll, B-lll, C-1, D-IV
+(3) A-lV, B-lll, C-Il, D-I
+(4) Acll, B-lV, C-l, D-Ill
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+84 11084 3.0 1.00
+
+Which of the following cell types has the highest surface area to volume ratio ?
+(1) RBC
+
+(2) Fibroblast
+
+(3) Keratinocyte
+
+(4) Hepatocyte
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+85 11085 3.0 1.00
+
+How many grams of Albumin and Aspirin will be required to set a reaction between one
+millimole of Albumin and 0-5 millimole of Aspirin ? Given the molecular weight of Albumin is
+67,000 Da and that of Aspirin is 180 Da
+
+(1) 1g, 1mg
+
+(2) 67 g, 90 mg
+
+(3) 0-1 g, 70mg
+
+(4) 67 ug, 90 mg
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 30/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Al:l
+
+A2:2
+
+A323
+
+A4:4
+
+Objective Question
+
+86/1086 Of the amino acids listed below, which three amino acids can undergo posttranslational 3.0 100
+modification ?
+(1) Glycine, Leucine, Trypotophan
+(2) Serine, Threonine, Tyrosine
+(3) Cysteine, Glutamine, Proline
+(4) Glutamic acid, Arginine, Methionine
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+87 ies What is the common feature of the following peptides ? 3.0 100
+GKWLY, YLWKG, WGKLY, WLKGY
+(1) Same sequence
+(2) Same amino acid composition
+(3) Same conformation
+(4) Same interactome
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+88 11088 F , 3 eae , 3.0 1.00
+What is the final concentration of NaCl upon mixing 10 ml of 10 mM NaCl with 990 ml of 10
+mM NaCl ?
+(1) 0-1 mM
+(2)0-1M
+(3) 0-01 M
+(4) 1:0 mM
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 31/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Al:l
+A2:2
+A333
+A4:4
+{Objective Question
+89 11089 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 32/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 33/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Which of the following molecules is a Peptide Nucleic Acid (PNA) ?
+
+1 5’ end 3' end
+QW) ot OH
+
+3' end
+Bases : A (adenine), T (thymine)
+G (guanine), C (cytosine)
+(2) }-O, R base
+O (here : guanine)
+
+5/353’
+direction
+
+I
+phosphate O=P-O,
+I
+o
+
+’
+
+(3) e
+
+7
+
+HN
+
+g Base
+
+N
+So
+
+nan
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 34/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+) i 1 i 1
+HaN* - CH=C-N-C-C-N=C-C-N-CH-C=N-=CH-CO0-
+
+l HH H H H 1 H |
+CHp a CHp CH>
+l
+O GH
+wv ™
+bei H3C CH;
+Al:l
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+90 11090 3.0 1.00
+
+Among Wheat, Moong Dal, Rice and Bajra, the one with the highest protein content is
+(1) Bajra
+
+(2) Wheat
+
+(3) Moong dal
+
+(4) Rice
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+91 11091 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 35/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Which one of the following is the most effective strategy in delivering a gene of interest in
+non-proliferating terminally differentiated cells ?
+(1) Adeno-associated viral particle
+(2) Retroviral particle
+(3) Calcium chloride
+
+(4) Lipofectamine
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+92 11092 3.0 1.00
+
+Given below are two statements — one is labelled as Assertion (A) and the other is labelled as
+Reason (R) :
+Assertion (A) : Human adeno-associated virus is used to deliver single-stranded DNA
+as a vaccine that does not require multiple booster doses.
+Reason (R): Such vaccines are generally administered along with an adenovirus or a
+herpesvirus to avoid multiple booster doses.
+In light of the above statements, choose the most appropriate answer from the options given
+
+below.
+
+(1) Both A and R are correct and R is the correct explanation of A.
+
+(2) Both A and R are correct, but R is NOT the correct explanation of A.
+(3) Ais correct, but R is not correct.
+
+(4) Ais not correct, but R is correct.
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+93 11093 3.0 1.00
+
+In case of prokaryotes, the start codon is usually preceded by a sequence complementary to
+the
+
+(1) 16S rRNA
+(2)5S rRNA
+
+(3) 28S rRNA
+(4) 18S rRNA
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 36/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+A333
+
+A4:4
+
+Objective Question
+
+94 11094 3.0 1.00
+
+Given below are two statements — one is labelled as Assertion (A) and the other is labelled as
+Reason (R) :
+Assertion (A) : In the eukaryotic genes, TATA box aids in transcription.
+
+Reason(R): The TATA box facilitates formation of pre-initiation complex for
+transcription initiation.
+In light of the above statements, choose the most appropriate answer from the options given
+
+below.
+
+(1) Both A and R are correct and R is the correct explanation of A
+
+(2) Both A and R are correct, but R is NOT the correct explanation of A
+(3) Ais correct but R is not correct
+
+(4) Ais not correct but R is correct
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+95 11095 3.0 1.00
+
+Which one of the following cell types is involved in retaining the tattoo ink ?
+(1) Macrophages
+
+(2) Melanocytes
+
+(3) Keratinocytes
+
+(4) Lymphocytes
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+96 11096 3.0 1.00
+
+Which one of the following does NOT refer to secondary structures in protein?
+(1) Beta sheet
+
+(2) Twist
+
+(3) Alpha helix
+
+(4) Loop
+
+Al:l
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 37/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+A2:2
+A333
+A4:4
+
+Objective Question
+
+97 11097 3.0 1.00
+
+Starting with a single cell, what will be number of cells after 'n' cycles of cell division, given that
+in each cycle every cell divides into two cells ?
+
+(1) 27
+(2)n°
+(3)n°
+(4)2"
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+98 11098 1.00
+
+The process of nuclear envelope breakdown during prophase is NOT aided by which one of 3.0
+the following ?
+
+(1) Extension of the filopodia
+
+(2) Phosphorylation of nuclear membrane proteins
+(3) Cytoplasmic microtubule dynamics
+
+(4) Nuclear lamina disassembly
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+99 11099 3.0 1.00
+
+Which one of the following is derived from the ectoderm?
+
+(1) Muscle
+(2) Bone
+(3) Nerve
+(4) Blood
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 38/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A323
+
+A4:4
+
+Objective Question
+
+100 11100 3.0 1.00
+
+Regulatory B cells (Bregs) are important mediators of adaptive immunity and function mainly
+via the secretion of
+
+(1) IL-10
+
+(2) IL-2
+
+(3) TNF-alpha
+(4) IFN-gamma
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+10111101 3.0 1.00
+
+A polymerase chain reaction yields 1-2 billion copies of DNA in 30 cycles. How many cycles
+would be needed to obtain its 300 million copies ?
+
+(1) 7 cycles
+
+(2) 8 cycles
+
+(3) 15 cycles
+
+(4) 28 cycles
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+10211102 3.0 1.00
+
+Neoschizomers are the restriction endonucleases with
+
+(1) identical recognition site but different cleavage sites
+(2) different recognition sites but same cleavage site
+(3) different recognition site but producing same sticky ends
+
+(4) identical recognition and cleavage sites
+Al: 1
+A2:2
+
+A323
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 39/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+A4:4
+
+Objective Question
+
+10311103 1.00
+
+Telomerase, an RNA-protein complex adds telomeres at the end of chromosomes. What kind 3.0
+of enzymatic activity does it possess ?
+
+(1) DNA-dependent DNA polymerase
+(2) DNA-dependent RNA polymerase
+(3) RNA-dependent DNA polymerase
+(4) RNA-dependent RNA polymerase
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+104 11104 3.0 1.00
+
+Which of the following is NOT true for the layers of gastrula ?
+
+(1) The linning of the digestive tract will be formed by the endoderm.
+(2) The bones will be formed by the mesoderm.
+
+(3) The nerves will be formed by the ectoderm.
+
+(4) The skin will be formed by the mesoderm.
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+105 11105 3.0 1.00
+
+Which of the following statement is NOT correct ?
+
+(1) Transcription takes place in the nucleus of eukaryotic cells.
+(2) In prokaryotes mRNA is not capped.
+(3) Translation in eukaryotes takes place in the nucleus.
+
+(4) In prokaryotes, DNA is replicated in the cytoplasm.
+Al: 1
+A2:2
+A323
+
+A4:4
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 40/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Objective Question
+
+106 11106 3.0 1.00
+
+Rancidity in spoiled foods is mainly due to
+
+(1) Proteolytic enzymes
+
+(2) Photosynthetic microbes
+(3) Saccharolytic microbes
+(4) Lipolytic microbes
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+10711107 3.0 1.00
+
+The helical content of a protein can be directly determined using
+
+(1) infrared spectrometer
+(2) fluorescence
+(3) circular dichroism
+
+(4) UV-visible spectrophotometer
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+108 11108 3.0 1.00
+
+DNA conformation is left handed in
+
+(1) DNAB
+(2) DNAC
+(3) DNAZ
+(4) DNAA
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+109 = 11109 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 41/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Which one of the following tissue culture approaches is most appropriate for production of
+double halploid plants ?
+(1) Protoplast fusion
+(2) Embryo rescue
+(3) Anther culture
+(4) Meristem culture
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+11011110 3.0 1.00
+
+Which one of the following is NOT an auxin ?
+(1) Indole acetic acid (IAA)
+
+(2) Indole butyric acid (IBA)
+
+(3) 2,4-dichlorophenoxy acetic acid (2,4-D)
+(4) 6-Benzylaminopurine (BAP)
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+11 1111 3.0 1.00
+
+Which of the following is a heuristic algorithm that works faster than those driven by dynamic
+programming ?
+
+(1) Needleman-Wunsch
+
+(2) Smith-Waterman
+
+(3) BLAST
+
+(4) Gradient Descent
+
+Al: 1
+A2:2
+A333
+A4:4
+Objective Question
+11211112 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 42/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+For an imaginary Martian species with three nucleotides (X, Y and Z), how many 3-letter
+codons are possible ?
+(1) 64
+(2) 27
+(3)9
+(4)4
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+11311113 3.0 1.00
+
+What is the likely number of amino acids in a 11 KDa protein ?
+(1) 90
+
+(2) 100
+
+(3) 110
+
+(4) 120
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+114 11114 3.0 1.00
+
+For a normal (Gaussian) distribution, decreasing the spread and increasing the height would
+leadtoa
+
+(1) smaller value of standard deviation
+
+(2) higher value of standard deviation
+
+(3) smaller value of mean
+
+(4) higher value of mean
+
+Al: 1
+A2:2
+A333
+A4:4
+Objective Question
+WS 11115 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 43/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Which of the following is a method to conduct phylogeny of protein and DNA sequences ?
+(1) BLAST
+(2) OMNIBUS
+(3) Maximum likelihood
+(4) DAVID
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+11611116 3.0 1.00
+
+The degree of inhibition for an enzyme catalyzed reaction at a particular inhibitor concentration
+is independent of the intitial substrate concentration. This is
+
+(1) Un-competitive inhibition
+
+(2) Non-competitive inhibition
+
+(3) Competitive inhibition
+
+(4) Mixed inhibition
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+117) 11117 3.0 1.00
+
+An enzymatic reaction exhibits Michaelis-Menten Kinetics. What will happen if the
+concentration of enzyme is doubled keeping [So] >> [E] ?
+
+(1) Both Kn and Vmax will remain same
+
+(2) Both Km and Vmax will increase
+
+(3) Vmax Will increase; Km will remain same
+
+(4) Kn will increase; Vmax will remain same
+
+Al: 1
+A2:2
+A333
+A4:4
+Objective Question
+118 11118 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 44/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A zero order liquid phase reaction A —*,B, is being carried out in a batch with k = 10°
+moles/min. Reactor volume is 100 L. Initial concentration of A is 0-1 moles/L. What is the
+earliest time at which A is completely exhausted in the system ?
+
+(1) 100 min
+(2) 200 min
+(3) 300 min
+(4) 40 min
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+11911119 3.0 1.00
+
+If the average diameter of air bubbles in a bioreactor is 2 mm and the gas hold up is 10% then
+the surface area of gas bubbles per liter of reactor is
+
+(1) 30 cm*
+
+(2) 300 cm”
+(3) 3000 cm*
+(4) 30000 cm’
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+12011120 3.0 1.00
+
+A good resolution in ion exchange chromatography is obtained when the two proteins have a
+
+(1) large difference in binding affinity and large dispersion
+(2) small difference in binding affinity and large dispersion
+(3) large difference in binding affinity and small dispersion
+
+(4) small difference in binding affinity and small dispersion
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+121 11121 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 45/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Given below are two statement - one is labelled as Assertion A and the other is labelled as
+ReasonR:
+Assertion A : Bacterial lipoplysaccharide (LPS) on its own does not induce memory B-cell in
+humans.
+Reason R : LPS does not activate T-cell.
+In light of the above statements, choose the most appropriate answer from the options given
+below.
+(1) Both A and R are correct and R is the correct explanation of A
+(2) Both A and R are correct, but R is NOT the correct explanation of A
+(3) Ais correct but R is not correct
+
+(4) Ais not correct but R is correct
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+122 11122 3.0 1.00
+
+The allergic immune response is characterized by the increased levels of
+
+(1) IgE
+(2) IgA
+(3) IgG
+(4) IgM
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+123 11123 3.0 1.00
+
+The presence of antibody in infected patients serum can be detected by
+
+(1) ELISPOT
+(2) PCR
+
+(3) Northern blot
+(4) Western blot
+
+Al:l
+A2:2
+
+A323
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 46/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+A4:4
+
+Objective Question
+
+12411124 3.0 1.00
+
+What will happen to immune cell development if we remove thymus from neonatal mice ?
+
+(1) B-cell maturation will be impaired
+(2) Both B- and T-cell maturation will be impaired
+(3) T-cell maturation will be impaired
+
+(4) No effect on B- and T-cell maturation
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+125. 11125 3.0 1.00
+
+A series of spontaneous point mutations that occur gradually resulting in changes in Influenza
+virus surface antigens over a time is called
+
+(1) genomic instability
+(2) antigenic shift
+(3) antigenic drift
+
+(4) chromosome translocation
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+126 11126 3.0 1.00
+
+Myasthenia gravis is an autoimmune disease where patient makes antibodies for its own
+
+(1) Acetylcholine receptor protein
+(2) NOD1 protein
+
+(3) TLR11 protein
+
+(4) RIG-I protein
+
+Al:l
+A2:2
+A323
+
+A4:4
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 47/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Objective Question
+
+1727 Match the items in List | with items in List II BO yee
+List | List Il
+A. |Toll like receptor 9 |. |Recognition of unmethylated
+CpG dinucleotide
+B. |T-helper cells ll. |Recognition of antigen with
+MCH II complex
+C. |T-cytotoxic cells Ill. |Recongnition of antigen with
+MCH | complex
+
+D. |Plasmacytoid dendritic] IV.|Type | interferon (IFN)
+cells (pDCs) production
+
+(1) All, Bll, C+, DV
+(2) Acl, lll, C-IV, D-II
+(3) A-lV, B-ll, C-Ill, D-
+(4) Acl, Bell, C-lll, DV
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+128 ti28 What is the length of peptides binding to Major Histocompatibility Complex (MHC) class II 3.0 100
+molecule ?
+(1) 8-11 amino acids
+(2) 21-27 amino acids
+(3) 15-20 amino acids
+(4) 507 amino acids
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+129 11129 3.0 1.00
+
+Tuberculosis (TB) is caused by Mycobacterium tuberculosis. The TB vaccine is made using
+
+(1) Mycobacterium tuberculosis
+(2) Mycobacterium bovis
+
+(3) Tuberculin
+
+(4) Mycobacterial DNA
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 48/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+Al: 1
+
+A2:2
+A323
+A4:4
+
+Objective Question
+
+13011130 3.0 1.00
+
+CD4 antigen is absent on
+
+(1) B-cells
+
+(2) T-cells
+
+(3) macrophage cells
+(4) gamma-delta T cells
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+131 11131 3.0 1.00
+
+Match the items in List | with items in List II
+List | List Il
+
+A. |HIV |. IRNA-dependent RNA
+polymerase
+
+B. |Influenza virus Il. |dsDNA virus
+
+C. Hepatitis C virus Ill. |Segmented RNA genome
+
+Ds |Pox virus IV. |Reverse Transcriptase
+
+(1) A-lll, B-I, C-IV, D-II
+(2) A-lV, B-I, C-Il, D-III
+(3) A-ll, B-l, C-Ill, D-IV
+(4) A-IV, B-IIl, C-I, D-II
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+132) 11132 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 49/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Hepatitis B virus genome is
+
+(1) ssDNA
+(2) dsDNA
+(3) ssRNA
+(4) partially dsDNA
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+13311133 3.0 1.00
+
+Herpes simplex virus maintains latency in
+
+(1) Neuronal cells
+(2) Liver cells
+
+(3) Epithelial cells
+(4) Kidney cells
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+13411134 3.0 1.00
+
+Pox virus replicates in the
+(1) Cytoplasm
+
+(2) Nucleus
+
+(3) Golgi
+
+(4) Mitochondria
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+135 11135 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 50/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+Which of the following viruses is a plus-sense single-stranded RNA virus ?
+
+(1) Dengue virus
+(2) Rotavirus
+(3) Adenovirus
+
+(4) Influenza virus
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+
+136 11136 3.0 1.00
+
+In N-linked glycoproteins, carbohydrate moiety is attached to which of the following amino
+acids ?
+
+(1) Valine
+
+(2) Asparagine
+
+(3) Serine
+
+(4) Threonine
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+13711137 3.0 1.00
+
+The catalytic triad of Chymotrypsin is composed of
+(1) Asp, Ser, His
+(2) Arg, Ser, His
+(3) Glu, Thr, Lys
+(4) Glu, Asp, Tyr
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+138 11138 3.0 1.00
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 51/59
+
+===PAGE===
+4/20/24, 6:51 PM 4_Live_GATB_E_1-160.html
+A mixture of proteins (A, B, C and D) is separated on a Sephadex G-200 column. The proteins
+elute in the order of A, B, C and D. Assuming that all proteins are globular and monomeric, the
+protein with minimum electrophoretic mobility on SDS-PAGE will be
+
+(1)A
+(2) B
+(3) C
+(4) D
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+139 ise Match the items in List | with items in List II BO yee
+List | List I!
+A. |B-Oxidation |. |Ribulose Bisphosphate;
+Carboxylase
+B. |Glycolysis Il. |Phosphofructo kinase-l
+C. |Gluconeogenesis lll. |Phosphoenolpyruvate
+carboxylase
+D. |Calvin cycle IV. |Thiolase
+(1) A-tl, B-IV, C-ll, D-I
+(2) A-ll, B-IV, C-I, D-Ill
+(3) A-IV, B-lIl, C-Ill, D-I
+(4) A-lll, B-II, C-IV, D-I
+Al: 1
+A2:2
+A323
+A4:4
+Objective Question
+14011140 3.0 | 1.00
+
+Lipid Rafts are composed of the
+
+(1) cholesterol and cardiolipin
+
+(2) sphingolipid and cardiolipin
+(3) sphingolipid and cholesterol
+(4) cholesterol but no sphingolipid
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 52/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A323
+
+A4:4
+
+Objective Question
+
+tay yay Match the items in List | with items in List II po yee
+List | (Pollutant) List II (Impact on environment)
+A. |Carbon monoxide |. |Greenhouse effect
+B. |Hydrocarbons ll. [Photochemical smog
+C. |Oxides of nitrogen lll. |Acid rain
+D. |Ozone near earth's surface} IV. |Impaired plant growth
+(1) A-ll, B-IIl, C-IV, D-I
+(2) A-lil, B-II, C-I, D-IV
+(3) A-ll, B-Ill, C-1, D-IV
+(4) At, B-ll, C-IIl, D-IV
+Al: 1
+A2:2
+A323
+A4:4
+Objective Question
+14211142 3.0 | 1.00
+
+The presence of excess nutrients in aquatic system will lead to
+
+(1) Crustacean bloom
+(2) Algal bloom
+(3) Coral bloom
+(4) Lotus bloom
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+143 11143 3.0 1.00
+
+Which one of the following is commonly used for converting cellulose raw materials into
+glucose ?
+
+(1) Saccharomyces cerevisiae
+
+(2) Acinetobacter radioresistens
+
+(3) Trichoderma viride
+
+(4) Bacillus amyloliquifaciens
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 53/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+Al: 1
+
+A2:2
+A323
+A4:4
+
+Objective Question
+
+144 11144 3.0 1.00
+
+The biocide DDT (a chlorinated hydrocarbon) has a half-life of around
+(1) <1 year
+
+(2) 2-15 years
+
+(3) 16 - 30 years
+
+(4) > 30 years
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+145 11145 3.0 1.00
+
+Which one of the following waste treatment system is devoid of any packing material, and it
+recycles internal biomass based on gravity ?
+
+(1) UASB
+
+(2) FSSB
+
+(3) RBC
+
+(4) Trickling filter
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+146 11146 3.0 1.00
+
+Which of the following is true for a water sample with a BOD value of more than 50 ppm ?
+
+(1) The DO content would be less than 6 ppm
+(2) The water is clean and potable
+
+(3) Aquatic life will thrive
+
+(4) The COD of the sample is 25 ppm
+
+Al:l
+
+A2:2
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 54/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A323
+
+A4:4
+
+Objective Question
+
+14711147 3.0 1.00
+
+The most widely used method for removing of particulate matter from gas is
+
+(1) Electrostatic precipitation
+(2) Chemo-osmotic precipitation
+(3) Magnetostatic precipitation
+
+(4) Chemo-electrostatic precipitation
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+148 11148 3.0 1.00
+
+The acid involved in ocean acidification is
+
+(1) Carbonic acid
+(2) Sulphuric acid
+(3) Phosphoric acid
+(4) Nitric acid
+
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+149 11149 3.0 1.00
+
+Which of the following continent is the driest one ?
+(1) Africa
+
+(2) Antarctica
+
+(3) Australia
+
+(4) Europe
+
+Al:l
+A2:2
+
+A323
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 55/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A4:4
+Objective Question
+1501150 Enhanced CO; concentration in environment would lead to in plants. 30 100
+(1) increased water uptake and reduced photosynthesis
+(2) increased photosynthesis and increased water demand
+(3) decreased photosynthesis and decreased water demand
+(4) decreased O2 emission and no change in photosynthesis
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+151 {11151 ‘ , 3 , 3.0 1.00
+In plant mycorrhizal fungi association, what is the most appropriate exchange between two
+organisms or partners ?
+(1) Plant provides carbon to fungi and in return gets minerals
+(2) Fungi provides protein to plant and in return gets water
+(3) Plant provides minerals to fungi and in return gets carbon
+(4) Plant and fungi do not exchange anything
+Al: 1
+A2:2
+A3:3
+A4:4
+Objective Question
+152 /11152 3.0 1.00
+
+Pattern of inheritance of flower colour in Mirabilis jalapa is similar to that of
+
+(1) ABO blood group in human beings
+(2) Flower colour in snapdragon
+(3) Fur colour in rabbit
+
+(4) Skin colour in human beings
+Al: 1
+A2:2
+A333
+A4:4
+
+Objective Question
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 56/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+15311153 3.0 1.00
+
+Given below are two statements :
+Statement | : In general, a higher auxin : cytokinin ratio will induce root
+formation under jn vitro culture conditions in plants.
+Statement Il : NAA is a cytokinin and BAP is an auxin.
+In light of the above statements, choose the most appropriate answer from the options given
+
+below.
+
+(1) Both Statement | and Statement II are correct.
+
+(2) Both Statement | and Statement II are NOT correct.
+(3) Statement | is correct but Statement II is not correct.
+
+(4) Statement | is not correct but Statement II is correct.
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+15411154 3.0 1.00
+
+Complete the following statement with the correct option
+Agrobacterium-mediated plant transformation in the laboratory
+
+(1) is not influenced by the genotype of the host plant.
+(2) always leads to integration of a single copy of the T-DNA in the host cell.
+
+(3)is faciliated by the use of selection marker genes to allow preferential growth of
+transformed cells.
+
+(4) requires the expression of opine genes for the production of transgenic plants.
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+
+155 11155 3.0 1.00
+
+Which one of the following plant tissue culture techniques can be most effectively used for
+production of virus-free plants ?
+
+(1) Protoplast culture
+
+(2) Culture of shoot apical meristem
+
+(3) Somatic embryogenesis from calli of leaf explants
+(4) Production of cybrids
+
+Al:l
+A2:2
+
+A323
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 57/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+A4:4
+
+Objective Question
+
+156 11156 3.0 1.00
+
+A suicide plasmid vector lacks the following
+
+(1) antibiotic marker
+(2) origin of replication
+(3) multiple cloning sites
+
+(4) site for integration
+Al: 1
+A2:2
+A323
+A4:4
+
+Objective Question
+
+15711157 3.0 1.00
+
+Animal gut does NOT possess the enzymes required for digesting
+
+(1) glycogen
+(2) starch
+(3) cellulose
+
+(4) proteins
+Al:1
+A2:2
+A3:3
+A4:4
+
+Objective Question
+
+158 11158 3.0 1.00
+
+Foreign DNA can NOT be transferred into a zygote by which one of the following methods ?
+
+(1) Transduction
+(2) Microinjection
+(3) Electroporation
+(4) Conjugation
+
+Al:l
+A2:2
+A323
+
+A4:4
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 58/59
+
+===PAGE===
+4/20/24, 6:51 PM 4 _Live_GATB_E_1-160.html
+
+Objective Question
+
+159159 Leptin receptor is primarily present in the following tissue 3.0 100
+(1) Hepatic
+(2) Muscle
+(3) Adipose
+(4) Neuronal
+Al:1
+A2:2
+A3:3
+A4:4
+Objective Question
+169 ito Match the items in List | with items in List II BO yee
+List | List Il
+A. |Beriberi |. [Cobalamin
+B. |Megaloblastic Anemia Il. |Thiamin
+C. |Scurvy lll. |Folic acid
+D. |Pernicious Anemia IV. [Ascorbic Acid
+
+(1) Aci, BV, C-Ill, D+
+(2) Aclll, Bell, C-IV, D-I
+(3) Acl, Bll, C-IV, D-II
+(4) Acll, Bll, C-IV, D-I
+
+Al:l
+A2:2
+A323
+
+A4:4
+
+file:///C:/Users/ADMINI~1/AppData/Local/Temp/Rar$EXa8308.6033/4_Live_GATB_E_1-160.html 59/59
+
+===PAGE===
+NATIONAL TESTING AGENCY
+GRADUATE APTITUDE TEST- BIOTECHNOLOGY 2024
+
+EXAM DATE 20.04.2024 SHIFT 1
+QUESTION ID Correct Answer QUESTION ID Correct Answer QUESTION ID Correct Answer
+11001 3 11035 3 11069 1
+11002 2 11036 3 11070 4
+11003 4 11037 4 11071 1
+11004 3 11038 1 11072 2
+11005 1 11039 3 11073 1
+11006 3 11040 2 11074 4
+11007 4 11041 1 11075 1
+11008 4 11042 4 11076 4
+11009 3 11043 3 11077 3
+11010 2 11044 3 11078 3
+11011 3 11045 4 11079 3
+11012 2 11046 3 11080 2
+11013 2 11047 1 11081 1
+11014 1 11048 4 11082 2
+11015 3 11049 3 11083 1
+11016 4 11050 1 11084 1
+11017 4 11051 4 11085 2
+11018 1 11052 3 11086 2
+11019 1 11053 2 11087 2
+11020 2 11054 3 11088 3
+11021 1 11055 3 11089 3
+11022 1 11056 4 11090 3
+11023 1 11057 2 11091 1
+11024 4 11058 1 11092 1
+11025 3 11059 1 11093 1
+11026 2 11060 1 11094 1
+11027 2 11061 4 11095 1
+11028 2 11062 1 11096 2
+11029 4 11063 3 11097 4
+11030 3 11064 4 11098 1
+11031 3 11065 4 11099 3
+11032 4 11066 4 11100 1
+11033 2 11067 4 11101 4
+
+11034 2 11068 2 11102 1
+
+===PAGE===
+QUESTION ID Correct Answer QUESTION ID Correct Answer
+
+11103 3 11137 1
+11104 4 11138 1
+11105 3 11139 3
+11106 4 11140 3
+11107 3 11141 4
+11108 3 11142 2
+11109 3 11143 3
+11110 4 11144 2
+11111 3 11145 1
+11112 2 11146 1
+11113 2 11147 1
+11114 1 11148 1
+11115 3 11149 2
+11116 2 11150 2
+11117 3 11151 1
+11118 1 11152 2
+11119 3 11153 3
+11120 3 11154 3
+11121 1 11155 2
+11122 1 11156 2
+11123 4 11157 3
+11124 3 11158 4
+11125 3 11159 4
+11126 1 11160 4
+11127 4
+
+11128 3
+
+11129 2
+
+11130 1
+
+11131 4
+
+11132 4
+
+11133 1
+
+11134 1
+
+11135 1
+
+11136 2
+
+===PAGE===

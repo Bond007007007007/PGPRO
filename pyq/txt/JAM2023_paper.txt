@@ -1,0 +1,598 @@
+
+--- page 1 ---
+Section A: Q.1 – Q.10 Carry ONE mark each. 
+ 
+ 
+Q.1 
+Which one of the following compounds inhibits the polymerization of tubulin to 
+microtubules in animal cells? 
+(A) ATP 
+(B) Taxol 
+(C) Thymosin 
+(D) Vinblastine  
+  
+  
+Q.2 
+Arrange the following elements in increasing order of their electronegativity 
+according to the Pauling scale 
+C, Na, Be and Br              
+(A) Be, Na, C, Br 
+(B) Br, C, Na, Be  
+(C) Na, Be, C, Br 
+(D) Na, C, Be, Br  
+Question Paper
+BT : JAM 2023
+--- page 2 ---
+Q.3 
+Which one of the following is NOT a plant vascular tissue?                 
+(A) Phloem  
+(B) Periderm 
+(C) Stele 
+(D) Xylem  
+  
+  
+Q.4 
+A growing shoot of a germinating seedling encounters an underground obstacle. 
+Which one of the following hormones elicits ‘triple response’ to the underground 
+obstacle? 
+(A) Auxin  
+(B) Cytokinin 
+(C) Ethylene 
+(D) Gibberellins
+--- page 3 ---
+Q.5 
+Which one of the following pairs of antibodies contains ‘J-chain’ in their multimeric 
+form?                
+(A) IgA and IgE 
+(B) IgA and IgM  
+(C) IgD and IgE  
+(D) IgD and IgG 
+  
+  
+Q.6 
+Restriction enzymes that recognize the same nucleotide sequence but cleave at 
+different positions are called  
+(A) heterohypekomers  
+(B) isocaudomers   
+(C) isoschizomers 
+(D) neoschizomers
+--- page 4 ---
+Q.7 
+Which one of the following does NOT belong to the freshwater ecosystem?              
+(A) Estuary 
+(B) Lentic 
+(C) Lotic 
+(D) Wetland  
+  
+  
+Q.8 
+Which one of the following is transcribed by RNA polymerase III in eukaryotes?  
+(A) 18S rRNA 
+(B) 28S rRNA  
+(C) miRNA 
+(D) tRNA
+--- page 5 ---
+Q.9 
+Given the following sets: 
+𝐴= {2, 4, 6, 8, 10, 12}  
+𝐵= {8, 10, 12, 14, 16, 18}  
+𝐶= {7, 8, 9, 10 11, 12, 13}  
+ (𝐴∩𝐵) ∪ (𝐵∩𝐶) is 
+(A) {8, 10, 12, 14}  
+(B) {8, 10, 12}  
+(C) {7, 8, 10, 11, 12, 13, 14}  
+(D) {4, 6, 7, 8 10, 11, 12, 13}
+--- page 6 ---
+Q.10 
+Rain is falling vertically with a speed of 40 m s-1. Wind starts blowing with a speed 
+of 16 m s-1 in the west to east direction. How should a person, who is standing, hold 
+his umbrella to avoid getting wet?                   
+(A) At an angle of about 22° with vertical towards east 
+(B) At an angle of about 22° with vertical towards west 
+(C) At an angle of about 66° with vertical towards east 
+(D) At an angle of about 66° with vertical towards west
+--- page 7 ---
+Section A: Q.11 – Q.30 Carry TWO marks each. 
+ 
+Q.11 
+Which one of the following statements about the G1 checkpoint of eukaryotic cell 
+division cycle is INCORRECT?                 
+(A) Cell assures the existence of favorable extracellular environment 
+(B) Cell assures the DNA has no damage 
+(C) Cell assures the damaged DNAs are directed for repair mechanism 
+(D) Cell assures complete replication of DNA
+--- page 8 ---
+Q.12 
+Determine the correctness or otherwise of the following Assertion [a] and the 
+Reason [r]. 
+Assertion [a]: Nitric oxide is involved in transient paracrine and autocrine signaling. 
+Reason [r]: Nitric oxide is highly reactive, with a lifetime of few seconds, yet can 
+diffuse freely across membranes 
+(A) Both [a] and [r] are true and [r] is the correct reason for [a] 
+(B) Both [a] and [r] are true but [r] is not the correct reason for [a] 
+(C) Both [a] and [r] are false 
+(D) Only [a] is true but [r] is false
+--- page 9 ---
+Q.13 
+In mice, a trait is determined by a dominant allele Y and recessive allele y. What 
+proportion of the offspring from a YY × yy cross is expected to be homozygous 
+recessive in F1 generation?                 
+(A) 0  
+(B) 0.25  
+(C) 0.5 
+(D) 1
+--- page 10 ---
+Q.14 
+Match the molecules in Group I with the type of bonds present in them, in  Group 
+II 
+Group I 
+Group II 
+P) NaCl 
+1) Coordination bond 
+Q) H2   
+2) Polar covalent bond 
+R) Pd-P bond in Pd(PPh3)4 
+3) Covalent bond 
+S) C-Cl bond in CH3Cl  
+4) Ionic bond 
+(A) P-4, Q-1, R-3, S-2 
+(B) P-2, Q-3, R-1, S-4  
+(C) P-4, Q-3, R-1, S-2 
+(D) P-4, Q-3, R-2, S-1
+--- page 11 ---
+Q.15 
+What is the splitting pattern of proton Ha of the following compound in its 1H NMR 
+spectrum?               
+ 
+ 
+(A) Doublet 
+(B) Doublet of doublet 
+(C) Multiplet  
+(D) Triplet
+--- page 12 ---
+Q.16 
+Which one of the following statements is correct about solute transport across 
+membranes? 
+(A) Passive transporters decrease the activation energy and does not facilitate the 
+transport of polar compounds 
+        (B) 
+The direction in which a charged solute tends to move spontaneously across a 
+membrane does not depend on the electrical gradient across the membrane 
+(C) All ABC transporters do not have nucleotide binding domain 
+(D) P-type ATPases get reversibly phosphorylated as a part of transport cycle
+--- page 13 ---
+Q.17 
+Match the type of DNA repair mechanism in Group I with the enzyme(s) involved 
+in Group II 
+Group I 
+Group II 
+P) Mismatch repair 
+1) DNA glycosylase 
+Q) Base excision repair 
+2) UvrA, UvrB, UvrC and UvrD  
+R) Nucleotide excision repair 
+3) RecA 
+S) Double strand break repair 
+4) MutL, MutS and MutH 
+(A) P-4, Q-1, R-3, S-2 
+        (B) 
+P-4, Q-2, R-1, S-3 
+(C) P-4, Q-1, R-2, S-3 
+(D) P-2, Q-1, R-4, S-3
+--- page 14 ---
+Q.18 
+Tetracycline binds to the              
+(A) 30S subunit and inhibits aminoacyl-tRNA binding 
+        (B) 
+50S subunit and inhibits aminoacyl-tRNA binding 
+(C) 30S subunit and prevents codon:anticodon interactions 
+(D) 50S subunit and blocks exit of growing polypeptide chain 
+  
+  
+Q.19 
+In the ‘Southern blot’ technique, which of the following reagents is used to detect 
+the presence of a desired DNA fragment?  
+(A) Ethidium bromide 
+        (B) 
+DNA probe 
+(C) Silver nitrate 
+(D) DNase
+--- page 15 ---
+Q.20 
+The pedigree given below shows individuals affected (shaded circles/rectangles) by 
+chronic hypertension. Assuming 100% penetrance, the inheritance of this trait is  
+ 
+ 
+(A) autosomal dominant  
+        (B) 
+autosomal recessive 
+(C) sex-linked dominant 
+(D) sex-linked recessive
+--- page 16 ---
+Q.21 
+Which one of the following statements about photoproteins in plants is 
+INCORRECT?                 
+(A) Phytochromes are activated by red light 
+        (B) 
+Phytochromes are inactivated by far-red light 
+(C) Cryptochromes are sensitive to blue light 
+(D) Phototropins are insensitive to blue light
+--- page 17 ---
+Q.22 
+Match the microorganisms in Group I with the human disease in Group II 
+Group I 
+Group II 
+P) Treponema pallidum 
+1) Sleeping sickness 
+Q) Trypanosoma cruzi 
+2) Whooping cough 
+R) Trypanosoma gambiense                  3) Chagas disease 
+S) Bordetella pertussis 
+4) Syphilis 
+  
+        (A) P-4, Q-3, R-1, S-2 
+(B) P-1, Q-2, R-4, S-3 
+        (C) P-3, Q-1, R-2, S-4 
+        (D) 
+P-2, Q-1, R-3, S-4
+--- page 18 ---
+Q.23 
+Which one of the following is correct in the case of conjugation of a high frequency 
+recombination (Hfr) strain with F- strain of E. coli?         
+        (A) Recombination frequency is high, F factor transfer frequency is low 
+(B) Recombination frequency is high, F factor transfer frequency is high 
+        (C) Recombination frequency is low, F factor transfer frequency is high 
+        (D) 
+Recombination frequency is low, F factor transfer frequency is low
+--- page 19 ---
+Q.24 
+Determine the correctness or otherwise of the following Assertion [a] and the 
+Reason [r]. 
+Assertion [a]: The cardiovascular organization called double circulation provides 
+vigorous flow of blood to the brain, muscles, and other organs. 
+Reason [r]: The blood is pumped a second time after it loses pressure in the capillary 
+beds of the lungs or skin. 
+        (A) Both [a] and [r] are true and [r] is the correct reason for [a] 
+(B) Both [a] and [r] are true but [r] is not the correct reason for [a] 
+        (C) Both [a] and [r] are false 
+        (D) 
+[a] is true but [r] is false
+--- page 20 ---
+Q.25 
+The inability in humans to taste capsaicin resides in a single gene difference between 
+two alleles P and p. The allele P for tasting is dominant over the nontasting allele. 
+In a population of 400 individuals in Hardy-Weinberg equilibrium, 64 are 
+nontasters. How many individuals are heterozygous for the gene? 
+        (A) 64 
+(B) 128 
+        (C) 144 
+        (D) 
+192
+--- page 21 ---
+Q.26 
+A genetic linkage map represents the 
+(A) relative locations of genes on a chromosome 
+(B) distribution of the mutational hotspots 
+        (C) phylogenetic linkage among organisms 
+        (D) 
+accurate physical distances among loci 
+  
+  
+Q.27 
+Class II MHC molecules are NOT expressed by                 
+(A) B-cells  
+(B) dendritic cells  
+        (C) macrophages 
+        (D) 
+T-cells
+--- page 22 ---
+Q.28 
+Which one of the following enzymes is required to ensure the replication of a 
+negative-sense or negative-strand RNA virus?                 
+(A) DNA-dependent RNA polymerase  
+(B) DNA polymerase  
+        (C) RNA-dependent DNA polymerase 
+        (D) 
+RNA-dependent RNA polymerase
+--- page 23 ---
+Q.29 
+The relationship between birth weight and degree of survival 
+(log [
+𝑠𝑢𝑟𝑣𝑖𝑣𝑜𝑟𝑠
+𝑛𝑜𝑛−𝑠𝑢𝑟𝑣𝑖𝑣𝑜𝑟𝑠]) in 6908 human births in an obstetric hospital is shown in the 
+figure below. The mode of selection for birth weight is 
+ 
+(A) directional 
+(B) disruptive 
+        (C) diversifying 
+        (D) 
+stabilizing
+--- page 24 ---
+Q.30 
+ Match the recombinant DNA products in Group I with its application in     
+Group II 
+Group I 
+Group II 
+P) Tissue plasminogen activator            1) Emergency treatment of heart 
+attack 
+Q) Erythropoietin                                  2) Treatment of anemia 
+R) Superoxide dismutase                       3) Prevents tissue damage 
+S) Interferon                                          4) Stimulates cells to inhibit viral 
+replication 
+        (A) P-1, Q-2, R-3, S-4 
+(B) P-1, Q-3, R-4, S-2 
+(C) P-3, Q-1, R-4, S-2 
+        (D) P-4, Q-3, R-1, S-2
+--- page 25 ---
+Section B: Q.31 – Q.40 Carry TWO marks each. 
+ 
+ 
+Q.31 
+Which of the following statement(s) is/are correct about telophase?         
+        (A) Daughter chromosomes are yet to form 
+(B) New nuclear envelop starts to reassemble 
+(C) Division of cytoplasm begins 
+        (D) Nuclear membrane disappears 
+  
+  
+Q.32 
+The characteristic morphological change(s) in cells undergoing apoptosis is/are        
+        (A) 
+formation of blebs on cell surface  
+(B) swelling and bursting of cells 
+        (C) collapse of the cytoskeleton 
+        (D) condensation and fragmentation of nuclear chromatin
+--- page 26 ---
+Q.33 
+A species of fish living in a lake are separated by drying up of the lake into two 
+separate lakes. After several hundreds of years of separation, the two groups are 
+unable to mate. These groups are now considered to be different_______.  
+        (A) 
+communities 
+        (B) 
+organisms 
+        (C) populations 
+        (D) species 
+  
+  
+Q.34 
+Which of the following compound(s) is/are aromatic?  
+        (A) 
+ 
+(B) 
+ 
+(C) 
+ 
+        (D)
+--- page 27 ---
+Q.35 
+Which of the following statement(s) is/are correct for the following compound?  
+ 
+        (A) It can have a maximum of four stereoisomers 
+(B) It can have a maximum of two stereoisomers 
+        (C) 
+It is a chiral compound 
+        (D) It is an achiral compound 
+  
+  
+Q.36 
+Which of the following is/are essential feature(s) of high-fidelity DNA polymerases 
+used in polymerase chain reaction?           
+        (A) 
+5´→3´ exonuclease activity   
+(B) Endonuclease activity  
+(C) 3´→5´ exonuclease activity   
+(D) Optimum temperature for activity ≥72 °C
+--- page 28 ---
+Q.37 
+Which of the following option(s) represent(s) the evolutionary relationship 
+between the bird and bat wings as structures for flying?  
+        (A) analogous   
+(B) convergence 
+(C) divergence 
+        (D) homologous
+--- page 29 ---
+Q.38 
+Different segments of a photosynthetic filamentous alga are exposed to different 
+wavelengths of light as shown below. After a period of time, bacteria known to 
+migrate towards high oxygen concentration, is spread on the surface of the alga. 
+Which region(s) of the alga will have maximum bacterial congregation? 
+ 
+ 
+ 
+ 
+  
+ 
+        (A) P and R 
+(B) P and Q 
+        (C) 
+Only P 
+        (D) Only Q
+--- page 30 ---
+Q.39 
+Hyperventilation (breathing rapidly and deeply) causes which of the following 
+event(s) in the arterial blood?  
+        (A) Decrease in CO2 concentration 
+(B) Decrease in proton concentration 
+        (C) 
+Increase in pH 
+        (D) Increase in O2 concentration 
+  
+  
+Q.40 
+Which of the given statement(s) about synthetic oligonucleotides is/are correct?        
+        (A) Chemical synthesis extends the DNA chain from 3´→5´end 
+(B) They can be utilized for site-directed mutagenesis 
+(C) Chemical synthesis extends the DNA chain from 5´→3´end 
+        (D) They can be utilized as radiolabeled probes
+--- page 31 ---
+Section C: Q.41 – Q.50 Carry ONE mark each. 
+ 
+Q.41 
+The net number of molecule(s) of NADH formed from one molecule of glucose in 
+glycolysis under aerobic conditions is/are _______. 
+ 
+ 
+ 
+ 
+Q.42 
+The number of possible unique combination(s) of linear tetrapeptides that can be 
+made from four different amino acids using each amino acid only once in the chain 
+is/are _______. 
+ 
+ 
+ 
+ 
+Q.43 
+Among i-BuNH2, NH3, Me2NH, EtNH2, the number of compound(s) more basic than 
+MeNH2 is/are _______.                
+ 
+ 
+ 
+ 
+Q.44 
+Among K+, Li+, Rb+, Cs+, the number of cation(s) having ionic radii more than Na+ 
+is/are _______.
+--- page 32 ---
+Q.45 
+Among the five fragments given below, 
+ 
+the number of fragment(s) accelerated to the analyzer tube in mass spectrometer 
+with electron ionization is/are _______.                 
+ 
+ 
+ 
+ 
+Q.46 
+A restriction endonuclease has a recognition site of 3 bases. Assuming random 
+arrangement of nucleotides, the probability that this endonuclease will cut a piece 
+of DNA is _______ (rounded off to three decimal places).        
+  
+  
+Q.47 
+A massless ideal spring is hanging vertically. A sphere of mass of 500 g, suspended 
+from the spring, stretches the spring from its initial position by 50 cm when it 
+reaches equilibrium. The force constant of the spring is _______ N m-1. (Use g=10 
+m s-2)
+--- page 33 ---
+Q.48 
+Whales can dive undersea to depths of 2 km. The pressure on the whale at this depth 
+(ignoring atmospheric pressure) is _______ × 106 Pa. (Density of sea    water = 1 
+g cm-3 and g =10 m s-2)   
+ 
+ 
+ 
+ 
+Q.49 
+The order of differential equation 
+𝑑3𝑦
+𝑑𝑥3 + 2
+𝑑2𝑦
+𝑑𝑥2 −3
+𝑑𝑦
+𝑑𝑥+ 6𝑥4𝑦= 0 is _______. 
+ 
+ 
+ 
+ 
+Q.50 
+The value of lim
+𝑥→−3
+(2𝑥+6)
+(𝑥+3)  is _______.
+--- page 34 ---
+Section C: Q.51 – Q.60 Carry TWO marks each. 
+ 
+Q.51 
+The ∆G´ and K´eq values of ATP hydrolysis are -32.34 kJ mol-1 and 4.6 x105, 
+respectively. The ∆G´ and K´eq values of enzymatic hydrolysis of glucose-6-
+phosphate to glucose and phosphate are -13.18 kJ mol-1 and 203.8, respectively. The 
+∆G´ value of reaction of glucose-6-phosphate formation from glucose and ATP by 
+hexokinase is _______ kJ mol-1 (rounded off to 2 decimal places). [All reactions are 
+carried out at pH 7.0 and 25 °C]. 
+  
+  
+Q.52 
+Km and Vmax of an enzyme preparation are 5 µM and 30 µM min-1 respectively. 
+Considering, Ki value of competitive inhibitor is 60 µM, the velocity (V0) of this 
+enzyme-catalyzed reaction in the presence of 200 µM of substrate and 600 µM of 
+competitive inhibitor is _______ µM min-1 (rounded off to two decimal places).       
+ 
+ 
+ 
+ 
+Q.53 
+The heat required to convert 2 kg of water at 20 °C in a calorimeter to steam at 100 
+°C and at atmospheric pressure (1 atm) is _______ kJ. (Specific heat capacity of 
+water is 4.2 kJ kg-1 K-1 and latent heat of steam is 2256 kJ kg-1)
+--- page 35 ---
+Q.54 
+An electron is accelerated from rest through a potential difference of 200 V. The de 
+Broglie wavelength associated with this electron is _______ nm. (Rounded off to 2 
+decimal places) (Planck’s constant = 6.6 × 10-34 J s, 1eV=1.6 × 10-19 J, mass of an 
+electron = 9.1×10-31 kg) 
+  
+  
+Q.55 
+Given data consists of distinct values of 𝑥𝑖 occurring with frequencies 𝑓𝑖. The mean 
+value for the data is _______. (rounded off to one decimal place)  
+ 
+𝑥𝑖 
+5 
+6 
+8 
+10 
+𝑓𝑖 
+8 
+10 
+10 
+12
+--- page 36 ---
+Q.56 
+A random variable X and its probability distribution is given below. The value of 
+P(X<5) is _______. (rounded off to one decimal place) 
+X 
+0 
+1 
+2 
+3 
+4 
+5 
+P(X) 
+0 
+k 
+2k 
+3k 
+6k 
+8k 
+               
+ 
+ 
+ 
+ 
+Q.57 
+A protein solution of 1 µM has transmission of 40 % at 280 nm, when measured in 
+a 1 cm cuvette using a UV-Visible spectrophotometer. The transmission of the same 
+solution, when measured using a 2 cm cuvette is _______ %. (rounded off to the 
+nearest integer)         
+ 
+ 
+  
+Q.58 
+If a bacterial culture with a doubling time of 30 minutes starts with two cells, then 
+the number of cells after 4 hours are _______.
+--- page 37 ---
+Q.59 
+The rate of transcription in a bacterium is 50 nucleotides/min and the average 
+molecular weight of an amino acid is 110 Da. Time taken for synthesis of the mRNA 
+of a protein with molecular weight of 110 kDa is _______ min. (rounded off to one 
+decimal place) 
+Assume no abortive transcriptions and no sequences upstream of the start codon.      
+ 
+ 
+ 
+ 
+Q.60 
+Consider a first order reaction 𝐴→𝐵. The initial concentration of 𝐴 is 100 mol L-1 
+and the value of first order rate constant is 0.01 min-1. The concentration of 𝐴 after 
+10 min of reaction is __________ mol L-1 (rounded off to one decimal place).
