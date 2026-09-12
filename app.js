@@ -204,7 +204,7 @@
     $("btn-mark").onclick = function () { S.ans[S.idx].marked = !S.ans[S.idx].marked; renderPalette(); renderQuestion(); };
     $("btn-clear").onclick = function () { S.ans[S.idx].sel = null; renderPalette(); renderQuestion(); };
   }
-  function goto(i) { if (i >= 0 && i < S.paper.length) { S.idx = i; renderPalette(); renderQuestion(); } }
+  function goto(i) { if (i >= 0 && i < S.paper.length) { S.idx = i; renderPalette(); renderQuestion(); window.scrollTo(0, 0); } }
   function palState(i) {
     var a = S.ans[i];
     if (hasAns(a)) return a.marked ? "answered marked" : "answered";
@@ -214,6 +214,11 @@
   }
   function renderPalette() {
     var tabs = $("section-tabs"); tabs.innerHTML = "";
+    var allTab = document.createElement("button");
+    allTab.textContent = "ALL";
+    allTab.className = S.paletteFilter === "all" ? "active" : "";
+    allTab.onclick = function () { S.paletteFilter = "all"; renderPalette(); };
+    tabs.appendChild(allTab);
     S.sections.forEach(function (sec) {
       var b = document.createElement("button");
       b.textContent = sec.id;
@@ -284,6 +289,7 @@
     });
     var nat = $("nat-in");
     if (nat) {
+      nat.onkeydown = function (ev) { if (ev.key === "Enter") { ev.preventDefault(); goto(S.idx + 1); } };
       nat.oninput = function () {
         var v = nat.value.replace(/[^0-9.eE+\-]/g, "");
         if (nat.value !== v) nat.value = v;
@@ -451,13 +457,18 @@
     });
     $("btn-history").onclick = function () { $("history-panel").classList.toggle("hidden"); };
     document.addEventListener("keydown", function (e) {
+      // never hijack keys while the user types (NAT answer input)
+      var tgt = e.target;
+      if (tgt && (tgt.tagName === "INPUT" || tgt.tagName === "TEXTAREA" || tgt.isContentEditable)) return;
       if (!$("screen-exam").classList.contains("active") || S.submitted) return;
       var q = S.paper[S.idx];
       if (e.key === "ArrowRight") { goto(S.idx + 1); e.preventDefault(); }
       else if (e.key === "ArrowLeft") { goto(S.idx - 1); e.preventDefault(); }
       else if (q.type === "mcq" && ["1", "2", "3", "4"].indexOf(e.key) >= 0) {
         var keys = ["a", "b", "c", "d"];
-        S.ans[S.idx].sel = [keys[+e.key - 1]]; S.ans[S.idx].visited = true;
+        var k = keys[+e.key - 1];
+        if (!q.options || q.options[k] === undefined) return; // question has <4 options
+        S.ans[S.idx].sel = [k]; S.ans[S.idx].visited = true;
         renderPalette(); renderQuestion(); e.preventDefault();
       }
     });
@@ -465,6 +476,15 @@
     $("btn-calc").onclick = function () { calc.toggle(); };
     renderHome();
   }
+  /* Android back-stack hook (consumed by the APK wrapper's hardware back button) */
+  window.__cbt = {
+    goHome: function () {
+      clearInterval(S.timerId);
+      show("screen-home");
+      renderHome();
+    }
+  };
+
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", wire);
   else wire();
 })();

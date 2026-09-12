@@ -30,3 +30,5 @@ secrets/
 *token*
 *credential*
 *api_key*
+apk/keystore/
+apk/.build/
