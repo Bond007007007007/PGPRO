@@ -122,13 +122,12 @@
   }
 
   var KEYS = [
-    ["AC", "fn"], ["(", "op"], [")", "op"], ["mc", "fn"], ["mr", "fn"],
-    ["7", ""], ["8", ""], ["9", ""], ["del", "fn"], ["m+", "fn"],
-    ["4", ""], ["5", ""], ["6", ""], ["×", "op"], ["m−", "fn"],
-    ["1", ""], ["2", ""], ["3", ""], ["−", "op"], ["x²", "fn"],
-    ["0", ""], [".", ""], ["√", "fn"], ["+", "op"], ["1/x", "fn"],
-    ["sin", "fn"], ["cos", "fn"], ["tan", "fn"], ["xʸ", "op"], ["=", "eq"],
-    ["ln", "fn"], ["log", "fn"], ["π", ""], ["e", ""], ["+/-", "fn"]
+    ["AC", "fn"], ["(", "op"], [")", "op"], ["×", "op"], ["÷", "op"], ["mc", "fn"],
+    ["7", ""], ["8", ""], ["9", ""], ["del", "fn"], ["m+", "fn"], ["mr", "fn"],
+    ["4", ""], ["5", ""], ["6", ""], ["−", "op"], ["√", "fn"], ["x²", "fn"],
+    ["1", ""], ["2", ""], ["3", ""], ["+", "op"], ["π", ""], ["e", ""],
+    ["0", ""], [".", ""], ["+/-", "fn"], ["=", "eq"], ["sin", "fn"], ["cos", "fn"],
+    ["tan", "fn"], ["ln", "fn"], ["log", "fn"], ["xʸ", "op"], ["1/x", "fn"], ["m−", "fn"]
   ];
 
   function GATECalc(hostId) {
@@ -144,7 +143,7 @@
 
     function toOp(d) { return d.replace(/×/g, "*").replace(/÷/g, "/").replace(/−/g, "-").replace(/√\(/g, "sqrt("); }
     function hasTrailingOp(d) { return /[+\-*/^]$/.test(d); }
-    function clip() { disp = disp.replace(/[^0-9+\-*/^().,piea-z]/g, ""); }
+    function clip() { disp = disp.replace(/[^0-9+\-*/^().,piea-z×÷−]/g, ""); }
 
     function press(k) {
       if (k === "AC") disp = "";
