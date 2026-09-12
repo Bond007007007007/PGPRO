@@ -142,7 +142,7 @@
     var keys = root.querySelector(".keys"), dispEl = root.querySelector("#calc-disp"), memEl = root.querySelector("#calc-mem");
 
     function toOp(d) { return d.replace(/×/g, "*").replace(/÷/g, "/").replace(/−/g, "-").replace(/√\(/g, "sqrt("); }
-    function hasTrailingOp(d) { return /[+\-*/^]$/.test(d); }
+    function hasTrailingOp(d) { return /[+\-*/^×÷−]$/.test(d); }
     function clip() { disp = disp.replace(/[^0-9+\-*/^().,piea-z×÷−]/g, ""); }
 
     function press(k) {
