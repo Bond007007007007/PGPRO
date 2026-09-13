@@ -9,6 +9,22 @@ Offline-first CBT exam simulator. Engage, remember, examine.
 - Direction committed before tokens: a **quiet command center** — deep slate space with a restrained sky-blue glow. Signature material: the **Elevated Slate** card recipe (tonal gradient + hairline top-light rim + layered blue-tinted shadows). Signature moment: the **glowing primary button** and the lit accent active tab / current palette cell. Atmosphere: body-level radial sky glow over a faint slate grid.
 - Skipped lanes: lazyweb screen-scraping and imagen drafts — the brief names the direction (Linear/Stripe-grade dark-modern over an existing slate/sky identity) and this is an offline extraction-and-refresh task, so embedded references + audit carry the direction.
 
+## 9. Exam Modes
+
+Three practice modes, selected on the config screen:
+
+| Mode | Behavior | Determinism |
+|------|----------|-------------|
+| **Fixed Mock Test** (`fixed`) | Seeded paper per mock number — Mock Test 1..N (per-exam `mocks` in exams.js: XL 8, JAM 3, GAT-B 4, CUET 3). Identical every run, so a retake is directly comparable. Option display order is also seeded. | Fully deterministic: `seed = hashSeed("mock-" + code + "-" + set)` → `mulberry32`. Cache key `code:set:selOptions.join("-")` in the in-memory `FIXED_STORE`. Retry re-runs the same set. |
+| **Random Full Exam** (`random`) | Official paper pattern, fresh `Math.random` draw every run (pre-3-mode behavior; default). | None. |
+| **Unlimited Drill** (`unlimited`) | Endless shuffled pool (all sections mixed), one question at a time, instant right/wrong feedback + explanation, live ✓/✗/skip stats, no timer, no negative marks. Optional-section and practice checkboxes are hidden. Keyboard: 1–4 select, Enter next. `End Drill` shows a summary (correct / wrong / skipped / accuracy). | None (random pool order). |
+
+Implementation notes (app.js):
+- `mulberry32(seed)` — seeded 32-bit PRNG; `hashSeed(str)` — FNV-ish string → uint32.
+- Per-question option-order shuffle: seeded with `(fixedSeed ^ Math.imul((i+1)*2654435761, 1)) >>> 0` in fixed mode so every question's option layout is stable per mock but varies across questions; `Math.random` otherwise. Exam and drill both render via `q.optOrder || ["a","b","c","d"]`; review keeps canonical a/b/c/d.
+- Drill state lives in `S.drill`; `body.drill-mode` hides palette sidebar, nav rail, timer and submit; drill answer flow uses an `a.locked` flag with `correct-opt` / `your-wrong` option highlighting.
+- History entries append ` · Mock N` for fixed-mode attempts.
+
 ## 1. Atmosphere & Identity
 
 A quiet command center for serious prep. The app should feel like a well-lit instrument panel: dense where it needs to be (palette grid, section tabs), spacious where it does not (home, results), always calm. The signature is **muted depth** — surfaces read as softly-lit slate layers separated by tonal shifts, a hairline rim of top light, and blue-tinted shadows that echo the background rather than black ones. One sky-blue accent (the sky family of the existing identity) owns every interactive signal; semantic states (correct/wrong/marked/visited) keep their positional meaning via the established palette-dot language, which is never renamed or re-mapped.

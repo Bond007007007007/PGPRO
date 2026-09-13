@@ -6,6 +6,7 @@
 const GATE_EXAMS = {
   xl: {
     code: "xl",
+    mocks: 8,               // Fixed Mock Test 1..8 (seeded, identical every run)
     name: "GATE XL · Life Sciences",
     org: "Conducted by IITs / IISc",
     durationMin: 180,
@@ -34,6 +35,7 @@ const GATE_EXAMS = {
 
   jam: {
     code: "jam",
+    mocks: 3,               // Fixed Mock Test 1..3
     name: "IIT JAM · Biotechnology",
     org: "Conducted by IITs",
     durationMin: 180,
@@ -54,6 +56,7 @@ const GATE_EXAMS = {
 
   gatb: {
     code: "gatb",
+    mocks: 4,               // Fixed Mock Test 1..4
     name: "GAT-B · DBT BET",
     org: "Conducted by DBT",
     durationMin: 180,
@@ -72,6 +75,7 @@ const GATE_EXAMS = {
 
   cuet: {
     code: "cuet",
+    mocks: 3,               // Fixed Mock Test 1..3
     name: "CUET PG · SCQP03 / SCQP17",
     org: "Conducted by NTA",
     durationMin: 105,
