@@ -302,6 +302,11 @@ body::before {
 .history-panel td { font-variant-numeric: tabular-nums; }
 .history-panel .btn { padding: 4px 10px; min-height: 30px; font-size: var(--fs-xs); }
 
+/* score trend */
+.trend-wrap { margin: 0 0 var(--sp-4); }
+.trend { display: block; width: 100%; height: 44px; }
+.trend-lbl { font-size: var(--fs-2xs); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: var(--sp-1); }
+
 /* ---------- 6. Config ---------- */
 .config-wrap { max-width: 720px; margin: 0 auto; }
 .config-wrap h2 { margin: var(--sp-1) 0 var(--sp-4); font-size: var(--fs-2xl); font-weight: 700; letter-spacing: -0.01em; }
@@ -551,6 +556,26 @@ body::before {
 
 /* calculator */
 #calc-host { margin-top: var(--sp-3); }
+
+/* scratchpad */
+.scratch-pad {
+  margin-top: var(--sp-3);
+  width: 100%;
+  min-height: 96px;
+  background: var(--bg-deep);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: var(--sp-3);
+  color: var(--text);
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+  resize: vertical;
+  user-select: text;
+  -webkit-user-select: text;
+  touch-action: auto;
+}
+.scratch-pad:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-ring); }
+.scratch-pad::placeholder { color: var(--muted); }
 .calc {
   background: var(--bg-deep);
   border: 1px solid var(--line);

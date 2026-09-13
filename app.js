@@ -21,6 +21,7 @@ var S = {
     warned5: false, switches: 0, bannerTimer: null
   };
   var calc = null;
+  var qStartAt = 0;
 
   /* ---------- helpers ---------- */
   function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
@@ -40,6 +41,27 @@ var S = {
     return (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s;
   }
   function typeLabel(t) { return t === "mcq" ? "MCQ" : t === "msq" ? "MSQ" : "NAT"; }
+
+  /* ---------- per-question elapsed time ---------- */
+  function settleQTime() {
+    if (!qStartAt || !S.paper.length || !S.ans[S.idx]) return;
+    S.ans[S.idx].timeSpent = (S.ans[S.idx].timeSpent || 0) + (Date.now() - qStartAt);
+    qStartAt = Date.now();
+  }
+  function fmtDur(ms) {
+    var s = Math.round((ms || 0) / 1000);
+    if (s < 60) return s + "s";
+    var m = Math.floor(s / 60), r = s % 60;
+    return m + "m " + (r < 10 ? "0" : "") + r + "s";
+  }
+
+  /* ---------- scratchpad (persisted per exam) ---------- */
+  function scratchLoad() {
+    try { return localStorage.getItem("gct.scratch." + S.exam.code) || ""; } catch (e) { return ""; }
+  }
+  function scratchSave(v) {
+    try { localStorage.setItem("gct.scratch." + S.exam.code, v); } catch (e) { }
+  }
 
   /* ---------- SOUND (Web Audio API, offline — no assets) ---------- */
   var AC = null;
@@ -336,9 +358,10 @@ var S = {
   function beginExam() {
     var ex = S.exam;
     S.practice = S.mode !== "fixed" && $("cfg-practice") && $("cfg-practice").checked;
-    S.ans = S.paper.map(function () { return { sel: null, visited: false, marked: false }; });
+    S.ans = S.paper.map(function () { return { sel: null, visited: false, marked: false, timeSpent: 0 }; });
     S.idx = 0; S.submitted = false; S.results = null; S.paletteFilter = "all";
     S.warned5 = false; S.switches = 0;
+    qStartAt = Date.now();
     clearInterval(S.timerId);
     if (!S.practice) { S.endAt = Date.now() + ex.durationMin * 60000; $("timer").textContent = fmtClock(ex.durationMin * 60000); startTimer(); }
     else { S.endAt = 0; $("timer").textContent = "--:--:--"; }
@@ -348,6 +371,7 @@ var S = {
     else if (ex.code === "xl") label += " · " + S.sections.slice(2).map(function (s) { return s.name.split(" ")[1] || s.name; }).join(" + ");
     $("exam-name").textContent = label;
     $("practice-badge").classList.toggle("hidden", !S.practice);
+    $("scratch-pad").value = scratchLoad();
     renderExam();
     show("screen-exam");
     sndStart();
@@ -378,7 +402,7 @@ var S = {
     $("btn-mark").onclick = function () { S.ans[S.idx].marked = !S.ans[S.idx].marked; renderPalette(); renderQuestion(); };
     $("btn-clear").onclick = function () { S.ans[S.idx].sel = null; renderPalette(); renderQuestion(); };
   }
-  function goto(i) { if (i >= 0 && i < S.paper.length) { S.idx = i; renderPalette(); renderQuestion(); window.scrollTo(0, 0); } }
+  function goto(i) { if (i >= 0 && i < S.paper.length) { settleQTime(); S.idx = i; renderPalette(); renderQuestion(); window.scrollTo(0, 0); } }
   function palState(i) {
     var a = S.ans[i];
     if (hasAns(a)) return a.marked ? "answered marked" : "answered";
@@ -406,7 +430,7 @@ var S = {
       var b = document.createElement("button");
       b.textContent = String(i + 1);
       b.className = palState(i) + (i === S.idx ? " current" : "");
-      b.onclick = function () { S.idx = i; renderPalette(); renderQuestion(); };
+      b.onclick = function () { settleQTime(); S.idx = i; renderPalette(); renderQuestion(); };
       grid.appendChild(b);
     });
   }
@@ -523,8 +547,9 @@ var S = {
     var q = normalizeQ(raw, { id: raw.section, name: secName(raw.section) });
     if (q.options) q.optOrder = shuffleKeys(Math.random);
     S.paper = [q];
-    S.ans = [{ sel: null, visited: false, marked: false, locked: false }];
+    S.ans = [{ sel: null, visited: false, marked: false, locked: false, timeSpent: 0 }];
     S.idx = 0;
+    qStartAt = Date.now();
   }
   function updateDrillStats() {
     var d = S.drill, a = S.ans[0];
@@ -689,6 +714,7 @@ var S = {
     if (!auto && !S.practice && !confirm("Submit the exam now?")) return;
     S.submitted = true;
     clearInterval(S.timerId);
+    settleQTime();
     var res = computeResults();
     S.results = res;
     saveHistory(res);
@@ -732,7 +758,7 @@ var S = {
       var verdict = r.excluded ? "Not counted (outside best-60)" :
         r.res === "cor" ? "Correct ✓ (+" + q.marks + ")" :
           r.res === "wro" ? "Incorrect ✗ (" + (Math.round(r.score * 100) / 100) + ")" : "Not attempted";
-      html += "<div class='rev-item'><div class='rq'><span class='chip'>Q" + (i + 1) + " · " + esc(q.sectionName) + "</span><span class='chip'>" + q.marks + "m " + typeLabel(q.type) + "</span>" + (q.src ? '<span class="chip">' + esc(q.src) + "</span>" : "") + " " + esc(q.q) + "</div>";
+      html += "<div class='rev-item'><div class='rq'><span class='chip'>Q" + (i + 1) + " · " + esc(q.sectionName) + "</span><span class='chip'>" + q.marks + "m " + typeLabel(q.type) + "</span>" + (q.src ? '<span class="chip">' + esc(q.src) + "</span>" : "") + '<span class="chip">' + fmtDur(a.timeSpent) + "</span> " + esc(q.q) + "</div>";
       if (q.type !== "nat") {
         ["a", "b", "c", "d"].forEach(function (k) {
           if (!q.options || q.options[k] === undefined) return;
@@ -772,7 +798,16 @@ var S = {
     var p = $("history-panel"), b = $("btn-history");
     if (!h.length) { p.classList.add("hidden"); b.disabled = true; return; }
     b.disabled = false;
-    p.innerHTML = "<h3><svg class='ic' viewBox='0 0 24 24' aria-hidden='true'><circle cx='12' cy='12' r='8.5'/><path d='M12 7.5V12l3 2'/></svg> Attempt history (last " + h.length + ")</h3><table><thead><tr><th>Date</th><th>Exam</th><th>Score</th><th>%</th><th>Att</th><th>✓</th><th>✗</th></tr></thead><tbody>" +
+    var trend = "";
+    if (h.length >= 2) {
+      var recent = h.slice(0, 8).reverse();
+      var W = 140, g = 4, pts = recent.map(function (x, i) {
+        return [(i / (recent.length - 1)) * (W - 2 * g) + g, Math.max(g, 40 - (x.pct / 100) * 36)].join(",");
+      }).join(" ");
+      var last = [(recent.length - 1 === 0 ? g : W - g), Math.max(g, 40 - (recent[recent.length - 1].pct / 100) * 36) - 2].join(" ");
+      trend = '<div class="trend-wrap"><svg class="trend" viewBox="0 0 ' + W + " 40" + '" preserveAspectRatio="none" aria-hidden="true"><polyline points="' + pts + '" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="' + last.split(",")[0] + '" cy="' + last.split(",")[1] + '" r="2.5" fill="var(--accent)"/></svg><div class="trend-lbl">Score trend — last ' + recent.length + " attempts</div></div>";
+    }
+    p.innerHTML = "<h3><svg class='ic' viewBox='0 0 24 24' aria-hidden='true'><circle cx='12' cy='12' r='8.5'/><path d='M12 7.5V12l3 2'/></svg> Attempt history (last " + h.length + ")</h3>" + trend + "<table><thead><tr><th>Date</th><th>Exam</th><th>Score</th><th>%</th><th>Att</th><th>✓</th><th>✗</th></tr></thead><tbody>" +
       h.map(function (x) {
         return "<tr><td>" + esc(x.date.slice(0, 16).replace("T", " ")) + "</td><td>" + esc(x.name) + "</td><td>" + x.score + " / " + x.max + "</td><td>" + x.pct + "%</td><td>" + x.att + "</td><td>" + x.cor + "</td><td>" + x.wro + "</td></tr>";
       }).join("") + "</tbody></table>";
@@ -828,6 +863,12 @@ var S = {
     });
     calc = GATECalc("calc-host");
     $("btn-calc").onclick = function () { calc.toggle(); };
+    $("btn-scratch").onclick = function () {
+      var p = $("scratch-pad");
+      p.classList.toggle("hidden");
+      if (!p.classList.contains("hidden")) p.focus();
+    };
+    $("scratch-pad").addEventListener("input", function () { scratchSave(this.value); });
     renderHome();
   }
   /* Android back-stack hook (consumed by the APK wrapper's hardware back button) */
