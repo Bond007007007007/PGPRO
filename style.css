@@ -409,6 +409,12 @@ body::before {
   box-shadow: var(--glow-amber);
   animation: banner-in var(--dur-med) var(--ease-out);
 }
+.warn-banner.ok {
+  background: var(--green-tint);
+  border-color: rgba(34, 197, 94, .55);
+  color: var(--green);
+  box-shadow: var(--glow-green);
+}
 @keyframes banner-in {
   from { opacity: 0; transform: translate(-50%, -8px); }
   to { opacity: 1; transform: translate(-50%, 0); }
@@ -517,8 +523,9 @@ body.fs-xl .q-text { font-size: var(--fs-xl); }
 .dot.visited { background: var(--amber); }
 .dot.untouched { background: var(--blue); opacity: .85; }
 
-.section-tabs { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-bottom: var(--sp-3); }
-.section-tabs button {
+.section-tabs, .status-tabs { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-bottom: var(--sp-3); }
+.status-tabs { margin-top: calc(var(--sp-3) * -1); }
+.section-tabs button, .status-tabs button {
   background: var(--panel-2);
   border: 1px solid var(--line);
   color: var(--muted);
@@ -530,9 +537,9 @@ body.fs-xl .q-text { font-size: var(--fs-xl); }
   cursor: pointer;
   transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-spring);
 }
-.section-tabs button:hover { border-color: var(--accent); color: var(--accent); }
-.section-tabs button:active { transform: scale(.94); }
-.section-tabs button.active {
+.section-tabs button:hover, .status-tabs button:hover { border-color: var(--accent); color: var(--accent); }
+.section-tabs button:active, .status-tabs button:active { transform: scale(.94); }
+.section-tabs button.active, .status-tabs button.active {
   background: var(--accent);
   color: var(--on-accent);
   border-color: var(--accent);

@@ -18,7 +18,7 @@ var S = {
     exam: null, sections: [], paper: [], ans: [],
     idx: 0, endAt: 0, timerId: null, practice: false,
     submitted: false, results: null, paletteFilter: "all", reviewFilter: "all", selOptions: [], modalOpen: false,
-    warned5: false, switches: 0, bannerTimer: null
+    warned5: false, switches: 0, bannerTimer: null, palStatus: "all"
   };
   var calc = null;
   var qStartAt = 0;
@@ -382,7 +382,7 @@ var S = {
     var ex = S.exam;
     S.practice = S.mode !== "fixed" && $("cfg-practice") && $("cfg-practice").checked;
     S.ans = S.paper.map(function () { return { sel: null, visited: false, marked: false, timeSpent: 0 }; });
-    S.idx = 0; S.submitted = false; S.results = null; S.paletteFilter = "all";
+    S.idx = 0; S.submitted = false; S.results = null; S.paletteFilter = "all"; S.palStatus = "all";
     S.warned5 = false; S.switches = 0;
     qStartAt = Date.now();
     clearInterval(S.timerId);
@@ -447,9 +447,21 @@ var S = {
       b.onclick = function () { S.paletteFilter = sec.id; renderPalette(); };
       tabs.appendChild(b);
     });
+    var st = $("status-tabs"); st.innerHTML = "";
+    var unsettled = S.paper.filter(function (_, i) { return !hasAns(S.ans[i]); }).length;
+    var marked = S.paper.filter(function (_, i) { return S.ans[i].marked; }).length;
+    [["all", "All", S.paper.length], ["un", "Not answered", unsettled], ["mk", "Marked", marked]].forEach(function (t) {
+      var b = document.createElement("button");
+      b.textContent = t[1] + " (" + t[2] + ")";
+      b.className = S.palStatus === t[0] ? "active" : "";
+      b.onclick = function () { S.palStatus = t[0]; renderPalette(); };
+      st.appendChild(b);
+    });
     var grid = $("palette"); grid.innerHTML = "";
     S.paper.forEach(function (q, i) {
       if (S.paletteFilter !== "all" && q.section !== S.paletteFilter) return;
+      if (S.palStatus === "un" && hasAns(S.ans[i])) return;
+      if (S.palStatus === "mk" && !S.ans[i].marked) return;
       var b = document.createElement("button");
       b.textContent = String(i + 1);
       b.className = palState(i) + (i === S.idx ? " current" : "");
@@ -549,7 +561,7 @@ var S = {
     var pool = (BANK[S.exam.code] || []).slice();
     if (!pool.length) { alert("Question pool is empty. Add questions into the pool files (bank-*.js) first."); return; }
     S.drill = { queue: shuffleAll(pool), idx: 0, seen: 0, cor: 0, wro: 0, skip: 0, cycle: 0 };
-    S.submitted = false; S.paletteFilter = "all";
+    S.submitted = false; S.paletteFilter = "all"; S.palStatus = "all";
     clearInterval(S.timerId);
     $("timer").textContent = "--:--:--";
     $("practice-badge").classList.add("hidden");
@@ -796,14 +808,66 @@ var S = {
       var d = r.sec[s.id];
       return "<tr><td>" + esc(d.name) + "</td><td>" + (Math.round(d.score * 100) / 100) + " / " + d.max + "</td><td>" + d.att + "</td><td>" + d.cor + "</td><td>" + d.wro + "</td><td>" + d.skip + (d.excl ? " (" + d.excl + " not counted)" : "") + "</td><td>" + fmtDur(d.timeMs) + "</td></tr>";
     }).join("");
+    var balance = S.sections.map(function (s) {
+      var d = r.sec[s.id];
+      if (!r.timeMs || !r.max) return "";
+      var tShare = 100 * d.timeMs / r.timeMs;
+      var mShare = 100 * d.max / r.max;
+      var cls = "", note = "";
+      if (tShare > mShare * 1.25) { cls = "bad"; note = " time-heavy (spent " + Math.round(tShare) + "% of time on " + Math.round(mShare) + "% of marks)"; }
+      else if (mShare > tShare * 1.25 && d.att > 0) { cls = "bad"; note = " rushed (" + Math.round(tShare) + "% of time for " + Math.round(mShare) + "% of marks)"; }
+      else if (mShare > tShare * 1.25) { cls = "ok"; note = " under-visited (" + Math.round(tShare) + "% of time for " + Math.round(mShare) + "% of marks)"; }
+      else if (r.timeMs > 0) { note = " balanced (" + Math.round(tShare) + "% time · " + Math.round(mShare) + "% marks)"; }
+      return '<tr class="bal"><td colspan="7"><span class="coverage ' + cls + '">' + esc(d.name) + "</span>" + note + "</td></tr>";
+    }).join("");
     $("result-sections").innerHTML =
-      "<table class='sec-table'><thead><tr><th>Section</th><th>Score</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Time</th></tr></thead><tbody>" + rows + "</tbody></table>" +
+      "<table class='sec-table'><thead><tr><th>Section</th><th>Score</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Time</th></tr></thead><tbody>" + rows + balance + "</tbody></table>" +
       (ex.bestN ? '<p class="coverage ok">GAT-B Section B: your best ' + ex.bestN.n + " answered questions were auto-selected for scoring.</p>" : "") +
       (S.switches > 0 ? '<p class="coverage bad">App was backgrounded ' + S.switches + ' time' + (S.switches > 1 ? "s" : "") + ' during the exam — recorded like a proctored session.</p>' : "");
     $("btn-review").onclick = renderReview;
     $("btn-retry").onclick = function () { startExam(); };
     $("btn-home").onclick = function () { show("screen-home"); renderHome(); };
+    $("btn-share").onclick = shareResult;
     typeset($("result-summary"));
+  }
+
+  function shareResult() {
+    var r = S.results, ex = S.exam;
+    var title = ex.name + (S.mode === "fixed" ? " · Mock Test " + S.fixedSet : "");
+    var text = title + "\n" +
+      "Score: " + (Math.round(r.total * 100) / 100) + " / " + r.max + " (" + Math.round(r.pct) + "%)\n" +
+      "Correct " + r.cor + " · Wrong " + r.wro + " · Skipped " + r.skip + " · Attempted " + r.att + "\n" +
+      "Time: " + (r.timeMs ? fmtClock(r.timeMs) : "n/a") + (r.timeMs && r.att ? " · Avg " + fmtDur(r.timeMs / r.att) + "/q" : "") + "\n" +
+      new Date().toLocaleDateString();
+    var done = function () { showBanner("Result summary copied to clipboard.", "ok"); };
+    var fail = function () { showBanner("Could not copy the result summary.", "warn"); };
+    if (navigator.share) {
+      navigator.share({ title: title, text: text }).catch(function (e) {
+        if (e && e.name !== "AbortError") tryClipboard(text, done, fail);
+      });
+    } else {
+      tryClipboard(text, done, fail);
+    }
+  }
+  function tryClipboard(text, done, fail) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { legacyCopy(text, done, fail); });
+    } else {
+      legacyCopy(text, done, fail);
+    }
+  }
+  function legacyCopy(text, done, fail) {
+    try {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      done();
+    } catch (e) { fail(); }
   }
 
   /* ---------- REVIEW ---------- */
