@@ -685,6 +685,56 @@ body::before {
   white-space: pre-wrap;
 }
 
+/* review filter tabs */
+.rev-tabs { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-bottom: var(--sp-4); }
+.rev-tab {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  color: var(--muted);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+}
+.rev-tab:hover { color: var(--text); border-color: var(--line); }
+.rev-tab.on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.rev-tab.on .cnt { color: var(--on-accent); opacity: .85; }
+.rev-tab .cnt { font-variant-numeric: tabular-nums; opacity: .7; margin-left: 2px; }
+
+/* submit-confirmation modal */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(2, 6, 23, .72);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  display: flex; align-items: center; justify-content: center;
+  padding: var(--sp-4);
+}
+.modal-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, .03), rgba(255, 255, 255, 0) 46%) var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--r-xl);
+  padding: var(--sp-5);
+  max-width: 420px; width: 100%;
+  box-shadow: var(--sh-md), 0 24px 60px -20px rgba(2, 6, 23, .9);
+  animation: modal-in var(--dur-slow) var(--ease-out);
+}
+@keyframes modal-in { from { opacity: 0; transform: translateY(10px) scale(.97); } to { opacity: 1; transform: none; } }
+.modal-card h3 { margin: 0 0 var(--sp-2); font-size: var(--fs-lg); font-weight: 700; }
+.modal-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-2); margin: var(--sp-4) 0; }
+.modal-stat {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: var(--sp-3);
+  text-align: center;
+}
+.modal-stat b { display: block; font-size: var(--fs-xl); font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text); }
+.modal-stat span { font-size: var(--fs-2xs); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.modal-actions { display: flex; gap: var(--sp-3); justify-content: flex-end; margin-top: var(--sp-4); }
+.modal-actions .btn { flex: 1; }
+
 /* ============ Android / WebView polish (MUST survive) ============ */
 html { -webkit-text-size-adjust: 100%; }
 body { padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }

@@ -17,7 +17,7 @@
 var S = {
     exam: null, sections: [], paper: [], ans: [],
     idx: 0, endAt: 0, timerId: null, practice: false,
-    submitted: false, results: null, paletteFilter: "all", selOptions: [],
+    submitted: false, results: null, paletteFilter: "all", reviewFilter: "all", selOptions: [], modalOpen: false,
     warned5: false, switches: 0, bannerTimer: null
   };
   var calc = null;
@@ -692,10 +692,11 @@ var S = {
       idxs.forEach(function (i) { if (keep.indexOf(i) < 0) per[i].excluded = true; });
     }
     var sec = {};
-    S.sections.forEach(function (s) { sec[s.id] = { name: s.name, score: 0, max: 0, att: 0, cor: 0, wro: 0, skip: 0, excl: 0 }; });
+    S.sections.forEach(function (s) { sec[s.id] = { name: s.name, score: 0, max: 0, att: 0, cor: 0, wro: 0, skip: 0, excl: 0, timeMs: 0 }; });
     var total = 0, max = 0, att = 0, cor = 0, wro = 0, skip = 0, neg = 0;
-    per.forEach(function (r) {
+    per.forEach(function (r, i) {
       var s = sec[r.section];
+      s.timeMs += (S.ans[i].timeSpent || 0);
       if (r.excluded) { s.excl++; return; }
       total += r.score; max += r.marks; neg += r.neg;
       if (r.res === "cor") { cor++; s.cor++; att++; s.att++; }
@@ -711,7 +712,38 @@ var S = {
   /* ---------- RESULTS ---------- */
   function submitExam(auto) {
     if (S.submitted) return;
-    if (!auto && !S.practice && !confirm("Submit the exam now?")) return;
+    if (!auto && !S.practice) { openSubmitModal(); return; }
+    doSubmit(auto);
+  }
+  function openSubmitModal() {
+    var ans = 0, marked = 0;
+    S.ans.forEach(function (a) { if (hasAns(a)) ans++; if (a.marked) marked++; });
+    var unans = S.paper.length - ans;
+    var m = document.createElement("div");
+    m.className = "modal-overlay";
+    m.innerHTML = '<div class="modal-card" role="dialog" aria-modal="true" aria-label="Submit exam">' +
+      '<h3>Submit exam?</h3>' +
+      '<p class="coverage">Review your status before ending the test.</p>' +
+      '<div class="modal-stats">' +
+      '<div class="modal-stat"><b>' + ans + "</b><span>Answered</span></div>" +
+      '<div class="modal-stat"><b>' + unans + "</b><span>Unanswered</span></div>" +
+      '<div class="modal-stat"><b>' + marked + "</b><span>Marked</span></div>" +
+      "</div>" +
+      '<p class="coverage">Unanswered questions score 0. You cannot resume after submitting.</p>' +
+      '<div class="modal-actions">' +
+      '<button class="btn" id="modal-cancel">Keep Working</button>' +
+      '<button class="btn danger" id="modal-confirm">Submit Now</button>' +
+      "</div></div>";
+    document.body.appendChild(m);
+    S.modalOpen = true;
+    function close() { S.modalOpen = false; m.remove(); document.removeEventListener("keydown", esc); }
+    function esc(e) { if (e.key === "Escape") close(); }
+    document.addEventListener("keydown", esc);
+    $("modal-cancel").onclick = close;
+    $("modal-confirm").onclick = function () { close(); doSubmit(false); };
+  }
+  function doSubmit(auto) {
+    if (S.submitted) return;
     S.submitted = true;
     clearInterval(S.timerId);
     settleQTime();
@@ -738,10 +770,10 @@ var S = {
       "</div>";
     var rows = S.sections.map(function (s) {
       var d = r.sec[s.id];
-      return "<tr><td>" + esc(d.name) + "</td><td>" + (Math.round(d.score * 100) / 100) + " / " + d.max + "</td><td>" + d.att + "</td><td>" + d.cor + "</td><td>" + d.wro + "</td><td>" + d.skip + (d.excl ? " (" + d.excl + " not counted)" : "") + "</td></tr>";
+      return "<tr><td>" + esc(d.name) + "</td><td>" + (Math.round(d.score * 100) / 100) + " / " + d.max + "</td><td>" + d.att + "</td><td>" + d.cor + "</td><td>" + d.wro + "</td><td>" + d.skip + (d.excl ? " (" + d.excl + " not counted)" : "") + "</td><td>" + fmtDur(d.timeMs) + "</td></tr>";
     }).join("");
     $("result-sections").innerHTML =
-      "<table class='sec-table'><thead><tr><th>Section</th><th>Score</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Skipped</th></tr></thead><tbody>" + rows + "</tbody></table>" +
+      "<table class='sec-table'><thead><tr><th>Section</th><th>Score</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Time</th></tr></thead><tbody>" + rows + "</tbody></table>" +
       (ex.bestN ? '<p class="coverage ok">GAT-B Section B: your best ' + ex.bestN.n + " answered questions were auto-selected for scoring.</p>" : "") +
       (S.switches > 0 ? '<p class="coverage bad">App was backgrounded ' + S.switches + ' time' + (S.switches > 1 ? "s" : "") + ' during the exam — recorded like a proctored session.</p>' : "");
     $("btn-review").onclick = renderReview;
@@ -753,8 +785,16 @@ var S = {
   /* ---------- REVIEW ---------- */
   function renderReview() {
     var html = "";
+    var counts = { all: 0, cor: 0, wro: 0, skip: 0 };
+    S.results.per.forEach(function (r) { counts[r.res]++; counts.all++; });
+    var tabs = [["all", "All"], ["cor", "Correct"], ["wro", "Wrong"], ["skip", "Skipped"]];
+    html += '<div class="rev-tabs" role="tablist">' + tabs.map(function (t) {
+      return '<button class="rev-tab' + (S.reviewFilter === t[0] ? " on" : "") + '" data-f="' + t[0] + '">' + t[1] + ' <span class="cnt">' + counts[t[0]] + "</span></button>";
+    }).join("") + "</div>";
     S.paper.forEach(function (q, i) {
-      var a = S.ans[i], r = S.results.per[i];
+      var r = S.results.per[i];
+      if (S.reviewFilter !== "all" && r.res !== S.reviewFilter) return;
+      var a = S.ans[i];
       var verdict = r.excluded ? "Not counted (outside best-60)" :
         r.res === "cor" ? "Correct ✓ (+" + q.marks + ")" :
           r.res === "wro" ? "Incorrect ✗ (" + (Math.round(r.score * 100) / 100) + ")" : "Not attempted";
@@ -817,6 +857,8 @@ var S = {
   /* ---------- WIRING ---------- */
   function wire() {
     document.addEventListener("click", function (e) {
+      var f = e.target.closest("[data-f]");
+      if (f) { S.reviewFilter = f.dataset.f; renderReview(); return; }
       var t = e.target.closest("[data-go]");
       if (!t) return;
       var go = t.dataset.go;
@@ -839,6 +881,7 @@ var S = {
       // never hijack keys while the user types (NAT answer input)
       var tgt = e.target;
       if (tgt && (tgt.tagName === "INPUT" || tgt.tagName === "TEXTAREA" || tgt.isContentEditable)) return;
+      if (S.modalOpen) return;
       if (!$("screen-exam").classList.contains("active") || S.submitted) return;
       /* drill-mode keys: 1-4 select, Enter advances */
       if (S.mode === "unlimited" && S.drill) {
