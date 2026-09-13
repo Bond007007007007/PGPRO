@@ -476,7 +476,11 @@ var S = {
     renderQuestion();
     $("btn-submit").onclick = function () { submitExam(false); };
     $("btn-prev").onclick = function () { goto(S.idx - 1); };
-    $("btn-next").onclick = function () { goto(S.idx + 1); };
+    $("btn-next").onclick = function () {
+      /* Real GATE CBT: on the final question, "Save & Next" proceeds to submission. */
+      if (S.idx >= S.paper.length - 1) { submitExam(false); return; }
+      goto(S.idx + 1);
+    };
     $("btn-mark").onclick = function () { S.ans[S.idx].marked = !S.ans[S.idx].marked; renderPalette(); renderQuestion(); };
     $("btn-clear").onclick = function () { S.ans[S.idx].sel = null; renderPalette(); renderQuestion(); };
     $("btn-next-un").onclick = gotoNextUnanswered;
@@ -799,7 +803,8 @@ html += natKeypadHtml("nat-in");
     S.drill = null;
     var tot = d.cor + d.wro;
     var pct = tot ? Math.round(100 * d.cor / tot) : 0;
-    var cov = d.mistakes ? d.seen + " previously missed question" + (d.seen === 1 ? "" : "s") + " replayed" :
+    var cov = d.slow ? d.seen + " slow question" + (d.seen === 1 ? "" : "s") + " replayed for speed" :
+      d.mistakes ? d.seen + " previously missed question" + (d.seen === 1 ? "" : "s") + " replayed" :
       d.seen + " questions · " + (d.cycle + 1) + " pass" + (d.cycle ? "es" : "") + " through the pool";
     area.innerHTML = '<div class="drill-end"><h3>' + (d.title || "Drill Complete") + "</h3>" +
       '<div class="score-rows">' +
@@ -958,6 +963,7 @@ html += natKeypadHtml("nat-in");
     }).join("");
     $("result-sections").innerHTML =
       "<table class='sec-table'><thead><tr><th>Section</th><th>Score</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Time</th></tr></thead><tbody>" + rows + balance + "</tbody></table>" +
+      attemptQualityHtml(r) +
       weakAreasHtml(r) +
       slowestHtml() +
       (ex.bestN ? '<p class="coverage ok">GAT-B Section B: your best ' + ex.bestN.n + " answered questions were auto-selected for scoring.</p>" : "") +
@@ -972,6 +978,20 @@ html += natKeypadHtml("nat-in");
       mb.hidden = misCount === 0;
       $("btn-mistakes-lbl").textContent = "Practice Mistakes (" + misCount + ")";
       mb.onclick = function () { startMistakeDrill(S.exam.code); };
+      var sb = $("btn-slow");
+      if (!sb) {
+        sb = document.createElement("button");
+        sb.className = "btn";
+        sb.id = "btn-slow";
+        sb.innerHTML = '<span id="btn-slow-lbl">Practice Slow</span>';
+        mb.parentNode.insertBefore(sb, mb.nextSibling);
+      }
+      var slowCount = 0;
+      S.results.per.forEach(function (p, i) { if (p.res !== "skip" && (S.ans[i].timeSpent || 0) > 120000) slowCount++; });
+      sb.hidden = slowCount === 0;
+      var sbl = $("btn-slow-lbl");
+      if (sbl) sbl.textContent = "Practice Slow (" + slowCount + ")";
+      sb.onclick = function () { startSlowDrill(S.exam.code); };
     }
     typeset($("result-summary"));
   }
@@ -1003,6 +1023,42 @@ html += natKeypadHtml("nat-in");
       slow.map(function (s) {
         return '<div class="sl-row"><span class="sl-q">Q' + (s.i + 1) + (s.topic ? " · " + esc(s.topic) : "") + '</span><span class="sl-t">' + fmtDur(s.t) + '</span></div>';
       }).join("") + "</div>";
+  }
+
+  /* Attempt behavior — Embibe-style six-category time/accuracy classification.
+     FAST: answered under 15 s. OVERTIME: spent over 2 min. Classified per question. */
+  function attemptQualityHtml(r) {
+    var FAST = 15000, OT = 120000;
+    var c = { perf: 0, oc: 0, tf: 0, was: 0, oi: 0, una: 0 };
+    S.paper.forEach(function (q, i) {
+      var res = (r.per[i] && r.per[i].res) || "skip";
+      var t = (S.ans[i] && S.ans[i].timeSpent) || 0;
+      if (res === "skip") { c.una++; return; }
+      if (res === "cor") { if (t > OT) c.oc++; else c.perf++; return; }
+      if (t < FAST) c.tf++; else if (t > OT) c.oi++; else c.was++;
+    });
+    var tot = S.paper.length || 1;
+    var rows = [
+      ["Perfect Attempt", c.perf, "", "correct within 2 min"],
+      ["Overtime Correct", c.oc, "warn", "correct but slow"],
+      ["Too Fast Incorrect", c.tf, "bad", "wrong in under 15 s"],
+      ["Wasted Attempt", c.was, "warn", "wrong at normal pace"],
+      ["Overtime Incorrect", c.oi, "bad", "wrong after 2 min"],
+      ["Unattempted", c.una, "mute", "left blank"]
+    ].filter(function (x) { return x[1] > 0; }).map(function (x) {
+      var n = x[1], w = Math.max(4, Math.min(100, Math.round(100 * n / tot)));
+      return '<div class="aq-row"><span class="aq-name' + (x[2] === "mute" ? " mute" : "") + '">' + x[0] + '</span>' +
+        '<span class="aq-bar"><span class="aq-fill ' + x[2] + '" style="width:' + w + '%"></span></span>' +
+        '<span class="aq-n' + (x[2] === "mute" ? " mute" : "") + '">' + n + '</span></div>';
+    }).join("");
+    if (!rows) return "";
+    var take = "";
+    if (c.oi) take = "<b>" + c.oi + "</b> overtime incorrect answer" + (c.oi > 1 ? "s" : "") + " cost marks and time — flag and move on.";
+    else if (c.tf) take = "You raced through <b>" + c.tf + "</b> question" + (c.tf > 1 ? "s" : "") + " and got them wrong — slow down on easy-looking questions.";
+    else if (c.was) take = "<b>" + c.was + "</b> wasted attempt" + (c.was > 1 ? "s" : "") + " — recheck flagged questions before submitting.";
+    else if (c.oc) take = "You knew <b>" + c.oc + "</b> question" + (c.oc > 1 ? "s" : "") + " but took too long — practice speed.";
+    else if (c.una) take = "<b>" + c.una + "</b> unattempted — every blank is an automatic zero; guess if unsure.";
+    return '<div class="aq-card"><h4>Attempt behavior</h4>' + rows + (take ? '<p class="aq-take">' + take + "</p>" : "") + "</div>";
   }
 
   function shareResult() {
@@ -1111,6 +1167,17 @@ html += natKeypadHtml("nat-in");
         });
       });
       localStorage.setItem("gct.snap." + S.exam.code, JSON.stringify(mistakes.slice(0, 60)));
+      /* snapshot overtime questions (timeSpent > 2 min) -> slow-speed replay drill */
+      var slowQ = [];
+      S.paper.forEach(function (q, i) {
+        if ((S.ans[i].timeSpent || 0) <= 120000) return;
+        slowQ.push({
+          section: q.section, sectionName: q.sectionName, type: q.type, marks: q.marks,
+          q: q.q, options: q.options, correct: q.correct, ans: q.ans, tol: q.tol,
+          unit: q.unit, explain: q.explain, topic: q.topic, src: q.src
+        });
+      });
+      localStorage.setItem("gct.snap.slow." + S.exam.code, JSON.stringify(slowQ.slice(0, 40)));
     } catch (e) { }
   }
   function mistakeSnapshot(code) {
@@ -1129,6 +1196,26 @@ html += natKeypadHtml("nat-in");
     $("practice-badge").classList.add("hidden");
     document.body.classList.add("drill-mode");
     $("exam-name").textContent = S.exam.name + " · Mistake Replay";
+    nextDrillQ();
+    renderDrill();
+    show("screen-exam");
+  }
+  function slowSnapshot(code) {
+    try { return JSON.parse(localStorage.getItem("gct.snap.slow." + code) || "null"); } catch (e) { return null; }
+  }
+  function startSlowDrill(code) {
+    var snap = slowSnapshot(code);
+    if (!snap || !snap.length) { showBanner("No slow questions saved for this exam yet — take a mock first.", "warn"); return; }
+    S.exam = GATE_EXAMS[code];
+    S.sections = resolveSections();
+    S.mode = "unlimited";
+    S.drill = { queue: shuffleAll(snap), idx: 0, seen: 0, cor: 0, wro: 0, skip: 0, cycle: 0, slow: true, title: "Slow Questions Replay Complete" };
+    S.submitted = false; S.paletteFilter = "all"; S.palStatus = "all";
+    clearInterval(S.timerId);
+    $("timer").textContent = "--:--:--";
+    $("practice-badge").classList.add("hidden");
+    document.body.classList.add("drill-mode");
+    $("exam-name").textContent = S.exam.name + " · Slow Replay";
     nextDrillQ();
     renderDrill();
     show("screen-exam");
