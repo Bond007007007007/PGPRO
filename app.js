@@ -149,6 +149,14 @@ var S = {
       d.innerHTML = "<h3>" + esc(ex.name) + "</h3><div class='org'>" + esc(ex.org) + "</div>" +
         "<div class='facts'><span>" + ex.totalQ + " questions/paper</span><span>" + ex.totalMarks + " marks</span><span>" + ex.durationMin + " min</span><span>mocks: " + (ex.mocks || 1) + "</span><span>pool: " + (BANK[code] || []).length + "</span></div>" +
         "<span class='tag'>→ Configure & start</span>";
+      var snap = mistakeSnapshot(code);
+      if (snap && snap.length) {
+        var mc = document.createElement("button");
+        mc.className = "mistake-chip";
+        mc.innerHTML = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 5.5h9a2 2 0 0 1 2 2v11l-1.6-1.2L15.3 18.5l-1.6-1.2-1.6 1.2-1.6-1.2-1.6 1.2-1.6-1.2-1.6 1.2v-11a2 2 0 0 1 2-2z"/><path d="M9.5 9h5M9.5 12h5"/></svg> Practice mistakes (' + snap.length + ')';
+        mc.onclick = function (ev) { ev.stopPropagation(); startMistakeDrill(code); };
+        d.appendChild(mc);
+      }
       d.onclick = function () { openConfig(code); };
       cards.appendChild(d);
     });
@@ -424,6 +432,17 @@ var S = {
     $("btn-next").onclick = function () { goto(S.idx + 1); };
     $("btn-mark").onclick = function () { S.ans[S.idx].marked = !S.ans[S.idx].marked; renderPalette(); renderQuestion(); };
     $("btn-clear").onclick = function () { S.ans[S.idx].sel = null; renderPalette(); renderQuestion(); };
+    $("btn-next-un").onclick = gotoNextUnanswered;
+  }
+  function gotoNextUnanswered() {
+    var n = S.paper.length;
+    for (var k = 1; k <= n; k++) {
+      var i = (S.idx + k) % n;
+      if (S.paletteFilter !== "all" && S.paper[i].section !== S.paletteFilter) continue;
+      if (S.palStatus === "mk" && !S.ans[i].marked) continue;
+      if (!hasAns(S.ans[i])) { goto(i); return; }
+    }
+    showBanner("All questions answered in this view.", "ok");
   }
   function goto(i) { if (i >= 0 && i < S.paper.length) { settleQTime(); S.idx = i; renderPalette(); renderQuestion(); window.scrollTo(0, 0); } }
   function palState(i) {
@@ -468,6 +487,15 @@ var S = {
       b.onclick = function () { settleQTime(); S.idx = i; renderPalette(); renderQuestion(); };
       grid.appendChild(b);
     });
+    updateProgress();
+  }
+  /* answered/total progress bar under the exam header */
+  function updateProgress() {
+    var fill = $("exam-progress-fill");
+    if (!fill) return;
+    var done = S.paper.reduce(function (a, _, i) { return a + (hasAns(S.ans[i]) ? 1 : 0); }, 0);
+    fill.style.width = (S.paper.length ? Math.round(100 * done / S.paper.length) : 0) + "%";
+    fill.setAttribute("aria-valuenow", String(done));
   }
   function practiceFb(q, a) {
     var ok;
@@ -678,14 +706,16 @@ var S = {
     S.drill = null;
     var tot = d.cor + d.wro;
     var pct = tot ? Math.round(100 * d.cor / tot) : 0;
-    area.innerHTML = '<div class="drill-end"><h3>Drill Complete</h3>' +
+    var cov = d.mistakes ? d.seen + " previously missed question" + (d.seen === 1 ? "" : "s") + " replayed" :
+      d.seen + " questions · " + (d.cycle + 1) + " pass" + (d.cycle ? "es" : "") + " through the pool";
+    area.innerHTML = '<div class="drill-end"><h3>' + (d.title || "Drill Complete") + "</h3>" +
       '<div class="score-rows">' +
       '<div class="score-card good"><div class="big">' + d.cor + '</div><div class="lbl">Correct</div></div>' +
       '<div class="score-card bad"><div class="big">' + d.wro + '</div><div class="lbl">Wrong</div></div>' +
       '<div class="score-card"><div class="big">' + d.skip + '</div><div class="lbl">Skipped</div></div>' +
       '<div class="score-card"><div class="big">' + pct + '%</div><div class="lbl">Accuracy</div></div>' +
       "</div>" +
-      '<p class="coverage">' + d.seen + " questions · " + (d.cycle + 1) + " pass" + (d.cycle ? "es" : "") + " through the pool</p>" +
+      '<p class="coverage">' + cov + "</p>" +
       '<div class="drill-actions"><button class="btn" id="drill-done">Done</button></div></div>';
     $("drill-done").onclick = function () {
       S.submitted = false;
@@ -828,6 +858,13 @@ var S = {
     $("btn-retry").onclick = function () { startExam(); };
     $("btn-home").onclick = function () { show("screen-home"); renderHome(); };
     $("btn-share").onclick = shareResult;
+    var mb = $("btn-mistakes");
+    if (mb) {
+      var misCount = r.wro + r.skip;
+      mb.hidden = misCount === 0;
+      $("btn-mistakes-lbl").textContent = "Practice Mistakes (" + misCount + ")";
+      mb.onclick = function () { startMistakeDrill(S.exam.code); };
+    }
     typeset($("result-summary"));
   }
 
@@ -925,7 +962,39 @@ var S = {
         cor: res.cor, wro: res.wro, att: res.att
       });
       localStorage.setItem("gct.history.v1", JSON.stringify(h.slice(0, 30)));
+      /* snapshot wrong+skipped questions for this exam -> mistake replay drill */
+      var mistakes = [];
+      S.paper.forEach(function (q, i) {
+        var r = res.per[i];
+        if (r.res !== "wro" && r.res !== "skip") return;
+        mistakes.push({
+          section: q.section, sectionName: q.sectionName, type: q.type, marks: q.marks,
+          q: q.q, options: q.options, correct: q.correct, ans: q.ans, tol: q.tol,
+          unit: q.unit, explain: q.explain, topic: q.topic, src: q.src
+        });
+      });
+      localStorage.setItem("gct.snap." + S.exam.code, JSON.stringify(mistakes.slice(0, 60)));
     } catch (e) { }
+  }
+  function mistakeSnapshot(code) {
+    try { return JSON.parse(localStorage.getItem("gct.snap." + code) || "null"); } catch (e) { return null; }
+  }
+  function startMistakeDrill(code) {
+    var snap = mistakeSnapshot(code);
+    if (!snap || !snap.length) { showBanner("No mistakes saved for this exam yet — take a mock first.", "warn"); return; }
+    S.exam = GATE_EXAMS[code];
+    S.sections = resolveSections();
+    S.mode = "unlimited";
+    S.drill = { queue: shuffleAll(snap), idx: 0, seen: 0, cor: 0, wro: 0, skip: 0, cycle: 0, mistakes: true, title: "Mistake Replay Complete" };
+    S.submitted = false; S.paletteFilter = "all"; S.palStatus = "all";
+    clearInterval(S.timerId);
+    $("timer").textContent = "--:--:--";
+    $("practice-badge").classList.add("hidden");
+    document.body.classList.add("drill-mode");
+    $("exam-name").textContent = S.exam.name + " · Mistake Replay";
+    nextDrillQ();
+    renderDrill();
+    show("screen-exam");
   }
   function lastAttempt(code) {
     try {

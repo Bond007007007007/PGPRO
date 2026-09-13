@@ -258,6 +258,24 @@ body::before {
 }
 .exam-card .tag { display: inline-block; margin-top: var(--sp-3); font-size: var(--fs-xs); font-weight: 600; color: var(--green); }
 
+/* practice-mistakes chip on exam cards (launches mistake replay drill) */
+.mistake-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: var(--sp-3);
+  background: var(--amber-tint);
+  border: 1px solid var(--amber);
+  color: var(--amber);
+  border-radius: var(--r-pill);
+  padding: 4px 12px;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
+}
+.mistake-chip:hover { background: var(--amber); color: var(--on-accent); box-shadow: var(--glow-amber); }
+
 .home-note {
   background: linear-gradient(180deg, rgba(255, 255, 255, .02), rgba(255, 255, 255, 0) 46%) var(--panel);
   border: 1px solid var(--line);
@@ -440,6 +458,22 @@ body::before {
 .timer { font-variant-numeric: tabular-nums; font-size: var(--fs-3xl); font-weight: 800; color: var(--accent); letter-spacing: -0.02em; text-shadow: 0 0 18px var(--accent-glow); }
 .timer.warn { color: var(--red); text-shadow: 0 0 18px rgba(239, 68, 68, .3); animation: pulse 1s var(--ease-inout) infinite; }
 @keyframes pulse { 50% { opacity: .55; } }
+
+/* answered/total progress bar under the exam header */
+.exam-progress {
+  height: 4px;
+  border-radius: var(--r-pill);
+  background: var(--line-soft);
+  overflow: hidden;
+  margin: calc(var(--sp-3) * -1) 0 var(--sp-3);
+}
+.exam-progress-fill {
+  height: 100%;
+  width: 0;
+  border-radius: var(--r-pill);
+  background: linear-gradient(90deg, var(--accent), var(--green));
+  transition: width var(--dur-med) var(--ease-out);
+}
 
 .exam-body { display: grid; grid-template-columns: 1fr 340px; gap: var(--sp-4); }
 @media (max-width: 980px) { .exam-body { grid-template-columns: 1fr; } .sidebar { order: -1; } }
@@ -841,6 +875,7 @@ body.drill-mode .sidebar   { display: none; }
 body.drill-mode .nav-rail  { display: none; }
 body.drill-mode #timer     { display: none; }
 body.drill-mode #btn-submit { display: none; }
+body.drill-mode .exam-progress { display: none; }
 body.drill-mode .exam-body { grid-template-columns: 1fr; }
 
 .drill-stats {

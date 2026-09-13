@@ -111,6 +111,7 @@
       <button class="btn danger" id="btn-submit">End Test &amp; Submit</button>
     </div>
   </div>
+  <div class="exam-progress" aria-hidden="true"><div class="exam-progress-fill" id="exam-progress-fill"></div></div>
 
   <div class="exam-body">
     <main class="question-area" id="question-area"></main>
@@ -158,6 +159,10 @@
       <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg>
       Clear Response
     </button>
+    <button class="btn" id="btn-next-un" title="Jump to the first unanswered question">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 5v9a3 3 0 0 0 3 3h4"/><path d="M11 14l3 3-3 3"/></svg>
+      Next Unanswered
+    </button>
     <button class="btn" id="btn-next">
       Next
       <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.5 5 16 12l-6.5 7"/></svg>
@@ -191,6 +196,10 @@
       <button class="btn ghost" id="btn-share">
         <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.5 15.5 7H14v7h-4V7H8.5L12 3.5z"/><path d="M5 12v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>
         Share / Copy
+      </button>
+      <button class="btn" id="btn-mistakes" hidden>
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 5.5h9a2 2 0 0 1 2 2v11l-1.6-1.2L15.3 18.5l-1.6-1.2-1.6 1.2-1.6-1.2-1.6 1.2-1.6-1.2-1.6 1.2v-11a2 2 0 0 1 2-2z"/><path d="M9.5 9h5M9.5 12h5"/></svg>
+        <span id="btn-mistakes-lbl">Practice Mistakes</span>
       </button>
     </div>
   </div>
