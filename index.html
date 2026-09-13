@@ -20,16 +20,26 @@
 </head>
 <body>
 
+<!-- Proctor warning toast (shown when the app is backgrounded mid-exam) -->
+<div id="warn-banner" class="warn-banner hidden" role="status" aria-live="polite"></div>
+
 <!-- ===================== HOME SCREEN ===================== -->
 <section id="screen-home" class="screen active">
   <header class="topbar">
-    <div class="brand">🧬 GATE-CBT <span>· Mock Exam Simulator</span></div>
-    <button class="btn ghost" id="btn-history">📜 Attempt History</button>
+    <div class="brand">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 3c4.2 3.2 4.2 6.4 0 9s-4.2 6.4 0 9"/><path d="M16.5 3c-4.2 3.2-4.2 6.4 0 9s4.2 6.4 0 9"/><path d="M7.9 9.2h8.2M6.9 14.8h10.2"/></svg>
+      GATE-CBT <span>· Mock Exam Simulator</span>
+    </div>
+    <button class="btn ghost" id="btn-history">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
+      Attempt History
+    </button>
   </header>
 
   <div class="home-hero">
+    <span class="hero-eyebrow">GATE-CBT · CBT Simulator</span>
     <h1>Full-length CBT Mock Exams</h1>
-    <p>GATE XL · IIT JAM (BT) · GAT-B · CUET PG — real exam pattern, timer, calculator, official marking. 100% offline.</p>
+    <p>GATE XL · IIT JAM (BT) · GAT-B · CUET PG — fixed mock series, fresh random papers, unlimited practice drill. 100% offline.</p>
   </div>
 
   <div class="exam-cards" id="exam-cards"></div>
@@ -37,7 +47,7 @@
   <div class="home-note">
     <h4>How it works</h4>
     <ul>
-      <li>Pick an exam → configure your paper → start. A fresh random paper is drawn from the question pool every run.</li>
+      <li>Pick an exam → choose a mode: <b>Fixed Mock Test</b> (same paper every time — retake it and track score growth), <b>Random Full Exam</b> (fresh paper every run), or <b>Unlimited Drill</b> (endless practice, instant feedback, no timer).</li>
       <li>Same interface as the real CBT: question palette, mark-for-review, virtual calculator.</li>
       <li>Auto-submit at time zero. Full solutions + per-section analysis after you finish.</li>
       <li>Attempts are saved locally on this device — nothing is uploaded.</li>
@@ -50,9 +60,39 @@
 <!-- ===================== CONFIG SCREEN ===================== -->
 <section id="screen-config" class="screen">
   <div class="config-wrap">
-    <button class="btn ghost back" data-go="home">← All exams</button>
+    <button class="btn ghost back" data-go="home">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 5 8 12l6.5 7"/></svg>
+      All exams
+    </button>
     <h2 id="config-title">Configure Paper</h2>
     <div id="config-body"></div>
+  </div>
+</section>
+
+<!-- ===================== INSTRUCTIONS GATE ===================== -->
+<section id="screen-instructions" class="screen">
+  <div class="config-wrap instruct-wrap">
+    <button class="btn ghost back" data-go="home">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 5 8 12l6.5 7"/></svg>
+      All exams
+    </button>
+    <h2>Exam Instructions</h2>
+    <div id="instruct-exam" class="pat"></div>
+    <div class="config-card">
+      <h4>Before you begin</h4>
+      <ul class="instruct-list" id="instruct-list"></ul>
+    </div>
+    <label class="ack-row" id="instruct-ack-label">
+      <input type="checkbox" id="instruct-ack">
+      <span>I have read and understood the instructions above and I am ready to begin.</span>
+    </label>
+    <div class="start-row">
+      <button class="btn" id="btn-begin" disabled>
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 5.5v13l11-6.5-11-6.5z"/></svg>
+        Begin Exam
+      </button>
+      <span class="coverage" id="instruct-hint"></span>
+    </div>
   </div>
 </section>
 
@@ -61,7 +101,10 @@
   <div class="exam-header">
     <div class="eh-left">
       <span class="eh-exam" id="exam-name"></span>
-      <span class="eh-msg hidden" id="practice-badge">🟡 Practice mode · no timer</span>
+      <span class="eh-msg hidden" id="practice-badge">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5" fill="currentColor" stroke="none"/></svg>
+        Practice mode · no timer
+      </span>
     </div>
     <div class="eh-right">
       <div class="timer" id="timer">03:00:00</div>
@@ -85,31 +128,58 @@
         <div class="palette" id="palette"></div>
       </div>
       <div class="side-block">
-        <button class="btn" id="btn-calc">🧮 Calculator</button>
+        <button class="btn" id="btn-calc">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="3.5" width="14" height="17" rx="2.5"/><path d="M9 8h6M9 12h.01M13 12h.01M9 16h.01M13 16h.01"/></svg>
+          Calculator
+        </button>
         <div id="calc-host"></div>
       </div>
     </aside>
   </div>
 
   <div class="nav-rail">
-    <button class="btn" id="btn-prev">← Prev</button>
-    <button class="btn" id="btn-mark">⭑ Mark for Review</button>
-    <button class="btn" id="btn-clear">✖ Clear Response</button>
-    <button class="btn" id="btn-next">Next →</button>
+    <button class="btn" id="btn-prev">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 5 8 12l6.5 7"/></svg>
+      Prev
+    </button>
+    <button class="btn" id="btn-mark">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.2l2.6 5.5 6 .9-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6L3.4 9.6l6-.9L12 3.2z"/></svg>
+      Mark for Review
+    </button>
+    <button class="btn" id="btn-clear">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      Clear Response
+    </button>
+    <button class="btn" id="btn-next">
+      Next
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.5 5 16 12l-6.5 7"/></svg>
+    </button>
   </div>
 </section>
 
 <!-- ===================== RESULT SCREEN ===================== -->
 <section id="screen-result" class="screen">
   <div class="result-wrap">
-    <button class="btn ghost back" data-go="home">← All exams</button>
+    <button class="btn ghost back" data-go="home">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 5 8 12l6.5 7"/></svg>
+      All exams
+    </button>
     <h2 id="result-title">Result</h2>
     <div id="result-summary"></div>
     <div id="result-sections"></div>
     <div class="result-actions">
-      <button class="btn" id="btn-review">📖 Review Solutions</button>
-      <button class="btn" id="btn-retry">🔁 Retry Paper</button>
-      <button class="btn" id="btn-home">🏠 Home</button>
+      <button class="btn" id="btn-review">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.5 4.5h12a2 2 0 0 1 2 2v13l-3-2-3 2-3-2-3 2V6.5a2 2 0 0 1 2-2z"/><path d="M8 8.5h7M8 12h7M8 15.5h4"/></svg>
+        Review Solutions
+      </button>
+      <button class="btn" id="btn-retry">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 12a8 8 0 1 1-2.4-5.7"/><path d="M20 3.5V8h-4.5"/></svg>
+        Retry Paper
+      </button>
+      <button class="btn" id="btn-home">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.5 10.5 12 4l7.5 6.5"/><path d="M6.5 9.5V19a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V9.5"/></svg>
+        Home
+      </button>
     </div>
   </div>
 </section>
@@ -117,7 +187,10 @@
 <!-- ===================== REVIEW SCREEN ===================== -->
 <section id="screen-review" class="screen">
   <div class="review-wrap">
-    <button class="btn ghost back" data-go="result">← Back to result</button>
+    <button class="btn ghost back" data-go="result">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 5 8 12l6.5 7"/></svg>
+      Back to result
+    </button>
     <h2>Solutions Review</h2>
     <div id="review-list"></div>
   </div>
