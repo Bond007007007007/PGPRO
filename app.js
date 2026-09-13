@@ -63,6 +63,19 @@ var S = {
     try { localStorage.setItem("gct.scratch." + S.exam.code, v); } catch (e) { }
   }
 
+  /* ---------- appearance prefs (text size) ---------- */
+  function applyFontSize(m) {
+    document.body.classList.remove("fs-sm", "fs-md", "fs-xl");
+    document.body.classList.add(m === "sm" ? "fs-sm" : m === "xl" ? "fs-xl" : "fs-md");
+    try { localStorage.setItem("gct.prefs.v1", JSON.stringify({ font: m || "md" })); } catch (e) { }
+  }
+  function loadFontSize() {
+    try {
+      var p = JSON.parse(localStorage.getItem("gct.prefs.v1") || "{}");
+      return p.font === "sm" || p.font === "xl" ? p.font : "md";
+    } catch (e) { return "md"; }
+  }
+
   /* ---------- SOUND (Web Audio API, offline — no assets) ---------- */
   var AC = null;
   function ensureAudio() {
@@ -201,6 +214,7 @@ var S = {
     }
     /* --- Options --- */
     html += '<div class="config-card" id="cfg-options"><h4>Options</h4><label class="checkbox-row"><input type="checkbox" id="cfg-practice"> Untimed practice mode — instant feedback, no timer, no negative-marking pressure</label></div>';
+    html += '<div class="config-card" id="cfg-font"><h4>Text size</h4><div class="fs-row"><button class="btn" id="btn-fs-sm">A−</button><button class="btn" id="btn-fs-md">A</button><button class="btn" id="btn-fs-xl">A+</button></div><p class="coverage">Applies to question text &amp; options in the exam. Saved on this device.</p></div>';
     html += '<div id="cfg-coverage"></div>';
     html += '<div class="start-row"><button class="btn" id="btn-start"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 5.5v13l11-6.5-11-6.5z"/></svg> Start Exam</button><span id="cfg-status"></span></div>';
     $("config-body").innerHTML = html;
@@ -210,6 +224,15 @@ var S = {
     });
     $("cfg-mockset").addEventListener("change", function () { S.fixedSet = parseInt(this.value) || 1; });
     $("btn-start").onclick = startExam;
+    var fsCur = loadFontSize();
+    var fsBtns = [["btn-fs-sm", "sm"], ["btn-fs-md", "md"], ["btn-fs-xl", "xl"]];
+    fsBtns.forEach(function (b) {
+      var el = $(b[0]);
+      el.classList.toggle("sel", fsCur === b[1]);
+      el.onclick = function () { applyFontSize(b[1]); fsBtns.forEach(function (x) { $(x[0]).classList.toggle("sel", x[1] === b[1]); }); };
+    });
+    var last = lastAttempt(S.exam.code);
+    $("config-title").innerHTML = esc(S.exam.name) + (last ? '<span class="cfg-last">Attempt #' + last.n + " · last score <b>" + last.pct + "%</b> · " + esc(last.date) + "</span>" : "");
     refreshCoverage();
     show("screen-config");
   }
@@ -767,6 +790,7 @@ var S = {
       "<div class='score-card'><div class='big'>" + r.skip + "</div><div class='lbl'>Skipped</div></div>" +
       "<div class='score-card'><div class='big'>" + (Math.round(r.neg * 100) / 100) + "</div><div class='lbl'>Negative marks</div></div>" +
       "<div class='score-card'><div class='big'>" + (r.timeMs ? fmtClock(r.timeMs) : "n/a") + "</div><div class='lbl'>Time used</div></div>" +
+      "<div class='score-card'><div class='big'>" + (r.timeMs && r.att ? fmtDur(r.timeMs / r.att) : "—") + "</div><div class='lbl'>Avg / attempted</div></div>" +
       "</div>";
     var rows = S.sections.map(function (s) {
       var d = r.sec[s.id];
@@ -785,6 +809,13 @@ var S = {
   /* ---------- REVIEW ---------- */
   function renderReview() {
     var html = "";
+    /* jump palette — status-colored numbered chips, click to scroll */
+    html += '<div class="rev-palette" role="navigation" aria-label="Jump to question">' +
+      S.paper.map(function (q, i) {
+        var r = S.results.per[i];
+        var cls = r.excluded ? " excl" : r.res === "cor" ? " cor" : r.res === "wro" ? " wro" : " skip";
+        return '<button class="rj' + cls + '" data-jump="' + i + '">' + (i + 1) + "</button>";
+      }).join("") + "</div>";
     var counts = { all: 0, cor: 0, wro: 0, skip: 0 };
     S.results.per.forEach(function (r) { counts[r.res]++; counts.all++; });
     var tabs = [["all", "All"], ["cor", "Correct"], ["wro", "Wrong"], ["skip", "Skipped"]];
@@ -798,7 +829,7 @@ var S = {
       var verdict = r.excluded ? "Not counted (outside best-60)" :
         r.res === "cor" ? "Correct ✓ (+" + q.marks + ")" :
           r.res === "wro" ? "Incorrect ✗ (" + (Math.round(r.score * 100) / 100) + ")" : "Not attempted";
-      html += "<div class='rev-item'><div class='rq'><span class='chip'>Q" + (i + 1) + " · " + esc(q.sectionName) + "</span><span class='chip'>" + q.marks + "m " + typeLabel(q.type) + "</span>" + (q.src ? '<span class="chip">' + esc(q.src) + "</span>" : "") + '<span class="chip">' + fmtDur(a.timeSpent) + "</span> " + esc(q.q) + "</div>";
+      html += "<div class='rev-item' id='rev-" + i + "'><div class='rq'><span class='chip'>Q" + (i + 1) + " · " + esc(q.sectionName) + "</span><span class='chip'>" + q.marks + "m " + typeLabel(q.type) + "</span>" + (q.src ? '<span class="chip">' + esc(q.src) + "</span>" : "") + '<span class="chip">' + fmtDur(a.timeSpent) + "</span> " + esc(q.q) + "</div>";
       if (q.type !== "nat") {
         ["a", "b", "c", "d"].forEach(function (k) {
           if (!q.options || q.options[k] === undefined) return;
@@ -832,6 +863,14 @@ var S = {
       localStorage.setItem("gct.history.v1", JSON.stringify(h.slice(0, 30)));
     } catch (e) { }
   }
+  function lastAttempt(code) {
+    try {
+      var h = JSON.parse(localStorage.getItem("gct.history.v1") || "[]");
+      var mine = h.filter(function (x) { return x.code === code; });
+      if (!mine.length) return null;
+      return { n: mine.length, pct: mine[0].pct, date: mine[0].date.slice(0, 10) };
+    } catch (e) { return null; }
+  }
   function renderHistory() {
     var h = [];
     try { h = JSON.parse(localStorage.getItem("gct.history.v1") || "[]"); } catch (e) { }
@@ -857,6 +896,16 @@ var S = {
   /* ---------- WIRING ---------- */
   function wire() {
     document.addEventListener("click", function (e) {
+      var j = e.target.closest("[data-jump]");
+      if (j) {
+        var el = document.getElementById("rev-" + j.dataset.jump);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "start" });
+          el.classList.add("flash");
+          setTimeout(function () { el.classList.remove("flash"); }, 1600);
+        }
+        return;
+      }
       var f = e.target.closest("[data-f]");
       if (f) { S.reviewFilter = f.dataset.f; renderReview(); return; }
       var t = e.target.closest("[data-go]");
@@ -912,6 +961,7 @@ var S = {
       if (!p.classList.contains("hidden")) p.focus();
     };
     $("scratch-pad").addEventListener("input", function () { scratchSave(this.value); });
+    applyFontSize(loadFontSize());
     renderHome();
   }
   /* Android back-stack hook (consumed by the APK wrapper's hardware back button) */
