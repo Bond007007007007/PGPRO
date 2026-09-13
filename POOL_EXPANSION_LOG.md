@@ -72,3 +72,15 @@ Window: ~4-6 h · full autonomy granted (free public web only, predicted Qs tagg
 - Keyless CLI/skills also registered via firecrawl-cli; `--browser` skipped (Termux), `--status` shows Authenticated.
 - Source note: letstalkacademy.in DNS fails on Firecrawl servers too ("could not be resolved"); letstalkacademy.com resolves. live search on the CUET-2023 query returned 0 hits → content not indexable, not worth inventing.
 - Honest bank state: bank-pyq-cuet-2023.js exists with 9 verified questions (7 collegedunia + 2 letstalk inline keys Q74→(3), Q75→(3)). 310 solved_2023 HTML posts on disk; only 4 carry literal inline `Correct answer: (N)`; 99 have some answer text. Gaps logged honestly, no fabricated keys.
+
+## Cycle 1 — IndiaBIX practice mega-haul (non-PYQ source) — 2026-09-13
+- **Source:** IndiaBIX.com (curl-friendly, no auth) — biochemistry 984 · biotechnology 674 · microbiology 1439 · biochemical-engineering 356 · aptitude (GA) 689 · verbal (GA) 1200 = 5,342 scraped Qs.
+- **Spider:** `/tmp/opencode/pool/spider_indiabix.py` — parses `bix-td-qtxt` stem, `bix-td-option-val` options A–D, `jq-hdnakq` hidden answer input, paginated via `/sub/topic/{sec}{pg}` pattern. Files: `/tmp/opencode/pool/indiabix_*.jsonl`.
+- **Merge/convert:** `/tmp/opencode/pool/merge_convert.py` → internal dedup (4,749 unique after 300 stem-dups removed, mostly verbal), cross-bank signature dedup (stem+options+answer vs existing banks via `/tmp/opencode/pool/extract_stems.js`) → 5 new banks: `bank-practice-indiabix-{biochem,biotech,micro,biochemeng,ga}.js`.
+- **Routing:** biochem → xl BIOCHEM + jam A + gatb B + cuet D; micro → xl MICRO + jam A + gatb B + cuet D; biotech/biochemeng → jam A + gatb B + cuet D (no XL); aptitude+verbal → xl GA + gatb A. Marks: cuet D=4, gatb=1, jam/xl alternate 2-mark every 3rd.
+- **New totals:** xl 673→4,945 · jam 240→3,634 · gatb 701→5,449 · cuet 258→3,652 = **17,680 Q / 31,801 marks**. All compose buckets OK.
+- **Dedup sweep** (`/tmp/opencode/pool/dedup_sweep.js`, stem+options+answer signature): **0 true duplicates**. Note: PYQ banks legitimately reuse stems with DIFFERENT options across years (GATE did repeat stems) — those are NOT dupes.
+- **Known pre-existing issue (not from this cycle):** `bank-pyq-xl-2022.js` (27 MSQs) and `bank-pyq-xl-2023.js` (27 MSQs) store multi-answer `correct` as `["a, d"]` comma-joined string — breaks app's msq grading (app joins correct as `"a, d"` vs user `"ad"`). Symmetric-mismatch: these MSQs can never be marked correct. Fix = split to `["a","d"]`. NOT touched (out of cycle scope; PYQ files authored by sibling session).
+- **Verifier:** `/tmp/opencode/verify_pools.js` relaxed to accept 2-4 options (IndiaBIX has some legit 3-option Qs) + new check: correct key must exist in options.
+
+## Cycle 2 (next) — Examveda + BiologyExams4U (both HTTP 200), then prepp/testbook/adda247/biotecnika if alive
