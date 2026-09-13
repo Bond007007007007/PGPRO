@@ -530,6 +530,7 @@ var S = {
     } else {
       html += '<div class="nat-input"><input id="nat-in" type="text" inputmode="decimal" value="' + esc(a.sel || "") + '" placeholder="Type your numerical answer">' +
         (q.unit ? '<span class="unit">' + esc(q.unit) + "</span>" : "") + "</div>";
+html += natKeypadHtml("nat-in");
       html += '<p class="coverage" style="font-size:12px">Numerical answer type — type a number (e.g. 42.5 or 1.2e-3). No negative marking.</p>';
     }
     if (S.practice && hasAns(a)) html += practiceFb(q, a);
@@ -559,10 +560,48 @@ var S = {
         a.visited = true;
         renderPalette(); renderQuestion();
       };
+      wireNatKeypad(nat, function () { goto(S.idx + 1); });
     }
     $("btn-clear").disabled = !hasAns(a);
     $("btn-mark").innerHTML = a.marked ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Marked' : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.5 6 .9-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6L3.4 9.6l6-.9L12 3.2z"/></svg> Mark for Review';
     typeset(area);
+  }
+
+  /* GATE-style on-screen numeric keypad for NAT answers (real CBT: mouse-driven, no physical keyboard) */
+  function natKeypadHtml(inputId) {
+    var rows = [
+      ["7", "8", "9", "⌫"],
+      ["4", "5", "6", "C"],
+      ["1", "2", "3", "−"],
+      ["0", ".", "⏎", ""]
+    ];
+    var html = '<div class="nat-keypad" role="group" aria-label="Numeric keypad" data-for="' + inputId + '">';
+    rows.forEach(function (row) {
+      row.forEach(function (k) {
+        if (!k) return;
+        var cls = k === "⏎" ? " nk-go" : (k === "⌫" || k === "C" || k === "−") ? " nk-fn" : "";
+        html += '<button type="button" class="nk' + cls + '" data-nk="' + k + '">' + k + "</button>";
+      });
+    });
+    return html + "</div>";
+  }
+  function wireNatKeypad(inputEl, onEnter) {
+    if (!inputEl) return;
+    document.querySelectorAll('.nat-keypad[data-for="' + inputEl.id + '"]').forEach(function (kp) {
+      kp.querySelectorAll(".nk").forEach(function (b) {
+        b.onclick = function () {
+          var k = b.dataset.nk;
+          if (k === "⏎") { if (onEnter) onEnter(); return; }
+          var v = inputEl.value;
+          if (k === "⌫") v = v.slice(0, -1);
+          else if (k === "C") v = "";
+          else if (k === "−") v = v.indexOf("-") < 0 ? "-" + v : v.replace("-", "");
+          else v += k;
+          inputEl.value = v;
+          inputEl.dispatchEvent(new Event("input"));
+        };
+      });
+    });
   }
 
   /* ---------- DRILL MODE (unlimited) ---------- */
@@ -657,6 +696,7 @@ var S = {
     } else {
       html += '<div class="nat-input"><input id="drill-nat" type="text" inputmode="decimal" value="' + esc(a.sel || "") + '" placeholder="Type your numerical answer"' + (a.locked ? " disabled" : "") + ">" +
         (q.unit ? '<span class="unit">' + esc(q.unit) + "</span>" : "") + "</div>";
+      if (!a.locked) html += natKeypadHtml("drill-nat");
       if (!a.locked) html += '<div style="margin-top:12px"><button class="btn" id="drill-check">Check answer</button></div>';
     }
     /* feedback after locking */
@@ -688,12 +728,18 @@ var S = {
         };
       });
       var natIn = $("drill-nat");
-      if (natIn) natIn.oninput = function () {
-        var v = natIn.value.replace(/[^0-9.eE+\-]/g, "");
-        if (natIn.value !== v) natIn.value = v;
-        a.sel = v.trim() === "" ? null : v.trim();
-        renderDrill();
-      };
+      if (natIn) {
+        natIn.oninput = function () {
+          var v = natIn.value.replace(/[^0-9.eE+\-]/g, "");
+          if (natIn.value !== v) natIn.value = v;
+          a.sel = v.trim() === "" ? null : v.trim();
+          renderDrill();
+        };
+        wireNatKeypad(natIn, function () {
+          var chk = $("drill-check");
+          if (chk) { a.locked = true; updateDrillStats(); renderDrill(); }
+        });
+      }
       var chk = $("drill-check");
       if (chk) chk.onclick = function () { a.locked = true; updateDrillStats(); renderDrill(); };
     } else {
@@ -771,7 +817,20 @@ var S = {
     });
     var allMs = S.exam.durationMin * 60000;
     var timeMs = S.practice ? 0 : Math.max(0, Math.min(allMs, Date.now() - (S.endAt - allMs)));
-    return { per: per, sec: sec, total: total, max: max, att: att, cor: cor, wro: wro, skip: skip, neg: neg, timeMs: timeMs, pct: max ? (total / max) * 100 : 0 };
+    var topicMap = {};
+    per.forEach(function (r, i) {
+      var t = S.paper[i].topic;
+      if (!t) return;
+      var d = topicMap[t] || (topicMap[t] = { name: t, att: 0, cor: 0, wro: 0, acc: 0, max: 0, score: 0 });
+      if (r.excluded) return;
+      d.max += r.marks; d.score += r.score;
+      if (r.res === "cor") { d.cor++; d.att++; }
+      else if (r.res === "wro") { d.wro++; d.att++; }
+    });
+    Object.keys(topicMap).forEach(function (k) { topicMap[k].acc = topicMap[k].att ? Math.round(100 * topicMap[k].cor / topicMap[k].att) : 0; });
+    var topics = Object.keys(topicMap).map(function (k) { return topicMap[k]; });
+    topics.sort(function (a, b) { return a.acc - b.acc || b.att - a.att; });
+    return { per: per, sec: sec, total: total, max: max, att: att, cor: cor, wro: wro, skip: skip, neg: neg, timeMs: timeMs, pct: max ? (total / max) * 100 : 0, topics: topics };
   }
 
   /* ---------- RESULTS ---------- */
@@ -852,6 +911,8 @@ var S = {
     }).join("");
     $("result-sections").innerHTML =
       "<table class='sec-table'><thead><tr><th>Section</th><th>Score</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Time</th></tr></thead><tbody>" + rows + balance + "</tbody></table>" +
+      weakAreasHtml(r) +
+      slowestHtml() +
       (ex.bestN ? '<p class="coverage ok">GAT-B Section B: your best ' + ex.bestN.n + " answered questions were auto-selected for scoring.</p>" : "") +
       (S.switches > 0 ? '<p class="coverage bad">App was backgrounded ' + S.switches + ' time' + (S.switches > 1 ? "s" : "") + ' during the exam — recorded like a proctored session.</p>' : "");
     $("btn-review").onclick = renderReview;
@@ -866,6 +927,35 @@ var S = {
       mb.onclick = function () { startMistakeDrill(S.exam.code); };
     }
     typeset($("result-summary"));
+  }
+
+  /* Your weak areas — bottom topics by accuracy, min 2 attempts, top 5 */
+  function weakAreasHtml(r) {
+    var weak = (r.topics || []).filter(function (t) { return t.att >= 2; }).slice(0, 5);
+    if (!weak.length) return "";
+    return '<div class="weak-topics"><h4>Your weak areas</h4>' +
+      weak.map(function (t) {
+        var cls = t.acc < 40 ? " bad" : t.acc < 60 ? " warn" : " ok";
+        var w = Math.max(4, Math.min(100, t.acc));
+        return '<div class="wt-row"><span class="wt-name">' + esc(t.name) + "</span>" +
+          '<span class="wt-bar"><span class="wt-fill' + cls + '" style="width:' + w + '%"></span></span>' +
+          '<span class="wt-pct' + cls + '">' + t.acc + '%</span>' +
+          '<span class="wt-cnt">' + t.cor + '/' + t.att + ' correct</span></div>';
+      }).join("") + "</div>";
+  }
+  /* Slowest questions — top 3 by timeSpent over 90s, with topic */
+  function slowestHtml() {
+    var slow = [];
+    S.ans.forEach(function (a, i) {
+      if ((a.timeSpent || 0) > 90000) slow.push({ i: i, t: a.timeSpent, topic: S.paper[i].topic || "" });
+    });
+    slow.sort(function (x, y) { return y.t - x.t; });
+    slow = slow.slice(0, 3);
+    if (!slow.length) return "";
+    return '<div class="slowest"><h4>Slowest questions</h4>' +
+      slow.map(function (s) {
+        return '<div class="sl-row"><span class="sl-q">Q' + (s.i + 1) + (s.topic ? " · " + esc(s.topic) : "") + '</span><span class="sl-t">' + fmtDur(s.t) + '</span></div>';
+      }).join("") + "</div>";
   }
 
   function shareResult() {

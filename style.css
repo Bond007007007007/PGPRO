@@ -702,6 +702,37 @@ body.fs-xl .q-text { font-size: var(--fs-xl); }
 .sec-table tbody tr { transition: background-color var(--dur-fast) var(--ease-out); }
 .sec-table tbody tr:hover { background: var(--panel-3); }
 .result-actions { display: flex; gap: var(--sp-3); flex-wrap: wrap; margin-top: var(--sp-4); }
+/* NAT on-screen numeric keypad (GATE CBT style) */
+.nat-keypad { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--sp-2); margin-top: var(--sp-3); max-width: 320px; }
+.nat-keypad .nk {
+  background: var(--panel-2); border: 1px solid var(--line); color: var(--text);
+  border-radius: var(--r-sm); padding: 10px 0; font-size: var(--fs-md);
+  font-variant-numeric: tabular-nums; cursor: pointer; user-select: none;
+  transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-spring);
+}
+.nat-keypad .nk:hover { background: var(--accent); color: var(--on-accent); }
+.nat-keypad .nk:active { transform: scale(.94); }
+.nat-keypad .nk-fn { color: var(--amber); }
+.nat-keypad .nk-go { background: var(--accent); color: var(--on-accent); border-color: var(--accent); box-shadow: var(--glow-accent); }
+.nat-keypad .nk-go:hover { background: var(--accent-2); color: var(--on-accent); }
+/* Your weak areas — topic accuracy bars */
+.weak-topics, .slowest { margin-top: var(--sp-4); padding: var(--sp-4); background: var(--panel); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--sh-sm); }
+.weak-topics h4, .slowest h4 { margin: 0 0 var(--sp-3); font-size: var(--fs-sm); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.wt-row { display: grid; grid-template-columns: minmax(0, 1.6fr) 1fr 44px auto; gap: var(--sp-3); align-items: center; padding: var(--sp-2) 0; font-size: var(--fs-sm); }
+.wt-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text); }
+.wt-bar { height: 8px; background: var(--panel-3); border-radius: var(--r-pill); overflow: hidden; }
+.wt-fill { display: block; height: 100%; border-radius: var(--r-pill); background: var(--green); }
+.wt-fill.bad { background: var(--red); }
+.wt-fill.warn { background: var(--amber); }
+.wt-pct { font-variant-numeric: tabular-nums; text-align: right; font-weight: 600; }
+.wt-pct.bad { color: var(--red); }
+.wt-pct.warn { color: var(--amber); }
+.wt-pct.ok { color: var(--green); }
+.wt-cnt { color: var(--muted); font-size: var(--fs-2xs); white-space: nowrap; }
+/* Slowest questions */
+.sl-row { display: flex; justify-content: space-between; align-items: center; gap: var(--sp-3); padding: var(--sp-2) 0; font-size: var(--fs-sm); color: var(--text); }
+.sl-q { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sl-t { font-variant-numeric: tabular-nums; color: var(--amber); font-weight: 600; white-space: nowrap; }
 #btn-home { background: transparent; color: var(--accent); border: 1px solid var(--accent-ring); box-shadow: none; }
 #btn-home:hover { background: var(--accent-tint); border-color: var(--accent); }
 #btn-home:active { box-shadow: none; background: rgba(56, 189, 248, .16); }

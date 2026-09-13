@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pgpro.gatecbt">
 
-    <!-- 100% offline exam app: no INTERNET permission needed (cleartext also disabled). -->
+    <!-- Exam content works offline; INTERNET is enabled for AdMob rewarded ads (HTTPS only, cleartext disabled). -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:label="GATE-CBT"
@@ -21,6 +24,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- AdMob rewarded ads (TEST APPLICATION_ID; swap for your AdMob app id in production) -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <!-- No Gradle/AAR manifest merge: AdActivity MUST be declared manually for rewarded ads to show -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
     </application>
 
 </manifest>

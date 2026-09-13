@@ -40,4 +40,28 @@
   document.addEventListener("touchstart", function (e) {
     if (e.touches.length > 1) e.preventDefault();
   }, { passive: false });
+
+  /* ---------- REWARDED-AD UNLOCK GATE (contract between app.js and the native wrapper) ---------- */
+  window.CBTAdsConfig = {
+    enabled: true,
+    fallbackAllowed: true,
+    exemptDrill: true
+  };
+  window.CBTAds = {
+    available: !!(window.CBTBridge && typeof window.CBTBridge.showRewardedAd === "function"),
+    _pending: false,
+    _cb: null,
+    show: function (cb) {
+      if (!this.available) { cb(false); return; }
+      if (this._pending) return;
+      this._pending = true;
+      this._cb = cb;
+      window.CBTBridge.showRewardedAd();
+    },
+    _onResult: function (ok) {
+      this._pending = false;
+      var cb = this._cb; this._cb = null;
+      if (cb) cb(ok === true);
+    }
+  };
 })();

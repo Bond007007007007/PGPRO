@@ -32,3 +32,4 @@ secrets/
 *api_key*
 apk/keystore/
 apk/.build/
+vendor/ads/

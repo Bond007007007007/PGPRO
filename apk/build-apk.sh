@@ -48,6 +48,13 @@ done
 command -v qemu-x86_64 >/dev/null || { echo "MISSING: qemu-x86_64" >&2; exit 1; }
 command -v javac >/dev/null || { echo "MISSING: javac (openjdk)" >&2; exit 1; }
 
+# AdMob SDK classpath (absolute jar paths, one per line)
+ADS_CP="$REPO/vendor/ads/classpath.txt"
+if [ ! -f "$ADS_CP" ]; then
+  echo "Missing AdMob SDK — run: python3 $ROOT/download-ads-sdk.py" >&2
+  exit 1
+fi
+
 echo "==> clean"
 rm -rf "$WORK" "$(dirname "$OUT_APK")"
 mkdir -p "$WORK"/{res,gen,classes,dex,assets} "$(dirname "$OUT_APK")" "$ROOT/keystore"
@@ -79,13 +86,14 @@ run64 "$AAPT2" link \
 
 echo "==> java (javac)"
 PKG_PATH="${PKG//./\/}"
-javac --release 17 -encoding UTF-8 -cp "$ANDROID_JAR" -d "$WORK/classes" \
+javac --release 17 -encoding UTF-8 -cp "$ANDROID_JAR:$(paste -sd: "$ADS_CP")" -d "$WORK/classes" \
   "$WORK/gen/$PKG_PATH/R.java" "$ROOT/src/$PKG_PATH/MainActivity.java"
 
 echo "==> dex (d8)"
 find "$WORK/classes" -name "*.class" > "$WORK/classes.list"
+cat "$WORK/classes.list" "$ADS_CP" > "$WORK/d8-inputs.list"
 "$D8" --release --lib "$ANDROID_JAR" --min-api 24 --output "$WORK/dex" \
-  @"$WORK/classes.list"
+  @"$WORK/d8-inputs.list"
 
 echo "==> assets (web app bundle)"
 cp "$REPO"/index.html "$REPO"/style.css "$REPO"/app.js "$REPO"/calc.js \
