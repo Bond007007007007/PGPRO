@@ -842,6 +842,33 @@ body.fs-xl .q-text { font-size: var(--fs-xl); }
 .modal-actions { display: flex; gap: var(--sp-3); justify-content: flex-end; margin-top: var(--sp-4); }
 .modal-actions .btn { flex: 1; }
 
+/* rewarded-ad unlock gate modal (app.js showAdGateModal — reuses .modal-overlay/.modal-card) */
+.ad-gate-head { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--sp-3); margin-bottom: var(--sp-1); }
+.ad-gate-head h3 { margin: 0; }
+.ad-gate-close {
+  background: transparent; border: 0; color: var(--muted);
+  font-size: var(--fs-lg); line-height: 1; cursor: pointer;
+  padding: 2px 8px; border-radius: var(--r-sm);
+  transition: color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
+}
+.ad-gate-close:hover { color: var(--text); background: var(--panel-2); }
+.ad-gate-actions { display: flex; flex-direction: column; gap: var(--sp-3); margin-top: var(--sp-5); }
+.ad-gate-watch { width: 100%; }
+.ad-gate-error {
+  color: var(--amber); font-size: var(--fs-sm); font-weight: 600; line-height: 1.5;
+  background: var(--amber-tint); border: 1px solid rgba(245, 158, 11, .4);
+  border-radius: var(--r-md); padding: var(--sp-3) var(--sp-4);
+}
+.ad-gate-skip {
+  display: block; width: 100%; margin-top: var(--sp-3);
+  background: transparent; color: var(--muted);
+  border: 1px solid var(--line); border-radius: var(--r-md);
+  padding: var(--sp-2) var(--sp-3); min-height: 40px;
+  font-size: var(--fs-xs); font-weight: 600; cursor: pointer;
+  transition: color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
+}
+.ad-gate-skip:hover { color: var(--text); border-color: var(--accent); background: var(--accent-tint); }
+
 /* ============ Android / WebView polish (MUST survive) ============ */
 html { -webkit-text-size-adjust: 100%; }
 body { padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }

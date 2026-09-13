@@ -362,7 +362,54 @@ var S = {
       alert("⚠ Question pool is low in some slots:\n" + built.short.join("\n") +
         "\n\nStarting with what's available. Add more questions to the pool (scrape more PYQs) to get a full-length paper every time.");
     }
-    showInstructions();
+    /* Rewarded-ad unlock gate (APK-only): one ad per attempt, drill exempt, inert in a plain browser. */
+    var exempt = window.CBTAdsConfig && window.CBTAdsConfig.exemptDrill && S.mode === "unlimited";
+    var gated = !exempt && window.CBTAds && window.CBTAds.available && window.CBTAdsConfig && window.CBTAdsConfig.enabled !== false;
+    if (!gated) { showInstructions(); return; }
+    showAdGateModal(showInstructions);
+  }
+
+  /* ---------- AD GATE (rewarded unlock; native wrapper only, inert in a browser) ---------- */
+  function showAdGateModal(proceedFn) {
+    var m = document.createElement("div");
+    m.className = "modal-overlay";
+    m.innerHTML = '<div class="modal-card ad-gate" role="dialog" aria-modal="true" aria-label="Unlock this exam">' +
+      '<div class="ad-gate-head"><h3>Unlock this exam</h3>' +
+      '<button class="ad-gate-close" id="ad-gate-close" aria-label="Close">✕</button></div>' +
+      '<p class="coverage">Watch a single short ad to unlock this paper — it keeps the app free.</p>' +
+      '<div class="ad-gate-actions">' +
+      '<button class="btn ad-gate-watch" id="ad-gate-watch">Watch Ad &amp; Unlock</button>' +
+      '<div class="ad-gate-error hidden" id="ad-gate-error">Ad didn&#39;t complete. Your exam is still locked.</div>' +
+      "</div></div>";
+    document.body.appendChild(m);
+    S.modalOpen = true;
+    var watch = $("ad-gate-watch"), errEl = $("ad-gate-error");
+    function close() {
+      S.modalOpen = false;
+      m.remove();
+      document.removeEventListener("keydown", esc);
+    }
+    function esc(e) { if (e.key === "Escape") close(); }
+    document.addEventListener("keydown", esc);
+    m.addEventListener("mousedown", function (e) { if (e.target === m) close(); });
+    $("ad-gate-close").onclick = close;
+    watch.onclick = function () {
+      watch.disabled = true;                              // anti double-tap: one show() per tap
+      watch.textContent = "Starting ad…";
+      window.CBTAds.show(function (ok) {
+        if (ok) { close(); proceedFn(); return; }
+        watch.disabled = false;
+        watch.textContent = "Retry Ad";
+        errEl.classList.remove("hidden");
+        if (!(window.CBTAdsConfig && window.CBTAdsConfig.fallbackAllowed === false)) {
+          var skip = document.createElement("button");
+          skip.className = "ad-gate-skip";
+          skip.textContent = "Start exam anyway (no ad)";
+          skip.onclick = function () { close(); proceedFn(); };
+          errEl.appendChild(skip);
+        }
+      });
+    };
   }
 
   /* ---------- INSTRUCTIONS GATE (pre-exam, real-CBT style) ---------- */
