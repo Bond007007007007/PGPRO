@@ -18,7 +18,7 @@ var S = {
     exam: null, sections: [], paper: [], ans: [],
     idx: 0, endAt: 0, timerId: null, practice: false,
     submitted: false, results: null, paletteFilter: "all", reviewFilter: "all", selOptions: [], modalOpen: false,
-    warned5: false, switches: 0, bannerTimer: null, palStatus: "all"
+    warned5: false, switches: 0, jumps: 0, bannerTimer: null, palStatus: "all"
   };
   var calc = null;
   var qStartAt = 0;
@@ -357,6 +357,7 @@ var S = {
       built = buildPaper();
       S.paper = built.paper;
     }
+    if (S.shuffleReattempt) { S.paper = shuffleAll(S.paper); S.shuffleReattempt = false; }
     if (!S.paper.length) { alert("Question pool is empty. Add questions into the pool files (bank-*.js) first."); return; }
     if (built.short.length) {
       alert("⚠ Question pool is low in some slots:\n" + built.short.join("\n") +
@@ -438,7 +439,7 @@ var S = {
     S.practice = S.mode !== "fixed" && $("cfg-practice") && $("cfg-practice").checked;
     S.ans = S.paper.map(function () { return { sel: null, visited: false, marked: false, timeSpent: 0 }; });
     S.idx = 0; S.submitted = false; S.results = null; S.paletteFilter = "all"; S.palStatus = "all";
-    S.warned5 = false; S.switches = 0;
+    S.warned5 = false; S.switches = 0; S.jumps = 0; S.shuffleReattempt = false;
     qStartAt = Date.now();
     clearInterval(S.timerId);
     if (!S.practice) { S.endAt = Date.now() + ex.durationMin * 60000; $("timer").textContent = fmtClock(ex.durationMin * 60000); startTimer(); }
@@ -535,7 +536,7 @@ var S = {
       var b = document.createElement("button");
       b.textContent = String(i + 1);
       b.className = palState(i) + (i === S.idx ? " current" : "");
-      b.onclick = function () { settleQTime(); S.idx = i; renderPalette(); renderQuestion(); };
+      b.onclick = function () { if (Math.abs(i - S.idx) > 1) S.jumps++; settleQTime(); S.idx = i; renderPalette(); renderQuestion(); };
       grid.appendChild(b);
     });
     updateProgress();
@@ -933,6 +934,22 @@ html += natKeypadHtml("nat-in");
     var r = S.results, ex = S.exam;
     $("result-title").textContent = ex.name + (S.mode === "fixed" ? " — Mock Test " + S.fixedSet : "") + " — Result";
     var pctC = "score-card" + (r.pct >= 60 ? " good" : r.pct < 35 ? " bad" : "");
+    var pbLine = "";
+    try {
+      var hist = JSON.parse(localStorage.getItem("gct.history.v1") || "[]");
+      var prior = hist.slice(1).filter(function (x) { return x.code === ex.code; });
+      if (prior.length) {
+        var best = Math.max.apply(null, prior.map(function (x) { return x.pct; }));
+        var isBest = r.pct >= best - 0.0001;
+        var last = prior[0].pct;
+        var delta = Math.round((r.pct - last) * 10) / 10;
+        var txt = isBest
+          ? "New personal best — " + Math.round(r.pct * 10) / 10 + "% (previous " + Math.round(best * 10) / 10 + "%)"
+          : "Personal best " + Math.round(best * 10) / 10 + "% — " + Math.round((best - r.pct) * 10) / 10 + " pts behind";
+        txt += delta >= 0 ? " ▲ " + delta + " vs last" : " ▼ " + (-delta) + " vs last";
+        pbLine = '<p class="coverage"><span class="' + (isBest ? "ok" : "bad") + '">' + txt + "</span></p>";
+      }
+    } catch (e) { }
     $("result-summary").innerHTML =
       '<div class="score-rows">' +
       '<div class="' + pctC + '"><div class="big">' + (Math.round(r.total * 100) / 100) + " / " + r.max + "</div><div class='lbl'>Total marks</div></div>" +
@@ -944,7 +961,7 @@ html += natKeypadHtml("nat-in");
       "<div class='score-card'><div class='big'>" + (Math.round(r.neg * 100) / 100) + "</div><div class='lbl'>Negative marks</div></div>" +
       "<div class='score-card'><div class='big'>" + (r.timeMs ? fmtClock(r.timeMs) : "n/a") + "</div><div class='lbl'>Time used</div></div>" +
       "<div class='score-card'><div class='big'>" + (r.timeMs && r.att ? fmtDur(r.timeMs / r.att) : "—") + "</div><div class='lbl'>Avg / attempted</div></div>" +
-      "</div>";
+      "</div>" + pbLine;
     var rows = S.sections.map(function (s) {
       var d = r.sec[s.id];
       return "<tr><td>" + esc(d.name) + "</td><td>" + (Math.round(d.score * 100) / 100) + " / " + d.max + "</td><td>" + d.att + "</td><td>" + d.cor + "</td><td>" + d.wro + "</td><td>" + d.skip + (d.excl ? " (" + d.excl + " not counted)" : "") + "</td><td>" + fmtDur(d.timeMs) + "</td></tr>";
@@ -970,6 +987,16 @@ html += natKeypadHtml("nat-in");
       (S.switches > 0 ? '<p class="coverage bad">App was backgrounded ' + S.switches + ' time' + (S.switches > 1 ? "s" : "") + ' during the exam — recorded like a proctored session.</p>' : "");
     $("btn-review").onclick = renderReview;
     $("btn-retry").onclick = function () { startExam(); };
+    var rs = $("btn-shuffle");
+    if (!rs) {
+      rs = document.createElement("button");
+      rs.className = "btn";
+      rs.id = "btn-shuffle";
+      rs.innerHTML = "<span>Reattempt (shuffled)</span>";
+      var br = $("btn-retry");
+      br.parentNode.insertBefore(rs, br.nextSibling);
+    }
+    rs.onclick = function () { S.shuffleReattempt = true; startExam(); };
     $("btn-home").onclick = function () { show("screen-home"); renderHome(); };
     $("btn-share").onclick = shareResult;
     var mb = $("btn-mistakes");
@@ -1058,6 +1085,9 @@ html += natKeypadHtml("nat-in");
     else if (c.was) take = "<b>" + c.was + "</b> wasted attempt" + (c.was > 1 ? "s" : "") + " — recheck flagged questions before submitting.";
     else if (c.oc) take = "You knew <b>" + c.oc + "</b> question" + (c.oc > 1 ? "s" : "") + " but took too long — practice speed.";
     else if (c.una) take = "<b>" + c.una + "</b> unattempted — every blank is an automatic zero; guess if unsure.";
+    if (S.jumps > Math.max(4, Math.round(S.paper.length * 0.2))) {
+      take = "You jumped around the paper <b>" + S.jumps + "</b> times — answer in order and use the palette to return, not to roam." + (take ? " " + take : "");
+    }
     return '<div class="aq-card"><h4>Attempt behavior</h4>' + rows + (take ? '<p class="aq-take">' + take + "</p>" : "") + "</div>";
   }
 
