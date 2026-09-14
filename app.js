@@ -440,6 +440,7 @@ var S = {
     S.ans = S.paper.map(function () { return { sel: null, visited: false, marked: false, timeSpent: 0 }; });
     S.idx = 0; S.submitted = false; S.results = null; S.paletteFilter = "all"; S.palStatus = "all";
     S.warned5 = false; S.switches = 0; S.jumps = 0; S.shuffleReattempt = false;
+    S.changes = 0; S.firstLookMs = 0; S.examStartAt = Date.now();   /* first-look + answer-change tracking, reset per attempt */
     qStartAt = Date.now();
     clearInterval(S.timerId);
     if (!S.practice) { S.endAt = Date.now() + ex.durationMin * 60000; $("timer").textContent = fmtClock(ex.durationMin * 60000); startTimer(); }
@@ -591,6 +592,7 @@ html += natKeypadHtml("nat-in");
     opts.forEach(function (el) {
       el.onclick = function () {
         var k = el.dataset.key;
+        var prev = (a.sel || []).slice().sort().join(",");
         if (q.type === "mcq") a.sel = [k];
         else {
           var arr = (a.sel || []).slice();
@@ -598,6 +600,8 @@ html += natKeypadHtml("nat-in");
           if (ix >= 0) arr.splice(ix, 1); else arr.push(k);
           a.sel = arr;
         }
+        if (!S.firstLookMs && hasAns(a)) S.firstLookMs = Date.now() - S.examStartAt;  /* first-look: ms from paper start to first answer */
+        if (prev && prev !== a.sel.slice().sort().join(",")) S.changes++;             /* answer-change: replaced a previous selection */
         a.visited = true;
         renderPalette(); renderQuestion();
       };
@@ -609,6 +613,7 @@ html += natKeypadHtml("nat-in");
         var v = nat.value.replace(/[^0-9.eE+\-]/g, "");
         if (nat.value !== v) nat.value = v;
         a.sel = v.trim() === "" ? null : v.trim();
+        if (!S.firstLookMs && hasAns(a)) S.firstLookMs = Date.now() - S.examStartAt;  /* first-look also captured on typed NAT answers */
         a.visited = true;
         renderPalette(); renderQuestion();
       };
@@ -806,6 +811,7 @@ html += natKeypadHtml("nat-in");
     var pct = tot ? Math.round(100 * d.cor / tot) : 0;
     var cov = d.slow ? d.seen + " slow question" + (d.seen === 1 ? "" : "s") + " replayed for speed" :
       d.mistakes ? d.seen + " previously missed question" + (d.seen === 1 ? "" : "s") + " replayed" :
+      d.topic ? d.seen + " weak-topic question" + (d.seen === 1 ? "" : "s") + " replayed from your weak areas" :
       d.seen + " questions · " + (d.cycle + 1) + " pass" + (d.cycle ? "es" : "") + " through the pool";
     area.innerHTML = '<div class="drill-end"><h3>' + (d.title || "Drill Complete") + "</h3>" +
       '<div class="score-rows">' +
@@ -930,6 +936,19 @@ html += natKeypadHtml("nat-in");
     renderResults();
     show("screen-result");
   }
+  /* First-look + answer-change pacing notes (Embibe-style) — shown only when tracking recorded something */
+  function firstLookHtml() {
+    if (!S.firstLookMs) return "";
+    var adv = S.firstLookMs < 30000 ? " — you started answering almost immediately. A quick scan of the paper first can improve pacing."
+      : S.firstLookMs > 180000 ? " — a long first look. Use the survey to plan section order, then start."
+      : "";
+    return '<p class="coverage">First look: <b>' + fmtDur(S.firstLookMs) + "</b> before your first answer" + adv + "</p>";
+  }
+  function changesHtml() {
+    if (!S.changes) return "";
+    var adv = S.changes >= 3 ? " — frequent changes suggest second-guessing; first instincts are often right under time pressure." : ".";
+    return '<p class="coverage">You changed <b>' + S.changes + "</b> answer" + (S.changes > 1 ? "s" : "") + " during the exam" + adv + "</p>";
+  }
   function renderResults() {
     var r = S.results, ex = S.exam;
     $("result-title").textContent = ex.name + (S.mode === "fixed" ? " — Mock Test " + S.fixedSet : "") + " — Result";
@@ -981,10 +1000,19 @@ html += natKeypadHtml("nat-in");
     $("result-sections").innerHTML =
       "<table class='sec-table'><thead><tr><th>Section</th><th>Score</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Time</th></tr></thead><tbody>" + rows + balance + "</tbody></table>" +
       attemptQualityHtml(r) +
+      firstLookHtml() +
+      changesHtml() +
       weakAreasHtml(r) +
       slowestHtml() +
       (ex.bestN ? '<p class="coverage ok">GAT-B Section B: your best ' + ex.bestN.n + " answered questions were auto-selected for scoring.</p>" : "") +
       (S.switches > 0 ? '<p class="coverage bad">App was backgrounded ' + S.switches + ' time' + (S.switches > 1 ? "s" : "") + ' during the exam — recorded like a proctored session.</p>' : "");
+    var wt = $("btn-wtopic");
+    if (wt) {
+      wt.onclick = function () {
+        /* topic-filtered drill over the same weak-topic list the card shows */
+        startTopicDrill(S.exam.code, (r.topics || []).filter(function (t) { return t.att >= 2; }).slice(0, 5).map(function (t) { return t.name; }));
+      };
+    }
     $("btn-review").onclick = renderReview;
     $("btn-retry").onclick = function () { startExam(); };
     var rs = $("btn-shuffle");
@@ -1035,7 +1063,8 @@ html += natKeypadHtml("nat-in");
           '<span class="wt-bar"><span class="wt-fill' + cls + '" style="width:' + w + '%"></span></span>' +
           '<span class="wt-pct' + cls + '">' + t.acc + '%</span>' +
           '<span class="wt-cnt">' + t.cor + '/' + t.att + ' correct</span></div>';
-      }).join("") + "</div>";
+      }).join("") +
+      '<button class="btn ghost" id="btn-wtopic">Practice weak topics</button></div>';
   }
   /* Slowest questions — top 3 by timeSpent over 90s, with topic */
   function slowestHtml() {
@@ -1246,6 +1275,23 @@ html += natKeypadHtml("nat-in");
     $("practice-badge").classList.add("hidden");
     document.body.classList.add("drill-mode");
     $("exam-name").textContent = S.exam.name + " · Slow Replay";
+    nextDrillQ();
+    renderDrill();
+    show("screen-exam");
+  }
+  function startTopicDrill(code, names) {
+    var pool = (BANK[code] || []).filter(function (q) { return q.topic && names.indexOf(q.topic) >= 0; });
+    if (pool.length < 3) { showBanner("Not enough questions tagged for these topics in the pool yet — add more to enable weak-topic drills.", "warn"); return; }
+    S.exam = GATE_EXAMS[code];
+    S.sections = resolveSections();
+    S.mode = "unlimited";
+    S.drill = { queue: shuffleAll(pool), idx: 0, seen: 0, cor: 0, wro: 0, skip: 0, cycle: 0, topic: true, title: "Weak-Topic Drill Complete" };
+    S.submitted = false; S.paletteFilter = "all"; S.palStatus = "all";
+    clearInterval(S.timerId);
+    $("timer").textContent = "--:--:--";
+    $("practice-badge").classList.add("hidden");
+    document.body.classList.add("drill-mode");
+    $("exam-name").textContent = S.exam.name + " · Weak-Topic Drill";
     nextDrillQ();
     renderDrill();
     show("screen-exam");
