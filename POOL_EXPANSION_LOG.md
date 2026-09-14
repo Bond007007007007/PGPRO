@@ -120,3 +120,10 @@ Window: ~4-6 h · full autonomy granted (free public web only, predicted Qs tagg
 - **Baseline unblock:** `existing_stems.json` rebuilt to 22,570 signatures incl. bio4u — future conversions must `--exclude '^bank-practice-bio4u-'` when re-running convert_bio4u.
 
 ## Cycle 2c (next) — prepp/testbook/adda247/biotecnika/kopykitab alive probes
+
+## SHIPPED — v1.3.0 (2026-09-14) — collection paused per user
+- User: "these are enough now, apply all of these to the apk file on GitHub" → loop STOPPED.
+- **Commit `51a9ef1` "Batch C-2"** pushed to origin/main: 24 practice banks (10 Examveda + 14 bio4u), scripts/ tooling, app.js UI fixes (optional-subject limit, ad-gate-skip, NAT focus), POOL log.
+- **APK built** via `apk/build-apk.sh` (aapt2/d8/zipalign/apksigner under qemu-x86_64): `dist/GATE-CBT-v1.3.0.apk` — 61 `assets/bank-*.js` files verified inside (22,974 Qs / 41,913 marks); v2+v3 signature verified.
+- **Release:** https://github.com/Bond007007007007/PGPRO/releases/tag/v1.3.0 (asset `GATE-CBT-v1.3.0.apk`).
+- **Unfinished (Cycle 3):** Sanfoundry via Wayback — spider + converter written and validated on one chapter (12/12 Qs parsed), but Wayback Machine was down/flaky at crawl time (live site stays Cloudflare-403). Hub fetch during Batch 1 resolved to a 302 snapshot redirect issue; needs `web.archive.org/web/<exact-ts>/` per-chapter fetching on the next run. Paused, not abandoned.
