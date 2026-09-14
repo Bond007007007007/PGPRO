@@ -231,6 +231,17 @@ var S = {
       r.addEventListener("change", function () { applyMode(this.value); });
     });
     $("cfg-mockset").addEventListener("change", function () { S.fixedSet = parseInt(this.value) || 1; });
+    if (S.exam.optionals) {
+      document.querySelectorAll("#cfg-optionals input[type=checkbox]").forEach(function (cb) {
+        cb.addEventListener("change", function () {
+          var picks = [];
+          document.querySelectorAll("#cfg-optionals input[type=checkbox]:checked").forEach(function (c) { picks.push(c.value); });
+          if (picks.length > S.exam.optionalPick) { cb.checked = false; return; }
+          S.selOptions = picks;
+          refreshCoverage();
+        });
+      });
+    }
     $("btn-start").onclick = startExam;
     var fsCur = loadFontSize();
     var fsBtns = [["btn-fs-sm", "sm"], ["btn-fs-md", "md"], ["btn-fs-xl", "xl"]];
@@ -402,7 +413,7 @@ var S = {
         watch.disabled = false;
         watch.textContent = "Retry Ad";
         errEl.classList.remove("hidden");
-        if (!(window.CBTAdsConfig && window.CBTAdsConfig.fallbackAllowed === false)) {
+        if (!(window.CBTAdsConfig && window.CBTAdsConfig.fallbackAllowed === false) && !errEl.querySelector(".ad-gate-skip")) {
           var skip = document.createElement("button");
           skip.className = "ad-gate-skip";
           skip.textContent = "Start exam anyway (no ad)";
@@ -616,6 +627,8 @@ html += natKeypadHtml("nat-in");
         if (!S.firstLookMs && hasAns(a)) S.firstLookMs = Date.now() - S.examStartAt;  /* first-look also captured on typed NAT answers */
         a.visited = true;
         renderPalette(); renderQuestion();
+        var el = $("nat-in");                                    /* re-render destroys the input — restore focus + caret to keep typing */
+        if (el && document.activeElement !== el) { el.focus(); try { el.setSelectionRange(el.value.length, el.value.length); } catch (e) {} }
       };
       wireNatKeypad(nat, function () { goto(S.idx + 1); });
     }
@@ -791,6 +804,8 @@ html += natKeypadHtml("nat-in");
           if (natIn.value !== v) natIn.value = v;
           a.sel = v.trim() === "" ? null : v.trim();
           renderDrill();
+          var el = $("drill-nat");                               /* re-render destroys the input — restore focus + caret to keep typing */
+          if (el && document.activeElement !== el) { el.focus(); try { el.setSelectionRange(el.value.length, el.value.length); } catch (e) {} }
         };
         wireNatKeypad(natIn, function () {
           var chk = $("drill-check");
@@ -836,7 +851,7 @@ html += natKeypadHtml("nat-in");
     if (q.type === "mcq") {
       if (hasAns(a)) {
         if (sel[0] === q.correct[0]) { score = marks; res = "cor"; }
-        else { neg = S.exam.negType === "fixed" ? S.exam.negFixed : marks / 3; score = -neg; res = "wro"; }
+        else { neg = S.practice ? 0 : (S.exam.negType === "fixed" ? S.exam.negFixed : marks / 3); score = -neg; res = "wro"; }
       }
     } else if (q.type === "msq") {
       if (hasAns(a)) {
@@ -866,8 +881,8 @@ html += natKeypadHtml("nat-in");
     var total = 0, max = 0, att = 0, cor = 0, wro = 0, skip = 0, neg = 0;
     per.forEach(function (r, i) {
       var s = sec[r.section];
-      s.timeMs += (S.ans[i].timeSpent || 0);
       if (r.excluded) { s.excl++; return; }
+      s.timeMs += (S.ans[i].timeSpent || 0);
       total += r.score; max += r.marks; neg += r.neg;
       if (r.res === "cor") { cor++; s.cor++; att++; s.att++; }
       else if (r.res === "wro") { wro++; s.wro++; att++; s.att++; }
@@ -927,6 +942,9 @@ html += natKeypadHtml("nat-in");
   }
   function doSubmit(auto) {
     if (S.submitted) return;
+    var mo = document.querySelector(".modal-overlay");           /* timer auto-submit can fire while confirm modal is open — clear it first */
+    if (mo) mo.remove();
+    S.modalOpen = false;
     S.submitted = true;
     clearInterval(S.timerId);
     settleQTime();
@@ -1316,7 +1334,7 @@ html += natKeypadHtml("nat-in");
       var W = 140, g = 4, pts = recent.map(function (x, i) {
         return [(i / (recent.length - 1)) * (W - 2 * g) + g, Math.max(g, 40 - (x.pct / 100) * 36)].join(",");
       }).join(" ");
-      var last = [(recent.length - 1 === 0 ? g : W - g), Math.max(g, 40 - (recent[recent.length - 1].pct / 100) * 36) - 2].join(" ");
+      var last = [(recent.length - 1 === 0 ? g : W - g), Math.max(g, 40 - (recent[recent.length - 1].pct / 100) * 36) - 2].join(",");
       trend = '<div class="trend-wrap"><svg class="trend" viewBox="0 0 ' + W + " 40" + '" preserveAspectRatio="none" aria-hidden="true"><polyline points="' + pts + '" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="' + last.split(",")[0] + '" cy="' + last.split(",")[1] + '" r="2.5" fill="var(--accent)"/></svg><div class="trend-lbl">Score trend — last ' + recent.length + " attempts</div></div>";
     }
     p.innerHTML = "<h3><svg class='ic' viewBox='0 0 24 24' aria-hidden='true'><circle cx='12' cy='12' r='8.5'/><path d='M12 7.5V12l3 2'/></svg> Attempt history (last " + h.length + ")</h3>" + trend + "<table><thead><tr><th>Date</th><th>Exam</th><th>Score</th><th>%</th><th>Att</th><th>✓</th><th>✗</th></tr></thead><tbody>" +
