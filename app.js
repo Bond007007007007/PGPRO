@@ -350,6 +350,11 @@ var S = {
 
   /* ---------- START EXAM ---------- */
   function startExam() {
+    var needOpt = S.exam.optionals && S.mode !== "unlimited" ? (S.exam.optionalPick || 0) : 0;
+    if (needOpt && S.selOptions.length < needOpt) {
+      showBanner("Pick " + needOpt + " optional section" + (needOpt > 1 ? "s" : "") + " to continue.", "warn");
+      return;
+    }
     S.sections = resolveSections();
     /* Unlimited drill — separate flow */
     if (S.mode === "unlimited") { startDrill(); return; }
