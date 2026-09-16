@@ -1,17 +1,33 @@
 /* ============================================================
    GATE-CBT · Virtual Calculator (GATE-approved function set)
-   + - × ÷ √ x² xʸ 1/x π e ( ) sin cos tan ln log · MC MR M+ M-
-   Backspace · AC · +/- — shunting-yard evaluator, no eval().
+   Trig: sin cos tan sin⁻¹ cos⁻¹ tan⁻¹ | Hyper: sinh cosh tanh
+   Pow/root: x² x³ xʸ ³√x y√x √x 1/x | Misc: n! |x| % π e EXP log₂ ln log
+   Memory: MC MR M+ M− | Deg/Rad | AC CE del ± — shunting-yard, no eval().
    ============================================================ */
 (function (global) {
   "use strict";
 
+  var degMode = true;                          /* default DEGREES — matches official TCS iON GATE calculator */
+  function toRad(x) { return x * Math.PI / 180; }
+  function fromRad(x) { return x * 180 / Math.PI; }
+  function fact(n) { if (n < 0 || n > 170 || n !== Math.floor(n)) return NaN; var r = 1, i; for (i = 2; i <= n; i++) r *= i; return r; }
   var FNS = {
-    sin: { args: 1, f: Math.sin }, cos: { args: 1, f: Math.cos }, tan: { args: 1, f: Math.tan },
+    sin: { args: 1, f: function (x) { return Math.sin(degMode ? toRad(x) : x); } },
+    cos: { args: 1, f: function (x) { return Math.cos(degMode ? toRad(x) : x); } },
+    tan: { args: 1, f: function (x) { return Math.tan(degMode ? toRad(x) : x); } },
+    asin: { args: 1, f: function (x) { var r = Math.asin(x); return degMode ? fromRad(r) : r; } },
+    acos: { args: 1, f: function (x) { var r = Math.acos(x); return degMode ? fromRad(r) : r; } },
+    atan: { args: 1, f: function (x) { var r = Math.atan(x); return degMode ? fromRad(r) : r; } },
+    sinh: { args: 1, f: Math.sinh }, cosh: { args: 1, f: Math.cosh }, tanh: { args: 1, f: Math.tanh },
     ln: { args: 1, f: Math.log }, log: { args: 1, f: Math.log10 },
-    sqrt: { args: 1, f: Math.sqrt }, abs: { args: 1, f: Math.abs }
+    logtwo: { args: 1, f: function (x) { return Math.log2(x); } },
+    exp: { args: 1, f: Math.exp },
+    tenx: { args: 1, f: function (x) { return Math.pow(10, x); } },
+    sqrt: { args: 1, f: Math.sqrt }, abs: { args: 1, f: Math.abs },
+    fact: { args: 1, f: fact }
   };
   var PREC = { "+": 1, "-": 1, "*": 2, "/": 2, "^": 4 };
+  var NEG_PREC = 5;   /* unary minus binds tighter than any binary op — sign-toggle semantics */
   var ASSOC_R = { "^": true };
 
   function tokenize(s) {
@@ -21,10 +37,18 @@
       if (c === " ") { i++; continue; }
       if (/[0-9.]/.test(c)) {
         var j = i; while (j < n && /[0-9.]/.test(s[j])) j++;
+        if (j < n && (s[j] === "e" || s[j] === "E")) {
+          var jj = j + 1;
+          if (s[jj] === "+" || s[jj] === "-") jj++;
+          if (jj < n && /[0-9]/.test(s[jj])) {
+            while (jj < n && /[0-9]/.test(s[jj])) jj++;
+            t.push({ k: 0, v: parseFloat(s.slice(i, jj)) }); i = jj; continue;
+          }
+        }
         t.push({ k: 0, v: parseFloat(s.slice(i, j)) }); i = j; continue;
       }
       if (c === "p" && s.slice(i, i + 2) === "pi") { t.push({ k: 0, v: Math.PI }); i += 2; continue; }
-      if (c === "e" && !/[0-9.]/.test(s[i + 1] || "")) { t.push({ k: 0, v: Math.E }); i += 1; continue; }
+      if (c === "e" && !/[0-9.a-z]/.test(s[i + 1] || "")) { t.push({ k: 0, v: Math.E }); i += 1; continue; }
       if (/[a-z]/.test(c)) {
         var k = i; while (k < n && /[a-z]/.test(s[k])) k++;
         t.push({ k: 2, v: s.slice(i, k) }); i = k; continue;
@@ -45,11 +69,12 @@
       if (tk.k === 0) { out.push(tk); expOp = false; continue; }
       if (tk.k === 2) { ops.push(tk); expOp = true; continue; }
       if (tk.k === 1) {
-        if (expOp && tk.v === "-") { out.push({ k: 2, v: "neg" }); continue; }
+        if (expOp && tk.v === "-") { ops.push({ k: 2, v: "neg" }); continue; }
         if (expOp && tk.v === "+") { continue; }
         while (ops.length) {
           var o = ops[ops.length - 1];
           if (o.k === 1 && (PREC[o.v] > PREC[tk.v] || (PREC[o.v] === PREC[tk.v] && !ASSOC_R[tk.v]))) out.push(ops.pop());
+          else if (o.k === 2 && o.v === "neg" && NEG_PREC > PREC[tk.v]) out.push(ops.pop());
           else break;
         }
         ops.push(tk); expOp = true; continue;
@@ -127,7 +152,10 @@
     ["4", ""], ["5", ""], ["6", ""], ["−", "op"], ["√", "fn"], ["x²", "fn"],
     ["1", ""], ["2", ""], ["3", ""], ["+", "op"], ["π", ""], ["e", ""],
     ["0", ""], [".", ""], ["+/-", "fn"], ["=", "eq"], ["sin", "fn"], ["cos", "fn"],
-    ["tan", "fn"], ["ln", "fn"], ["log", "fn"], ["xʸ", "op"], ["1/x", "fn"], ["m−", "fn"]
+    ["tan", "fn"], ["ln", "fn"], ["log", "fn"], ["xʸ", "op"], ["1/x", "fn"], ["m−", "fn"],
+    ["x³", "fn"], ["³√x", "fn"], ["y√x", "op"], ["n!", "fn"], ["|x|", "fn"], ["%", "fn"],
+    ["sin⁻¹", "fn"], ["cos⁻¹", "fn"], ["tan⁻¹", "fn"], ["eˣ", "fn"], ["10ˣ", "fn"], ["log₂", "fn"],
+    ["Deg/Rad", "fn"], ["sinh", "fn"], ["cosh", "fn"], ["tanh", "fn"], ["EXP", "fn"], ["CE", "fn"]
   ];
 
   function GATECalc(hostId) {
@@ -136,29 +164,74 @@
     var disp = "", mem = 0;
     var root = document.createElement("div");
     root.className = "calc";
-    root.innerHTML = '<div class="mem">M: <span id="calc-mem"></span></div>' +
+    root.innerHTML = '<div class="mem"><span id="calc-mode">DEG</span><span>M: <span id="calc-mem"></span></span></div>' +
       '<div class="disp" id="calc-disp"></div><div class="keys"></div>';
     host.appendChild(root);
-    var keys = root.querySelector(".keys"), dispEl = root.querySelector("#calc-disp"), memEl = root.querySelector("#calc-mem");
+    var keys = root.querySelector(".keys"), dispEl = root.querySelector("#calc-disp"), memEl = root.querySelector("#calc-mem"), modeEl = root.querySelector("#calc-mode");
 
     function toOp(d) { return d.replace(/×/g, "*").replace(/÷/g, "/").replace(/−/g, "-").replace(/√\(/g, "sqrt("); }
     function hasTrailingOp(d) { return /[+\-*/^×÷−]$/.test(d); }
-    function clip() { disp = disp.replace(/[^0-9+\-*/^().,piea-z×÷−]/g, ""); }
+    function clip() { disp = disp.replace(/[^0-9+\-*/^().,piea-zE×÷−]/g, ""); }
+
+    /* Post-fix semantics (official TCS iON GATE calculator): unary functions apply
+       to the LAST number/atom entered — "5+3" then sin → "5+sin(3)", and a leading
+       negative operand is wrapped whole ("−5" then |x| → "abs(−5)"). */
+    function wrapLast(fn) {
+      var m;
+      if (/^[−-][0-9.]+(?:[eE][−+-]?[0-9]+)?$/.test(disp)) { disp = fn + "(" + disp + ")"; return; }
+      m = disp.match(/^(.*?)([0-9.]+(?:[eE][−+-]?[0-9]+)?|[a-z]+\([^()]*\)|\([^()]*\)|pi|e)$/);
+      if (m) { disp = m[1] + fn + "(" + m[2] + ")"; return; }
+      disp = fn + "(" + disp;               /* no atom yet: open the call, let "=" balance it */
+    }
+
+    var UN = { sin: "sin", cos: "cos", tan: "tan", ln: "ln", log: "log",
+               sinh: "sinh", cosh: "cosh", tanh: "tanh",
+               "sin⁻¹": "asin", "cos⁻¹": "acos", "tan⁻¹": "atan",
+               "eˣ": "exp", "10ˣ": "tenx", "log₂": "logtwo",
+               "n!": "fact", "|x|": "abs" };
 
     function press(k) {
       if (k === "AC") disp = "";
+      else if (k === "CE") disp = disp.replace(/[0-9.]+(?:[eE][−+-]?[0-9]+)?$/, "").replace(/[+\-*/^×÷−]+$/, "");
       else if (k === "del") disp = disp.slice(0, -1);
-      else if (k === "=") { var r = calc(toOp(disp)); disp = r.err ? r.err : fmt(r.v); }
-      else if (k === "+/-") { disp = disp ? "-(" + disp + ")" : ""; }
-      else if (k === "x²") { if (hasTrailingOp(disp)) disp = disp.slice(0, -1); disp = "(" + disp + ")^2"; }
+      else if (k === "=") {
+        var eq = toOp(disp);
+        var oc = (eq.match(/\(/g) || []).length, cc = (eq.match(/\)/g) || []).length;
+        if (cc < oc) eq += ")".repeat(oc - cc);
+        var r = calc(eq); disp = r.err ? r.err : fmt(r.v);
+      }
+      else if (k === "Deg/Rad") { degMode = !degMode; }
+      else if (k === "+/-") {
+        /* Negate the LAST entry, post-fix style (like the official TCS iON GATE calculator),
+           not the whole expression. */
+        if (/^[−-]?[0-9.]+(?:[eE][−+-]?[0-9]+)?$/.test(disp)) {
+          disp = /^[−-]/.test(disp) ? disp.slice(1) : "-" + disp;
+        } else {
+          var lm = disp.match(/^(.*?)([0-9.]+(?:[eE][−+-]?[0-9]+)?)$/);
+          if (lm && /[+−-]$/.test(lm[1])) {
+            disp = lm[1].replace(/[+−-]$/, function (o) { return o === "+" ? "−" : "+"; }) + lm[2];
+          } else if (/[+−-]$/.test(disp)) {
+            /* pending binary operator: flip it ("5+" -> "5−") instead of wrapping the tail */
+            disp = disp.slice(0, -1) + (disp.slice(-1) === "+" ? "−" : "+");
+          } else {
+            disp = disp ? "-(" + disp + ")" : "";
+          }
+        }
+      }
+      else if (k === "x²") { if (hasTrailingOp(disp)) disp = disp.slice(0, -1); disp = "(" + (disp || "0") + ")^2"; }
+      else if (k === "x³") { if (hasTrailingOp(disp)) disp = disp.slice(0, -1); disp = "(" + (disp || "0") + ")^3"; }
       else if (k === "1/x") { if (hasTrailingOp(disp)) disp = disp.slice(0, -1); disp = "1/(" + (disp || "0") + ")"; }
-      else if (k === "√") { if (!disp) disp = "sqrt(0)"; else disp = "sqrt(" + disp + ")"; }
+      else if (k === "³√x") { if (hasTrailingOp(disp)) disp = disp.slice(0, -1); disp = "(" + (disp || "0") + ")^(1/3"; }
+      else if (k === "y√x") { if (hasTrailingOp(disp)) disp = disp.slice(0, -1); disp = "(" + (disp || "0") + ")^(1/"; }
+      else if (k === "√") wrapLast("sqrt");
+      else if (k === "%") { var pm = disp.match(/^(.*?)([0-9.]+(?:[eE][−+-]?[0-9]+)?)$/); if (pm) disp = pm[1] + "(" + pm[2] + "/100)"; }
+      else if (k === "EXP") { if (/[0-9.]$/.test(disp)) disp += "E"; }
       else if (k === "xʸ") { if (hasTrailingOp(disp)) disp = disp.slice(0, -1); disp += "^"; }
       else if (k === "mc") mem = 0;
       else if (k === "mr") disp += String(mem);
       else if (k === "m+") { var r1 = calc(toOp(disp)); if (r1.v !== undefined) mem += r1.v; }
       else if (k === "m−") { var r2 = calc(toOp(disp)); if (r2.v !== undefined) mem -= r2.v; }
-      else if (["sin", "cos", "tan", "ln", "log"].indexOf(k) >= 0) disp = k + "(" + disp + ")";
+      else if (UN[k]) wrapLast(UN[k]);
       else if (k === "π") disp += "pi";
       else if (k === "e") disp += "e";
       else disp += k;
@@ -168,6 +241,7 @@
 
     function render() {
       dispEl.textContent = disp || "0";
+      modeEl.textContent = degMode ? "DEG" : "RAD";
       memEl.textContent = mem === 0 ? "" : "M=" + fmt(mem);
     }
 
