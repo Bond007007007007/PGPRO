@@ -14,6 +14,9 @@
   window.CBTBack = function () {
     var scr = activeScreen();
     if (scr && scr !== "screen-home") {
+      if (window.__cbt && typeof window.__cbt.closeAnyModal === "function" && window.__cbt.closeAnyModal()) {
+        return true;
+      }
       if (window.__cbt && typeof window.__cbt.goHome === "function") {
         window.__cbt.goHome();
         return true;
