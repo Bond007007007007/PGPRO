@@ -17,7 +17,7 @@
 var S = {
     exam: null, sections: [], paper: [], ans: [],
     idx: 0, endAt: 0, timerId: null, practice: false,
-    submitted: false, results: null, paletteFilter: "all", reviewFilter: "all", selOptions: [], modalOpen: false,
+    submitted: false, results: null, paletteFilter: "all", reviewFilter: "all", selOptions: [], modalOpen: false, activeModalClose: null,
     warned5: false, switches: 0, jumps: 0, bannerTimer: null, palStatus: "all"
   };
   var calc = null;
@@ -41,6 +41,17 @@ var S = {
     return (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s;
   }
   function typeLabel(t) { return t === "mcq" ? "MCQ" : t === "msq" ? "MSQ" : "NAT"; }
+
+  function closeAnyModal() {
+    if (typeof S.activeModalClose === "function") {
+      var c = S.activeModalClose; S.activeModalClose = null;
+      try { c(); } catch (e) { }
+      return true;
+    }
+    var m = document.querySelector(".modal-overlay");
+    if (m) { m.remove(); S.modalOpen = false; return true; }
+    return false;
+  }
 
   /* ---------- per-question elapsed time ---------- */
   function settleQTime() {
@@ -264,6 +275,13 @@ var S = {
     if (mrow) mrow.classList.toggle("hidden", m !== "fixed");
     if (opts) opts.classList.toggle("hidden", m === "unlimited");
     if (optsCard) optsCard.classList.toggle("hidden", m === "unlimited");
+    var prac = $("cfg-practice");
+    if (prac) {
+      prac.disabled = (m === "fixed");
+      if (m === "fixed") prac.checked = false;
+      var lab = prac.closest("label");
+      if (lab) lab.classList.toggle("disabled", m === "fixed");
+    }
     refreshCoverage();
   }
   function refreshCoverage() {
@@ -315,7 +333,7 @@ var S = {
     return {
       section: sec.id, sectionName: sec.name, type: q.type, marks: q.marks || 1,
       q: q.q, options: q.options || null, correct: (q.correct || []).slice(),
-      ans: q.ans, tol: q.tol != null ? q.tol : S.exam.natTol, unit: q.unit || "",
+      ans: q.ans, ansRange: q.ansRange || null, tol: q.tol != null ? q.tol : S.exam.natTol, unit: q.unit || "",
       explain: q.explain || "", topic: q.topic || "", src: q.src || "",
       optOrder: null
     };
@@ -403,11 +421,13 @@ var S = {
     var watch = $("ad-gate-watch"), errEl = $("ad-gate-error");
     function close() {
       S.modalOpen = false;
+      S.activeModalClose = null;
       m.remove();
       document.removeEventListener("keydown", esc);
     }
     function esc(e) { if (e.key === "Escape") close(); }
     document.addEventListener("keydown", esc);
+    S.activeModalClose = close;
     m.addEventListener("mousedown", function (e) { if (e.target === m) close(); });
     $("ad-gate-close").onclick = close;
     watch.onclick = function () {
@@ -568,11 +588,11 @@ var S = {
   }
   function practiceFb(q, a) {
     var ok;
-    if (q.type === "nat") { var v = parseFloat(a.sel); ok = !isNaN(v) && Math.abs(v - q.ans) <= q.tol; }
+    if (q.type === "nat") { var v = parseFloat(a.sel); ok = !isNaN(v) && (q.ansRange ? v >= q.ansRange[0] - 1e-9 && v <= q.ansRange[1] + 1e-9 : Math.abs(v - q.ans) <= q.tol); }
     else { var s = (a.sel || []).slice().sort().join(""); var c = q.correct.slice().sort().join(""); ok = s === c; }
     if (q.type === "mcq") ok = (a.sel || [])[0] === q.correct[0];
     var html = ok ? '<div class="instant-fb correct">✓ Correct! ' : '<div class="instant-fb wrong">✗ Not correct. ';
-    if (!ok) html += q.type === "nat" ? "Answer: " + q.ans + (q.unit ? " " + esc(q.unit) : "") : "Correct: " + q.correct.map(function (k) { return k.toUpperCase(); }).join(", ");
+    if (!ok) html += q.type === "nat" ? "Answer: " + (q.ansRange ? q.ansRange[0] + " – " + q.ansRange[1] : q.ans) + (q.unit ? " " + esc(q.unit) : "") : "Correct: " + q.correct.map(function (k) { return k.toUpperCase(); }).join(", ");
     html += "</div>";
     return html;
   }
@@ -606,7 +626,9 @@ html += natKeypadHtml("nat-in");
     area.innerHTML = html;
     var opts = area.querySelectorAll(".opt");
     opts.forEach(function (el) {
-      el.onclick = function () {
+      var inp = el.querySelector("input");
+      if (!inp) return;
+      inp.onchange = function () {
         var k = el.dataset.key;
         var prev = (a.sel || []).slice().sort().join(",");
         if (q.type === "mcq") a.sel = [k];
@@ -687,7 +709,7 @@ html += natKeypadHtml("nat-in");
   }
   function isCorrect(q, a) {
     if (!hasAns(a)) return false;
-    if (q.type === "nat") { var v = parseFloat(a.sel); return !isNaN(v) && Math.abs(v - q.ans) <= q.tol; }
+    if (q.type === "nat") { var v = parseFloat(a.sel); return !isNaN(v) && (q.ansRange ? v >= q.ansRange[0] - 1e-9 && v <= q.ansRange[1] + 1e-9 : Math.abs(v - q.ans) <= q.tol); }
     if (q.type === "msq") return (a.sel || []).slice().sort().join("") === (q.correct || []).slice().sort().join("");
     return (a.sel || [])[0] === q.correct[0];
   }
@@ -789,7 +811,9 @@ html += natKeypadHtml("nat-in");
     $("drill-end").onclick = endDrill;
     if (!a.locked) {
       area.querySelectorAll(".opt").forEach(function (el) {
-        el.onclick = function () {
+        var inp = el.querySelector("input");
+        if (!inp) return;
+        inp.onchange = function () {
           if (a.locked) return;
           var k = el.dataset.key;
           if (q.type === "mcq") { a.sel = [k]; a.locked = true; updateDrillStats(); }
@@ -861,12 +885,22 @@ html += natKeypadHtml("nat-in");
     } else if (q.type === "msq") {
       if (hasAns(a)) {
         var s = sel.slice().sort().join(""), c = q.correct.slice().sort().join("");
-        if (s === c) { score = marks; res = "cor"; } else { score = 0; res = "wro"; }
+        if (s === c) { score = marks; res = "cor"; }
+        else if (S.exam.msqPartial) {
+          var wrong = sel.filter(function (k) { return q.correct.indexOf(k) < 0; }).length;
+          var right = sel.length - wrong;
+          score = wrong === 0 ? marks * right / q.correct.length : 0;
+          res = wrong === 0 && right > 0 ? "cor" : "wro";
+        }
+        else { score = 0; res = "wro"; }
       }
     } else {
       if (hasAns(a)) {
         var v = parseFloat(sel);
-        if (!isNaN(v) && Math.abs(v - q.ans) <= q.tol) { score = marks; res = "cor"; } else { score = 0; res = "wro"; }
+        var okNat = !isNaN(v) && (q.ansRange
+          ? v >= q.ansRange[0] - 1e-9 && v <= q.ansRange[1] + 1e-9
+          : Math.abs(v - q.ans) <= q.tol);
+        if (okNat) { score = marks; res = "cor"; } else { score = 0; res = "wro"; }
       }
     }
     return { section: q.section, marks: marks, score: score, res: res, neg: neg, excluded: false };
@@ -939,9 +973,10 @@ html += natKeypadHtml("nat-in");
       "</div></div>";
     document.body.appendChild(m);
     S.modalOpen = true;
-    function close() { S.modalOpen = false; m.remove(); document.removeEventListener("keydown", esc); }
+    function close() { S.modalOpen = false; S.activeModalClose = null; m.remove(); document.removeEventListener("keydown", esc); }
     function esc(e) { if (e.key === "Escape") close(); }
     document.addEventListener("keydown", esc);
+    S.activeModalClose = close;
     $("modal-cancel").onclick = close;
     $("modal-confirm").onclick = function () { close(); doSubmit(false); };
   }
@@ -1215,7 +1250,7 @@ html += natKeypadHtml("nat-in");
           html += "<div class='opt" + cls + "'><span class='key'>" + k.toUpperCase() + "</span><span>" + esc(q.options[k]) + "</span></div>";
         });
       } else {
-        html += "<p>Your answer: <b>" + esc(a.sel && String(a.sel).trim() !== "" ? a.sel : "—") + "</b> &nbsp;·&nbsp; Correct: <b>" + q.ans + (q.unit ? " " + esc(q.unit) : "") + "</b></p>";
+        html += "<p>Your answer: <b>" + esc(a.sel && String(a.sel).trim() !== "" ? a.sel : "—") + "</b> &nbsp;·&nbsp; Correct: <b>" + (q.ansRange ? q.ansRange[0] + " – " + q.ansRange[1] : q.ans) + (q.unit ? " " + esc(q.unit) : "") + "</b></p>";
       }
       html += "<div class='verdict " + (r.res === "cor" ? "ok" : r.res === "wro" ? "no" : "") + "'>" + verdict + "</div>";
       if (q.explain) html += "<div class='explain'>" + esc(q.explain) + "</div>";
@@ -1422,7 +1457,9 @@ html += natKeypadHtml("nat-in");
   }
   /* Android back-stack hook (consumed by the APK wrapper's hardware back button) */
   window.__cbt = {
+    closeAnyModal: closeAnyModal,
     goHome: function () {
+      closeAnyModal();
       clearInterval(S.timerId);
       S.submitted = false;
       document.body.classList.remove("drill-mode");
