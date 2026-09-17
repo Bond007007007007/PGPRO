@@ -18,7 +18,7 @@ var S = {
     exam: null, sections: [], paper: [], ans: [],
     idx: 0, endAt: 0, timerId: null, practice: false,
     submitted: false, results: null, paletteFilter: "all", reviewFilter: "all", selOptions: [], modalOpen: false, activeModalClose: null,
-    warned5: false, switches: 0, jumps: 0, bannerTimer: null, palStatus: "all"
+    warned5: false, switches: 0, jumps: 0, bannerTimer: null, palStatus: "all", drillSubjects: null
   };
   var calc = null;
   var qStartAt = 0;
@@ -189,6 +189,18 @@ var S = {
     var sum = qs.reduce(function (a, q) { return a + (q.marks || 1); }, 0);
     return { target: t, count: qs.length, marks: sum, ok: qs.length >= t.q, text: qs.length + "/" + t.q + " · " + sum + "/" + t.marks + " marks" };
   }
+  /* Subjects with actual question content, in config order (sections then optionals,
+     plus any bank-only section ids not declared in exams.js). */
+  function drillableSubjects() {
+    var ex = S.exam, seen = {}, out = [];
+    (ex.sections || []).forEach(function (s) { seen[s.id] = s.name; });
+    (ex.optionals || []).forEach(function (o) { seen[o.id] = o.name; });
+    (BANK[ex.code] || []).forEach(function (q) { if (q.section && !seen[q.section]) seen[q.section] = q.section; });
+    Object.keys(seen).forEach(function (id) {
+      if (coverage(id).count > 0) out.push({ id: id, name: seen[id] });
+    });
+    return out;
+  }
   function patternText() {
     var ex = S.exam, lines = [];
     lines.push(ex.totalQ + " questions · " + ex.totalMarks + " marks · " + ex.durationMin + " minutes · CBT");
@@ -217,6 +229,20 @@ var S = {
       '<select id="cfg-mockset" style="background:var(--panel-2);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:6px 10px;font-size:var(--fs-sm)">';
     for (var i = 1; i <= (S.exam.mocks || 1); i++) html += '<option value="' + i + '">Mock Test ' + i + "</option>";
     html += "</select></div></div>";
+    /* --- Drill subject picker (unlimited mode) --- */
+    var subjs = drillableSubjects();
+    S.drillSubjects = subjs.map(function (s) { return s.id; });
+    html += '<div class="config-card hidden" id="cfg-drill-subjects"><h4>Drill subjects</h4><div class="opt-group">';
+    if (!subjs.length) {
+      html += '<span class="bad">No questions in the pool yet.</span>';
+    } else {
+      subjs.forEach(function (s) {
+        var c = coverage(s.id);
+        html += '<label><input type="checkbox" value="' + s.id + '" checked> ' +
+          esc(s.name) + ' <span class="ok">(' + c.count + " q" + (c.count === 1 ? "" : "s") + ')</span></label>';
+      });
+    }
+    html += '</div><p class="coverage">Pick one or more subjects — the drill only asks questions from your selection. (All selected by default; deselecting everything drills all subjects.)</p></div>';
     /* --- Optional sections (XL etc.) --- */
     if (S.exam.optionals) {
       html += '<div class="config-card" id="cfg-optionals"><h4>Choose your ' + S.exam.optionalPick + ' optional sections</h4><div class="opt-group">';
@@ -242,6 +268,14 @@ var S = {
       r.addEventListener("change", function () { applyMode(this.value); });
     });
     $("cfg-mockset").addEventListener("change", function () { S.fixedSet = parseInt(this.value) || 1; });
+    document.querySelectorAll("#cfg-drill-subjects input[type=checkbox]").forEach(function (cb) {
+      cb.addEventListener("change", function () {
+        var picks = [];
+        document.querySelectorAll("#cfg-drill-subjects input[type=checkbox]:checked").forEach(function (c) { picks.push(c.value); });
+        S.drillSubjects = picks;
+        refreshCoverage();
+      });
+    });
     if (S.exam.optionals) {
       document.querySelectorAll("#cfg-optionals input[type=checkbox]").forEach(function (cb) {
         cb.addEventListener("change", function () {
@@ -275,6 +309,8 @@ var S = {
     if (mrow) mrow.classList.toggle("hidden", m !== "fixed");
     if (opts) opts.classList.toggle("hidden", m === "unlimited");
     if (optsCard) optsCard.classList.toggle("hidden", m === "unlimited");
+    var dsCard = $("cfg-drill-subjects");
+    if (dsCard) dsCard.classList.toggle("hidden", m !== "unlimited");
     var prac = $("cfg-practice");
     if (prac) {
       prac.disabled = (m === "fixed");
@@ -286,10 +322,14 @@ var S = {
   }
   function refreshCoverage() {
     if (S.mode === "unlimited") {
-      var n = (BANK[S.exam.code] || []).length;
-      $("cfg-coverage").innerHTML = '<div class="coverage"><span class="' + (n ? "ok" : "bad") + '">' + (n ? "✓" : "✗") + "</span> Practice pool — " + n + " questions across all sections.</div>";
+      var all = (BANK[S.exam.code] || []).slice();
+      var want = S.drillSubjects || [];
+      var pool = want.length ? all.filter(function (q) { return want.indexOf(q.section) >= 0; }) : all;
+      var n = pool.length;
+      var label = want.length ? want.map(function (id) { return secName(id); }).join(", ") : "all sections";
+      $("cfg-coverage").innerHTML = '<div class="coverage"><span class="' + (n ? "ok" : "bad") + '">' + (n ? "✓" : "✗") + "</span> Practice pool — " + n + " question" + (n === 1 ? "" : "s") + " from " + esc(label) + ".</div>";
       $("btn-start").disabled = !n;
-      $("cfg-status").innerHTML = n ? '<span class="ok">✓ Drill pool ready — ' + n + " questions.</span>" : '<span class="bad">⚠ Question pool is empty.</span>';
+      $("cfg-status").innerHTML = n ? '<span class="ok">✓ Drill pool ready — ' + n + " questions.</span>" : '<span class="bad">⚠ No questions in the selected subjects — tick more subjects.</span>';
       return;
     }
     var ids = [];
@@ -723,7 +763,9 @@ html += natKeypadHtml("nat-in");
   }
   function startDrill() {
     var pool = (BANK[S.exam.code] || []).slice();
-    if (!pool.length) { alert("Question pool is empty. Add questions into the pool files (bank-*.js) first."); return; }
+    var want = S.drillSubjects || [];
+    if (want.length) pool = pool.filter(function (q) { return want.indexOf(q.section) >= 0; });
+    if (!pool.length) { alert("Question pool is empty for the selected subjects. Tick more subjects or add questions into the pool files (bank-*.js) first."); return; }
     S.drill = { queue: shuffleAll(pool), idx: 0, seen: 0, cor: 0, wro: 0, skip: 0, cycle: 0 };
     S.submitted = false; S.paletteFilter = "all"; S.palStatus = "all";
     clearInterval(S.timerId);
