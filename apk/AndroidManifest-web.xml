@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pgpro.gatecbt.host">
+
+    <!-- Loopback HTTP server (127.0.0.1) needs INTERNET to open a ServerSocket. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="GATE-CBT Web"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme">
+
+        <!-- singleTask: re-tapping the icon returns to the running activity instead
+             of spawning a second server instance on another port. -->
+        <activity
+            android:name=".WebServerActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|keyboard|smallestScreenSize|uiMode|density|locale|layoutDirection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

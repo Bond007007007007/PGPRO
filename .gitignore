@@ -33,3 +33,4 @@ secrets/
 apk/keystore/
 apk/.build/
 vendor/ads/
+vendor/nanohttpd/
